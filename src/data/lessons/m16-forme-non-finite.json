@@ -1,0 +1,223 @@
+[
+  {
+    "id": "infinito-gerundio",
+    "module": "m16",
+    "title": "Infinitive and gerund",
+    "level": "B1",
+    "description": "Present and past infinitive; present and past gerund; stare + gerundio; what the gerund can and cannot do in Italian.",
+    "objectives": [
+      "Use the infinito presente and infinito passato (aver mangiato, essere partito).",
+      "Know which prepositions introduce an infinitive, and that dopo requires the past infinitive.",
+      "Form the gerundio presente and passato and use stare + gerundio.",
+      "Avoid using the gerund where Italian requires an infinitive (after prepositions, as a subject)."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["infinitive", "gerund", "non-finite forms", "progressive"], "tenses": ["infinito", "gerundio"], "families": [] },
+    "sections": [
+      {
+        "id": "infinitive",
+        "heading": "The infinitive",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Present and past infinitive", "text": "The past infinitive is *avere / essere* + participle: *aver mangiato, essere partito/a/i/e*. It expresses an action completed before the main verb. The final -e of *avere/essere* is often dropped before a consonant (*aver detto, esser stato*); both forms are correct." },
+          { "type": "list", "items": ["After modal verbs and verbs like *sapere, preferire, lasciare, fare*: *Voglio partire. Lascia parlare la nonna.*", "After prepositions: *prima di partire, invece di studiare, senza parlare, per imparare*.", "*dopo* requires the **past** infinitive: *dopo aver mangiato* (not *dopo mangiare* in standard Italian).", "As a noun (subject or object): *Leggere è bello. Il mangiare.*", "In instructions and signs: *Non fumare. Mescolare bene.*", "Negative tu imperative: *Non toccare!*"] },
+          { "type": "rule", "kind": "rule", "title": "Pronouns attach to the infinitive", "text": "The infinitive loses its -e and the pronoun attaches: *vederlo, dirtelo, alzarsi*. With modals the pronoun may also precede the modal (*lo voglio vedere*)." }
+        ]
+      },
+      {
+        "id": "gerund",
+        "heading": "The gerund",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Formation", "text": "-are → -ando, -ere/-ire → -endo: *parlando, vedendo, dormendo*. Verbs with an extended imperfetto stem use it: *facendo, dicendo, bevendo*. Gerundio passato: *avendo mangiato, essendo partito/a*." },
+          { "type": "list", "items": ["Manner or means: *Ho imparato l'italiano leggendo.* (by reading)", "Time: *Tornando a casa, ho visto un gufo.* (while coming home)", "Cause: *Essendo stanco, è andato a letto.* (since he was tired)", "Condition: *Volendo, potresti finire oggi.* (if you wanted to)", "Progressive with *stare*: *Sto leggendo. Stavamo cenando quando è arrivato.*"] },
+          { "type": "rule", "kind": "rule", "title": "The gerund's subject", "text": "The gerund normally has the same subject as the main verb. *Ho visto Marco uscendo dal negozio* means that *I* was coming out of the shop; to say Marco was, use a relative clause: *Ho visto Marco che usciva dal negozio.*" },
+          { "type": "rule", "kind": "exception", "title": "Not like the English -ing", "text": "Italian never uses the gerund after a preposition or as a noun: 'before leaving' = *prima di partire*; 'I like swimming' = *mi piace nuotare*; 'Swimming is healthy' = *Nuotare fa bene*." },
+          { "type": "rule", "kind": "tendency", "title": "stare + gerundio is optional", "text": "The simple present already means 'I am doing': *Che cosa fai?* = What are you doing? *stare + gerundio* stresses that the action is in progress right now. It is not used with *essere, avere* or *stare* itself, nor in compound tenses." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Dopo aver mangiato, il nonno dormì un'ora.", "en": "After eating, Grandfather slept for an hour.", "note": "dopo + past infinitive." },
+      { "it": "Prima di uscire, chiudi la finestra.", "en": "Before going out, close the window." },
+      { "it": "Ho imparato l'italiano leggendo storie.", "en": "I learned Italian by reading stories.", "note": "Gerund of means." },
+      { "it": "Stavamo cenando quando è squillato il telefono.", "en": "We were having dinner when the phone rang.", "note": "stare (imperfetto) + gerundio." },
+      { "it": "Essendo arrivati tardi, non abbiamo trovato posto.", "en": "Having arrived late, we didn't find a seat.", "note": "Gerundio passato with essere: agreement with the subject." },
+      { "it": "Nuotare fa bene alla salute.", "en": "Swimming is good for your health.", "note": "Infinitive as subject (not the gerund)." }
+    ],
+    "exercises": [
+      {
+        "id": "infinito-gerundio.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ i compiti, Luca è uscito.",
+        "options": ["Dopo aver finito", "Dopo finire", "Dopo finendo", "Dopo finito"],
+        "answer": "Dopo aver finito",
+        "explanation": "dopo requires the past infinitive.",
+        "ruleRef": "infinitive"
+      },
+      {
+        "id": "infinito-gerundio.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'I like swimming.'",
+        "options": ["Mi piace nuotare.", "Mi piace nuotando.", "Mi piace il nuotando.", "Mi piacciono nuotare."],
+        "answer": "Mi piace nuotare.",
+        "explanation": "The thing liked is an action: infinitive, with piace (singular).",
+        "ruleRef": "gerund"
+      },
+      {
+        "id": "infinito-gerundio.3",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the gerundio presente.",
+        "rows": [
+          { "label": "cantare", "answer": "cantando" },
+          { "label": "leggere", "answer": "leggendo" },
+          { "label": "partire", "answer": "partendo" },
+          { "label": "fare", "answer": "facendo" },
+          { "label": "dire", "answer": "dicendo" },
+          { "label": "bere", "answer": "bevendo" }
+        ],
+        "explanation": "-ando / -endo; fare, dire, bere use their extended stems (fac-, dic-, bev-).",
+        "ruleRef": "gerund"
+      },
+      {
+        "id": "infinito-gerundio.4",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: We were having dinner. (use stare + gerundio)",
+        "answer": "Stavamo cenando.",
+        "explanation": "stare in the imperfetto + gerundio. (cenare = to have dinner; also: Stavamo mangiando la cena.)",
+        "accept": ["Noi stavamo cenando."],
+        "ruleRef": "gerund"
+      },
+      {
+        "id": "infinito-gerundio.5",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Ho visto Sara uscendo dal negozio.* Who was coming out of the shop?",
+        "options": ["the speaker", "Sara", "both", "nobody"],
+        "answer": "the speaker",
+        "explanation": "The gerund's subject is normally the main verb's subject (io). To say Sara was: Ho visto Sara che usciva dal negozio.",
+        "ruleRef": "gerund"
+      },
+      {
+        "id": "infinito-gerundio.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the past infinitive.",
+        "text": "Dopo {0} (arrivare, lei), Sara ha telefonato. Dopo {1} (leggere, noi) il libro, abbiamo visto il film.",
+        "blanks": [{ "answer": "essere arrivata", "accept": ["esser arrivata"] }, { "answer": "aver letto", "accept": ["avere letto"] }],
+        "explanation": "arrivare → essere + agreement (arrivata); leggere → avere. Truncated aver/esser are equally correct.",
+        "ruleRef": "infinitive"
+      }
+    ],
+    "summary": [
+      "Infinito passato: avere/essere + participle; dopo + infinito passato.",
+      "Infinitive after modals and prepositions, as a noun, in instructions.",
+      "Gerundio: -ando/-endo (facendo, dicendo, bevendo); passato: avendo/essendo + participle.",
+      "The gerund shares the main subject; never after prepositions; stare + gerundio for actions in progress."
+    ],
+    "relatedVocabulary": ["verb_mangiare", "verb_uscire", "verb_leggere", "verb_nuotare", "verb_finire", "verb_arrivare", "verb_stare"],
+    "relatedStories": ["il-segreto-del-faro"],
+    "relatedSongs": []
+  },
+  {
+    "id": "participio",
+    "module": "m16",
+    "title": "The participle",
+    "level": "B1",
+    "description": "The past participle as verb, adjective and participial clause; the present participle.",
+    "objectives": [
+      "Recognise the past participle in compound tenses, the passive and as an adjective.",
+      "Understand participial clauses (finita la cena, …) and their agreement.",
+      "Recognise the present participle (-ante, -ente) and know it is mostly used as a noun or adjective."
+    ],
+    "tags": { "pos": ["verb", "adjective"], "topics": ["participle", "non-finite forms", "agreement"], "tenses": ["participio"], "families": [] },
+    "sections": [
+      {
+        "id": "past",
+        "heading": "The past participle",
+        "blocks": [
+          { "type": "list", "items": ["Compound tenses: *ho mangiato, sono partita*.", "Passive: *la lettera è stata scritta*.", "Adjective: *una porta chiusa, i bambini stanchi e addormentati*.", "Noun: *il passato, gli invitati*."] },
+          { "type": "rule", "kind": "rule", "title": "Participial clauses", "text": "A past participle can form a short clause expressing an action completed before the main one: *Finita la cena, uscimmo* (When dinner was over, we went out). With transitive verbs the participle agrees with the noun it refers to (*Finita la cena*, *Letti i giornali*); with intransitive verbs it agrees with the subject (*Arrivata a casa, Sara si riposò*). This construction is mainly written." },
+          { "type": "rule", "kind": "tendency", "title": "Pronouns attach", "text": "In participial clauses pronouns attach to the participle: *Salutatolo, se ne andò* (Having said goodbye to him, she left). This is literary." }
+        ]
+      },
+      {
+        "id": "present",
+        "heading": "The present participle",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "-ante, -ente", "text": "*cantare → cantante, dormire → dormiente, bollire → bollente*. In modern Italian it survives mainly as an adjective or noun: *un cantante* (a singer), *acqua corrente* (running water), *il presidente*. As a real verb form (*le persone abitanti in città*) it belongs to bureaucratic or literary language; use a relative clause instead (*le persone che abitano in città*)." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Finita la cena, uscimmo in giardino.", "en": "When dinner was over, we went out into the garden.", "note": "Participial clause; finita agrees with la cena." },
+      { "it": "Arrivati alla stazione, i ragazzi comprarono i biglietti.", "en": "Having arrived at the station, the boys bought the tickets.", "note": "Intransitive verb: agreement with the subject." },
+      { "it": "La porta è chiusa.", "en": "The door is closed.", "note": "Participle as an adjective describing a state." },
+      { "it": "Il cantante ha una bella voce.", "en": "The singer has a beautiful voice.", "note": "Present participle used as a noun." },
+      { "it": "Attenzione: l'acqua è bollente!", "en": "Careful: the water is boiling hot!" },
+      { "it": "Letta la lettera, la nonna sorrise.", "en": "Having read the letter, Grandmother smiled." }
+    ],
+    "exercises": [
+      {
+        "id": "participio.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ le lettere, la nonna andò alla posta.",
+        "options": ["Scritte", "Scritto", "Scritti", "Scrivendo le"],
+        "answer": "Scritte",
+        "explanation": "Transitive participle in a participial clause agrees with the object it refers to: le lettere → scritte.",
+        "ruleRef": "past"
+      },
+      {
+        "id": "participio.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ a casa, Sara si riposò.",
+        "options": ["Arrivata", "Arrivato", "Arrivando", "Arrivati"],
+        "answer": "Arrivata",
+        "explanation": "Intransitive verb: the participle agrees with the subject (Sara).",
+        "ruleRef": "past"
+      },
+      {
+        "id": "participio.3",
+        "type": "grammatical-role",
+        "kind": "choice",
+        "prompt": "In *una finestra aperta*, what is *aperta*?",
+        "options": ["a past participle used as an adjective", "a present participle", "a gerund", "a passato prossimo"],
+        "answer": "a past participle used as an adjective",
+        "explanation": "aprire → aperto/a: here it describes the noun.",
+        "ruleRef": "past"
+      },
+      {
+        "id": "participio.4",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match the present participle to its meaning.",
+        "pairs": [["cantante", "singer"], ["insegnante", "teacher"], ["bollente", "boiling hot"], ["corrente", "running, current"]],
+        "explanation": "Present participles now mostly live as nouns and adjectives.",
+        "ruleRef": "present"
+      },
+      {
+        "id": "participio.5",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Finita la lezione, i bambini uscirono.*",
+        "answer": "When the lesson was over, the children went out.",
+        "accept": ["After the lesson ended, the children went out.", "When the lesson ended, the children went out.", "Once the lesson was over, the children went out.", "The lesson over, the children went out.", "After the lesson was over, the children went out."],
+        "explanation": "A participial clause expressing an earlier action; uscirono is passato remoto.",
+        "ruleRef": "past"
+      }
+    ],
+    "summary": [
+      "Past participle: compound tenses, passive, adjective, noun, participial clause.",
+      "Participial clauses: agreement with the object (transitive) or subject (intransitive).",
+      "Present participle (-ante, -ente): mostly nouns and adjectives today."
+    ],
+    "relatedVocabulary": ["verb_chiudere", "verb_aprire", "verb_scrivere", "verb_arrivare", "verb_finire", "verb_cantare"],
+    "relatedStories": ["il-segreto-del-faro"],
+    "relatedSongs": []
+  }
+]

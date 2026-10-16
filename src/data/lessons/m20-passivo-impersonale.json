@@ -1,0 +1,240 @@
+[
+  {
+    "id": "forma-passiva",
+    "module": "m20",
+    "title": "The passive voice",
+    "level": "B1",
+    "description": "Passive with essere, venire and andare; the agent with da; the si passivante.",
+    "objectives": [
+      "Form the passive with essere + participle in any tense, with agreement.",
+      "Use venire + participle in simple tenses and andare + participle for obligation.",
+      "Express the agent with da.",
+      "Use the si passivante (si vendono case)."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["passive", "agreement", "si"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "essere",
+        "heading": "essere + participle",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Only transitive verbs", "text": "Only verbs that take a direct object can be made passive. The object becomes the subject; the participle agrees with it; the tense is carried by essere: *Il gatto mangia la torta → La torta è mangiata dal gatto*. *La torta è stata mangiata* (passato prossimo), *sarà mangiata* (futuro), *fu mangiata* (passato remoto)." },
+          { "type": "rule", "kind": "rule", "title": "The agent: da", "text": "Who does the action is introduced by *da* (with the article where needed): *dal gatto, dalla maestra, da Marco*." },
+          { "type": "rule", "kind": "tendency", "title": "State or action?", "text": "*La porta è chiusa* can describe a state (the door is closed) or an action (the door is being closed). Context — or the choice of venire — decides." }
+        ]
+      },
+      {
+        "id": "venire-andare",
+        "heading": "venire and andare",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "venire + participle", "text": "*venire* can replace *essere* in **simple** tenses only and makes the action, not the state, clear: *La porta viene chiusa alle otto* (is closed every day at eight). Not in compound tenses: *è stata chiusa*, never *è venuta chiusa*." },
+          { "type": "rule", "kind": "rule", "title": "andare + participle", "text": "In simple tenses *andare* + participle expresses obligation: *Il modulo va compilato in stampatello* (must be filled in). With verbs of losing it is simply passive: *La lettera è andata persa.*" }
+        ]
+      },
+      {
+        "id": "si-passivante",
+        "heading": "The si passivante",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "si + third person, agreeing with the subject", "text": "*Si vende la casa* (the house is for sale), *Si vendono case*. The noun is the grammatical subject, so the verb is plural with a plural noun. In compound tenses it takes essere and agreement: *Si sono vendute molte case.*" },
+          { "type": "rule", "kind": "tendency", "title": "Very common in everyday language", "text": "Signs, recipes and general statements use it constantly: *Qui si parla italiano. Si cuociono le patate per venti minuti.*" }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "La torta è stata mangiata dal gatto.", "en": "The cake was eaten by the cat.", "note": "Passato prossimo passive." },
+      { "it": "Il castello fu costruito nel Trecento.", "en": "The castle was built in the fourteenth century.", "note": "Passato remoto passive." },
+      { "it": "La posta viene consegnata ogni mattina.", "en": "The post is delivered every morning.", "note": "venire stresses the action." },
+      { "it": "Questo libro va letto con calma.", "en": "This book must be read slowly.", "note": "andare = obligation." },
+      { "it": "In questo negozio si vendono libri usati.", "en": "Second-hand books are sold in this shop.", "note": "si passivante: plural verb." },
+      { "it": "La notizia è stata annunciata ieri.", "en": "The news was announced yesterday." }
+    ],
+    "exercises": [
+      {
+        "id": "forma-passiva.1",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Il nonno racconta la storia. → La storia ___ dal nonno.",
+        "answer": "è raccontata",
+        "accept": ["viene raccontata"],
+        "explanation": "Present passive: essere (or venire) + participle agreeing with la storia.",
+        "ruleRef": "essere"
+      },
+      {
+        "id": "forma-passiva.2",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "I bambini hanno mangiato le mele. → Le mele ___ dai bambini.",
+        "answer": "sono state mangiate",
+        "explanation": "Passato prossimo passive: sono state + mangiate (agreement with le mele).",
+        "ruleRef": "essere",
+        "mistakes": [{ "answer": "sono venute mangiate", "message": "venire is used only in simple tenses: sono state mangiate." }]
+      },
+      {
+        "id": "forma-passiva.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "In questo negozio ___ libri usati.",
+        "options": ["si vendono", "si vende", "si venduti", "vendono si"],
+        "answer": "si vendono",
+        "explanation": "si passivante: the verb agrees with libri (plural).",
+        "ruleRef": "si-passivante",
+        "mistakes": [{ "answer": "si vende", "message": "With the si passivante the verb agrees with the noun: libri → si vendono." }]
+      },
+      {
+        "id": "forma-passiva.4",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Il modulo va firmato.* What does it mean?",
+        "options": ["The form must be signed.", "The form is going to be signed.", "The form has gone.", "The form was signed."],
+        "answer": "The form must be signed.",
+        "explanation": "andare + participle = obligation.",
+        "ruleRef": "venire-andare"
+      },
+      {
+        "id": "forma-passiva.5",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which verb cannot be made passive?",
+        "options": ["arrivare", "leggere", "costruire", "mangiare"],
+        "answer": "arrivare",
+        "explanation": "Only transitive verbs have a passive; arrivare is intransitive.",
+        "ruleRef": "essere"
+      },
+      {
+        "id": "forma-passiva.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: The castle was built in 1300. (passato remoto)",
+        "answer": "Il castello fu costruito nel 1300.",
+        "explanation": "fu (passato remoto of essere) + costruito.",
+        "ruleRef": "essere"
+      }
+    ],
+    "summary": [
+      "Passive = essere (any tense) + participle agreeing with the subject; agent with da.",
+      "venire + participle in simple tenses (action); andare + participle = obligation.",
+      "si passivante: si vende la casa / si vendono le case; compound tenses with essere and agreement."
+    ],
+    "relatedVocabulary": ["verb_costruire", "verb_mangiare", "verb_vendere", "verb_annunciare", "verb_raccontare", "verb_scrivere"],
+    "relatedStories": ["il-segreto-del-faro"],
+    "relatedSongs": []
+  },
+  {
+    "id": "si-impersonale",
+    "module": "m20",
+    "title": "Impersonal si",
+    "level": "B1",
+    "description": "si + verb meaning 'one, people, you, we': agreement, reflexive verbs (ci si) and compound tenses.",
+    "objectives": [
+      "Use impersonal si with intransitive verbs (si vive bene).",
+      "Make predicate adjectives plural after impersonal si (si è stanchi).",
+      "Use ci si with reflexive verbs (ci si alza presto).",
+      "Distinguish impersonal si from the si passivante."
+    ],
+    "tags": { "pos": ["verb", "pronoun"], "topics": ["impersonal", "si", "agreement"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "basics",
+        "heading": "Basics",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "si + third person singular", "text": "Impersonal si refers to people in general: *In Italia si mangia bene. Qui si sta tranquilli. Come si dice 'cat' in italiano?* English uses 'one', 'you', 'we' or 'people'." },
+          { "type": "rule", "kind": "rule", "title": "Plural agreement of adjectives", "text": "Although the verb is singular, a predicate adjective or noun is plural (masculine by default): *Quando si è stanchi, si dorme bene. Da giovani si è più coraggiosi.*" },
+          { "type": "rule", "kind": "rule", "title": "Reflexive verbs: ci si", "text": "To avoid *si si*, reflexive verbs use *ci si*: *La mattina ci si alza presto. Ci si diverte molto.*" }
+        ]
+      },
+      {
+        "id": "compound",
+        "heading": "Compound tenses",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Always essere", "text": "Impersonal si always takes *essere*. With verbs that normally take essere, the participle is plural: *Si è arrivati tardi.* With verbs that normally take avere, the participle stays singular: *Si è mangiato bene.*" },
+          { "type": "rule", "kind": "tendency", "title": "Impersonal or passive?", "text": "With a transitive verb and a noun, si is passivante and the verb agrees: *si mangiano le mele*. Without a direct object, si is impersonal and the verb is singular: *si mangia bene*. In practice the two are close in meaning." },
+          { "type": "rule", "kind": "tendency", "title": "noi in Tuscan speech", "text": "In Tuscany *si* + singular verb is also used in speech to mean 'we': *noi si va al mare* = *noi andiamo al mare*. This is regional, not standard." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "In questa città si vive bene.", "en": "People live well in this city. / Life is good in this city." },
+      { "it": "Come si dice «cat» in italiano?", "en": "How do you say 'cat' in Italian?" },
+      { "it": "Quando si è stanchi, si dorme bene.", "en": "When you're tired, you sleep well.", "note": "stanchi is plural." },
+      { "it": "In vacanza ci si alza tardi.", "en": "On holiday people get up late.", "note": "ci si with a reflexive verb." },
+      { "it": "Ieri si è mangiato benissimo.", "en": "We ate extremely well yesterday.", "note": "avere-verb: participle singular." },
+      { "it": "Si è arrivati tardi alla festa.", "en": "We got to the party late.", "note": "essere-verb: participle plural." }
+    ],
+    "exercises": [
+      {
+        "id": "si-impersonale.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Quando ___ giovani, si ha molta energia.",
+        "options": ["si è", "si sono", "si siamo", "ci si è"],
+        "answer": "si è",
+        "explanation": "Impersonal si + singular verb; the adjective giovani is plural.",
+        "ruleRef": "basics"
+      },
+      {
+        "id": "si-impersonale.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "In montagna ___ presto. (alzarsi)",
+        "options": ["ci si alza", "si si alza", "si alza", "si alzano"],
+        "answer": "ci si alza",
+        "explanation": "Reflexive verb + impersonal si → ci si.",
+        "ruleRef": "basics",
+        "mistakes": [{ "answer": "si si alza", "message": "Two si are not possible: the first becomes ci (ci si alza)." }]
+      },
+      {
+        "id": "si-impersonale.3",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Quando si è ___ (stanco), si dorme bene.",
+        "answer": "stanchi",
+        "explanation": "Predicate adjectives after impersonal si are plural.",
+        "ruleRef": "basics",
+        "mistakes": [{ "answer": "stanco", "message": "Although the verb is singular, the adjective is plural: si è stanchi." }]
+      },
+      {
+        "id": "si-impersonale.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Ieri ___ tardi. (arrivare, impersonal)",
+        "options": ["si è arrivati", "si è arrivato", "si ha arrivato", "si sono arrivato"],
+        "answer": "si è arrivati",
+        "explanation": "Impersonal si takes essere; with an essere-verb the participle is plural.",
+        "ruleRef": "compound"
+      },
+      {
+        "id": "si-impersonale.5",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Impersonal or passivante?",
+        "pairs": [["Si mangia bene qui.", "impersonal"], ["Si mangiano molte mele.", "passivante"], ["Si vive bene.", "impersonal"], ["Si vende la casa.", "passivante"]],
+        "explanation": "With a direct-object noun the si is passivante and the verb agrees with it.",
+        "ruleRef": "compound"
+      },
+      {
+        "id": "si-impersonale.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: How do you say 'cat' in Italian?",
+        "answer": "Come si dice «cat» in italiano?",
+        "accept": ["Come si dice cat in italiano?", "Come si dice 'cat' in italiano?"],
+        "explanation": "Impersonal si + dire.",
+        "ruleRef": "basics"
+      }
+    ],
+    "summary": [
+      "Impersonal si + 3rd person singular: si vive bene.",
+      "Predicate adjectives plural: si è stanchi.",
+      "Reflexive verbs: ci si alza.",
+      "Compound tenses with essere: si è mangiato (avere-verb) / si è arrivati (essere-verb).",
+      "Tuscan 'noi si va' is regional."
+    ],
+    "relatedVocabulary": ["verb_vivere", "verb_dire", "verb_alzarsi", "verb_divertirsi", "verb_arrivare", "adj_stanco"],
+    "relatedStories": [],
+    "relatedSongs": []
+  }
+]

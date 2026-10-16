@@ -1,0 +1,466 @@
+[
+  {
+    "id": "essere-avere",
+    "module": "m05",
+    "title": "essere and avere",
+    "level": "A0",
+    "description": "The two most important verbs: their present tense, their main uses, and expressions with avere.",
+    "objectives": [
+      "Conjugate essere and avere in the present.",
+      "Use essere for identity, description, origin and location.",
+      "Use avere for possession, age and sensations (fame, sete, sonno, paura)."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["irregular", "expressions"], "tenses": ["present"], "families": ["irregular"] },
+    "sections": [
+      {
+        "id": "essere",
+        "heading": "essere — to be",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_essere", "tense": "present" },
+          { "type": "rule", "kind": "rule", "title": "sono has two readings", "text": "*sono* is both 'I am' and 'they are'. Context or the subject decides: *Sono stanco* (I am tired) — *I bambini sono stanchi* (The children are tired)." },
+          { "type": "list", "items": ["Identity: *Sono Marco.*", "Description: *Il mare è calmo.*", "Origin: *Sono di Roma* (I'm from Rome).", "Location: *Il gatto è in cucina.*", "There is / there are: *c'è, ci sono*."] }
+        ]
+      },
+      {
+        "id": "avere",
+        "heading": "avere — to have",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_avere", "tense": "present" },
+          { "type": "rule", "kind": "rule", "title": "The silent h", "text": "*ho, hai, ha, hanno* are written with h to distinguish them from *o* (or), *ai* (to the), *a* (to), *anno* (year). The h is never pronounced." },
+          {
+            "type": "table",
+            "caption": "avere where English uses 'to be'",
+            "headers": ["Italian", "English"],
+            "rows": [
+              ["avere fame", "to be hungry"],
+              ["avere sete", "to be thirsty"],
+              ["avere sonno", "to be sleepy"],
+              ["avere paura (di)", "to be afraid (of)"],
+              ["avere caldo / freddo", "to feel hot / cold"],
+              ["avere … anni", "to be … years old"],
+              ["avere ragione / torto", "to be right / wrong"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "heading": "Side by side",
+        "blocks": [
+          { "type": "compare", "verbs": ["verb_essere", "verb_avere"], "tense": "present" }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Sono stanco.", "en": "I am tired." },
+      { "it": "I bambini sono in giardino.", "en": "The children are in the garden." },
+      { "it": "Ho sette anni.", "en": "I am seven years old." },
+      { "it": "Il topo ha paura del gatto.", "en": "The mouse is afraid of the cat." },
+      { "it": "Hai fame? — No, ho sete.", "en": "Are you hungry? — No, I'm thirsty." },
+      { "it": "Siamo di Milano.", "en": "We are from Milan." }
+    ],
+    "exercises": [
+      {
+        "id": "essere-avere.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *essere* in the present.",
+        "rows": [
+          { "label": "io", "answer": "sono" },
+          { "label": "tu", "answer": "sei" },
+          { "label": "lui/lei", "answer": "è" },
+          { "label": "noi", "answer": "siamo" },
+          { "label": "voi", "answer": "siete" },
+          { "label": "loro", "answer": "sono" }
+        ],
+        "explanation": "Fully irregular; note the accent on è.",
+        "ruleRef": "essere"
+      },
+      {
+        "id": "essere-avere.2",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *avere* in the present.",
+        "rows": [
+          { "label": "io", "answer": "ho" },
+          { "label": "tu", "answer": "hai" },
+          { "label": "lui/lei", "answer": "ha" },
+          { "label": "noi", "answer": "abbiamo" },
+          { "label": "voi", "answer": "avete" },
+          { "label": "loro", "answer": "hanno" }
+        ],
+        "explanation": "Remember the silent h in ho, hai, ha, hanno.",
+        "ruleRef": "avere"
+      },
+      {
+        "id": "essere-avere.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Luca ___ dieci anni.",
+        "options": ["ha", "è", "a", "hanno"],
+        "answer": "ha",
+        "explanation": "Age uses avere: ha dieci anni.",
+        "ruleRef": "avere",
+        "mistakes": [
+          { "answer": "è", "message": "In Italian you 'have' years: Luca ha dieci anni." },
+          { "answer": "a", "message": "a without h is the preposition 'to'. The verb is ha." }
+        ]
+      },
+      {
+        "id": "essere-avere.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Il topo ___ paura del gatto.",
+        "options": ["ha", "è", "fa", "sta"],
+        "answer": "ha",
+        "explanation": "avere paura = to be afraid.",
+        "ruleRef": "avere"
+      },
+      {
+        "id": "essere-avere.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with essere or avere.",
+        "text": "Noi {0} fame. Voi {1} stanchi? Loro {2} una casa al mare.",
+        "blanks": [{ "answer": "abbiamo" }, { "answer": "siete" }, { "answer": "hanno" }],
+        "explanation": "avere fame; essere stanchi; avere una casa.",
+        "ruleRef": "comparison"
+      },
+      {
+        "id": "essere-avere.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Are you hungry? (tu)",
+        "answer": "Hai fame?",
+        "explanation": "avere fame.",
+        "ruleRef": "avere"
+      },
+      {
+        "id": "essere-avere.7",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Siamo di Milano.*",
+        "answer": "We are from Milan.",
+        "accept": ["We're from Milan", "We come from Milan"],
+        "explanation": "essere di + city = to be from.",
+        "ruleRef": "essere"
+      }
+    ],
+    "summary": [
+      "essere: sono, sei, è, siamo, siete, sono.",
+      "avere: ho, hai, ha, abbiamo, avete, hanno (silent h).",
+      "avere fame / sete / sonno / paura / … anni where English uses 'to be'."
+    ],
+    "relatedVocabulary": ["verb_essere", "verb_avere", "noun_paura", "noun_sonno", "noun_anno", "adj_stanco"],
+    "relatedStories": ["la-famiglia-di-marco", "il-gatto-e-la-luna"],
+    "relatedSongs": ["conta-delle-stelle"]
+  },
+  {
+    "id": "andare-fare-stare-dire",
+    "module": "m05",
+    "title": "andare, fare, stare, dire",
+    "level": "A1",
+    "description": "Four short, very common irregular verbs and the expressions built on them.",
+    "objectives": [
+      "Conjugate andare, fare, stare and dire in the present.",
+      "Use andare a / andare in correctly with places.",
+      "Use common expressions with fare and stare."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["irregular", "expressions", "movement"], "tenses": ["present"], "families": ["irregular"] },
+    "sections": [
+      {
+        "id": "andare",
+        "heading": "andare — to go",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_andare", "tense": "present" },
+          { "type": "rule", "kind": "rule", "title": "Two stems", "text": "*vad-/va-* in the stressed forms (vado, vai, va, vanno); regular *and-* in *andiamo, andate*." },
+          { "type": "rule", "kind": "tendency", "title": "andare a or in?", "text": "*a* with towns and cities and with an infinitive (*vado a Roma, vado a dormire*), and in fixed phrases (*a scuola, a casa, a letto, al mare*). *in* with countries, regions and many places (*in Italia, in giardino, in cucina, in montagna, in città*). These are tendencies; learn the fixed phrases." }
+        ]
+      },
+      {
+        "id": "fare-stare",
+        "heading": "fare — to do, to make; stare — to stay, to be",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_fare", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_stare", "tense": "present" },
+          {
+            "type": "table",
+            "caption": "Expressions",
+            "headers": ["Italian", "English"],
+            "rows": [
+              ["fare colazione", "to have breakfast"],
+              ["fare una passeggiata", "to go for a walk"],
+              ["Fa caldo / freddo.", "It's hot / cold (weather)."],
+              ["Che tempo fa?", "What's the weather like?"],
+              ["Come stai? Sto bene.", "How are you? I'm well."],
+              ["stare a casa", "to stay at home"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dire",
+        "heading": "dire — to say, to tell",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_dire", "tense": "present" },
+          { "type": "rule", "kind": "tendency", "title": "dire versus parlare", "text": "*dire* takes what is said as its object (*dire la verità, dire ciao*); *parlare* means to speak or talk (*parlare con qualcuno, parlare italiano*)." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Vado a scuola a piedi.", "en": "I go to school on foot." },
+      { "it": "Andiamo in giardino!", "en": "Let's go into the garden!" },
+      { "it": "Facciamo colazione insieme.", "en": "We have breakfast together." },
+      { "it": "Oggi fa freddo.", "en": "It's cold today." },
+      { "it": "Come stai? — Sto bene, grazie.", "en": "How are you? — I'm fine, thanks." },
+      { "it": "Il nonno dice che domani piove.", "en": "Grandfather says it's going to rain tomorrow." }
+    ],
+    "exercises": [
+      {
+        "id": "andare-fare-stare-dire.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *andare*.",
+        "rows": [
+          { "label": "io", "answer": "vado" },
+          { "label": "tu", "answer": "vai" },
+          { "label": "lui/lei", "answer": "va" },
+          { "label": "noi", "answer": "andiamo" },
+          { "label": "voi", "answer": "andate" },
+          { "label": "loro", "answer": "vanno" }
+        ],
+        "explanation": "vad-/va- in stressed forms, and- in noi/voi.",
+        "ruleRef": "andare"
+      },
+      {
+        "id": "andare-fare-stare-dire.2",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *fare*.",
+        "rows": [
+          { "label": "io", "answer": "faccio" },
+          { "label": "tu", "answer": "fai" },
+          { "label": "lui/lei", "answer": "fa" },
+          { "label": "noi", "answer": "facciamo" },
+          { "label": "voi", "answer": "fate" },
+          { "label": "loro", "answer": "fanno" }
+        ],
+        "explanation": "faccio and facciamo with double c.",
+        "ruleRef": "fare-stare"
+      },
+      {
+        "id": "andare-fare-stare-dire.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Vado ___ Roma.",
+        "options": ["a", "in", "da", "di"],
+        "answer": "a",
+        "explanation": "Cities take a: vado a Roma.",
+        "ruleRef": "andare"
+      },
+      {
+        "id": "andare-fare-stare-dire.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Andiamo ___ montagna.",
+        "options": ["in", "a", "al", "su"],
+        "answer": "in",
+        "explanation": "Fixed phrase: andare in montagna (but al mare).",
+        "ruleRef": "andare"
+      },
+      {
+        "id": "andare-fare-stare-dire.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete.",
+        "text": "Come {0} (stare, tu)? — {1} (stare, io) bene. Oggi {2} (fare) caldo.",
+        "blanks": [{ "answer": "stai" }, { "answer": "Sto", "accept": ["sto"] }, { "answer": "fa" }],
+        "explanation": "stai, sto; fa caldo.",
+        "ruleRef": "fare-stare"
+      },
+      {
+        "id": "andare-fare-stare-dire.6",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "dire, loro: ___",
+        "answer": "dicono",
+        "explanation": "dic- stem: dicono.",
+        "ruleRef": "dire",
+        "mistakes": [{ "answer": "dirono", "message": "dire uses the stem dic-: dicono." }]
+      },
+      {
+        "id": "andare-fare-stare-dire.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: We have breakfast together.",
+        "answer": "Facciamo colazione insieme.",
+        "explanation": "fare colazione.",
+        "ruleRef": "fare-stare"
+      }
+    ],
+    "summary": [
+      "andare: vado, vai, va, andiamo, andate, vanno.",
+      "fare: faccio, fai, fa, facciamo, fate, fanno.",
+      "stare: sto, stai, sta, stiamo, state, stanno.",
+      "dire: dico, dici, dice, diciamo, dite, dicono.",
+      "andare a + city / infinitive; in + country, region and many places."
+    ],
+    "relatedVocabulary": ["verb_andare", "verb_fare", "verb_stare", "verb_dire", "noun_colazione", "noun_scuola", "noun_montagna", "noun_tempo"],
+    "relatedStories": ["la-colazione", "il-cane-al-mare"],
+    "relatedSongs": []
+  },
+  {
+    "id": "other-irregulars",
+    "module": "m05",
+    "title": "venire, uscire, bere, dare and piacere",
+    "level": "A1",
+    "description": "More high-frequency irregular verbs and the pattern behind them; saying what you like.",
+    "objectives": [
+      "Conjugate venire, uscire, bere, dare, tenere and rimanere.",
+      "Notice the recurring 'g in io and loro' pattern.",
+      "Say what you like with mi piace / mi piacciono."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["irregular", "expressions"], "tenses": ["present"], "families": ["irregular"] },
+    "sections": [
+      {
+        "id": "pattern",
+        "heading": "A recurring pattern: g in io and loro",
+        "blocks": [
+          { "type": "p", "text": "Several irregular verbs add a *g* in the *io* and *loro* forms: *venire → vengo, vengono*; *tenere → tengo, tengono*; *rimanere → rimango, rimangono*; *salire → salgo, salgono*. Venire and tenere also change the stressed *e* to *ie* in *tu* and *lui/lei*." },
+          { "type": "paradigm", "verb": "verb_venire", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_rimanere", "tense": "present" }
+        ]
+      },
+      {
+        "id": "uscire-bere-dare",
+        "heading": "uscire, bere, dare",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_uscire", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_bere", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_dare", "tense": "present" },
+          { "type": "rule", "kind": "rule", "title": "dà with an accent", "text": "*dà* (gives) is written with an accent to distinguish it from the preposition *da* (from)." }
+        ]
+      },
+      {
+        "id": "piacere",
+        "heading": "piacere — to like",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "The thing liked is the subject", "text": "*piacere* means 'to please'. *Mi piace il gelato* is literally 'Ice cream pleases me'. So the verb agrees with the thing liked: *piace* + singular or infinitive, *piacciono* + plural." },
+          {
+            "type": "table",
+            "caption": "mi piace / mi piacciono",
+            "headers": ["Italian", "English"],
+            "rows": [
+              ["Mi piace il gelato.", "I like ice cream."],
+              ["Mi piacciono le fragole.", "I like strawberries."],
+              ["Ti piace cantare?", "Do you like singing?"],
+              ["Al gatto piace il latte.", "The cat likes milk."],
+              ["Non mi piace la pioggia.", "I don't like the rain."]
+            ]
+          },
+          { "type": "p", "text": "*mi, ti, gli, le, ci, vi* are indirect object pronouns ('to me, to you…'); with *piacere* they show the person who likes something: *mi piace* = 'it pleases me', *ti piace* = 'it pleases you', *gli piace* = 'it pleases him', *le piace* = 'it pleases her'. The thing liked is the grammatical subject, so the verb agrees with it: *mi piace il gelato*, *mi piacciono le mele*. With a noun the person is introduced by *a*: *A Marco piace il mare*. The full set of indirect pronouns is in [[indirect-object-pronouns|indirect object pronouns]]." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Vieni al mare con noi?", "en": "Are you coming to the seaside with us?" },
+      { "it": "Esco con gli amici.", "en": "I'm going out with my friends." },
+      { "it": "Il gatto beve il latte.", "en": "The cat drinks the milk." },
+      { "it": "La mucca dà il latte.", "en": "The cow gives milk." },
+      { "it": "Rimaniamo a casa oggi.", "en": "We're staying at home today." },
+      { "it": "Mi piacciono le storie.", "en": "I like stories." }
+    ],
+    "exercises": [
+      {
+        "id": "other-irregulars.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *venire*.",
+        "rows": [
+          { "label": "io", "answer": "vengo" },
+          { "label": "tu", "answer": "vieni" },
+          { "label": "lui/lei", "answer": "viene" },
+          { "label": "noi", "answer": "veniamo" },
+          { "label": "voi", "answer": "venite" },
+          { "label": "loro", "answer": "vengono" }
+        ],
+        "explanation": "g in io and loro; ie in tu and lui/lei.",
+        "ruleRef": "pattern"
+      },
+      {
+        "id": "other-irregulars.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "uscire, io: ___",
+        "answer": "esco",
+        "explanation": "Stressed forms begin with e-: esco, esci, esce, escono.",
+        "ruleRef": "uscire-bere-dare",
+        "mistakes": [{ "answer": "usco", "message": "The stressed forms of uscire begin with e-: esco." }]
+      },
+      {
+        "id": "other-irregulars.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "bere, noi: ___",
+        "answer": "beviamo",
+        "explanation": "bere uses the stem bev-: beviamo.",
+        "ruleRef": "uscire-bere-dare"
+      },
+      {
+        "id": "other-irregulars.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Mi ___ le fragole.",
+        "options": ["piacciono", "piace", "piaccio", "piacciamo"],
+        "answer": "piacciono",
+        "explanation": "le fragole is plural, so piacciono.",
+        "ruleRef": "piacere",
+        "mistakes": [{ "answer": "piace", "message": "The thing liked is the subject. le fragole is plural: mi piacciono." }]
+      },
+      {
+        "id": "other-irregulars.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Ti ___ cantare?",
+        "options": ["piace", "piacciono", "piaci", "piaccio"],
+        "answer": "piace",
+        "explanation": "An infinitive counts as singular: ti piace cantare.",
+        "ruleRef": "piacere"
+      },
+      {
+        "id": "other-irregulars.6",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Infinitive of *tengono*?",
+        "answer": "tenere",
+        "explanation": "tengo, tieni, tiene, teniamo, tenete, tengono → tenere.",
+        "ruleRef": "pattern"
+      },
+      {
+        "id": "other-irregulars.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I don't like the rain.",
+        "answer": "Non mi piace la pioggia.",
+        "explanation": "non goes before mi piace.",
+        "ruleRef": "piacere"
+      }
+    ],
+    "summary": [
+      "g in io and loro: vengo/vengono, tengo/tengono, rimango/rimangono, salgo/salgono.",
+      "uscire: esco, esci, esce, usciamo, uscite, escono. bere: bev- + regular endings. dare: do, dai, dà…",
+      "mi piace + singular / infinitive; mi piacciono + plural."
+    ],
+    "relatedVocabulary": ["verb_venire", "verb_uscire", "verb_bere", "verb_dare", "verb_tenere", "verb_rimanere", "verb_piacere", "verb_salire"],
+    "relatedStories": ["il-cane-al-mare", "la-colazione"],
+    "relatedSongs": ["il-valzer-degli-animali"]
+  }
+]

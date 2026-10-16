@@ -1,0 +1,1308 @@
+[
+  {
+    "id": "infinitives-pronouns",
+    "module": "m04",
+    "title": "Infinitives, stems and subject pronouns",
+    "level": "A0",
+    "description": "The three verb families, how to find the stem, the subject pronouns, and why Italian usually omits them.",
+    "objectives": [
+      "Recognise the three conjugation families: -are, -ere, -ire.",
+      "Split an infinitive into stem and ending.",
+      "Know the subject pronouns, including formal Lei.",
+      "Understand subject omission."
+    ],
+    "tags": {
+      "pos": [
+        "verb",
+        "pronoun"
+      ],
+      "topics": [
+        "infinitive",
+        "subject pronouns",
+        "word order"
+      ],
+      "tenses": [
+        "present"
+      ],
+      "families": [
+        "-are",
+        "-ere",
+        "-ire"
+      ]
+    },
+    "sections": [
+      {
+        "id": "families",
+        "heading": "Three families",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The dictionary form of a verb is the infinitive. Almost every infinitive ends in *-are*, *-ere* or *-ire*, and that ending tells you which set of endings the verb uses. A small group ends in *-rre*: *porre* (to put), *trarre* (to draw), *tradurre* (to translate), *condurre* (to lead) and their compounds (*proporre, comporre, produrre, ridurre* …). They are contracted -ere verbs and take -ere endings on a longer stem: *tradurre → traduco, traduceva* (from Latin *traducere*). *fare, dire* and *bere* also conjugate on longer stems (*facevo, dicevo, bevevo*); see [[other-irregulars|other irregular verbs]]."
+          },
+          {
+            "type": "table",
+            "caption": "Infinitive = stem + ending",
+            "headers": [
+              "Infinitive",
+              "Stem",
+              "Ending",
+              "Family",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "parlare",
+                "parl-",
+                "-are",
+                "first",
+                "to speak"
+              ],
+              [
+                "vedere",
+                "ved-",
+                "-ere",
+                "second",
+                "to see"
+              ],
+              [
+                "dormire",
+                "dorm-",
+                "-ire",
+                "third",
+                "to sleep"
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Conjugating = stem + personal ending",
+            "text": "To conjugate a regular verb, remove the infinitive ending and add the ending for the person: *parl-* + *-o* = *parlo* (I speak)."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Which family is largest?",
+            "text": "Most verbs — and almost all new verbs — belong to -are. -ere verbs include many of the most irregular verbs. -ire verbs split into two groups (dormire type and capire type), studied two lessons from now."
+          }
+        ]
+      },
+      {
+        "id": "pronouns",
+        "heading": "Subject pronouns",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Subject pronouns",
+            "headers": [
+              "Person",
+              "Singular",
+              "",
+              "Plural",
+              ""
+            ],
+            "rows": [
+              [
+                "1st",
+                "io",
+                "I",
+                "noi",
+                "we"
+              ],
+              [
+                "2nd",
+                "tu",
+                "you (informal)",
+                "voi",
+                "you (plural)"
+              ],
+              [
+                "3rd",
+                "lui / lei",
+                "he / she",
+                "loro",
+                "they"
+              ],
+              [
+                "formal",
+                "Lei",
+                "you (formal, one person)",
+                "(voi)",
+                "you (plural, normally voi)"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "*io* is written with a small letter except at the start of a sentence. Formal *Lei* uses the same verb form as *lui/lei*: *Lei parla italiano?* = Do you speak Italian? (formal)."
+          }
+        ]
+      },
+      {
+        "id": "omission",
+        "heading": "Subject omission",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "The ending shows the subject",
+            "text": "Because each person has a distinct verb ending, subject pronouns are normally left out: *Parlo italiano* = I speak Italian. Adding *io* is not wrong, but it adds emphasis or contrast: *Io parlo italiano, lui no* = I speak Italian; he doesn't."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "When pronouns are used",
+            "text": "Use the pronoun for contrast, emphasis, after *anche* (*anche io*), when the subject would otherwise be unclear, or alone without a verb (*Chi è? — Io!*)."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Parlo italiano.",
+        "en": "I speak Italian.",
+        "note": "No pronoun needed: -o shows io."
+      },
+      {
+        "it": "Io parlo italiano, lui parla inglese.",
+        "en": "I speak Italian; he speaks English.",
+        "note": "Pronouns for contrast."
+      },
+      {
+        "it": "Anche io dormo.",
+        "en": "I'm sleeping too."
+      },
+      {
+        "it": "Lei abita a Roma?",
+        "en": "Do you live in Rome? (formal)",
+        "note": "Formal Lei with third-person verb."
+      },
+      {
+        "it": "Noi camminiamo nel bosco.",
+        "en": "We walk in the wood."
+      },
+      {
+        "it": "Chi canta? — Io!",
+        "en": "Who is singing? — Me!"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "infinitives-pronouns.1",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "What is the stem of *cantare*?",
+        "options": [
+          "cant-",
+          "canta-",
+          "can-",
+          "cantar-"
+        ],
+        "answer": "cant-",
+        "explanation": "Remove -are: cant-.",
+        "ruleRef": "families"
+      },
+      {
+        "id": "infinitives-pronouns.2",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Match each infinitive to its family.",
+        "pairs": [
+          [
+            "leggere",
+            "-ere"
+          ],
+          [
+            "aprire",
+            "-ire"
+          ],
+          [
+            "guardare",
+            "-are"
+          ],
+          [
+            "credere",
+            "-ere"
+          ],
+          [
+            "sentire",
+            "-ire"
+          ]
+        ],
+        "explanation": "The family is the last three letters of the infinitive.",
+        "ruleRef": "families"
+      },
+      {
+        "id": "infinitives-pronouns.3",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match the pronouns.",
+        "pairs": [
+          [
+            "io",
+            "I"
+          ],
+          [
+            "noi",
+            "we"
+          ],
+          [
+            "voi",
+            "you (plural)"
+          ],
+          [
+            "loro",
+            "they"
+          ],
+          [
+            "Lei",
+            "you (formal)"
+          ]
+        ],
+        "explanation": "Lei with a capital L in writing is the formal 'you'.",
+        "ruleRef": "pronouns"
+      },
+      {
+        "id": "infinitives-pronouns.4",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Why does *Parlo italiano* not need *io*?",
+        "options": [
+          "The ending -o already shows the subject is io.",
+          "io is never used in Italian.",
+          "Because italiano is the subject.",
+          "It is a question."
+        ],
+        "answer": "The ending -o already shows the subject is io.",
+        "explanation": "Subject pronouns are optional because the verb ending identifies the person.",
+        "ruleRef": "omission"
+      },
+      {
+        "id": "infinitives-pronouns.5",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "In which sentence is the pronoun really needed?",
+        "options": [
+          "Io parlo italiano, lui parla inglese.",
+          "Io parlo italiano.",
+          "Noi camminiamo.",
+          "Tu dormi."
+        ],
+        "answer": "Io parlo italiano, lui parla inglese.",
+        "explanation": "Contrast between two subjects requires the pronouns. In the others they are optional.",
+        "ruleRef": "omission"
+      },
+      {
+        "id": "infinitives-pronouns.6",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write the infinitive whose stem is *dorm-* and which belongs to the third family.",
+        "answer": "dormire",
+        "explanation": "dorm- + -ire.",
+        "ruleRef": "families"
+      }
+    ],
+    "summary": [
+      "Infinitives end in -are, -ere or -ire; stem + personal ending = conjugated form.",
+      "Pronouns: io, tu, lui/lei, noi, voi, loro; formal Lei uses the third-person singular.",
+      "Subject pronouns are usually omitted; use them for contrast or emphasis."
+    ],
+    "relatedVocabulary": [
+      "verb_parlare",
+      "verb_vedere",
+      "verb_dormire",
+      "pron_io",
+      "pron_tu",
+      "pron_lui",
+      "pron_lei",
+      "pron_noi",
+      "pron_voi",
+      "pron_loro"
+    ],
+    "relatedStories": [
+      "la-famiglia-di-marco"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "present-are",
+    "module": "m04",
+    "title": "Present tense of -are verbs",
+    "level": "A0",
+    "description": "The endings -o, -i, -a, -iamo, -ate, -ano, with the spelling adjustments of -care/-gare and -iare verbs.",
+    "objectives": [
+      "Conjugate any regular -are verb in the present.",
+      "Apply the h of cercare/giocare and the single i of mangiare/studiare.",
+      "Understand the meanings of the Italian present tense."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "conjugation",
+        "spelling"
+      ],
+      "tenses": [
+        "present"
+      ],
+      "families": [
+        "-are"
+      ]
+    },
+    "sections": [
+      {
+        "id": "endings",
+        "heading": "The endings",
+        "blocks": [
+          {
+            "type": "paradigm",
+            "verb": "verb_parlare",
+            "tense": "present",
+            "highlightEndings": true
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Stress",
+            "text": "In *io, tu, lui/lei* and *loro* the stress falls on the stem: *PAR-lo, PAR-li, PAR-la, PAR-la-no*. In *noi* and *voi* it moves to the ending: *par-LIA-mo, par-LA-te*. The *loro* form keeps the stress on the same syllable as the *io* form: *àbito → àbitano* (accents shown here only to mark the stress; they are not written)."
+          }
+        ]
+      },
+      {
+        "id": "spelling",
+        "heading": "Spelling adjustments",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "-care and -gare add h",
+            "text": "To keep c and g hard before the endings -i and -iamo, add h: *cercare → cerchi, cerchiamo*; *giocare → giochi, giochiamo*."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_giocare",
+            "tense": "present"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "-iare verbs do not double the i",
+            "text": "If the stem already ends in -i, do not add another one in *tu* and *noi*: *mangiare → mangi, mangiamo*; *studiare → studi, studiamo*. (A few verbs with a stressed i, like *inviare → invii*, keep both.)"
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_mangiare",
+            "tense": "present"
+          }
+        ]
+      },
+      {
+        "id": "meaning",
+        "heading": "What the present tense means",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Habitual actions: *Lavoro in città* = I work in town.",
+              "Actions happening now: *Che cosa guardi?* = What are you looking at?",
+              "The near future, especially with a time expression: *Domani compro il pane* = Tomorrow I'll buy bread."
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Parlo con la nonna.",
+        "en": "I'm talking with Grandma."
+      },
+      {
+        "it": "Che cosa cerchi?",
+        "en": "What are you looking for?",
+        "note": "cercare: tu cerchi."
+      },
+      {
+        "it": "Giochiamo in giardino.",
+        "en": "We play in the garden.",
+        "note": "giocare: noi giochiamo."
+      },
+      {
+        "it": "I bambini mangiano la pizza.",
+        "en": "The children are eating pizza."
+      },
+      {
+        "it": "Studi l'italiano?",
+        "en": "Do you study Italian?",
+        "note": "studiare: tu studi (one i)."
+      },
+      {
+        "it": "Domani compriamo il pane.",
+        "en": "Tomorrow we'll buy bread.",
+        "note": "Present for the near future."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "present-are.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *cantare* in the present.",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "canto"
+          },
+          {
+            "label": "tu",
+            "answer": "canti"
+          },
+          {
+            "label": "lui/lei",
+            "answer": "canta"
+          },
+          {
+            "label": "noi",
+            "answer": "cantiamo"
+          },
+          {
+            "label": "voi",
+            "answer": "cantate"
+          },
+          {
+            "label": "loro",
+            "answer": "cantano"
+          }
+        ],
+        "explanation": "cant- + -o, -i, -a, -iamo, -ate, -ano.",
+        "ruleRef": "endings",
+        "vocabRef": [
+          "verb_cantare"
+        ]
+      },
+      {
+        "id": "present-are.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "cercare, tu: ___",
+        "answer": "cerchi",
+        "explanation": "Add h to keep the hard c: cerchi.",
+        "ruleRef": "spelling",
+        "mistakes": [
+          {
+            "answer": "cerci",
+            "message": "In cerci the c before i would be soft, as in English 'church'. Add h to keep the hard k sound: cerchi."
+          }
+        ]
+      },
+      {
+        "id": "present-are.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "mangiare, noi: ___",
+        "answer": "mangiamo",
+        "explanation": "The stem mangi- already ends in i: mangi + amo = mangiamo.",
+        "ruleRef": "spelling",
+        "mistakes": [
+          {
+            "answer": "mangiiamo",
+            "message": "Do not double the i: mangiamo."
+          }
+        ]
+      },
+      {
+        "id": "present-are.4",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "giocare, noi: ___",
+        "answer": "giochiamo",
+        "explanation": "giocare adds h before i: giochiamo.",
+        "ruleRef": "spelling"
+      },
+      {
+        "id": "present-are.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the present tense.",
+        "text": "I bambini {0} (giocare) in giardino e la mamma {1} (guardare) dalla finestra. Noi {2} (ascoltare) la musica.",
+        "blanks": [
+          {
+            "answer": "giocano"
+          },
+          {
+            "answer": "guarda"
+          },
+          {
+            "answer": "ascoltiamo"
+          }
+        ],
+        "explanation": "loro → -ano; lui/lei → -a; noi → -iamo.",
+        "ruleRef": "endings"
+      },
+      {
+        "id": "present-are.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: What are you looking for? (tu)",
+        "answer": "Che cosa cerchi?",
+        "accept": [
+          "Cosa cerchi?",
+          "Che cerchi?"
+        ],
+        "explanation": "Italian has no separate continuous form here: cerchi = you look for / you are looking for.",
+        "ruleRef": "meaning"
+      },
+      {
+        "id": "present-are.7",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "What is the infinitive of *studiamo*?",
+        "answer": "studiare",
+        "explanation": "studi- + -amo; infinitive studiare.",
+        "ruleRef": "spelling"
+      }
+    ],
+    "summary": [
+      "-are endings: -o, -i, -a, -iamo, -ate, -ano.",
+      "-care/-gare: add h before i (cerchi, giochiamo).",
+      "-iare: no double i (mangi, mangiamo).",
+      "The present covers 'I eat', 'I am eating' and often 'I'll eat (soon)'."
+    ],
+    "relatedVocabulary": [
+      "verb_parlare",
+      "verb_cantare",
+      "verb_cercare",
+      "verb_giocare",
+      "verb_mangiare",
+      "verb_studiare",
+      "verb_guardare",
+      "verb_ascoltare",
+      "verb_comprare",
+      "verb_lavorare",
+      "verb_abitare"
+    ],
+    "relatedStories": [
+      "la-colazione",
+      "la-famiglia-di-marco"
+    ],
+    "relatedSongs": [
+      "il-valzer-degli-animali"
+    ]
+  },
+  {
+    "id": "present-ere-ire",
+    "module": "m04",
+    "title": "Present tense of -ere and -ire verbs",
+    "level": "A1",
+    "description": "vedere and dormire, and the -isc- verbs like capire.",
+    "objectives": [
+      "Conjugate regular -ere and -ire verbs.",
+      "Recognise -isc- verbs and conjugate them.",
+      "Compare the three families side by side."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "conjugation"
+      ],
+      "tenses": [
+        "present"
+      ],
+      "families": [
+        "-ere",
+        "-ire",
+        "-isc-"
+      ]
+    },
+    "sections": [
+      {
+        "id": "ere",
+        "heading": "-ere verbs",
+        "blocks": [
+          {
+            "type": "paradigm",
+            "verb": "verb_vedere",
+            "tense": "present",
+            "highlightEndings": true
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Hard and soft sounds may alternate",
+            "text": "Because endings change, the pronunciation of c/g in the stem can change too: *leggere → leggo* (hard g), *leggi* (soft g); *vincere → vinco, vinci*. The spelling stays regular — no h is added in -ere verbs."
+          }
+        ]
+      },
+      {
+        "id": "ire",
+        "heading": "-ire verbs: two groups",
+        "blocks": [
+          {
+            "type": "paradigm",
+            "verb": "verb_dormire",
+            "tense": "present",
+            "highlightEndings": true
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "The -isc- group",
+            "text": "Many -ire verbs insert *-isc-* between stem and ending in *io, tu, lui/lei* and *loro*. Noi and voi are normal."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_capire",
+            "tense": "present",
+            "highlightEndings": true
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "You cannot see which group a verb belongs to",
+            "text": "The infinitive does not show whether a verb takes -isc-. Common -isc- verbs: *capire, finire, preferire, pulire, costruire, spedire*. Common verbs without it: *dormire, partire, sentire, aprire, seguire, offrire*. The dictionary entry tells you."
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "heading": "Three families compared",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Present-tense endings",
+            "headers": [
+              "",
+              "-are",
+              "-ere",
+              "-ire",
+              "-ire (-isc-)"
+            ],
+            "rows": [
+              [
+                "io",
+                "-o",
+                "-o",
+                "-o",
+                "-isco"
+              ],
+              [
+                "tu",
+                "-i",
+                "-i",
+                "-i",
+                "-isci"
+              ],
+              [
+                "lui/lei",
+                "-a",
+                "-e",
+                "-e",
+                "-isce"
+              ],
+              [
+                "noi",
+                "-iamo",
+                "-iamo",
+                "-iamo",
+                "-iamo"
+              ],
+              [
+                "voi",
+                "-ate",
+                "-ete",
+                "-ite",
+                "-ite"
+              ],
+              [
+                "loro",
+                "-ano",
+                "-ono",
+                "-ono",
+                "-iscono"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Note what is shared: *io -o*, *tu -i* and *noi -iamo* are the same in all families. The *voi* ending simply uses the infinitive's vowel: *-ate, -ete, -ite*."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Vedo il mare.",
+        "en": "I see the sea."
+      },
+      {
+        "it": "Leggi un libro?",
+        "en": "Are you reading a book?"
+      },
+      {
+        "it": "Il gatto dorme sul letto.",
+        "en": "The cat sleeps on the bed."
+      },
+      {
+        "it": "Capisco l'italiano.",
+        "en": "I understand Italian.",
+        "note": "-isc-: capisco."
+      },
+      {
+        "it": "Gli uccelli costruiscono il nido.",
+        "en": "The birds build their nest.",
+        "note": "-isc-: costruiscono."
+      },
+      {
+        "it": "Partiamo domani.",
+        "en": "We leave tomorrow."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "present-ere-ire.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *prendere* in the present.",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "prendo"
+          },
+          {
+            "label": "tu",
+            "answer": "prendi"
+          },
+          {
+            "label": "lui/lei",
+            "answer": "prende"
+          },
+          {
+            "label": "noi",
+            "answer": "prendiamo"
+          },
+          {
+            "label": "voi",
+            "answer": "prendete"
+          },
+          {
+            "label": "loro",
+            "answer": "prendono"
+          }
+        ],
+        "explanation": "prend- + -o, -i, -e, -iamo, -ete, -ono.",
+        "ruleRef": "ere"
+      },
+      {
+        "id": "present-ere-ire.2",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *finire* (an -isc- verb).",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "finisco"
+          },
+          {
+            "label": "tu",
+            "answer": "finisci"
+          },
+          {
+            "label": "lui/lei",
+            "answer": "finisce"
+          },
+          {
+            "label": "noi",
+            "answer": "finiamo"
+          },
+          {
+            "label": "voi",
+            "answer": "finite"
+          },
+          {
+            "label": "loro",
+            "answer": "finiscono"
+          }
+        ],
+        "explanation": "-isc- in all forms except noi and voi.",
+        "ruleRef": "ire"
+      },
+      {
+        "id": "present-ere-ire.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "dormire, voi: ___",
+        "answer": "dormite",
+        "explanation": "voi ending follows the infinitive vowel: -ite.",
+        "ruleRef": "comparison",
+        "mistakes": [
+          {
+            "answer": "dormete",
+            "message": "-ete is the -ere ending. dormire is an -ire verb: dormite."
+          }
+        ]
+      },
+      {
+        "id": "present-ere-ire.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Gli uccelli ___ il nido. (costruire)",
+        "options": [
+          "costruiscono",
+          "costruono",
+          "costruisciono",
+          "costruiscano"
+        ],
+        "answer": "costruiscono",
+        "explanation": "costruire is an -isc- verb: costruiscono.",
+        "ruleRef": "ire"
+      },
+      {
+        "id": "present-ere-ire.5",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Infinitive of *capisce*?",
+        "answer": "capire",
+        "explanation": "cap- + -isc- + -e → capire.",
+        "ruleRef": "ire"
+      },
+      {
+        "id": "present-ere-ire.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete.",
+        "text": "Io {0} (leggere) e tu {1} (scrivere). Loro {2} (partire) domani.",
+        "blanks": [
+          {
+            "answer": "leggo"
+          },
+          {
+            "answer": "scrivi"
+          },
+          {
+            "answer": "partono"
+          }
+        ],
+        "explanation": "leggo, scrivi, partono.",
+        "ruleRef": "comparison"
+      },
+      {
+        "id": "present-ere-ire.7",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Preferisco il tè.*",
+        "answer": "I prefer tea.",
+        "accept": [
+          "I prefer the tea"
+        ],
+        "explanation": "preferire is an -isc- verb: preferisco.",
+        "ruleRef": "ire"
+      }
+    ],
+    "summary": [
+      "-ere: -o, -i, -e, -iamo, -ete, -ono.",
+      "-ire: -o, -i, -e, -iamo, -ite, -ono.",
+      "-isc- verbs: -isco, -isci, -isce, -iamo, -ite, -iscono (capire, finire, preferire, pulire, costruire).",
+      "io -o, tu -i, noi -iamo are shared by all three families."
+    ],
+    "relatedVocabulary": [
+      "verb_vedere",
+      "verb_leggere",
+      "verb_prendere",
+      "verb_scrivere",
+      "verb_dormire",
+      "verb_partire",
+      "verb_sentire",
+      "verb_capire",
+      "verb_finire",
+      "verb_preferire",
+      "verb_costruire",
+      "verb_pulire"
+    ],
+    "relatedStories": [
+      "il-gatto-e-la-luna",
+      "nel-bosco"
+    ],
+    "relatedSongs": [
+      "ninna-nanna-della-luna"
+    ]
+  },
+  {
+    "id": "verb-system-overview",
+    "module": "m04",
+    "title": "Map of the verb system",
+    "level": "A0–A1",
+    "description": "What a finite verb form tells you (person, number, tense, mood), how simple and compound tenses are built, and where each tense is taught. A map to come back to, not something to memorise now.",
+    "objectives": [
+      "Know the four finite moods (indicativo, congiuntivo, condizionale, imperativo) and the three non-finite forms (infinito, gerundio, participio).",
+      "Understand that every compound tense = a form of avere or essere + the past participle.",
+      "Read a verb label such as 'congiuntivo imperfetto, 3rd person singular' and know what each part means.",
+      "Know where in the course each tense is studied in detail."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "verb system",
+        "moods",
+        "tenses",
+        "compound tenses"
+      ],
+      "tenses": [],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "what-a-form-encodes",
+        "heading": "What a verb form tells you",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "An Italian finite verb form carries four pieces of information in its ending: **person** (1st, 2nd, 3rd), **number** (singular, plural), **tense** (when, and how the event is viewed) and **mood** (how the speaker presents it: as fact, as possibility or wish, as a condition, as a command). *parlavamo* = parl- (lemma *parlare*) + -avamo (1st person plural, imperfetto, indicativo)."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Subject pronouns are usually omitted",
+            "text": "Because the ending shows the person, *io, tu, lui …* are normally left out: *Parliamo italiano.* They are used for emphasis, contrast or to avoid ambiguity (see the next lesson)."
+          },
+          {
+            "type": "rule",
+            "kind": "tip",
+            "title": "One form, several analyses",
+            "text": "Some endings are shared between persons or tenses. *parli* is tu in the presente indicativo, but io/tu/lui/lei in the congiuntivo presente; *cantò* and *canto* differ only by the accent. Context decides. The word panels in this course list every possible analysis when a form is ambiguous."
+          }
+        ]
+      },
+      {
+        "id": "moods",
+        "heading": "Moods and non-finite forms",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "The moods of Italian",
+            "headers": [
+              "Mood",
+              "Presents the event as …",
+              "Example"
+            ],
+            "rows": [
+              [
+                "indicativo",
+                "a fact, a question about facts, a certain prediction",
+                "*Luca **parla** italiano.*"
+              ],
+              [
+                "congiuntivo",
+                "something thought, wished, feared, doubted or not yet real; mostly in subordinate clauses",
+                "*Penso che Luca **parli** italiano.*"
+              ],
+              [
+                "condizionale",
+                "dependent on a condition; also polite, attenuated or unconfirmed",
+                "*Luca **parlerebbe** se potesse.*"
+              ],
+              [
+                "imperativo",
+                "a command, request or instruction",
+                "***Parla** più piano!*"
+              ],
+              [
+                "infinito",
+                "the action itself, without person (non-finite)",
+                "*Voglio **parlare**.*"
+              ],
+              [
+                "gerundio",
+                "an action accompanying or explaining another (non-finite)",
+                "*Sto **parlando**.*"
+              ],
+              [
+                "participio",
+                "the result of an action; builds compound tenses and the passive (non-finite)",
+                "*Ho **parlato**.*"
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Mood is partly a matter of register",
+            "text": "In some subordinate clauses the congiuntivo is required by the norm; in others informal speech often uses the indicativo instead (*penso che è vero* for *penso che sia vero*). The course always teaches the standard form first and labels the informal alternative as such."
+          }
+        ]
+      },
+      {
+        "id": "simple-compound",
+        "heading": "Simple and compound tenses",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Each mood has simple tenses (one word) and compound tenses (two words). Every compound tense is built in the same way: the auxiliary *avere* or *essere* in the matching simple tense + the past participle."
+          },
+          {
+            "type": "table",
+            "caption": "Each simple tense has a compound partner",
+            "headers": [
+              "Simple tense of the auxiliary",
+              "Compound tense",
+              "Example (io)"
+            ],
+            "rows": [
+              [
+                "presente: *ho, sono*",
+                "passato prossimo",
+                "*ho parlato, sono andato/a*"
+              ],
+              [
+                "imperfetto: *avevo, ero*",
+                "trapassato prossimo",
+                "*avevo parlato, ero andato/a*"
+              ],
+              [
+                "passato remoto: *ebbi, fui*",
+                "trapassato remoto",
+                "*ebbi parlato, fui andato/a*"
+              ],
+              [
+                "futuro: *avrò, sarò*",
+                "futuro anteriore",
+                "*avrò parlato, sarò andato/a*"
+              ],
+              [
+                "congiuntivo presente: *abbia, sia*",
+                "congiuntivo passato",
+                "*abbia parlato, sia andato/a*"
+              ],
+              [
+                "congiuntivo imperfetto: *avessi, fossi*",
+                "congiuntivo trapassato",
+                "*avessi parlato, fossi andato/a*"
+              ],
+              [
+                "condizionale presente: *avrei, sarei*",
+                "condizionale passato",
+                "*avrei parlato, sarei andato/a*"
+              ],
+              [
+                "infinito: *avere, essere*",
+                "infinito passato",
+                "*aver(e) parlato, esser(e) andato/a*"
+              ],
+              [
+                "gerundio: *avendo, essendo*",
+                "gerundio passato",
+                "*avendo parlato, essendo andato/a*"
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Compound tense = anteriority",
+            "text": "A compound tense normally presents the action as completed before the moment expressed by its simple partner: *quando arrivo, lui è già uscito* (present → passato prossimo), *quando arrivai, lui era già uscito* (past → trapassato), *quando arriverò, lui sarà già uscito* (future → futuro anteriore)."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Two auxiliaries",
+            "text": "Transitive verbs (with a direct object) take *avere*; most verbs of movement or change of state, reflexive verbs and the passive take *essere*, and then the participle agrees with the subject: *Sara è andata*. Several verbs can take either, with a difference in meaning. This is covered fully in the lesson on auxiliaries and agreement."
+          }
+        ]
+      },
+      {
+        "id": "map",
+        "heading": "The full map",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The table lists every tense with the io form of *parlare* (auxiliary avere) and *andare* (auxiliary essere), its main use, the approximate level at which it is studied, and a link to the lesson. The levels refer to when you are likely to *produce* a form; you will meet every tense in reading earlier than that, and the word panels explain any form you click."
+          },
+          {
+            "type": "tense-overview"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Parliamo italiano.",
+        "en": "We speak Italian.",
+        "note": "presente indicativo, 1st person plural; the subject noi is understood."
+      },
+      {
+        "it": "Ieri abbiamo parlato con Sara.",
+        "en": "Yesterday we spoke with Sara.",
+        "note": "passato prossimo = presente of avere + participle."
+      },
+      {
+        "it": "Spero che Sara parli con te.",
+        "en": "I hope Sara talks to you.",
+        "note": "congiuntivo presente after sperare."
+      },
+      {
+        "it": "Parlerei con lei, se potessi.",
+        "en": "I would speak to her if I could.",
+        "note": "condizionale presente + congiuntivo imperfetto."
+      },
+      {
+        "it": "Parla più piano, per favore!",
+        "en": "Speak more slowly, please!",
+        "note": "imperativo, tu."
+      },
+      {
+        "it": "Sara è andata a scuola.",
+        "en": "Sara went to school.",
+        "note": "andare takes essere; andata agrees with Sara."
+      },
+      {
+        "it": "Sto parlando al telefono.",
+        "en": "I'm talking on the phone.",
+        "note": "stare + gerundio: an action in progress."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "verb-system-overview.1",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Match each mood with how it presents the event.",
+        "pairs": [
+          [
+            "indicativo",
+            "as a fact"
+          ],
+          [
+            "congiuntivo",
+            "as something thought, wished or doubted"
+          ],
+          [
+            "condizionale",
+            "as dependent on a condition"
+          ],
+          [
+            "imperativo",
+            "as a command"
+          ]
+        ],
+        "explanation": "These are the central uses; each lesson adds the details and exceptions.",
+        "ruleRef": "moods"
+      },
+      {
+        "id": "verb-system-overview.2",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Every compound tense is formed with …",
+        "options": [
+          "avere or essere + past participle",
+          "stare + gerund",
+          "the infinitive + an ending",
+          "the present + a time word"
+        ],
+        "answer": "avere or essere + past participle",
+        "explanation": "The auxiliary carries person, tense and mood; the participle carries the meaning. stare + gerundio is a periphrasis, not a tense.",
+        "ruleRef": "simple-compound"
+      },
+      {
+        "id": "verb-system-overview.3",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Match the simple tense of the auxiliary with the compound tense it forms.",
+        "pairs": [
+          [
+            "ho / sono",
+            "passato prossimo"
+          ],
+          [
+            "avevo / ero",
+            "trapassato prossimo"
+          ],
+          [
+            "avrò / sarò",
+            "futuro anteriore"
+          ],
+          [
+            "avrei / sarei",
+            "condizionale passato"
+          ],
+          [
+            "abbia / sia",
+            "congiuntivo passato"
+          ]
+        ],
+        "explanation": "The compound tense takes its name from the simple tense of the auxiliary.",
+        "ruleRef": "simple-compound"
+      },
+      {
+        "id": "verb-system-overview.4",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*parlavamo*: which information does the ending -avamo carry?",
+        "options": [
+          "1st person plural, imperfetto, indicativo",
+          "2nd person plural, presente, indicativo",
+          "1st person plural, futuro",
+          "3rd person plural, congiuntivo"
+        ],
+        "answer": "1st person plural, imperfetto, indicativo",
+        "explanation": "-ava- marks the imperfetto of -are verbs; -mo marks noi.",
+        "ruleRef": "what-a-form-encodes"
+      },
+      {
+        "id": "verb-system-overview.5",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which of these is a non-finite form (it shows no person)?",
+        "options": [
+          "parlando",
+          "parlano",
+          "parlino",
+          "parlerò"
+        ],
+        "answer": "parlando",
+        "explanation": "parlando is the gerundio. parlano (indicativo), parlino (congiuntivo) and parlerò (futuro) all show person and number.",
+        "ruleRef": "moods"
+      },
+      {
+        "id": "verb-system-overview.6",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*parli* can be …",
+        "options": [
+          "tu (indicativo) or io/tu/lui/lei (congiuntivo presente)",
+          "only tu (indicativo)",
+          "only io (congiuntivo)",
+          "the imperativo of noi"
+        ],
+        "answer": "tu (indicativo) or io/tu/lui/lei (congiuntivo presente)",
+        "explanation": "In the congiuntivo presente the three singular persons share one form; context (e.g. *penso che …*) decides.",
+        "ruleRef": "what-a-form-encodes"
+      }
+    ],
+    "summary": [
+      "A finite form encodes person, number, tense and mood.",
+      "Four finite moods: indicativo, congiuntivo, condizionale, imperativo; three non-finite forms: infinito, gerundio, participio.",
+      "Compound tense = auxiliary (avere/essere) in the matching simple tense + participle; it usually expresses anteriority.",
+      "Use this map to locate any form you meet in reading."
+    ],
+    "relatedVocabulary": [
+      "verb_parlare",
+      "verb_andare",
+      "verb_essere",
+      "verb_avere"
+    ],
+    "relatedStories": [],
+    "relatedSongs": []
+  }
+]

@@ -1,0 +1,446 @@
+/* ==========================================================================
+   Lessons, learning path, grammar reference, vocabulary lists
+   ========================================================================== */
+
+.lesson-header {
+  margin-bottom: 1.5rem;
+  max-width: var(--measure);
+}
+.lesson-main {
+  min-width: 0;
+  max-width: var(--measure);
+}
+.lesson-section {
+  margin-bottom: 2rem;
+}
+.lesson-section > h2 {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.35rem;
+}
+
+.objectives {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.85rem 1.15rem;
+}
+.objectives h2 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.checklist li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.3rem;
+}
+.checklist li::before {
+  content: '';
+  position: absolute;
+  left: 0.15rem;
+  top: 0.55em;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 2px;
+  border: 1.5px solid var(--accent);
+}
+
+.toc {
+  position: sticky;
+  top: 4.5rem;
+  font-size: 0.88rem;
+}
+.toc__title {
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+}
+.toc ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 1px solid var(--line);
+}
+.toc li a {
+  display: block;
+  padding: 0.2rem 0 0.2rem 0.75rem;
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.toc li a:hover {
+  color: var(--accent);
+}
+
+.rule {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 0.6rem 0.95rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin: 1rem 0;
+}
+.rule p:last-child {
+  margin-bottom: 0;
+}
+.rule__label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.2rem;
+}
+.rule__title {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.9rem;
+  color: var(--ink);
+  font-weight: 600;
+}
+.rule--tendency {
+  border-left-color: var(--gold);
+  background: var(--gold-soft);
+}
+.rule--tendency .rule__label {
+  color: var(--gold);
+}
+.rule--exception {
+  border-left-color: var(--accent-2);
+  background: var(--accent-2-soft);
+}
+.rule--exception .rule__label {
+  color: var(--accent-2);
+}
+.rule--tip {
+  border-left-color: var(--info);
+  background: var(--info-soft);
+}
+
+.examples {
+  padding-left: 1.4rem;
+}
+.examples li {
+  margin-bottom: 0.9rem;
+}
+
+.summary ul {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.85rem 1rem 0.85rem 2rem;
+}
+
+.status-panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.85rem 1.1rem;
+  margin: 1.5rem 0;
+}
+.status-panel__line {
+  margin-bottom: 0.2rem;
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+}
+.pager a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  max-width: 48%;
+}
+.pager a:hover {
+  border-color: var(--accent);
+}
+.pager small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+.pager__next {
+  margin-left: auto;
+  text-align: right;
+}
+
+/* Learning path --------------------------------------------------------------- */
+.module {
+  margin: 1.5rem 0 2rem;
+}
+.module__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+.module__header h2 {
+  margin: 0 0 0.25rem;
+}
+.module__header p {
+  margin: 0;
+}
+.module__progress {
+  width: 11rem;
+  flex: none;
+}
+.lesson-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: lesson;
+}
+.lesson-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.55rem 0.4rem;
+  border-bottom: 1px solid var(--line);
+  counter-increment: lesson;
+}
+.lesson-item__link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+.lesson-item__link::before {
+  content: counter(lesson);
+  display: inline-grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--surface-2);
+  font-size: 0.8rem;
+  color: var(--muted);
+  flex: none;
+}
+.lesson-item__link:hover .lesson-item__title {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.lesson-item.is-next .lesson-item__link::before {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.lesson-item__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* Dashboard --------------------------------------------------------------------- */
+.plan {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.plan li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.plan a {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  text-decoration: none;
+}
+.plan__min {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+/* Grammar reference --------------------------------------------------------------- */
+.ref-topic {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  margin: 0.5rem 0;
+}
+.ref-topic > summary {
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  list-style-position: inside;
+}
+.ref-topic__title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.ref-topic__body {
+  padding: 0 1.15rem 0.9rem;
+  border-top: 1px solid var(--line);
+  max-width: var(--measure);
+}
+.verb-facts {
+  margin: 0.5rem 0 1rem;
+}
+.verb-facts__lemma {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  margin: 0;
+}
+.compare-section {
+  margin-bottom: 2rem;
+}
+.noun-result {
+  min-height: 3rem;
+}
+.samples {
+  font-size: 0.9rem;
+}
+.analysis__sentence {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+.analysis__it {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  margin: 0;
+}
+.analysis__en {
+  margin: 0.2rem 0 0;
+  color: var(--ink-2);
+}
+.table--analysis tr.is-unknown {
+  background: var(--gold-soft);
+}
+.transform-result {
+  margin-top: 0.75rem;
+}
+.transform-result__text {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.steps {
+  font-size: 0.9rem;
+  color: var(--ink-2);
+}
+
+/* Vocabulary ------------------------------------------------------------------------ */
+.word-list {
+  border-top: 1px solid var(--line);
+}
+.word-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+.word-row__main {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  flex: 1;
+  min-width: 0;
+  padding: 0.55rem 0.35rem;
+  border: none;
+  background: none;
+  text-align: left;
+  font: inherit;
+  color: var(--ink);
+  cursor: pointer;
+}
+.word-row__main:hover .word-row__lemma {
+  color: var(--accent);
+}
+.word-row__lemma {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  min-width: 9rem;
+}
+.word-row__meaning {
+  color: var(--ink-2);
+  font-size: 0.92rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.word-row__meta {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  flex: none;
+}
+.status-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--line-strong);
+  display: inline-block;
+}
+.status-dot--new {
+  background: var(--info);
+}
+.status-dot--learning {
+  background: var(--gold);
+}
+.status-dot--known {
+  background: var(--ok);
+}
+.mine-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.related {
+  font-size: 0.92rem;
+}
+.grammar-notes dt {
+  font-weight: 650;
+  margin-top: 0.6rem;
+}
+.grammar-notes dd {
+  margin: 0.1rem 0 0;
+  color: var(--ink-2);
+}
+.topic-list {
+  list-style: none;
+  padding: 0;
+}
+.topic-list li {
+  display: grid;
+  grid-template-columns: 11rem 1fr 11rem;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+}
+.topic-list li.is-weak .topic-list__name {
+  color: var(--accent-2);
+  font-weight: 600;
+}
+.topic-list__value {
+  color: var(--muted);
+  text-align: right;
+}
+.summary-list li {
+  margin-bottom: 0.15rem;
+}

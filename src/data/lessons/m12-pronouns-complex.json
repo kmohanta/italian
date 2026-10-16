@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "direct-object-pronouns",
+    "module": "m12",
+    "title": "Direct object pronouns",
+    "level": "A2",
+    "description": "mi, ti, lo, la, ci, vi, li, le — position, elision and agreement in the passato prossimo.",
+    "objectives": [
+      "Replace a direct object noun with the right pronoun.",
+      "Place the pronoun before the verb or attach it to an infinitive.",
+      "Make the participle agree after lo, la, li, le.",
+      "Use ne for quantities and for di + something."
+    ],
+    "tags": {
+      "pos": [
+        "pronoun"
+      ],
+      "topics": [
+        "object pronouns",
+        "word order",
+        "agreement"
+      ],
+      "tenses": [
+        "present",
+        "passato prossimo"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "forms",
+        "heading": "Forms",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Direct object pronouns",
+            "headers": [
+              "",
+              "Singular",
+              "",
+              "Plural",
+              ""
+            ],
+            "rows": [
+              [
+                "1st",
+                "mi",
+                "me",
+                "ci",
+                "us"
+              ],
+              [
+                "2nd",
+                "ti",
+                "you",
+                "vi",
+                "you (pl.)"
+              ],
+              [
+                "3rd masc.",
+                "lo",
+                "him, it",
+                "li",
+                "them (m.)"
+              ],
+              [
+                "3rd fem.",
+                "la",
+                "her, it",
+                "le",
+                "them (f.)"
+              ],
+              [
+                "formal",
+                "La",
+                "you (formal)",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "The pronoun replaces the whole noun phrase",
+            "text": "*Vedo il gatto → Lo vedo. Mangio la mela → La mangio. Chiamo i bambini → Li chiamo. Guardo le stelle → Le guardo.* Gender and number come from the noun replaced."
+          }
+        ]
+      },
+      {
+        "id": "position",
+        "heading": "Position",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Before the conjugated verb",
+            "text": "*Lo vedo. Non lo vedo. Ti chiamo domani.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Attached to an infinitive",
+            "text": "The infinitive loses its final -e: *vedere + lo → vederlo*. With modals either position works: *Lo voglio vedere = Voglio vederlo.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Elision before avere",
+            "text": "*lo* and *la* usually elide before a vowel or h: *l'ho visto, l'ha presa*. *li* and *le* do not: *li ho visti*."
+          }
+        ]
+      },
+      {
+        "id": "agreement",
+        "heading": "Agreement in the passato prossimo",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Agreement with lo, la, li, le",
+            "text": "When *lo, la, li, le* come before *avere*, the participle agrees with the pronoun: *Hai visto la volpe? — Sì, l'ho vista. Hai visto i gufi? — Sì, li ho visti. Le stelle? — Le ho guardate.*"
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Optional with mi, ti, ci, vi",
+            "text": "With *mi, ti, ci, vi* agreement is optional: *Sara, ti ho vista / ti ho visto.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Not with indirect objects",
+            "text": "There is no agreement with indirect object pronouns: *Hai scritto a Sara? — Sì, le ho scritto.* For the complete rules (ne, reflexive verbs, relative che, modal verbs) see [[ausiliari-accordo|auxiliaries and agreement]]."
+          }
+        ]
+      },
+      {
+        "id": "ne",
+        "heading": "The pronoun ne",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Partitive ne: a quantity of something",
+            "text": "*ne* replaces a noun when you mention a quantity of it, or none: *Quante mele hai? — Ne ho tre. Vuoi del pane? — No, grazie, non ne voglio.* The number or quantity stays in the sentence; *ne* replaces the noun. English often has nothing: 'I have three (of them)'."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "ne = di + something",
+            "text": "*ne* also replaces *di* + a thing or idea: *Ne parliamo domani* (we will talk about it tomorrow), *Che ne pensi?* (what do you think of it?). Less often it replaces *da* + a place: *Ne è uscito* (he came out of it)."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Position",
+            "text": "Like the other unstressed pronouns, *ne* goes before a finite verb and is attached to an infinitive, a gerund or an affirmative imperative (tu, noi, voi): *Voglio comprarne due. Prendine uno!* With *c'è / ci sono*: *ce n'è uno, ce ne sono tre*."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Agreement",
+            "text": "In compound tenses the participle normally agrees with the noun ne replaces: *Di mele, ne ho mangiate tre.* The invariable *mangiato* is also found."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Dov'è il gatto? — Non lo vedo.",
+        "en": "Where's the cat? — I can't see it."
+      },
+      {
+        "it": "La mela? La mangio io.",
+        "en": "The apple? I'll eat it."
+      },
+      {
+        "it": "La mamma chiama i bambini e li porta a casa.",
+        "en": "Mum calls the children and takes them home."
+      },
+      {
+        "it": "Ti aspetto qui.",
+        "en": "I'll wait for you here."
+      },
+      {
+        "it": "Voglio vederlo.",
+        "en": "I want to see him / it."
+      },
+      {
+        "it": "Hai visto la volpe? — Sì, l'ho vista.",
+        "en": "Did you see the fox? — Yes, I saw it."
+      },
+      {
+        "it": "Quanti fratelli hai? — Ne ho due.",
+        "en": "How many brothers do you have? — I have two.",
+        "note": "Partitive ne."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "direct-object-pronouns.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Vedo le stelle. → ___ vedo.",
+        "options": [
+          "Le",
+          "Li",
+          "La",
+          "Gli"
+        ],
+        "answer": "Le",
+        "explanation": "le stelle: feminine plural → le.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "direct-object-pronouns.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Chiamo i bambini. → ___ chiamo.",
+        "options": [
+          "Li",
+          "Le",
+          "Gli",
+          "Lo"
+        ],
+        "answer": "Li",
+        "explanation": "i bambini: masculine plural → li.",
+        "ruleRef": "forms",
+        "mistakes": [
+          {
+            "answer": "Gli",
+            "message": "gli is an indirect object pronoun ('to him/to them'). The direct object 'them' (masculine) is li."
+          }
+        ]
+      },
+      {
+        "id": "direct-object-pronouns.3",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Order: 'I don't see it.' (il gatto)",
+        "tokens": [
+          "vedo",
+          "lo",
+          "Non"
+        ],
+        "answer": [
+          "Non",
+          "lo",
+          "vedo"
+        ],
+        "explanation": "non + pronoun + verb.",
+        "ruleRef": "position"
+      },
+      {
+        "id": "direct-object-pronouns.4",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Hai visto la volpe? — Sì, ___ (I saw it).",
+        "answer": "l'ho vista",
+        "explanation": "la elides before ho, and the participle agrees with la: vista.",
+        "ruleRef": "agreement",
+        "mistakes": [
+          {
+            "answer": "l'ho visto",
+            "message": "The pronoun la (la volpe) is feminine, so the participle agrees: l'ho vista."
+          }
+        ]
+      },
+      {
+        "id": "direct-object-pronouns.5",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Rewrite with the pronoun attached: Voglio vedere il mare. → Voglio ___.",
+        "answer": "vederlo",
+        "explanation": "vedere loses -e and takes lo: vederlo.",
+        "ruleRef": "position"
+      },
+      {
+        "id": "direct-object-pronouns.6",
+        "type": "grammatical-role",
+        "kind": "choice",
+        "prompt": "In *La mangio*, what is *la*?",
+        "options": [
+          "direct object pronoun (it, feminine)",
+          "definite article",
+          "subject pronoun",
+          "indirect object pronoun"
+        ],
+        "answer": "direct object pronoun (it, feminine)",
+        "explanation": "Before a verb, la is an object pronoun; before a noun (la mela) it is the article.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "direct-object-pronouns.ne1",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with ne or a direct object pronoun.",
+        "text": "Quante torte fai? — {0} faccio due. Il libro? {1} leggo stasera.",
+        "blanks": [
+          {
+            "answer": "Ne"
+          },
+          {
+            "answer": "Lo"
+          }
+        ],
+        "explanation": "A quantity (due) → ne; the whole definite object (il libro) → lo.",
+        "ruleRef": "ne"
+      },
+      {
+        "id": "direct-object-pronouns.ne2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Answer with ne and the passato prossimo: *Quante mele hai mangiato?* (tre) → ___ tre.",
+        "answer": "Ne ho mangiate",
+        "accept": [
+          "Ne ho mangiato"
+        ],
+        "explanation": "With ne the participle normally agrees with the noun (mele → mangiate); the invariable form is also found.",
+        "ruleRef": "ne"
+      }
+    ],
+    "summary": [
+      "mi, ti, lo/la, ci, vi, li/le replace the direct object.",
+      "Before the conjugated verb (after non); attached to an infinitive (vederlo).",
+      "lo/la elide before avere (l'ho); the participle agrees with lo, la, li, le.",
+      "ne replaces a noun after a quantity (ne ho tre) or di + something (ne parliamo); its position is like the other pronouns."
+    ],
+    "relatedVocabulary": [
+      "verb_vedere",
+      "verb_chiamare",
+      "verb_aspettare",
+      "verb_guardare",
+      "noun_volpe"
+    ],
+    "relatedStories": [
+      "nel-bosco",
+      "lorso-che-non-poteva-dormire"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "indirect-object-pronouns",
+    "module": "m12",
+    "title": "Indirect object pronouns",
+    "level": "A2",
+    "description": "mi, ti, gli, le, ci, vi, gli — 'to me, to him…', with dare, dire, piacere.",
+    "objectives": [
+      "Use indirect object pronouns with verbs of giving and saying.",
+      "Distinguish gli/le (indirect) from lo/la/li (direct).",
+      "Use piacere with all persons.",
+      "Combine indirect and direct pronouns (me lo, glielo)."
+    ],
+    "tags": {
+      "pos": [
+        "pronoun"
+      ],
+      "topics": [
+        "object pronouns",
+        "piacere"
+      ],
+      "tenses": [
+        "present"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "forms",
+        "heading": "Forms",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Indirect object pronouns",
+            "headers": [
+              "",
+              "Singular",
+              "",
+              "Plural",
+              ""
+            ],
+            "rows": [
+              [
+                "1st",
+                "mi",
+                "to me",
+                "ci",
+                "to us"
+              ],
+              [
+                "2nd",
+                "ti",
+                "to you",
+                "vi",
+                "to you (pl.)"
+              ],
+              [
+                "3rd",
+                "gli / le",
+                "to him / to her",
+                "gli (loro)",
+                "to them"
+              ],
+              [
+                "formal",
+                "Le",
+                "to you (formal)",
+                "",
+                ""
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Replacing a + person",
+            "text": "An indirect object pronoun replaces *a* + a person: *Do un regalo a Marco → Gli do un regalo. Scrivo a Sara → Le scrivo.*"
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "'To them'",
+            "text": "In everyday Italian *gli* also means 'to them': *Gli parlo domani*. The formal alternative is *loro* after the verb: *Parlo loro domani*."
+          }
+        ]
+      },
+      {
+        "id": "verbs",
+        "heading": "Verbs that take an indirect object",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "*dare, portare, regalare* (to give something to someone)",
+              "*dire, raccontare, scrivere, rispondere, telefonare* (to say / write / reply to someone)",
+              "*piacere, sembrare* (to please, to seem to someone)"
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "exception",
+            "title": "Different from English",
+            "text": "Some verbs take a direct object in Italian where English has 'to' or 'for': *ascoltare la musica* (listen to music), *aspettare il treno* (wait for the train), *cercare la chiave* (look for the key). Others take an indirect object where English has none: *telefonare a Sara → le telefono* (I phone her)."
+          }
+        ]
+      },
+      {
+        "id": "piacere",
+        "heading": "piacere with all persons",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Who likes it?",
+            "headers": [
+              "Italian",
+              "English"
+            ],
+            "rows": [
+              [
+                "Mi piace il mare.",
+                "I like the sea."
+              ],
+              [
+                "Ti piace il mare?",
+                "Do you like the sea?"
+              ],
+              [
+                "Gli piace il mare.",
+                "He likes the sea."
+              ],
+              [
+                "Le piace il mare.",
+                "She likes the sea."
+              ],
+              [
+                "Ci piacciono i gatti.",
+                "We like cats."
+              ],
+              [
+                "Vi piacciono i gatti?",
+                "Do you (pl.) like cats?"
+              ],
+              [
+                "Gli piacciono i gatti.",
+                "They like cats."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "combined",
+        "heading": "Combined pronouns",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Indirect + direct",
+            "text": "When an indirect pronoun and *lo, la, li, le* or *ne* occur together, the indirect one comes first and its -i becomes -e: *mi → me, ti → te, ci → ce, vi → ve, si → se*. *Mi dai il libro? → Me lo dai? Ti porto le mele → Te le porto.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "glielo",
+            "text": "*gli* and *le* (to him, to her, to you formal) both become *glie-* and are written as one word with the following pronoun: *glielo, gliela, glieli, gliele, gliene*. *Do il libro a Marco / a Sara → Glielo do.* Context shows who receives it."
+          },
+          {
+            "type": "table",
+            "caption": "Combined forms",
+            "headers": [
+              "",
+              "+ lo",
+              "+ la",
+              "+ li",
+              "+ le",
+              "+ ne"
+            ],
+            "rows": [
+              [
+                "mi",
+                "me lo",
+                "me la",
+                "me li",
+                "me le",
+                "me ne"
+              ],
+              [
+                "ti",
+                "te lo",
+                "te la",
+                "te li",
+                "te le",
+                "te ne"
+              ],
+              [
+                "gli / le",
+                "glielo",
+                "gliela",
+                "glieli",
+                "gliele",
+                "gliene"
+              ],
+              [
+                "ci",
+                "ce lo",
+                "ce la",
+                "ce li",
+                "ce le",
+                "ce ne"
+              ],
+              [
+                "vi",
+                "ve lo",
+                "ve la",
+                "ve li",
+                "ve le",
+                "ve ne"
+              ],
+              [
+                "si",
+                "se lo",
+                "se la",
+                "se li",
+                "se le",
+                "se ne"
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Position and agreement",
+            "text": "The pair behaves like a single pronoun: before a finite verb, attached to an infinitive, gerund or affirmative imperative (*Puoi darmelo? Dammelo!*). In compound tenses the participle agrees with the direct object pronoun: *Le chiavi? Gliele ho date.*"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il nonno ci racconta una storia.",
+        "en": "Grandfather tells us a story."
+      },
+      {
+        "it": "Gli do la palla.",
+        "en": "I give him the ball."
+      },
+      {
+        "it": "Le scrivo una lettera.",
+        "en": "I'm writing her a letter."
+      },
+      {
+        "it": "Ti piace questa canzone?",
+        "en": "Do you like this song?"
+      },
+      {
+        "it": "Al cane piace correre. Gli piace molto.",
+        "en": "The dog likes running. He likes it a lot."
+      },
+      {
+        "it": "Mi dici la verità?",
+        "en": "Will you tell me the truth?"
+      },
+      {
+        "it": "Il libro? Te lo porto domani.",
+        "en": "The book? I'll bring it to you tomorrow."
+      },
+      {
+        "it": "Le chiavi? Gliele ho già date.",
+        "en": "The keys? I've already given them to him / her.",
+        "note": "glie- + le; date agrees with le."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "indirect-object-pronouns.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Do il libro a Sara. → ___ do il libro.",
+        "options": [
+          "Le",
+          "La",
+          "Gli",
+          "Lo"
+        ],
+        "answer": "Le",
+        "explanation": "a Sara = to her → le.",
+        "ruleRef": "forms",
+        "mistakes": [
+          {
+            "answer": "La",
+            "message": "la is the direct object (her). 'To her' is le."
+          }
+        ]
+      },
+      {
+        "id": "indirect-object-pronouns.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Scrivo a Marco. → ___ scrivo.",
+        "options": [
+          "Gli",
+          "Lo",
+          "Li",
+          "Le"
+        ],
+        "answer": "Gli",
+        "explanation": "a Marco = to him → gli.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "indirect-object-pronouns.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Aspetto il treno. → ___ aspetto.",
+        "options": [
+          "Lo",
+          "Gli",
+          "Le",
+          "Ci"
+        ],
+        "answer": "Lo",
+        "explanation": "aspettare takes a direct object (no preposition): lo aspetto (often l'aspetto).",
+        "ruleRef": "verbs",
+        "mistakes": [
+          {
+            "answer": "Gli",
+            "message": "aspettare takes a direct object in Italian (aspettare il treno), so use lo."
+          }
+        ]
+      },
+      {
+        "id": "indirect-object-pronouns.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with mi, ti, gli, le, ci.",
+        "text": "Sara ama i gatti: {0} piacciono molto. Marco ama il mare: {1} piace nuotare. A noi {2} piace leggere.",
+        "blanks": [
+          {
+            "answer": "le"
+          },
+          {
+            "answer": "gli"
+          },
+          {
+            "answer": "ci"
+          }
+        ],
+        "explanation": "to her → le; to him → gli; to us → ci.",
+        "ruleRef": "piacere"
+      },
+      {
+        "id": "indirect-object-pronouns.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Grandfather tells us a story.",
+        "answer": "Il nonno ci racconta una storia.",
+        "explanation": "ci = to us, before the verb.",
+        "ruleRef": "verbs"
+      },
+      {
+        "id": "indirect-object-pronouns.6",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Gli piacciono i gatti.* (gli = to them)",
+        "answer": "They like cats.",
+        "accept": [
+          "They like the cats"
+        ],
+        "explanation": "Literally 'Cats please them'.",
+        "ruleRef": "piacere"
+      },
+      {
+        "id": "indirect-object-pronouns.c1",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Replace both objects: *Do il libro a Marco.* → ___",
+        "answer": "Glielo do.",
+        "explanation": "a Marco → gli; il libro → lo; gli + lo = glielo.",
+        "ruleRef": "combined",
+        "mistakes": [
+          {
+            "answer": "Gli lo do.",
+            "message": "gli + lo fuse into one word: glielo."
+          }
+        ]
+      },
+      {
+        "id": "indirect-object-pronouns.c2",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Mi presti la penna?* — Sì, ___ presto.",
+        "options": [
+          "te la",
+          "ti la",
+          "la ti",
+          "te lo"
+        ],
+        "answer": "te la",
+        "explanation": "ti + la → te la (la penna is feminine).",
+        "ruleRef": "combined"
+      }
+    ],
+    "summary": [
+      "mi, ti, gli/le, ci, vi, gli replace a + person.",
+      "gli = to him (and colloquially to them); le = to her; Le = to you (formal).",
+      "ascoltare, aspettare, cercare take direct objects; telefonare, rispondere, piacere take indirect ones.",
+      "Combined pronouns: me lo, te la, glielo, ce ne …; indirect first, -i → -e, gli/le → glie-."
+    ],
+    "relatedVocabulary": [
+      "verb_dare",
+      "verb_dire",
+      "verb_raccontare",
+      "verb_scrivere",
+      "verb_rispondere",
+      "verb_piacere",
+      "verb_aspettare",
+      "verb_ascoltare"
+    ],
+    "relatedStories": [
+      "la-famiglia-di-marco",
+      "lorso-che-non-poteva-dormire"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "relative-clauses-adverbs",
+    "module": "m12",
+    "title": "Relative clauses, adverbs and expressions in stories",
+    "level": "A2",
+    "description": "che and cui; adverbs in -mente; infinitive constructions; idioms you meet in children's stories.",
+    "objectives": [
+      "Join sentences with the relative pronouns che and cui.",
+      "Form adverbs with -mente.",
+      "Recognise infinitive constructions and common narrative expressions."
+    ],
+    "tags": {
+      "pos": [
+        "pronoun",
+        "adverb",
+        "conjunction"
+      ],
+      "topics": [
+        "relative clauses",
+        "adverbs",
+        "infinitive",
+        "idioms"
+      ],
+      "tenses": [
+        "present",
+        "imperfetto"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "relatives",
+        "heading": "Relative pronouns: che and cui",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "che = who, which, that (subject or direct object)",
+            "text": "*Il ragazzo che canta è mio fratello.* (subject) — *Il libro che leggo è bello.* (object). *che* is invariable and, unlike English 'that', can never be omitted."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "cui after a preposition",
+            "text": "After a preposition use *cui*: *la casa in cui abito* (the house I live in), *l'amica con cui gioco* (the friend I play with), *il ragazzo a cui scrivo* (the boy I'm writing to)."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "il quale",
+            "text": "*il quale, la quale, i quali, le quali* can replace *che* or *cui*, and agree in gender and number with the antecedent: *la ragazza con la quale parlavo* = *la ragazza con cui parlavo*. They are typical of formal or written style, and useful to avoid ambiguity, because the article shows which noun is meant: *la sorella di Marco, la quale vive a Roma* (the sister lives in Rome). After a preposition the article contracts: *del quale, alla quale, nei quali*. As the subject or object of a restrictive relative clause, *che* is normal and *il quale* sounds heavy or bureaucratic."
+          }
+        ]
+      },
+      {
+        "id": "adverbs",
+        "heading": "Adverbs in -mente",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Feminine singular + -mente",
+            "text": "*lento → lenta → lentamente*; *veloce → velocemente*. Adjectives in *-le* and *-re* drop the final e: *gentile → gentilmente, regolare → regolarmente*."
+          },
+          {
+            "type": "rule",
+            "kind": "exception",
+            "title": "Irregular adverbs",
+            "text": "*buono → bene*, *cattivo → male*. Many common adverbs do not end in -mente: *presto, tardi, sempre, piano, insieme, subito*."
+          }
+        ]
+      },
+      {
+        "id": "infinitives-idioms",
+        "heading": "Infinitive constructions and story expressions",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Verb + *a* + infinitive: *cominciare a, imparare a, aiutare a* — *Comincia a piovere.*",
+              "Verb + *di* + infinitive: *cercare di* (to try to), *decidere di, finire di* — *Cerca di dormire.*",
+              "*per* + infinitive = in order to: *Esce per giocare.*",
+              "*prima di* + infinitive = before …-ing: *prima di dormire*."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Expressions common in children's stories",
+            "headers": [
+              "Italian",
+              "Meaning"
+            ],
+            "rows": [
+              [
+                "C'era una volta…",
+                "Once upon a time there was…"
+              ],
+              [
+                "all'improvviso",
+                "suddenly"
+              ],
+              [
+                "a un certo punto",
+                "at a certain point"
+              ],
+              [
+                "piano piano",
+                "little by little; very slowly"
+              ],
+              [
+                "in fretta",
+                "in a hurry"
+              ],
+              [
+                "e vissero felici e contenti",
+                "and they lived happily ever after (passato remoto of vivere, the standard tense of fairy-tale narration)"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Il ragazzo che canta è mio fratello.",
+        "en": "The boy who is singing is my brother."
+      },
+      {
+        "it": "Questa è la casa in cui abito.",
+        "en": "This is the house I live in."
+      },
+      {
+        "it": "La tartaruga cammina lentamente.",
+        "en": "The tortoise walks slowly."
+      },
+      {
+        "it": "Comincia a piovere.",
+        "en": "It's starting to rain."
+      },
+      {
+        "it": "L'orso cerca di dormire.",
+        "en": "The bear tries to sleep."
+      },
+      {
+        "it": "All'improvviso è arrivato il vento.",
+        "en": "Suddenly the wind came."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "relative-clauses-adverbs.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Il libro ___ leggo è bello.",
+        "options": [
+          "che",
+          "cui",
+          "chi",
+          "quale"
+        ],
+        "answer": "che",
+        "explanation": "Direct object without preposition → che.",
+        "ruleRef": "relatives"
+      },
+      {
+        "id": "relative-clauses-adverbs.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "L'amica con ___ gioco si chiama Sara.",
+        "options": [
+          "cui",
+          "che",
+          "chi",
+          "la quale che"
+        ],
+        "answer": "cui",
+        "explanation": "After a preposition (con) → cui.",
+        "ruleRef": "relatives",
+        "mistakes": [
+          {
+            "answer": "che",
+            "message": "After a preposition Italian uses cui: con cui."
+          }
+        ]
+      },
+      {
+        "id": "relative-clauses-adverbs.3",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Make an adverb from *veloce*: ___",
+        "answer": "velocemente",
+        "explanation": "veloce + -mente.",
+        "ruleRef": "adverbs"
+      },
+      {
+        "id": "relative-clauses-adverbs.4",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Make an adverb from *gentile*: ___",
+        "answer": "gentilmente",
+        "explanation": "-le adjectives drop the e: gentilmente.",
+        "ruleRef": "adverbs",
+        "mistakes": [
+          {
+            "answer": "gentilemente",
+            "message": "Adjectives in -le and -re drop the final e: gentilmente."
+          }
+        ]
+      },
+      {
+        "id": "relative-clauses-adverbs.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "L'orso cerca ___ dormire.",
+        "options": [
+          "di",
+          "a",
+          "per",
+          "—"
+        ],
+        "answer": "di",
+        "explanation": "cercare di + infinitive = to try to.",
+        "ruleRef": "infinitives-idioms"
+      },
+      {
+        "id": "relative-clauses-adverbs.6",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Comincia ___ piovere.",
+        "options": [
+          "a",
+          "di",
+          "da",
+          "—"
+        ],
+        "answer": "a",
+        "explanation": "cominciare a + infinitive.",
+        "ruleRef": "infinitives-idioms"
+      },
+      {
+        "id": "relative-clauses-adverbs.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: The boy who is singing is my brother.",
+        "answer": "Il ragazzo che canta è mio fratello.",
+        "explanation": "che cannot be omitted.",
+        "ruleRef": "relatives"
+      }
+    ],
+    "summary": [
+      "che (subject or object) and cui (after a preposition); che is never omitted.",
+      "Adverbs: feminine adjective + -mente; -le/-re drop the e; bene, male irregular.",
+      "cominciare a, imparare a; cercare di, finire di; per + infinitive.",
+      "Story expressions: C'era una volta, all'improvviso, piano piano."
+    ],
+    "relatedVocabulary": [
+      "pron_che",
+      "adv_lentamente",
+      "adj_veloce",
+      "adj_gentile",
+      "verb_cominciare",
+      "verb_cercare",
+      "adv_finalmente",
+      "expr_cera-una-volta"
+    ],
+    "relatedStories": [
+      "lorso-che-non-poteva-dormire",
+      "la-tartaruga-lenta"
+    ],
+    "relatedSongs": [
+      "la-pioggia-sul-tetto"
+    ]
+  }
+]

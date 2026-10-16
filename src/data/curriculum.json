@@ -1,0 +1,234 @@
+{
+  "$schema": "Ordered modules. Each lesson ID must exist in src/data/lessons/*.json. Module IDs are stable identifiers (they no longer match the display number after the 2026 expansion); the number field sets the display order. Levels are approximate and are not official CEFR certification.",
+  "modules": [
+    {
+      "id": "m01",
+      "number": 1,
+      "title": "Pronunciation and orthography",
+      "description": "The alphabet, vowels, c and g, sc, gn, gli, stress, double consonants, accents and the apostrophe.",
+      "level": "A0",
+      "lessons": [
+        "alphabet-vowels",
+        "c-and-g",
+        "stress-doubles-accents"
+      ]
+    },
+    {
+      "id": "m02",
+      "number": 2,
+      "title": "Nouns and articles",
+      "description": "Gender, plurals, definite and indefinite articles, irregular nouns.",
+      "level": "A0",
+      "lessons": [
+        "noun-gender-number",
+        "definite-articles",
+        "indefinite-articles",
+        "irregular-nouns"
+      ]
+    },
+    {
+      "id": "m03",
+      "number": 3,
+      "title": "Adjectives",
+      "description": "Agreement and position, demonstratives, possessives, bello/buono, comparison.",
+      "level": "A0–A1",
+      "lessons": [
+        "adjective-agreement",
+        "demonstratives-possessives",
+        "bello-buono-comparison"
+      ]
+    },
+    {
+      "id": "m04",
+      "number": 4,
+      "title": "Regular verbs in the present",
+      "description": "A map of the whole verb system; infinitives, stems, subject pronouns, and the three regular conjugations.",
+      "level": "A0–A1",
+      "lessons": [
+        "verb-system-overview",
+        "infinitives-pronouns",
+        "present-are",
+        "present-ere-ire"
+      ]
+    },
+    {
+      "id": "m05",
+      "number": 5,
+      "title": "Essential irregular verbs",
+      "description": "essere, avere, andare, fare, stare, dire, and other high-frequency irregular verbs.",
+      "level": "A0–A1",
+      "lessons": [
+        "essere-avere",
+        "andare-fare-stare-dire",
+        "other-irregulars"
+      ]
+    },
+    {
+      "id": "m06",
+      "number": 6,
+      "title": "Building sentences",
+      "description": "Word order, negation, questions, question words and conjunctions.",
+      "level": "A1",
+      "lessons": [
+        "word-order-negation-questions",
+        "question-words-conjunctions"
+      ]
+    },
+    {
+      "id": "m07",
+      "number": 7,
+      "title": "Prepositions",
+      "description": "The simple prepositions and their contractions with the article.",
+      "level": "A1",
+      "lessons": [
+        "simple-prepositions",
+        "articulated-prepositions"
+      ]
+    },
+    {
+      "id": "m08",
+      "number": 8,
+      "title": "Modal verbs",
+      "description": "potere, volere, dovere, sapere + infinitive.",
+      "level": "A1",
+      "lessons": [
+        "modal-verbs"
+      ]
+    },
+    {
+      "id": "m09",
+      "number": 9,
+      "title": "Reflexive verbs",
+      "description": "Reflexive pronouns and daily routines.",
+      "level": "A1",
+      "lessons": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "m15",
+      "number": 10,
+      "title": "Imperativo",
+      "description": "Commands for tu, noi, voi and the formal Lei/Loro; the negative imperative; pronouns with the imperative; short forms (va’, fa’, di’).",
+      "level": "A2",
+      "lessons": [
+        "imperativo"
+      ]
+    },
+    {
+      "id": "m10",
+      "number": 11,
+      "title": "Passato prossimo and auxiliaries",
+      "description": "The compound past; choosing avere or essere (including verbs that take both and modal verbs); full past-participle agreement.",
+      "level": "A2",
+      "lessons": [
+        "passato-prossimo-avere",
+        "passato-prossimo-essere",
+        "ausiliari-accordo"
+      ]
+    },
+    {
+      "id": "m11",
+      "number": 12,
+      "title": "Imperfetto and trapassato prossimo",
+      "description": "The imperfect and its uses, choosing between imperfetto and passato prossimo, and the pluperfect.",
+      "level": "A2",
+      "lessons": [
+        "imperfetto",
+        "imperfetto-passato",
+        "trapassato-prossimo"
+      ]
+    },
+    {
+      "id": "m12",
+      "number": 13,
+      "title": "Pronouns and complex sentences",
+      "description": "Direct and indirect object pronouns, ne and combined pronouns, relative clauses (che, cui, il quale), adverbs and story expressions.",
+      "level": "A2",
+      "lessons": [
+        "direct-object-pronouns",
+        "indirect-object-pronouns",
+        "relative-clauses-adverbs"
+      ]
+    },
+    {
+      "id": "m13",
+      "number": 14,
+      "title": "Futuro",
+      "description": "Futuro semplice and futuro anteriore: future time, anteriority in the future, and supposition about the present and the past.",
+      "level": "A2–B1",
+      "lessons": [
+        "futuro-semplice",
+        "futuro-anteriore"
+      ]
+    },
+    {
+      "id": "m14",
+      "number": 15,
+      "title": "Condizionale",
+      "description": "Condizionale presente and passato: politeness, wishes, advice, hypothetical consequences, reported information and the future in the past.",
+      "level": "A2–B1",
+      "lessons": [
+        "condizionale-presente",
+        "condizionale-passato"
+      ]
+    },
+    {
+      "id": "m16",
+      "number": 16,
+      "title": "Infinitive, gerund and participle",
+      "description": "The non-finite forms: infinito presente and passato, gerundio presente and passato, stare + gerundio, participio passato and the participio assoluto.",
+      "level": "A2–B1",
+      "lessons": [
+        "infinito-gerundio",
+        "participio"
+      ]
+    },
+    {
+      "id": "m17",
+      "number": 17,
+      "title": "Passato remoto",
+      "description": "The narrative past: regular and irregular forms (including alternatives such as credei/credetti), its use in writing and its very different use in speech across Italy; the trapassato remoto.",
+      "level": "B1",
+      "lessons": [
+        "passato-remoto",
+        "trapassato-remoto"
+      ]
+    },
+    {
+      "id": "m18",
+      "number": 18,
+      "title": "Congiuntivo",
+      "description": "All four tenses of the subjunctive: when it is required, when it alternates with the indicative, and what changes with register.",
+      "level": "B1",
+      "lessons": [
+        "congiuntivo-presente",
+        "congiuntivo-passato",
+        "congiuntivo-imperfetto-trapassato"
+      ]
+    },
+    {
+      "id": "m19",
+      "number": 19,
+      "title": "Complex sentences",
+      "description": "The periodo ipotetico, the sequence of tenses (concordanza dei tempi) and indirect speech.",
+      "level": "B1–B2",
+      "lessons": [
+        "periodo-ipotetico",
+        "concordanza-dei-tempi",
+        "discorso-indiretto"
+      ]
+    },
+    {
+      "id": "m20",
+      "number": 20,
+      "title": "Passive and impersonal constructions",
+      "description": "The passive with essere, venire and andare; si passivante and si impersonale.",
+      "level": "B1",
+      "lessons": [
+        "forma-passiva",
+        "si-impersonale"
+      ]
+    }
+  ]
+}

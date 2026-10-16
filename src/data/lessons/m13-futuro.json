@@ -1,0 +1,568 @@
+[
+  {
+    "id": "futuro-semplice",
+    "module": "m13",
+    "title": "Futuro semplice",
+    "level": "A2",
+    "description": "Formation of the simple future, its irregular stems, and its two main uses: future time and supposition about the present.",
+    "objectives": [
+      "Form the futuro semplice of regular verbs, including the spelling rules for -care/-gare and -ciare/-giare.",
+      "Learn the irregular future stems (sarò, avrò, andrò, verrò, vorrò …).",
+      "Use the futuro for future events and know when the present is used instead.",
+      "Use the futuro to express a supposition about the present (sarà stanco = he must be tired)."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "future",
+        "conjugation",
+        "supposition"
+      ],
+      "tenses": [
+        "futuro semplice"
+      ],
+      "families": [
+        "-are",
+        "-ere",
+        "-ire",
+        "irregular"
+      ]
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Stem + -ò, -ai, -à, -emo, -ete, -anno",
+            "text": "The future stem is the infinitive without its final -e, and -are verbs change -ar- to -er-: *parlare → parler-*, *credere → creder-*, *dormire → dormir-*. The endings are the same for every verb."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_parlare",
+            "tense": "futuro",
+            "highlightEndings": true
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Spelling adjustments",
+            "text": "*-care/-gare* add h to keep the hard sound: *cercherò, pagherò*. *-ciare/-giare* drop the i, which is no longer needed to soften c/g before e: *comincerò, mangerò*. Other -iare verbs keep it: *studierò*."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Final stress is written",
+            "text": "The io and lui/lei forms are stressed on the last syllable and carry a written accent: *parlerò, parlerà*. *parlero* without the accent is a spelling error."
+          }
+        ]
+      },
+      {
+        "id": "irregular",
+        "heading": "Irregular stems",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Some verbs have a shortened or changed stem; the endings stay regular. The same stem is used for the [[condizionale-presente|condizionale presente]]."
+          },
+          {
+            "type": "table",
+            "caption": "Irregular future stems",
+            "headers": [
+              "Pattern",
+              "Verbs",
+              "Futuro (io)"
+            ],
+            "rows": [
+              [
+                "loss of the vowel",
+                "andare, avere, cadere, dovere, potere, sapere, vedere, vivere",
+                "andrò, avrò, cadrò, dovrò, potrò, saprò, vedrò, vivrò"
+              ],
+              [
+                "-rr-",
+                "bere, rimanere, tenere, venire, volere",
+                "berrò, rimarrò, terrò, verrò, vorrò"
+              ],
+              [
+                "short -are verbs keep -a-",
+                "dare, fare, stare",
+                "darò, farò, starò"
+              ],
+              [
+                "unique",
+                "essere",
+                "sarò"
+              ]
+            ]
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_essere",
+            "tense": "futuro"
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Alternative forms",
+            "text": "A few verbs have two accepted futures: *morirò / morrò* (the first is far more common today), *sederò / siederò*."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "Uses",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Future events: *Domani pioverà.* (Tomorrow it will rain.)",
+              "Promises and predictions: *Ti scriverò ogni settimana.*",
+              "Supposition about the present (futuro epistemico): *Dov'è Marco? — Sarà a casa.* (He must be / is probably at home.) *Che ore sono? — Saranno le otto.* (It must be about eight.)",
+              "Concession: *Sarà anche bravo, ma è antipatico.* (He may well be good, but he's unpleasant.)",
+              "Instructions and orders, especially in formal or firm style: *Farai i compiti prima di uscire.*"
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "The present for the future",
+            "text": "For planned or near events Italian very often uses the present: *Domani parto per Roma* is more natural in conversation than *Domani partirò per Roma*. The future stresses prediction, uncertainty or distance in time. Both are correct; the choice is stylistic and pragmatic, not grammatical."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "After quando, appena, se with future reference",
+            "text": "When the main verb is future, a temporal clause about the future uses the futuro, unlike English: *Quando arriverai, ti chiamerò* (When you arrive, I'll call you). In conversation the present is also common: *Quando arrivi, ti chiamo*. After se both are found: *Se verrai / Se vieni, sarò contento*."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Domani pioverà tutto il giorno.",
+        "en": "Tomorrow it will rain all day."
+      },
+      {
+        "it": "Quando arriverai, ti chiamerò.",
+        "en": "When you arrive, I'll call you.",
+        "note": "Futuro in both clauses; English uses the present after 'when'."
+      },
+      {
+        "it": "Dov'è la nonna? — Sarà in giardino.",
+        "en": "Where's Grandma? — She must be in the garden.",
+        "note": "Futuro of supposition: a guess about the present."
+      },
+      {
+        "it": "Che ore sono? — Saranno le otto.",
+        "en": "What time is it? — It must be about eight."
+      },
+      {
+        "it": "L'anno prossimo andremo in Sicilia.",
+        "en": "Next year we'll go to Sicily.",
+        "note": "andare → andr-."
+      },
+      {
+        "it": "Domani parto per Roma.",
+        "en": "I'm leaving for Rome tomorrow.",
+        "note": "The present for a planned near-future event."
+      },
+      {
+        "it": "Sarà anche bravo, ma non mi piace.",
+        "en": "He may well be good, but I don't like him.",
+        "note": "Concessive futuro."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "futuro-semplice.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *cercare* in the futuro semplice.",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "cercherò"
+          },
+          {
+            "label": "tu",
+            "answer": "cercherai"
+          },
+          {
+            "label": "lui/lei",
+            "answer": "cercherà"
+          },
+          {
+            "label": "noi",
+            "answer": "cercheremo"
+          },
+          {
+            "label": "voi",
+            "answer": "cercherete"
+          },
+          {
+            "label": "loro",
+            "answer": "cercheranno"
+          }
+        ],
+        "explanation": "cerc- + h + -erò …: the h keeps the c hard before e.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "futuro-semplice.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "mangiare, io, futuro: ___",
+        "answer": "mangerò",
+        "explanation": "-giare verbs drop the i: mangerò.",
+        "ruleRef": "formation",
+        "mistakes": [
+          {
+            "answer": "mangierò",
+            "message": "The i of mangi- is only needed before a, o, u. Before e it is dropped: mangerò."
+          },
+          {
+            "answer": "mangero",
+            "message": "The io form carries a written accent: mangerò."
+          }
+        ]
+      },
+      {
+        "id": "futuro-semplice.3",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the io form of the futuro.",
+        "rows": [
+          {
+            "label": "essere",
+            "answer": "sarò"
+          },
+          {
+            "label": "venire",
+            "answer": "verrò"
+          },
+          {
+            "label": "andare",
+            "answer": "andrò"
+          },
+          {
+            "label": "volere",
+            "answer": "vorrò"
+          },
+          {
+            "label": "fare",
+            "answer": "farò"
+          },
+          {
+            "label": "vedere",
+            "answer": "vedrò"
+          }
+        ],
+        "explanation": "Irregular stems: sar-, verr-, andr-, vorr-, far-, vedr-.",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "futuro-semplice.4",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Non risponde al telefono. Sarà in palestra.* What does *sarà* express here?",
+        "options": [
+          "a supposition about the present",
+          "a future event",
+          "a past event",
+          "an order"
+        ],
+        "answer": "a supposition about the present",
+        "explanation": "The futuro of supposition: 'he must be / is probably at the gym (now)'.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "futuro-semplice.5",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which sentence uses the futuro to express a supposition about the present rather than a future event?",
+        "options": [
+          "A quest'ora sarà in ufficio.",
+          "Domani sarò in ufficio.",
+          "L'anno prossimo saremo in Italia.",
+          "Alle otto sarò a casa."
+        ],
+        "answer": "A quest'ora sarà in ufficio.",
+        "explanation": "A quest'ora (at this time, now) + futuro = a guess about the present: 'He must be at the office by now'. The others refer to future time.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "futuro-semplice.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the futuro.",
+        "text": "L'anno prossimo noi {0} (andare) al mare e voi {1} (rimanere) in città. I bambini {2} (essere) contenti.",
+        "blanks": [
+          {
+            "answer": "andremo"
+          },
+          {
+            "answer": "rimarrete"
+          },
+          {
+            "answer": "saranno"
+          }
+        ],
+        "explanation": "andr-emo, rimarr-ete, sar-anno.",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "futuro-semplice.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate (supposition): It must be about eight o'clock.",
+        "answer": "Saranno le otto.",
+        "accept": [
+          "Saranno circa le otto.",
+          "Saranno più o meno le otto."
+        ],
+        "explanation": "Le otto is plural, so the verb is saranno.",
+        "ruleRef": "uses"
+      }
+    ],
+    "summary": [
+      "Futuro = future stem + -ò, -ai, -à, -emo, -ete, -anno; -are → -er- (parlerò).",
+      "cercherò, pagherò (h); mangerò, comincerò (no i).",
+      "Irregular stems: sar-, avr-, andr-, verr-, vorr-, berr-, rimarr-, terr-, potr-, dovr-, sapr-, vedr-, vivr-, far-, dar-, star-.",
+      "Uses: future, supposition about the present, concession; the present is very common for near or planned events."
+    ],
+    "relatedVocabulary": [
+      "verb_essere",
+      "verb_avere",
+      "verb_andare",
+      "verb_venire",
+      "verb_volere",
+      "verb_fare",
+      "verb_vedere",
+      "verb_cercare",
+      "verb_mangiare",
+      "verb_piovere"
+    ],
+    "relatedStories": [
+      "una-lettera-dalla-nonna"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "futuro-anteriore",
+    "module": "m13",
+    "title": "Futuro anteriore",
+    "level": "B1",
+    "description": "The future perfect: an action completed before a future moment, and supposition about the past.",
+    "objectives": [
+      "Form the futuro anteriore with the future of avere or essere + past participle.",
+      "Express anteriority in the future: dopo che avrai finito, …",
+      "Express a supposition about a past event: avrà perso il treno."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "future",
+        "compound tenses",
+        "supposition"
+      ],
+      "tenses": [
+        "futuro anteriore"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Futuro of the auxiliary + participle",
+            "text": "*avrò mangiato, sarò partito/a*. The choice of auxiliary and the agreement of the participle are exactly as in the passato prossimo."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_mangiare",
+            "tense": "futuroAnteriore"
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_partire",
+            "tense": "futuroAnteriore",
+            "gender": "f"
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "Uses",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Anteriority in the future",
+            "text": "It presents an action as completed before another future action or moment, typically after *quando, dopo che, appena, se*: *Quando avrai finito, usciremo.* In everyday speech the passato prossimo is also used in this context: *Quando hai finito, usciamo.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Supposition about the past",
+            "text": "Just as the futuro semplice expresses a guess about the present, the futuro anteriore expresses a guess about the past: *Non è ancora arrivato: avrà perso il treno* (he must have missed the train)."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "By a future moment",
+            "text": "*Entro domani avrò finito il libro* (By tomorrow I will have finished the book). English 'will have done' corresponds closely here."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Quando avrai finito i compiti, potrai uscire.",
+        "en": "When you have finished your homework, you can go out.",
+        "note": "English uses the present perfect; Italian uses the futuro anteriore (or, informally, the passato prossimo)."
+      },
+      {
+        "it": "Appena sarò arrivata, ti scriverò.",
+        "en": "As soon as I have arrived, I'll write to you.",
+        "note": "Female speaker: arrivata."
+      },
+      {
+        "it": "Marco non risponde: sarà già uscito.",
+        "en": "Marco isn't answering: he must have gone out already.",
+        "note": "Supposition about the past."
+      },
+      {
+        "it": "Entro giugno avremo letto tutti i libri.",
+        "en": "By June we will have read all the books."
+      },
+      {
+        "it": "Chi avrà rotto il vaso?",
+        "en": "Who can have broken the vase? / I wonder who broke the vase.",
+        "note": "A question expressing wonder or doubt."
+      },
+      {
+        "it": "Dopo che avranno mangiato, i bambini andranno a letto.",
+        "en": "After they have eaten, the children will go to bed."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "futuro-anteriore.1",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "finire, tu, futuro anteriore: ___",
+        "answer": "avrai finito",
+        "explanation": "Transitive finire (finire qualcosa) takes avere.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "futuro-anteriore.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "arrivare, noi (masculine), futuro anteriore: ___",
+        "answer": "saremo arrivati",
+        "explanation": "arrivare takes essere; the participle agrees with noi.",
+        "ruleRef": "formation",
+        "mistakes": [
+          {
+            "answer": "avremo arrivato",
+            "message": "arrivare takes essere: saremo arrivati."
+          }
+        ]
+      },
+      {
+        "id": "futuro-anteriore.3",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Il treno è in ritardo: ci sarà stato un guasto.* What does *ci sarà stato* express?",
+        "options": [
+          "a guess about the past",
+          "a future event",
+          "a certainty about the past",
+          "a wish"
+        ],
+        "answer": "a guess about the past",
+        "explanation": "Futuro anteriore of supposition: 'there must have been a fault'.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "futuro-anteriore.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Quando ___ (finire, voi), andremo al parco.",
+        "options": [
+          "avrete finito",
+          "finivate",
+          "aveste finito",
+          "avevate finito"
+        ],
+        "answer": "avrete finito",
+        "explanation": "An action completed before a future action: futuro anteriore. (Informally also: quando avete finito, andiamo al parco.)",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "futuro-anteriore.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: He must have missed the train.",
+        "answer": "Avrà perso il treno.",
+        "accept": [
+          "Avrà perduto il treno."
+        ],
+        "explanation": "perdere → perso (also perduto).",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "futuro-anteriore.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the futuro anteriore.",
+        "text": "Entro stasera io {0} (scrivere) la lettera. Sara non è qui: {1} (andare) a casa.",
+        "blanks": [
+          {
+            "answer": "avrò scritto"
+          },
+          {
+            "answer": "sarà andata"
+          }
+        ],
+        "explanation": "avrò scritto (anteriority); sarà andata (supposition, essere + agreement with Sara).",
+        "ruleRef": "uses"
+      }
+    ],
+    "summary": [
+      "Futuro anteriore = futuro of avere/essere + participle (avrò fatto, sarò partito/a).",
+      "Anteriority in the future: quando avrai finito, …",
+      "Supposition about the past: avrà perso il treno.",
+      "In conversation the passato prossimo often replaces it after quando/appena."
+    ],
+    "relatedVocabulary": [
+      "verb_finire",
+      "verb_arrivare",
+      "verb_perdere",
+      "verb_scrivere",
+      "verb_rompere",
+      "verb_uscire"
+    ],
+    "relatedStories": [
+      "una-lettera-dalla-nonna"
+    ],
+    "relatedSongs": []
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "modal-verbs",
+    "module": "m08",
+    "title": "Modal verbs: potere, volere, dovere, sapere",
+    "level": "A1",
+    "description": "Can, want, must and know how to — with an infinitive.",
+    "objectives": [
+      "Conjugate potere, volere, dovere and sapere in the present.",
+      "Build modal + infinitive sentences, including negatives and pronouns.",
+      "Distinguish potere from sapere, and use vorrei for polite requests."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["modal verbs", "infinitive", "irregular"], "tenses": ["present"], "families": ["irregular"] },
+    "sections": [
+      {
+        "id": "forms",
+        "heading": "Forms",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_potere", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_volere", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_dovere", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_sapere", "tense": "present" }
+        ]
+      },
+      {
+        "id": "construction",
+        "heading": "Modal + infinitive",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "The second verb stays in the infinitive", "text": "A modal is followed directly by an infinitive, with no preposition: *Posso entrare? Voglio dormire. Devo studiare. So nuotare.*" },
+          { "type": "rule", "kind": "rule", "title": "Negation and pronouns", "text": "*non* goes before the modal: *Non posso venire.* An object or reflexive pronoun can go before the modal or be attached to the end of the infinitive (which drops its final -e): *Lo voglio vedere* = *Voglio vederlo*; *Mi devo alzare* = *Devo alzarmi*." },
+          { "type": "rule", "kind": "rule", "title": "volere with a noun; vorrei", "text": "*volere* can also take a noun: *Voglio un gelato*. For polite requests use the conditional *vorrei* (I would like): *Vorrei un bicchiere d'acqua, per favore.* Saying *voglio* to a waiter sounds blunt." }
+        ]
+      },
+      {
+        "id": "potere-sapere",
+        "heading": "potere or sapere?",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Two kinds of 'can'",
+            "headers": ["Italian", "Meaning", "Example"],
+            "rows": [
+              ["sapere + infinitive", "to know how to (a learned skill)", "So nuotare. = I can (know how to) swim."],
+              ["potere + infinitive", "to be able / allowed to (circumstances, permission)", "Oggi posso nuotare: il mare è calmo. = Today I can swim: the sea is calm."]
+            ]
+          },
+          { "type": "p", "text": "Alone, *sapere* means to know a fact: *So che piove. Non lo so.* (To know a person or place is *conoscere*.)" }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Posso entrare?", "en": "May I come in?" },
+      { "it": "Voglio un gelato.", "en": "I want an ice cream." },
+      { "it": "Dobbiamo tornare a casa.", "en": "We have to go back home." },
+      { "it": "Sai nuotare?", "en": "Can you swim? (Do you know how to swim?)" },
+      { "it": "Non posso venire oggi.", "en": "I can't come today." },
+      { "it": "Vorrei un bicchiere d'acqua, per favore.", "en": "I'd like a glass of water, please." }
+    ],
+    "exercises": [
+      {
+        "id": "modal-verbs.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *dovere*.",
+        "rows": [
+          { "label": "io", "answer": "devo" },
+          { "label": "tu", "answer": "devi" },
+          { "label": "lui/lei", "answer": "deve" },
+          { "label": "noi", "answer": "dobbiamo" },
+          { "label": "voi", "answer": "dovete" },
+          { "label": "loro", "answer": "devono" }
+        ],
+        "explanation": "dev- (stressed), dobb- (noi), dov- (voi).",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "modal-verbs.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "potere, lui/lei: ___",
+        "answer": "può",
+        "explanation": "può carries an accent.",
+        "ruleRef": "forms",
+        "mistakes": [{ "answer": "puo", "message": "può needs the accent on the final o." }]
+      },
+      {
+        "id": "modal-verbs.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "volere, noi: ___",
+        "answer": "vogliamo",
+        "explanation": "vogli- + -amo.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "modal-verbs.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "I know how to swim: ___ nuotare.",
+        "options": ["So", "Posso", "Conosco", "Devo"],
+        "answer": "So",
+        "explanation": "A learned skill: sapere + infinitive.",
+        "ruleRef": "potere-sapere",
+        "mistakes": [{ "answer": "Posso", "message": "posso = I am able / allowed (circumstances). For a learned skill use so." }, { "answer": "Conosco", "message": "conoscere means to know a person or place, not a skill." }]
+      },
+      {
+        "id": "modal-verbs.5",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Order: 'I have to get up early.' (pronoun attached to the infinitive)",
+        "tokens": ["presto", "alzarmi", "Devo"],
+        "answer": ["Devo", "alzarmi", "presto"],
+        "explanation": "The reflexive pronoun can attach to the infinitive: alzarmi. (Also correct: Mi devo alzare presto.)",
+        "ruleRef": "construction"
+      },
+      {
+        "id": "modal-verbs.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I can't come today.",
+        "answer": "Non posso venire oggi.",
+        "accept": ["Oggi non posso venire."],
+        "explanation": "non before the modal; infinitive venire.",
+        "ruleRef": "construction"
+      },
+      {
+        "id": "modal-verbs.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate politely: I'd like a glass of water, please.",
+        "answer": "Vorrei un bicchiere d'acqua, per favore.",
+        "accept": ["Vorrei un bicchiere di acqua, per favore."],
+        "explanation": "vorrei is the polite form; d'acqua = di acqua.",
+        "ruleRef": "construction"
+      }
+    ],
+    "summary": [
+      "potere: posso, puoi, può, possiamo, potete, possono.",
+      "volere: voglio, vuoi, vuole, vogliamo, volete, vogliono.",
+      "dovere: devo, devi, deve, dobbiamo, dovete, devono.",
+      "sapere: so, sai, sa, sappiamo, sapete, sanno.",
+      "Modal + bare infinitive; pronouns before the modal or attached to the infinitive."
+    ],
+    "relatedVocabulary": ["verb_potere", "verb_volere", "verb_dovere", "verb_sapere", "verb_nuotare", "verb_conoscere"],
+    "relatedStories": ["lorso-che-non-poteva-dormire", "una-giornata-di-pioggia"],
+    "relatedSongs": []
+  }
+]

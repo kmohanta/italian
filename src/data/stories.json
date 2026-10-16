@@ -1,0 +1,2117 @@
+{
+ "$schema": "Original graded stories (CC BY 4.0). paragraphs → sentences {it, en, note?}. 'names' lists proper names so the word inspector does not report them as unknown. Every other word must exist in the vocabulary or function-word data (checked by tests/content-validation.test.js).",
+ "stories": [
+  {
+   "id": "il-gatto-e-la-luna",
+   "title": "Il gatto e la luna",
+   "titleEnglish": "The cat and the moon",
+   "level": "A0–A1",
+   "length": "very short",
+   "summary": "A little black cat tries to talk to the moon.",
+   "tags": [
+    "animals",
+    "night",
+    "present tense"
+   ],
+   "names": [
+    "Tobia"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Il gatto si chiama Tobia.",
+      "en": "The cat is called Tobia.",
+      "note": "si chiama: from chiamarsi, to be called."
+     },
+     {
+      "it": "Tobia è un gatto nero e piccolo.",
+      "en": "Tobia is a small black cat.",
+      "note": "Two adjectives after the noun, joined by e."
+     },
+     {
+      "it": "Di giorno Tobia dorme sul letto.",
+      "en": "During the day Tobia sleeps on the bed.",
+      "note": "sul = su + il."
+     }
+    ],
+    [
+     {
+      "it": "Di notte Tobia guarda dalla finestra.",
+      "en": "At night Tobia looks out of the window.",
+      "note": "dalla = da + la: looking 'from' the window."
+     },
+     {
+      "it": "Nel cielo c'è la luna.",
+      "en": "In the sky there is the moon.",
+      "note": "nel = in + il; c'è = there is."
+     },
+     {
+      "it": "La luna è grande e bianca.",
+      "en": "The moon is big and white.",
+      "note": "bianca agrees with luna (feminine)."
+     },
+     {
+      "it": "«Ciao, luna!» dice Tobia.",
+      "en": "“Hello, moon!” says Tobia."
+     },
+     {
+      "it": "La luna non risponde.",
+      "en": "The moon doesn't answer."
+     }
+    ],
+    [
+     {
+      "it": "Tobia salta sul tavolo, ma la luna è sempre lontana.",
+      "en": "Tobia jumps onto the table, but the moon is still far away."
+     },
+     {
+      "it": "Allora Tobia beve il suo latte e torna a letto.",
+      "en": "So Tobia drinks his milk and goes back to bed.",
+      "note": "il suo latte: the possessive agrees with latte."
+     },
+     {
+      "it": "Buonanotte, Tobia. Buonanotte, luna.",
+      "en": "Good night, Tobia. Good night, moon."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_gatto",
+    "noun_luna",
+    "noun_letto",
+    "noun_finestra",
+    "noun_cielo",
+    "noun_tavolo",
+    "noun_latte",
+    "noun_giorno",
+    "noun_notte",
+    "adj_nero",
+    "adj_piccolo",
+    "adj_grande",
+    "adj_bianco",
+    "adj_lontano",
+    "verb_dormire",
+    "verb_guardare",
+    "verb_saltare",
+    "verb_bere",
+    "verb_tornare",
+    "verb_rispondere",
+    "verb_chiamarsi",
+    "interj_buonanotte"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Adjectives after the noun",
+     "text": "un gatto nero, la luna è grande e bianca: colour and size adjectives agree with the noun.",
+     "lesson": "adjective-agreement"
+    },
+    {
+     "title": "Articulated prepositions",
+     "text": "sul letto (su + il), dalla finestra (da + la), nel cielo (in + il).",
+     "lesson": "articulated-prepositions"
+    },
+    {
+     "title": "c'è",
+     "text": "c'è + singular noun = there is.",
+     "lesson": "indefinite-articles"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.gatto-luna.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Di che colore è Tobia?",
+     "options": [
+      "nero",
+      "bianco",
+      "rosso",
+      "giallo"
+     ],
+     "answer": "nero",
+     "explanation": "Tobia è un gatto nero e piccolo."
+    },
+    {
+     "id": "story.gatto-luna.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Dove dorme Tobia di giorno?",
+     "options": [
+      "sul letto",
+      "sul tavolo",
+      "nel cielo",
+      "dalla finestra"
+     ],
+     "answer": "sul letto",
+     "explanation": "Di giorno Tobia dorme sul letto."
+    },
+    {
+     "id": "story.gatto-luna.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa fa la luna quando Tobia dice «Ciao»?",
+     "options": [
+      "Non risponde.",
+      "Dice «Ciao, Tobia!»",
+      "Canta.",
+      "Va via."
+     ],
+     "answer": "Non risponde.",
+     "explanation": "La luna non risponde."
+    },
+    {
+     "id": "story.gatto-luna.4",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "What does Tobia drink?",
+     "options": [
+      "milk",
+      "water",
+      "coffee",
+      "juice"
+     ],
+     "answer": "milk",
+     "explanation": "Tobia beve il suo latte."
+    },
+    {
+     "id": "story.gatto-luna.5",
+     "type": "translate-it-en",
+     "kind": "text",
+     "lang": "en",
+     "prompt": "Translate: *La luna è grande e bianca.*",
+     "answer": "The moon is big and white.",
+     "accept": [
+      "The moon is large and white"
+     ],
+     "explanation": "grande = big, bianca = white (feminine)."
+    }
+   ]
+  },
+  {
+   "id": "la-famiglia-di-marco",
+   "title": "La famiglia di Marco",
+   "titleEnglish": "Marco's family",
+   "level": "A0–A1",
+   "length": "very short",
+   "summary": "Marco introduces his family, his pets and his grandparents.",
+   "tags": [
+    "family",
+    "present tense",
+    "possessives"
+   ],
+   "names": [
+    "Marco",
+    "Paolo",
+    "Anna",
+    "Giulia",
+    "Bruno",
+    "Tobia"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Ciao! Mi chiamo Marco e ho sette anni.",
+      "en": "Hi! My name is Marco and I'm seven years old.",
+      "note": "avere … anni = to be … years old."
+     },
+     {
+      "it": "Abito in una piccola casa con la mia famiglia.",
+      "en": "I live in a small house with my family."
+     }
+    ],
+    [
+     {
+      "it": "Mio padre si chiama Paolo e lavora in città.",
+      "en": "My father is called Paolo and works in town.",
+      "note": "mio padre: no article with a singular family noun."
+     },
+     {
+      "it": "Mia madre si chiama Anna ed è maestra.",
+      "en": "My mother is called Anna and she is a teacher.",
+      "note": "No article before a profession after essere: è maestra."
+     },
+     {
+      "it": "Ho una sorella, Giulia.",
+      "en": "I have a sister, Giulia."
+     },
+     {
+      "it": "Giulia ha dieci anni e ama i gatti.",
+      "en": "Giulia is ten years old and loves cats."
+     }
+    ],
+    [
+     {
+      "it": "Abbiamo un cane, Bruno, e un gatto, Tobia.",
+      "en": "We have a dog, Bruno, and a cat, Tobia."
+     },
+     {
+      "it": "Il nonno e la nonna abitano al mare.",
+      "en": "Grandpa and Grandma live by the sea."
+     },
+     {
+      "it": "In estate andiamo dai nonni.",
+      "en": "In summer we go to our grandparents' house.",
+      "note": "dai = da + i: at/to someone's place."
+     },
+     {
+      "it": "Il nonno racconta molte storie e la nonna fa una torta molto buona.",
+      "en": "Grandpa tells lots of stories and Grandma makes a very good cake."
+     },
+     {
+      "it": "Io amo la mia famiglia!",
+      "en": "I love my family!",
+      "note": "io for emphasis."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_famiglia",
+    "noun_padre",
+    "noun_madre",
+    "noun_sorella",
+    "noun_nonno",
+    "noun_nonna",
+    "noun_cane",
+    "noun_gatto",
+    "noun_casa",
+    "noun_citta",
+    "noun_mare",
+    "noun_estate",
+    "noun_storia",
+    "noun_torta",
+    "noun_maestra",
+    "noun_anno",
+    "verb_abitare",
+    "verb_lavorare",
+    "verb_amare",
+    "verb_raccontare",
+    "verb_chiamarsi",
+    "num_sette",
+    "num_dieci"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Possessives with family nouns",
+     "text": "mio padre, mia madre (no article), but la mia famiglia, i nonni.",
+     "lesson": "demonstratives-possessives"
+    },
+    {
+     "title": "avere … anni",
+     "text": "Age is expressed with avere: ho sette anni.",
+     "lesson": "essere-avere"
+    },
+    {
+     "title": "da + person",
+     "text": "andiamo dai nonni = we go to the grandparents' place.",
+     "lesson": "simple-prepositions"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.famiglia.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Quanti anni ha Marco?",
+     "options": [
+      "sette",
+      "dieci",
+      "sei",
+      "otto"
+     ],
+     "answer": "sette",
+     "explanation": "Mi chiamo Marco e ho sette anni."
+    },
+    {
+     "id": "story.famiglia.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che lavoro fa la madre di Marco?",
+     "options": [
+      "È maestra.",
+      "Lavora in città.",
+      "Fa le torte.",
+      "Racconta storie."
+     ],
+     "answer": "È maestra.",
+     "explanation": "Mia madre si chiama Anna ed è maestra."
+    },
+    {
+     "id": "story.famiglia.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Chi è Bruno?",
+     "options": [
+      "il cane",
+      "il gatto",
+      "il padre",
+      "il nonno"
+     ],
+     "answer": "il cane",
+     "explanation": "Abbiamo un cane, Bruno."
+    },
+    {
+     "id": "story.famiglia.4",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Dove abitano i nonni?",
+     "options": [
+      "al mare",
+      "in città",
+      "in montagna",
+      "con Marco"
+     ],
+     "answer": "al mare",
+     "explanation": "Il nonno e la nonna abitano al mare."
+    },
+    {
+     "id": "story.famiglia.5",
+     "type": "translate-en-it",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "Translate: My sister loves cats.",
+     "answer": "Mia sorella ama i gatti.",
+     "explanation": "mia sorella without article; i gatti with article (general category)."
+    }
+   ]
+  },
+  {
+   "id": "la-colazione",
+   "title": "La colazione",
+   "titleEnglish": "Breakfast",
+   "level": "A0–A1",
+   "length": "very short",
+   "summary": "Sara has breakfast — and so does the cat.",
+   "tags": [
+    "food",
+    "home",
+    "present tense"
+   ],
+   "names": [
+    "Sara"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "È mattina. Il sole entra dalla finestra.",
+      "en": "It is morning. The sun comes in through the window.",
+      "note": "È mattina: impersonal 'it is'."
+     },
+     {
+      "it": "Sara si sveglia e va in cucina.",
+      "en": "Sara wakes up and goes into the kitchen."
+     },
+     {
+      "it": "La mamma prepara la colazione.",
+      "en": "Mum is making breakfast."
+     }
+    ],
+    [
+     {
+      "it": "Sul tavolo ci sono il pane, la marmellata, il latte e le mele.",
+      "en": "On the table there are bread, jam, milk and apples.",
+      "note": "ci sono + plural (several things)."
+     },
+     {
+      "it": "«Che cosa vuoi, Sara?» chiede la mamma.",
+      "en": "“What would you like, Sara?” Mum asks."
+     },
+     {
+      "it": "«Vorrei pane e marmellata, per favore.»",
+      "en": "“I'd like bread and jam, please.”",
+      "note": "vorrei: polite form of volere."
+     },
+     {
+      "it": "Sara beve il latte e mangia il pane.",
+      "en": "Sara drinks the milk and eats the bread."
+     }
+    ],
+    [
+     {
+      "it": "Anche il gatto vuole la colazione!",
+      "en": "The cat wants breakfast too!"
+     },
+     {
+      "it": "La mamma dà al gatto un po' di latte.",
+      "en": "Mum gives the cat a little milk.",
+      "note": "dà (gives) has an accent; al = a + il; un po' di = a little."
+     },
+     {
+      "it": "Poi Sara prende lo zaino e va a scuola.",
+      "en": "Then Sara takes her backpack and goes to school.",
+      "note": "lo zaino: lo before z."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_colazione",
+    "noun_mattina",
+    "noun_sole",
+    "noun_finestra",
+    "noun_cucina",
+    "noun_mamma",
+    "noun_tavolo",
+    "noun_pane",
+    "noun_marmellata",
+    "noun_latte",
+    "noun_mela",
+    "noun_zaino",
+    "noun_scuola",
+    "verb_svegliarsi",
+    "verb_andare",
+    "verb_preparare",
+    "verb_volere",
+    "verb_chiedere",
+    "verb_bere",
+    "verb_mangiare",
+    "verb_dare",
+    "verb_prendere",
+    "expr_per-favore"
+   ],
+   "grammarNotes": [
+    {
+     "title": "c'è / ci sono",
+     "text": "Sul tavolo ci sono … (plural).",
+     "lesson": "indefinite-articles"
+    },
+    {
+     "title": "Irregular verbs",
+     "text": "va (andare), vuoi / vuole (volere), dà (dare), beve (bere).",
+     "lesson": "other-irregulars"
+    },
+    {
+     "title": "vorrei",
+     "text": "A polite request: vorrei = I would like.",
+     "lesson": "modal-verbs"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.colazione.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Chi prepara la colazione?",
+     "options": [
+      "la mamma",
+      "Sara",
+      "il gatto",
+      "il papà"
+     ],
+     "answer": "la mamma",
+     "explanation": "La mamma prepara la colazione."
+    },
+    {
+     "id": "story.colazione.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa mangia Sara?",
+     "options": [
+      "pane e marmellata",
+      "una mela",
+      "una torta",
+      "niente"
+     ],
+     "answer": "pane e marmellata",
+     "explanation": "Vorrei pane e marmellata… Sara mangia il pane."
+    },
+    {
+     "id": "story.colazione.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa dà la mamma al gatto?",
+     "options": [
+      "un po' di latte",
+      "il pane",
+      "una mela",
+      "la marmellata"
+     ],
+     "answer": "un po' di latte",
+     "explanation": "La mamma dà al gatto un po' di latte."
+    },
+    {
+     "id": "story.colazione.4",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Where does Sara go at the end?",
+     "options": [
+      "to school",
+      "to the kitchen",
+      "to bed",
+      "to the seaside"
+     ],
+     "answer": "to school",
+     "explanation": "Poi Sara prende lo zaino e va a scuola."
+    },
+    {
+     "id": "story.colazione.5",
+     "type": "infinitive",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "What is the infinitive of *beve*?",
+     "answer": "bere",
+     "explanation": "bere: bevo, bevi, beve…"
+    }
+   ]
+  },
+  {
+   "id": "il-cane-al-mare",
+   "title": "Il cane al mare",
+   "titleEnglish": "The dog at the seaside",
+   "level": "A0–A1",
+   "length": "very short",
+   "summary": "Luca and his dog Pippo spend a hot day on the beach.",
+   "tags": [
+    "seaside",
+    "animals",
+    "present tense"
+   ],
+   "names": [
+    "Luca",
+    "Pippo"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Oggi fa caldo.",
+      "en": "It is hot today.",
+      "note": "fa caldo: weather expression with fare."
+     },
+     {
+      "it": "Luca e il suo cane, Pippo, vanno al mare.",
+      "en": "Luca and his dog, Pippo, go to the seaside.",
+      "note": "Two subjects → plural verb vanno."
+     },
+     {
+      "it": "Il mare è blu e calmo.",
+      "en": "The sea is blue and calm."
+     }
+    ],
+    [
+     {
+      "it": "Pippo corre sulla spiaggia e salta nelle onde.",
+      "en": "Pippo runs on the beach and jumps into the waves."
+     },
+     {
+      "it": "Luca fa un castello di sabbia.",
+      "en": "Luca makes a sandcastle.",
+      "note": "castello di sabbia: di for material."
+     },
+     {
+      "it": "Sulla sabbia c'è un granchio piccolo.",
+      "en": "On the sand there is a little crab."
+     },
+     {
+      "it": "Pippo guarda il granchio e il granchio guarda Pippo.",
+      "en": "Pippo looks at the crab and the crab looks at Pippo."
+     },
+     {
+      "it": "Poi il granchio scappa sotto un sasso!",
+      "en": "Then the crab runs off under a stone!"
+     }
+    ],
+    [
+     {
+      "it": "Luca trova una conchiglia bianca e la porta a casa.",
+      "en": "Luca finds a white shell and takes it home.",
+      "note": "la = it (the shell), a direct object pronoun."
+     },
+     {
+      "it": "La sera Pippo è stanco e bagnato, ma felice.",
+      "en": "In the evening Pippo is tired and wet, but happy."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_mare",
+    "noun_cane",
+    "noun_spiaggia",
+    "noun_onda",
+    "noun_castello",
+    "noun_sabbia",
+    "noun_granchio",
+    "noun_sasso",
+    "noun_conchiglia",
+    "noun_sera",
+    "adj_caldo",
+    "adj_blu",
+    "adj_calmo",
+    "adj_stanco",
+    "adj_bagnato",
+    "adj_felice",
+    "adj_bianco",
+    "verb_correre",
+    "verb_saltare",
+    "verb_trovare",
+    "verb_portare",
+    "verb_scappare",
+    "verb_guardare"
+   ],
+   "grammarNotes": [
+    {
+     "title": "fare + weather",
+     "text": "fa caldo = it is hot; fa freddo = it is cold.",
+     "lesson": "andare-fare-stare-dire"
+    },
+    {
+     "title": "Articulated prepositions",
+     "text": "al mare (a + il), sulla spiaggia (su + la), nelle onde (in + le).",
+     "lesson": "articulated-prepositions"
+    },
+    {
+     "title": "A first object pronoun",
+     "text": "la porta a casa: la replaces una conchiglia.",
+     "lesson": "direct-object-pronouns"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.cane-mare.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che tempo fa?",
+     "options": [
+      "Fa caldo.",
+      "Fa freddo.",
+      "Piove.",
+      "Nevica."
+     ],
+     "answer": "Fa caldo.",
+     "explanation": "Oggi fa caldo."
+    },
+    {
+     "id": "story.cane-mare.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa fa Luca sulla spiaggia?",
+     "options": [
+      "un castello di sabbia",
+      "una torta",
+      "un nido",
+      "il bagno"
+     ],
+     "answer": "un castello di sabbia",
+     "explanation": "Luca fa un castello di sabbia."
+    },
+    {
+     "id": "story.cane-mare.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Dove scappa il granchio?",
+     "options": [
+      "sotto un sasso",
+      "nel mare",
+      "nelle onde",
+      "a casa"
+     ],
+     "answer": "sotto un sasso",
+     "explanation": "Il granchio scappa sotto un sasso."
+    },
+    {
+     "id": "story.cane-mare.4",
+     "type": "grammatical-role",
+     "kind": "choice",
+     "prompt": "In *la porta a casa*, what does *la* refer to?",
+     "options": [
+      "la conchiglia",
+      "la sera",
+      "la spiaggia",
+      "la sabbia"
+     ],
+     "answer": "la conchiglia",
+     "explanation": "Luca trova una conchiglia e la porta a casa: la = the shell."
+    },
+    {
+     "id": "story.cane-mare.5",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "How is Pippo in the evening?",
+     "options": [
+      "tired, wet and happy",
+      "sad and cold",
+      "hungry",
+      "angry"
+     ],
+     "answer": "tired, wet and happy",
+     "explanation": "La sera Pippo è stanco e bagnato, ma felice."
+    }
+   ]
+  },
+  {
+   "id": "nel-bosco",
+   "title": "Nel bosco",
+   "titleEnglish": "In the wood",
+   "level": "A1",
+   "length": "short",
+   "summary": "Giulia, Luca and their grandfather walk quietly through the wood and meet its animals.",
+   "tags": [
+    "nature",
+    "animals",
+    "prepositions"
+   ],
+   "names": [
+    "Giulia",
+    "Luca"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Giulia e suo fratello Luca vanno nel bosco con il nonno.",
+      "en": "Giulia and her brother Luca go into the wood with their grandfather."
+     },
+     {
+      "it": "Nel bosco c'è un sentiero lungo.",
+      "en": "In the wood there is a long path."
+     },
+     {
+      "it": "Gli alberi sono alti e le foglie sono verdi.",
+      "en": "The trees are tall and the leaves are green."
+     }
+    ],
+    [
+     {
+      "it": "Il nonno dice: «Che cosa sentite?»",
+      "en": "Grandfather says: “What can you hear?”",
+      "note": "sentite: voi form of sentire."
+     },
+     {
+      "it": "I bambini sentono un uccello che canta.",
+      "en": "The children hear a bird singing.",
+      "note": "che canta: relative clause, 'that is singing'."
+     },
+     {
+      "it": "Su un ramo c'è un nido con tre piccoli uccelli.",
+      "en": "On a branch there is a nest with three little birds."
+     },
+     {
+      "it": "Poi vedono uno scoiattolo.",
+      "en": "Then they see a squirrel.",
+      "note": "uno before s + consonant."
+     },
+     {
+      "it": "Lo scoiattolo sale veloce sull'albero.",
+      "en": "The squirrel climbs quickly up the tree.",
+      "note": "sale: salire (sal-, salgo, sali, sale…)."
+     }
+    ],
+    [
+     {
+      "it": "Vicino al fiume c'è una volpe rossa.",
+      "en": "Near the river there is a red fox."
+     },
+     {
+      "it": "La volpe guarda i bambini e poi torna nella sua tana.",
+      "en": "The fox looks at the children and then goes back into its den."
+     },
+     {
+      "it": "«Il bosco è la casa di molti animali» dice il nonno.",
+      "en": "“The wood is home to many animals,” says Grandfather."
+     },
+     {
+      "it": "I bambini camminano piano per non fare rumore.",
+      "en": "The children walk quietly so as not to make any noise.",
+      "note": "per non + infinitive = so as not to."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_bosco",
+    "noun_sentiero",
+    "noun_albero",
+    "noun_foglia",
+    "noun_uccello",
+    "noun_ramo",
+    "noun_nido",
+    "noun_scoiattolo",
+    "noun_fiume",
+    "noun_volpe",
+    "noun_tana",
+    "noun_animale",
+    "noun_rumore",
+    "noun_fratello",
+    "adj_lungo",
+    "adj_alto",
+    "adj_verde",
+    "adj_rosso",
+    "verb_sentire",
+    "verb_vedere",
+    "verb_salire",
+    "verb_camminare",
+    "adv_piano",
+    "adv_vicino"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Articulated prepositions",
+     "text": "nel bosco, sull'albero, al fiume, nella sua tana.",
+     "lesson": "articulated-prepositions"
+    },
+    {
+     "title": "Relative che",
+     "text": "un uccello che canta = a bird that is singing.",
+     "lesson": "relative-clauses-adverbs"
+    },
+    {
+     "title": "uno scoiattolo / lo scoiattolo",
+     "text": "s + consonant takes uno and lo.",
+     "lesson": "definite-articles"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.bosco.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Con chi vanno nel bosco Giulia e Luca?",
+     "options": [
+      "con il nonno",
+      "con la mamma",
+      "con il cane",
+      "da soli"
+     ],
+     "answer": "con il nonno",
+     "explanation": "Giulia e suo fratello Luca vanno nel bosco con il nonno."
+    },
+    {
+     "id": "story.bosco.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Quanti uccelli ci sono nel nido?",
+     "options": [
+      "tre",
+      "due",
+      "uno",
+      "dieci"
+     ],
+     "answer": "tre",
+     "explanation": "Su un ramo c'è un nido con tre piccoli uccelli."
+    },
+    {
+     "id": "story.bosco.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Dove torna la volpe?",
+     "options": [
+      "nella sua tana",
+      "al fiume",
+      "sull'albero",
+      "a casa del nonno"
+     ],
+     "answer": "nella sua tana",
+     "explanation": "La volpe … torna nella sua tana."
+    },
+    {
+     "id": "story.bosco.4",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Why do the children walk quietly?",
+     "options": [
+      "so as not to make noise",
+      "because they are tired",
+      "because it is night",
+      "because the path is long"
+     ],
+     "answer": "so as not to make noise",
+     "explanation": "per non fare rumore."
+    },
+    {
+     "id": "story.bosco.5",
+     "type": "infinitive",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "What is the infinitive of *sale*?",
+     "answer": "salire",
+     "explanation": "salire: salgo, sali, sale, saliamo, salite, salgono."
+    },
+    {
+     "id": "story.bosco.6",
+     "type": "fill-blank",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "Complete: Il bosco è la casa ___ molti animali.",
+     "answer": "di",
+     "explanation": "di for possession/belonging."
+    }
+   ]
+  },
+  {
+   "id": "la-tartaruga-lenta",
+   "title": "La tartaruga lenta",
+   "titleEnglish": "The slow tortoise",
+   "level": "A1",
+   "length": "short",
+   "summary": "A fast hare laughs at a slow tortoise — until they have a race.",
+   "tags": [
+    "animals",
+    "fable",
+    "comparison",
+    "reflexive verbs"
+   ],
+   "names": [],
+   "paragraphs": [
+    [
+     {
+      "it": "In un prato vivono una lepre e una tartaruga.",
+      "en": "A hare and a tortoise live in a meadow.",
+      "note": "The subject follows the verb: vivono una lepre e una tartaruga."
+     },
+     {
+      "it": "La lepre è molto veloce. La tartaruga è molto lenta.",
+      "en": "The hare is very fast. The tortoise is very slow."
+     },
+     {
+      "it": "Ogni giorno la lepre ride della tartaruga.",
+      "en": "Every day the hare laughs at the tortoise.",
+      "note": "ridere di = to laugh at; della = di + la."
+     },
+     {
+      "it": "«Sei così lenta!» dice la lepre.",
+      "en": "“You're so slow!” says the hare."
+     }
+    ],
+    [
+     {
+      "it": "Un giorno la tartaruga risponde: «Facciamo una gara!»",
+      "en": "One day the tortoise replies: “Let's have a race!”",
+      "note": "facciamo: the noi form is also used for suggestions (let's…)."
+     },
+     {
+      "it": "Tutti gli animali vengono a guardare.",
+      "en": "All the animals come to watch.",
+      "note": "venire a + infinitive."
+     },
+     {
+      "it": "«La gara finisce al grande albero» dice il gufo.",
+      "en": "“The race finishes at the big tree,” says the owl."
+     }
+    ],
+    [
+     {
+      "it": "La lepre corre veloce, poi si siede sotto un albero.",
+      "en": "The hare runs fast, then sits down under a tree.",
+      "note": "si siede: sedersi."
+     },
+     {
+      "it": "«La tartaruga è lontana. Ho tempo per dormire» pensa la lepre.",
+      "en": "“The tortoise is far away. I have time to sleep,” thinks the hare."
+     },
+     {
+      "it": "E la lepre si addormenta.",
+      "en": "And the hare falls asleep."
+     },
+     {
+      "it": "La tartaruga cammina lentamente, ma non si ferma mai.",
+      "en": "The tortoise walks slowly, but never stops.",
+      "note": "non … mai = never; lentamente = lenta + -mente."
+     }
+    ],
+    [
+     {
+      "it": "Quando la lepre si sveglia, la tartaruga è già vicino al grande albero!",
+      "en": "When the hare wakes up, the tortoise is already near the big tree!"
+     },
+     {
+      "it": "La lepre corre, ma è tardi.",
+      "en": "The hare runs, but it is too late."
+     },
+     {
+      "it": "La tartaruga vince la gara e tutti gli animali cantano e ballano.",
+      "en": "The tortoise wins the race and all the animals sing and dance."
+     },
+     {
+      "it": "Da quel giorno la lepre non ride più della tartaruga.",
+      "en": "From that day on, the hare no longer laughs at the tortoise.",
+      "note": "non … più = no longer."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_lepre",
+    "noun_tartaruga",
+    "noun_prato",
+    "noun_gara",
+    "noun_gufo",
+    "noun_albero",
+    "noun_animale",
+    "noun_tempo",
+    "adj_veloce",
+    "adj_lento",
+    "adj_lontano",
+    "adv_lentamente",
+    "verb_vivere",
+    "verb_ridere",
+    "verb_rispondere",
+    "verb_venire",
+    "verb_finire",
+    "verb_correre",
+    "verb_sedersi",
+    "verb_pensare",
+    "verb_addormentarsi",
+    "verb_svegliarsi",
+    "verb_vincere",
+    "verb_ballare",
+    "adv_tardi",
+    "adv_gia"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Reflexive verbs",
+     "text": "si siede, si addormenta, si ferma, si sveglia.",
+     "lesson": "reflexive-verbs"
+    },
+    {
+     "title": "Double negation",
+     "text": "non si ferma mai; non ride più.",
+     "lesson": "word-order-negation-questions"
+    },
+    {
+     "title": "Adverbs in -mente",
+     "text": "lenta → lentamente.",
+     "lesson": "relative-clauses-adverbs"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.tartaruga.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Chi ride della tartaruga?",
+     "options": [
+      "la lepre",
+      "il gufo",
+      "tutti gli animali",
+      "nessuno"
+     ],
+     "answer": "la lepre",
+     "explanation": "Ogni giorno la lepre ride della tartaruga."
+    },
+    {
+     "id": "story.tartaruga.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Dove finisce la gara?",
+     "options": [
+      "al grande albero",
+      "al fiume",
+      "nel prato",
+      "nella tana"
+     ],
+     "answer": "al grande albero",
+     "explanation": "«La gara finisce al grande albero» dice il gufo."
+    },
+    {
+     "id": "story.tartaruga.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Perché la lepre perde la gara?",
+     "options": [
+      "Perché si addormenta.",
+      "Perché è lenta.",
+      "Perché ha paura.",
+      "Perché è stanca della tartaruga."
+     ],
+     "answer": "Perché si addormenta.",
+     "explanation": "La lepre si siede sotto un albero e si addormenta."
+    },
+    {
+     "id": "story.tartaruga.4",
+     "type": "infinitive",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "What is the infinitive of *si siede*?",
+     "answer": "sedersi",
+     "explanation": "sedersi: mi siedo, ti siedi, si siede…"
+    },
+    {
+     "id": "story.tartaruga.5",
+     "type": "translate-it-en",
+     "kind": "text",
+     "lang": "en",
+     "prompt": "Translate: *La tartaruga non si ferma mai.*",
+     "answer": "The tortoise never stops.",
+     "explanation": "non … mai = never; fermarsi = to stop."
+    }
+   ]
+  },
+  {
+   "id": "una-giornata-di-pioggia",
+   "title": "Una giornata di pioggia",
+   "titleEnglish": "A rainy day",
+   "level": "A1",
+   "length": "short",
+   "summary": "It's raining, but Sara and Luca find a way to enjoy it.",
+   "tags": [
+    "weather",
+    "family",
+    "reflexive verbs",
+    "modal verbs"
+   ],
+   "names": [
+    "Sara",
+    "Luca"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Oggi piove e il cielo è grigio.",
+      "en": "Today it is raining and the sky is grey.",
+      "note": "piove: weather verb with no subject."
+     },
+     {
+      "it": "Sara si sveglia e guarda dalla finestra.",
+      "en": "Sara wakes up and looks out of the window."
+     },
+     {
+      "it": "«Non possiamo giocare in giardino» dice suo fratello Luca.",
+      "en": "“We can't play in the garden,” says her brother Luca.",
+      "note": "potere + infinitive."
+     },
+     {
+      "it": "Sara è un po' triste.",
+      "en": "Sara is a little sad."
+     }
+    ],
+    [
+     {
+      "it": "Poi ha un'idea.",
+      "en": "Then she has an idea.",
+      "note": "un'idea: una elided before a vowel."
+     },
+     {
+      "it": "«Mettiamo gli stivali e prendiamo l'ombrello!»",
+      "en": "“Let's put on our boots and take the umbrella!”",
+      "note": "noi form for a suggestion: let's."
+     },
+     {
+      "it": "I bambini escono di casa.",
+      "en": "The children go out of the house.",
+      "note": "uscire: escono."
+     },
+     {
+      "it": "Sulla strada ci sono molte pozzanghere.",
+      "en": "There are lots of puddles in the street."
+     }
+    ],
+    [
+     {
+      "it": "Sara salta in una pozzanghera e ride.",
+      "en": "Sara jumps into a puddle and laughs."
+     },
+     {
+      "it": "Luca salta in una pozzanghera più grande.",
+      "en": "Luca jumps into a bigger puddle.",
+      "note": "più grande = bigger."
+     },
+     {
+      "it": "Anche un'anatra cammina sotto la pioggia.",
+      "en": "A duck is walking in the rain too."
+     },
+     {
+      "it": "Quando tornano a casa, i bambini sono bagnati ma contenti.",
+      "en": "When they get home, the children are wet but happy."
+     },
+     {
+      "it": "La mamma prepara due tazze di latte caldo.",
+      "en": "Mum makes two cups of hot milk."
+     },
+     {
+      "it": "«La pioggia non è così brutta» dice Sara.",
+      "en": "“The rain isn't so bad,” says Sara."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_pioggia",
+    "noun_cielo",
+    "noun_finestra",
+    "noun_giardino",
+    "noun_idea",
+    "noun_stivale",
+    "noun_ombrello",
+    "noun_strada",
+    "noun_pozzanghera",
+    "noun_anatra",
+    "noun_tazza",
+    "adj_grigio",
+    "adj_triste",
+    "adj_bagnato",
+    "adj_contento",
+    "adj_brutto",
+    "verb_piovere",
+    "verb_svegliarsi",
+    "verb_potere",
+    "verb_mettere",
+    "verb_prendere",
+    "verb_uscire",
+    "verb_saltare",
+    "verb_ridere",
+    "noun_giornata"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Modal + infinitive",
+     "text": "Non possiamo giocare = We can't play.",
+     "lesson": "modal-verbs"
+    },
+    {
+     "title": "Irregular uscire",
+     "text": "esco, esci, esce, usciamo, uscite, escono.",
+     "lesson": "other-irregulars"
+    },
+    {
+     "title": "Comparatives",
+     "text": "una pozzanghera più grande = a bigger puddle.",
+     "lesson": "bello-buono-comparison"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.pioggia.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che tempo fa?",
+     "options": [
+      "Piove.",
+      "Fa caldo.",
+      "Nevica.",
+      "C'è il sole."
+     ],
+     "answer": "Piove.",
+     "explanation": "Oggi piove e il cielo è grigio."
+    },
+    {
+     "id": "story.pioggia.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa mettono i bambini?",
+     "options": [
+      "gli stivali",
+      "le scarpe",
+      "lo zaino",
+      "il cappello"
+     ],
+     "answer": "gli stivali",
+     "explanation": "«Mettiamo gli stivali e prendiamo l'ombrello!»"
+    },
+    {
+     "id": "story.pioggia.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Come sono i bambini quando tornano a casa?",
+     "options": [
+      "bagnati ma contenti",
+      "tristi e stanchi",
+      "asciutti",
+      "arrabbiati"
+     ],
+     "answer": "bagnati ma contenti",
+     "explanation": "…i bambini sono bagnati ma contenti."
+    },
+    {
+     "id": "story.pioggia.4",
+     "type": "infinitive",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "What is the infinitive of *escono*?",
+     "answer": "uscire",
+     "explanation": "uscire: esco … escono."
+    },
+    {
+     "id": "story.pioggia.5",
+     "type": "translate-en-it",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "Translate: We can't play in the garden.",
+     "answer": "Non possiamo giocare in giardino.",
+     "explanation": "non + possiamo + infinitive."
+    }
+   ]
+  },
+  {
+   "id": "lorso-che-non-poteva-dormire",
+   "title": "L'orso che non poteva dormire",
+   "titleEnglish": "The bear who couldn't sleep",
+   "level": "A1–A2",
+   "length": "longer",
+   "summary": "In the middle of winter a little bear cannot sleep. An owl helps him.",
+   "tags": [
+    "animals",
+    "winter",
+    "imperfetto",
+    "passato prossimo"
+   ],
+   "names": [
+    "Bruno"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "C'era una volta un piccolo orso che si chiamava Bruno.",
+      "en": "Once upon a time there was a little bear called Bruno.",
+      "note": "Fairy-tale opening with the imperfetto."
+     },
+     {
+      "it": "Bruno abitava in una grotta nel bosco con la sua mamma.",
+      "en": "Bruno lived in a cave in the wood with his mother."
+     },
+     {
+      "it": "Era inverno e faceva molto freddo.",
+      "en": "It was winter and it was very cold.",
+      "note": "Background description → imperfetto."
+     },
+     {
+      "it": "Tutti gli orsi dormivano, ma Bruno non poteva dormire.",
+      "en": "All the bears were sleeping, but Bruno couldn't sleep."
+     },
+     {
+      "it": "«Mamma, non ho sonno» diceva Bruno ogni sera.",
+      "en": "“Mum, I'm not sleepy,” Bruno said every evening.",
+      "note": "diceva: a repeated action → imperfetto."
+     }
+    ],
+    [
+     {
+      "it": "Una notte Bruno è uscito dalla grotta.",
+      "en": "One night Bruno went out of the cave.",
+      "note": "A single event → passato prossimo; uscire takes essere."
+     },
+     {
+      "it": "Fuori c'era la neve e nel bosco c'era silenzio.",
+      "en": "Outside there was snow and the wood was silent."
+     },
+     {
+      "it": "Sopra un ramo c'era un gufo.",
+      "en": "On a branch there was an owl."
+     },
+     {
+      "it": "«Perché non dormi?» ha chiesto il gufo.",
+      "en": "“Why aren't you asleep?” asked the owl.",
+      "note": "chiedere → chiesto (irregular participle)."
+     },
+     {
+      "it": "«Non lo so» ha risposto Bruno. «Ho la pancia vuota.»",
+      "en": "“I don't know,” answered Bruno. “My tummy is empty.”",
+      "note": "rispondere → risposto."
+     }
+    ],
+    [
+     {
+      "it": "Il gufo ha riso.",
+      "en": "The owl laughed.",
+      "note": "ridere → riso."
+     },
+     {
+      "it": "«Gli orsi mangiano molto in autunno, prima dell'inverno.»",
+      "en": "“Bears eat a lot in autumn, before the winter.”"
+     },
+     {
+      "it": "Allora Bruno ha pensato al miele.",
+      "en": "So Bruno thought about honey.",
+      "note": "pensare a = to think about."
+     },
+     {
+      "it": "«Le api hanno il miele!» ha detto Bruno.",
+      "en": "“The bees have honey!” said Bruno."
+     },
+     {
+      "it": "Ma il gufo ha detto: «In inverno anche le api dormono.»",
+      "en": "But the owl said: “In winter the bees sleep too.”"
+     }
+    ],
+    [
+     {
+      "it": "Bruno era triste.",
+      "en": "Bruno was sad."
+     },
+     {
+      "it": "Il gufo ha guardato la luna e ha cominciato a cantare piano piano.",
+      "en": "The owl looked at the moon and began to sing very softly.",
+      "note": "cominciare a + infinitive."
+     },
+     {
+      "it": "Era una canzone dolce e lenta.",
+      "en": "It was a sweet, slow song."
+     },
+     {
+      "it": "Bruno ha chiuso gli occhi.",
+      "en": "Bruno closed his eyes.",
+      "note": "chiudere → chiuso."
+     },
+     {
+      "it": "Poi è tornato nella grotta, si è messo vicino alla mamma e si è addormentato.",
+      "en": "Then he went back into the cave, settled down next to his mother and fell asleep.",
+      "note": "Reflexive verbs in the passato prossimo take essere."
+     }
+    ],
+    [
+     {
+      "it": "Ha dormito fino alla primavera.",
+      "en": "He slept until spring."
+     },
+     {
+      "it": "Quando si è svegliato, il sole era caldo e nel prato c'erano molti fiori.",
+      "en": "When he woke up, the sun was warm and there were many flowers in the meadow.",
+      "note": "Event (si è svegliato) + description (era, c'erano)."
+     },
+     {
+      "it": "E la mamma lo aspettava con il miele.",
+      "en": "And his mother was waiting for him with the honey.",
+      "note": "lo = him; aspettare takes a direct object."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_orso",
+    "noun_grotta",
+    "noun_bosco",
+    "noun_inverno",
+    "noun_sonno",
+    "noun_neve",
+    "noun_silenzio",
+    "noun_ramo",
+    "noun_gufo",
+    "noun_pancia",
+    "noun_autunno",
+    "noun_miele",
+    "noun_ape",
+    "noun_luna",
+    "noun_canzone",
+    "noun_occhio",
+    "noun_primavera",
+    "noun_sole",
+    "noun_fiore",
+    "noun_prato",
+    "adj_vuoto",
+    "adj_dolce",
+    "adj_lento",
+    "adj_triste",
+    "verb_abitare",
+    "verb_potere",
+    "verb_uscire",
+    "verb_chiedere",
+    "verb_rispondere",
+    "verb_ridere",
+    "verb_pensare",
+    "verb_cominciare",
+    "verb_chiudere",
+    "verb_addormentarsi",
+    "verb_svegliarsi",
+    "verb_aspettare",
+    "expr_cera-una-volta"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Imperfetto for background",
+     "text": "Era inverno, faceva freddo, tutti gli orsi dormivano.",
+     "lesson": "imperfetto"
+    },
+    {
+     "title": "Passato prossimo for events",
+     "text": "è uscito, ha chiesto, ha risposto, ha riso, si è addormentato.",
+     "lesson": "imperfetto-passato"
+    },
+    {
+     "title": "Irregular participles",
+     "text": "chiesto, risposto, riso, detto, chiuso, messo.",
+     "lesson": "passato-prossimo-avere"
+    },
+    {
+     "title": "Essere and agreement",
+     "text": "è uscito, è tornato, si è addormentato (Bruno is masculine).",
+     "lesson": "passato-prossimo-essere"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.orso.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Perché Bruno non poteva dormire?",
+     "options": [
+      "Aveva la pancia vuota.",
+      "Aveva paura del buio.",
+      "Faceva troppo caldo.",
+      "C'era rumore."
+     ],
+     "answer": "Aveva la pancia vuota.",
+     "explanation": "«Ho la pancia vuota.»"
+    },
+    {
+     "id": "story.orso.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Chi ha incontrato Bruno fuori dalla grotta?",
+     "options": [
+      "un gufo",
+      "un'ape",
+      "una volpe",
+      "la mamma"
+     ],
+     "answer": "un gufo",
+     "explanation": "Sopra un ramo c'era un gufo."
+    },
+    {
+     "id": "story.orso.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa ha fatto il gufo per aiutare Bruno?",
+     "options": [
+      "Ha cantato una canzone.",
+      "Gli ha dato il miele.",
+      "Ha svegliato le api.",
+      "Lo ha portato a casa."
+     ],
+     "answer": "Ha cantato una canzone.",
+     "explanation": "Il gufo … ha cominciato a cantare piano piano."
+    },
+    {
+     "id": "story.orso.4",
+     "type": "competing-forms",
+     "kind": "choice",
+     "prompt": "Why is *Era inverno* in the imperfetto?",
+     "options": [
+      "It describes the background.",
+      "It is a single completed event.",
+      "It is in the future.",
+      "Because of the word inverno."
+     ],
+     "answer": "It describes the background.",
+     "explanation": "Descriptions of time and weather use the imperfetto."
+    },
+    {
+     "id": "story.orso.5",
+     "type": "infinitive",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "What is the infinitive of *riso* (in *ha riso*)?",
+     "answer": "ridere",
+     "explanation": "ridere → riso (irregular participle)."
+    },
+    {
+     "id": "story.orso.6",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Until when did Bruno sleep?",
+     "options": [
+      "until spring",
+      "until morning",
+      "until autumn",
+      "for one hour"
+     ],
+     "answer": "until spring",
+     "explanation": "Ha dormito fino alla primavera."
+    }
+   ]
+  },
+  {
+   "id": "il-segreto-del-faro",
+   "title": "Il segreto del faro",
+   "titleEnglish": "The secret of the lighthouse",
+   "level": "A2–B1",
+   "length": "longer",
+   "summary": "An old fisherman lights an abandoned lighthouse every night. During a storm his granddaughter discovers why.",
+   "tags": [
+    "sea",
+    "narration",
+    "passato remoto",
+    "imperfetto",
+    "trapassato",
+    "reported speech"
+   ],
+   "names": [
+    "Tommaso",
+    "Elena"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Molti anni fa, in un piccolo paese sul mare, viveva un vecchio pescatore che si chiamava Tommaso.",
+      "en": "Many years ago, in a small village by the sea, there lived an old fisherman called Tommaso.",
+      "note": "Imperfetto for the setting (viveva, si chiamava)."
+     },
+     {
+      "it": "Ogni sera Tommaso saliva sul faro e accendeva la luce.",
+      "en": "Every evening Tommaso climbed up the lighthouse and switched on the light.",
+      "note": "Imperfetto for a habit."
+     },
+     {
+      "it": "Nessuno capiva perché lo facesse: il faro era vecchio e le navi non passavano più da lì.",
+      "en": "Nobody understood why he did it: the lighthouse was old and ships no longer passed that way.",
+      "note": "facesse: congiuntivo imperfetto in an indirect question after a past verb. The indicative (perché lo faceva) is also used, in a less formal register."
+     }
+    ],
+    [
+     {
+      "it": "Una notte d'inverno ci fu una grande tempesta.",
+      "en": "One winter night there was a great storm.",
+      "note": "Passato remoto (ci fu): the story's first event. In speech many Italians would say c'è stata."
+     },
+     {
+      "it": "Il vento soffiava forte e il mare era nero.",
+      "en": "The wind was blowing hard and the sea was black.",
+      "note": "Imperfetto: the background to the events."
+     },
+     {
+      "it": "Elena, la nipote di Tommaso, vide una piccola luce in mezzo alle onde.",
+      "en": "Elena, Tommaso's granddaughter, saw a small light among the waves.",
+      "note": "vide: passato remoto of vedere (vid-, 1-3-3 pattern)."
+     },
+     {
+      "it": "«Nonno, c'è una barca là fuori!» gridò.",
+      "en": "\"Grandpa, there's a boat out there!\" she shouted.",
+      "note": "Direct speech in the present; the narration around it is in the passato remoto."
+     },
+     {
+      "it": "Tommaso prese la lanterna e corse verso il faro.",
+      "en": "Tommaso took the lantern and ran towards the lighthouse.",
+      "note": "prese, corse: strong passato remoto forms."
+     },
+     {
+      "it": "Quando arrivarono in cima, la barca era già vicina agli scogli.",
+      "en": "When they reached the top, the boat was already close to the rocks."
+     },
+     {
+      "it": "Tommaso accese la grande luce e la barca cambiò direzione.",
+      "en": "Tommaso switched on the great light and the boat changed direction.",
+      "note": "accese (accendere), cambiò (regular -are, final stress)."
+     }
+    ],
+    [
+     {
+      "it": "La mattina dopo un giovane pescatore bussò alla porta.",
+      "en": "The next morning a young fisherman knocked at the door."
+     },
+     {
+      "it": "Disse che si era perso nella tempesta e che senza la luce del faro sarebbe morto.",
+      "en": "He said that he had got lost in the storm and that without the light of the lighthouse he would have died.",
+      "note": "Reported speech: «Mi sono perso» → si era perso (trapassato); «sarei morto» → sarebbe morto (condizionale passato)."
+     },
+     {
+      "it": "Tommaso sorrise, ma non disse niente.",
+      "en": "Tommaso smiled, but said nothing.",
+      "note": "sorrise, disse: strong passato remoto forms."
+     },
+     {
+      "it": "Dopo che il giovane fu partito, Elena chiese al nonno perché avesse acceso la luce per tanti anni.",
+      "en": "After the young man had left, Elena asked her grandfather why he had switched on the light for so many years.",
+      "note": "fu partito: trapassato remoto (literary anteriority after dopo che). avesse acceso: congiuntivo trapassato in an indirect question."
+     }
+    ],
+    [
+     {
+      "it": "Tommaso le raccontò che, quando era giovane, suo padre era uscito in mare una sera e non era più tornato.",
+      "en": "Tommaso told her that, when he was young, his father had gone out to sea one evening and had never come back.",
+      "note": "Trapassato prossimo for events before the time of the story."
+     },
+     {
+      "it": "«Quella notte il faro era spento», disse.",
+      "en": "\"That night the lighthouse was dark,\" he said.",
+      "note": "spento: participle of spegnere used as an adjective."
+     },
+     {
+      "it": "«Quel giorno ho promesso che avrei acceso la luce ogni sera, per tutte le barche del mare.»",
+      "en": "\"That day I promised that I would switch on the light every evening, for all the boats on the sea.\"",
+      "note": "In his own speech Tommaso uses the passato prossimo; avrei acceso is the future in the past (condizionale passato)."
+     },
+     {
+      "it": "Così Elena capì il segreto del faro.",
+      "en": "That is how Elena understood the secret of the lighthouse."
+     },
+     {
+      "it": "Oggi Tommaso non c'è più, ma ogni sera Elena sale sul faro e accende la luce.",
+      "en": "Today Tommaso is no longer here, but every evening Elena climbs the lighthouse and switches on the light.",
+      "note": "The present brings the story up to today."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_pescatore",
+    "noun_faro",
+    "noun_luce",
+    "noun_nave",
+    "noun_tempesta",
+    "noun_nipote",
+    "noun_lanterna",
+    "noun_cima",
+    "noun_scoglio",
+    "noun_direzione",
+    "noun_segreto",
+    "noun_mare",
+    "noun_barca",
+    "noun_vento",
+    "noun_onda",
+    "noun_porta",
+    "adj_vecchio",
+    "adj_vicino",
+    "verb_vivere",
+    "verb_salire",
+    "verb_accendere",
+    "verb_spegnere",
+    "verb_soffiare",
+    "verb_gridare",
+    "verb_bussare",
+    "verb_correre",
+    "verb_sorridere",
+    "verb_morire",
+    "verb_raccontare",
+    "verb_promettere",
+    "verb_capire",
+    "adv_li",
+    "prep_verso"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Passato remoto for the events",
+     "text": "ci fu, vide, gridò, prese, corse, arrivarono, accese, cambiò, bussò, disse, sorrise, chiese, raccontò, capì.",
+     "lesson": "passato-remoto"
+    },
+    {
+     "title": "Imperfetto for background and habits",
+     "text": "viveva, saliva, accendeva, capiva, soffiava, era.",
+     "lesson": "imperfetto"
+    },
+    {
+     "title": "Trapassato for earlier events",
+     "text": "si era perso, era uscito, non era più tornato; trapassato remoto: fu partito.",
+     "lesson": "trapassato-prossimo"
+    },
+    {
+     "title": "Reported speech and the future in the past",
+     "text": "Disse che si era perso … e che sarebbe morto; ho promesso che avrei acceso.",
+     "lesson": "discorso-indiretto"
+    },
+    {
+     "title": "Congiuntivo in indirect questions",
+     "text": "perché lo facesse; perché avesse acceso.",
+     "lesson": "congiuntivo-imperfetto-trapassato"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.faro.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa faceva Tommaso ogni sera?",
+     "options": [
+      "Accendeva la luce del faro.",
+      "Andava a pescare.",
+      "Scriveva una lettera.",
+      "Guardava le navi nel porto."
+     ],
+     "answer": "Accendeva la luce del faro.",
+     "explanation": "«Ogni sera Tommaso saliva sul faro e accendeva la luce.»"
+    },
+    {
+     "id": "story.faro.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa vide Elena durante la tempesta?",
+     "options": [
+      "una piccola luce in mezzo alle onde",
+      "una nave grande nel porto",
+      "il nonno sugli scogli",
+      "un pescatore alla porta"
+     ],
+     "answer": "una piccola luce in mezzo alle onde",
+     "explanation": "«Elena … vide una piccola luce in mezzo alle onde.»"
+    },
+    {
+     "id": "story.faro.3",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Perché Tommaso accendeva la luce ogni sera?",
+     "options": [
+      "Perché suo padre non era tornato una notte in cui il faro era spento.",
+      "Perché lo pagavano.",
+      "Perché aveva paura del buio.",
+      "Perché lo voleva Elena."
+     ],
+     "answer": "Perché suo padre non era tornato una notte in cui il faro era spento.",
+     "explanation": "Tommaso tells Elena about his father in the last paragraph."
+    },
+    {
+     "id": "story.faro.4",
+     "type": "grammatical-role",
+     "kind": "choice",
+     "prompt": "*Disse che si era perso nella tempesta.* Which tense is *si era perso*, and why?",
+     "options": [
+      "trapassato prossimo: it happened before disse",
+      "passato remoto: it is a main event",
+      "imperfetto: it is background",
+      "passato prossimo: it is linked to the present"
+     ],
+     "answer": "trapassato prossimo: it happened before disse",
+     "explanation": "After a past reporting verb, an earlier event is expressed with the trapassato prossimo."
+    },
+    {
+     "id": "story.faro.5",
+     "type": "infinitive",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "Which infinitive does the passato remoto *sorrise* come from?",
+     "answer": "sorridere",
+     "explanation": "sorridere → sorrisi, sorridesti, sorrise … (like ridere)."
+    },
+    {
+     "id": "story.faro.6",
+     "type": "competing-forms",
+     "kind": "choice",
+     "prompt": "*… sarebbe morto.* What does the condizionale passato express here?",
+     "options": [
+      "an unreal past consequence (he did not die)",
+      "a future event",
+      "a polite request",
+      "a supposition about the present"
+     ],
+     "answer": "an unreal past consequence (he did not die)",
+     "explanation": "Without the light he would have died: a consequence that did not happen."
+    }
+   ]
+  },
+  {
+   "id": "una-lettera-dalla-nonna",
+   "title": "Una lettera dalla nonna",
+   "titleEnglish": "A letter from Grandma",
+   "level": "A2–B1",
+   "length": "longer",
+   "summary": "Grandma Rosa writes from Sicily to her granddaughter, who is coming to stay for the summer.",
+   "tags": [
+    "family",
+    "letter",
+    "futuro",
+    "condizionale",
+    "congiuntivo",
+    "periodo ipotetico"
+   ],
+   "names": [
+    "Giulia",
+    "Rosa",
+    "Palermo",
+    "Sicilia"
+   ],
+   "paragraphs": [
+    [
+     {
+      "it": "Cara Giulia, ti scrivo da Palermo, dove fa già caldo anche se siamo solo ad aprile.",
+      "en": "Dear Giulia, I'm writing to you from Palermo, where it is already hot even though it's only April."
+     },
+     {
+      "it": "La mamma mi ha detto che a giugno finirai la scuola e che vorresti venire in Sicilia.",
+      "en": "Mum told me that you will finish school in June and that you would like to come to Sicily.",
+      "note": "Reported speech: futuro (finirai) and condizionale of politeness/wish (vorresti) keep their tense because the information is still valid."
+     },
+     {
+      "it": "Sono molto contenta e spero che tu possa restare almeno un mese.",
+      "en": "I am very happy and I hope you can stay at least a month.",
+      "note": "sperare che + congiuntivo presente (possa)."
+     }
+    ],
+    [
+     {
+      "it": "Quando arriverai, ti porterò al mare e ti insegnerò a nuotare.",
+      "en": "When you arrive, I'll take you to the sea and teach you to swim.",
+      "note": "Futuro in both clauses: Italian uses the future after quando when the time is future."
+     },
+     {
+      "it": "Se farà bel tempo, andremo anche in montagna.",
+      "en": "If the weather is good, we'll also go to the mountains.",
+      "note": "Periodo ipotetico of reality; se fa bel tempo is equally correct."
+     },
+     {
+      "it": "Il nonno ti farebbe vedere il suo giardino, ma pensa che tu preferisca il mare.",
+      "en": "Grandpa would show you his garden, but he thinks you prefer the sea.",
+      "note": "farebbe: condizionale; pensare che + congiuntivo (preferisca)."
+     },
+     {
+      "it": "Se avessi la tua età, passerei tutte le giornate in spiaggia!",
+      "en": "If I were your age, I would spend every day on the beach!",
+      "note": "Periodo ipotetico of possibility/unreality: se + congiuntivo imperfetto, condizionale presente."
+     }
+    ],
+    [
+     {
+      "it": "Quando ero giovane, non sapevo nuotare.",
+      "en": "When I was young, I couldn't swim."
+     },
+     {
+      "it": "Se qualcuno mi avesse insegnato, avrei nuotato tutta la vita.",
+      "en": "If someone had taught me, I would have swum all my life.",
+      "note": "Counterfactual past: se + congiuntivo trapassato, condizionale passato. Informally also: se qualcuno mi insegnava, nuotavo (substandard double imperfetto)."
+     },
+     {
+      "it": "Per questo voglio che tu impari bene.",
+      "en": "That's why I want you to learn well.",
+      "note": "volere che + congiuntivo (impari)."
+     }
+    ],
+    [
+     {
+      "it": "Ti chiedo solo una cosa: porta un cappello e non dimenticare la crema per il sole.",
+      "en": "I ask you only one thing: bring a hat and don't forget the sun cream.",
+      "note": "Imperativo (porta) and negative imperativo for tu: non + infinitive (non dimenticare)."
+     },
+     {
+      "it": "È importante che tu non stia troppo al sole nelle ore più calde.",
+      "en": "It's important that you don't stay in the sun too long in the hottest hours.",
+      "note": "È importante che + congiuntivo (stia, from stare)."
+     },
+     {
+      "it": "Prima che tu parta, ti manderò una mappa dell'isola.",
+      "en": "Before you leave, I'll send you a map of the island.",
+      "note": "prima che always takes the congiuntivo."
+     },
+     {
+      "it": "Il nonno vuole sapere se ti piacerebbe imparare a pescare.",
+      "en": "Grandpa wants to know if you would like to learn to fish.",
+      "note": "Indirect question with se; piacerebbe: condizionale of piacere."
+     },
+     {
+      "it": "Rispondi presto, per favore, e scrivi quando arriverà il tuo treno.",
+      "en": "Reply soon, please, and write when your train will arrive."
+     },
+     {
+      "it": "Un abbraccio forte, la tua nonna Rosa.",
+      "en": "A big hug, your Grandma Rosa."
+     }
+    ]
+   ],
+   "vocabulary": [
+    "noun_lettera",
+    "noun_scuola",
+    "noun_mare",
+    "noun_giardino",
+    "noun_eta",
+    "noun_spiaggia",
+    "noun_vita",
+    "noun_cappello",
+    "noun_crema",
+    "noun_sole",
+    "noun_mappa",
+    "noun_isola",
+    "noun_treno",
+    "noun_abbraccio",
+    "noun_aprile",
+    "noun_giugno",
+    "adj_importante",
+    "verb_sperare",
+    "verb_restare",
+    "verb_insegnare",
+    "verb_nuotare",
+    "verb_preferire",
+    "verb_dimenticare",
+    "verb_mandare",
+    "verb_pescare",
+    "verb_imparare",
+    "verb_rispondere",
+    "adv_almeno",
+    "adv_solo"
+   ],
+   "grammarNotes": [
+    {
+     "title": "Futuro",
+     "text": "finirai, arriverai, porterò, insegnerò, farà, andremo, manderò, arriverà.",
+     "lesson": "futuro-semplice"
+    },
+    {
+     "title": "Condizionale",
+     "text": "vorresti, farebbe, passerei, avrei nuotato, piacerebbe.",
+     "lesson": "condizionale-presente"
+    },
+    {
+     "title": "Congiuntivo",
+     "text": "spero che tu possa; pensa che tu preferisca; voglio che tu impari; è importante che tu non stia; prima che tu parta.",
+     "lesson": "congiuntivo-presente"
+    },
+    {
+     "title": "Periodo ipotetico",
+     "text": "Se farà bel tempo, andremo …; Se avessi la tua età, passerei …; Se qualcuno mi avesse insegnato, avrei nuotato …",
+     "lesson": "periodo-ipotetico"
+    },
+    {
+     "title": "Imperativo",
+     "text": "porta, non dimenticare, rispondi, scrivi.",
+     "lesson": "imperativo"
+    }
+   ],
+   "questions": [
+    {
+     "id": "story.lettera.1",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "Che cosa vuole fare la nonna quando arriverà Giulia?",
+     "options": [
+      "Insegnarle a nuotare.",
+      "Portarla a scuola.",
+      "Mandarla in montagna da sola.",
+      "Comprarle un cappello."
+     ],
+     "answer": "Insegnarle a nuotare.",
+     "explanation": "«ti porterò al mare e ti insegnerò a nuotare.»"
+    },
+    {
+     "id": "story.lettera.2",
+     "type": "reading-comprehension",
+     "kind": "choice",
+     "prompt": "La nonna sapeva nuotare da giovane?",
+     "options": [
+      "No, nessuno le aveva insegnato.",
+      "Sì, nuotava ogni giorno.",
+      "Sì, ma non le piaceva.",
+      "Non lo dice."
+     ],
+     "answer": "No, nessuno le aveva insegnato.",
+     "explanation": "«Quando ero giovane, non sapevo nuotare. Se qualcuno mi avesse insegnato …»"
+    },
+    {
+     "id": "story.lettera.3",
+     "type": "grammatical-role",
+     "kind": "choice",
+     "prompt": "*Se avessi la tua età, passerei tutte le giornate in spiaggia.* What kind of hypothesis is this?",
+     "options": [
+      "an unreal present hypothesis (she is not young)",
+      "a real future condition",
+      "a counterfactual past",
+      "a polite request"
+     ],
+     "answer": "an unreal present hypothesis (she is not young)",
+     "explanation": "se + congiuntivo imperfetto, condizionale presente: a hypothesis that is not true now."
+    },
+    {
+     "id": "story.lettera.4",
+     "type": "competing-forms",
+     "kind": "choice",
+     "prompt": "*Prima che tu ___, ti manderò una mappa.*",
+     "options": [
+      "parta",
+      "parti",
+      "partirai",
+      "partiresti"
+     ],
+     "answer": "parta",
+     "explanation": "prima che requires the congiuntivo: parta."
+    },
+    {
+     "id": "story.lettera.5",
+     "type": "conjugation",
+     "kind": "text",
+     "lang": "it",
+     "prompt": "Make it negative (tu): *Dimentica la crema!* → ___ la crema!",
+     "answer": "Non dimenticare",
+     "explanation": "The negative imperativo of tu is non + infinitive."
+    },
+    {
+     "id": "story.lettera.6",
+     "type": "multiple-choice",
+     "kind": "choice",
+     "prompt": "*Se farà bel tempo, andremo in montagna.* Which other version is also correct?",
+     "options": [
+      "Se fa bel tempo, andiamo in montagna.",
+      "Se farebbe bel tempo, andremo in montagna.",
+      "Se facesse bel tempo, andremo in montagna.",
+      "Se farà bel tempo, andassimo in montagna."
+     ],
+     "answer": "Se fa bel tempo, andiamo in montagna.",
+     "explanation": "For a real condition, se + presente / presente is common and correct. The conditional after se (se farebbe) is non-standard."
+    }
+   ]
+  }
+ ]
+}

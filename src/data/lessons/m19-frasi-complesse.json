@@ -1,0 +1,398 @@
+[
+  {
+    "id": "periodo-ipotetico",
+    "module": "m19",
+    "title": "Hypothetical sentences (periodo ipotetico)",
+    "level": "B1",
+    "description": "Real, possible and unreal conditions; mixed types; the colloquial double imperfetto; what is not standard.",
+    "objectives": [
+      "Build the three standard types of hypothetical sentence.",
+      "Combine a past condition with a present consequence (mixed type).",
+      "Recognise the colloquial 'se lo sapevo, venivo' and know its register.",
+      "Avoid the nonstandard conditional in the se-clause."
+    ],
+    "tags": { "pos": ["verb", "conjunction"], "topics": ["hypothesis", "subjunctive", "conditional", "register"], "tenses": ["congiuntivo imperfetto", "congiuntivo trapassato", "condizionale presente", "condizionale passato"], "families": [] },
+    "sections": [
+      {
+        "id": "types",
+        "heading": "The three standard types",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Periodo ipotetico",
+            "headers": ["Type", "se-clause (protasi)", "Main clause (apodosi)", "Example"],
+            "rows": [
+              ["realtà (real)", "indicative", "indicative or imperative", "*Se piove, resto a casa. Se hai fame, mangia!*"],
+              ["possibilità (possible)", "congiuntivo imperfetto", "condizionale presente", "*Se avessi tempo, leggerei di più.*"],
+              ["irrealtà (unreal, past)", "congiuntivo trapassato", "condizionale passato", "*Se avessi studiato, avrei superato l'esame.*"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "Future reference in the real type", "text": "With future reference both clauses may be in the futuro: *Se verrai, sarò felice*, or in the present: *Se vieni, sono felice*." },
+          { "type": "rule", "kind": "tendency", "title": "Possible or unreal in the present?", "text": "The congiuntivo imperfetto + condizionale presente covers both what is possible (*se vincessi alla lotteria…*) and what is contrary to present fact (*se fossi in te…* — I am not you). The context makes the difference." }
+        ]
+      },
+      {
+        "id": "mixed",
+        "heading": "Mixed types",
+        "blocks": [
+          { "type": "list", "items": ["Past condition, present consequence: *Se avessi studiato, ora sarei più tranquillo.* (trapassato + condizionale presente)", "Permanent condition, past consequence: *Se fossi più paziente, non ti saresti arrabbiato.* (imperfetto + condizionale passato)"] }
+        ]
+      },
+      {
+        "id": "register",
+        "heading": "Register: what is colloquial and what is not standard",
+        "blocks": [
+          { "type": "rule", "kind": "tendency", "title": "The double imperfetto", "text": "In conversation an unreal past condition is very often expressed with the imperfetto indicativo in both clauses: *Se lo sapevo, venivo* (= *se l'avessi saputo, sarei venuto*). It has a long history (it appears in Dante, Machiavelli and Manzoni) and is understood everywhere, but it belongs to an informal register; in writing and careful speech use the congiuntivo and condizionale (Treccani, *Enciclopedia dell'italiano*, s.v. periodo ipotetico)." },
+          { "type": "rule", "kind": "rule", "title": "Not standard: conditional after se", "text": "*Se avrei tempo, leggerei* is not standard Italian. It is common in the speech of less educated speakers and is widely stigmatised. Use *se avessi tempo*." },
+          { "type": "rule", "kind": "rule", "title": "se meaning 'whether'", "text": "In indirect questions *se* means 'whether' and is not a hypothesis: *Non so se verrà* (I don't know whether he'll come). Here a future or conditional after se is normal: *Mi chiedo se sarebbe d'accordo.*" }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Se piove, restiamo a casa.", "en": "If it rains, we'll stay at home.", "note": "Real: indicative + indicative." },
+      { "it": "Se avessi una casa al mare, ci andrei ogni estate.", "en": "If I had a house by the sea, I'd go there every summer." },
+      { "it": "Se fossi in te, non lo farei.", "en": "If I were you, I wouldn't do it." },
+      { "it": "Se avessimo preso il treno delle nove, saremmo già arrivati.", "en": "If we had taken the nine o'clock train, we would already have arrived." },
+      { "it": "Se avessi dormito di più, oggi non sarei così stanca.", "en": "If I had slept more, I wouldn't be so tired today.", "note": "Mixed: past condition, present consequence." },
+      { "it": "Se lo sapevo, venivo.", "en": "If I'd known, I would have come.", "note": "Colloquial double imperfetto." },
+      { "it": "Non so se verrà.", "en": "I don't know whether he'll come.", "note": "se = whether (indirect question): futuro is normal." }
+    ],
+    "exercises": [
+      {
+        "id": "periodo-ipotetico.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Se ___ (avere) più soldi, comprerei una barca.",
+        "options": ["avessi", "avrei", "ho", "avevo"],
+        "answer": "avessi",
+        "explanation": "Possible type: se + congiuntivo imperfetto, condizionale presente.",
+        "ruleRef": "types",
+        "mistakes": [{ "answer": "avrei", "message": "The conditional is not used in the se-clause in standard Italian: se avessi." }]
+      },
+      {
+        "id": "periodo-ipotetico.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Se avessi studiato, ___ (superare) l'esame.",
+        "options": ["avrei superato", "supererei", "superavo", "avessi superato"],
+        "answer": "avrei superato",
+        "explanation": "Unreal past: se + congiuntivo trapassato, condizionale passato. (superavo would be the colloquial pattern, but only with avevo studiato.)",
+        "ruleRef": "types"
+      },
+      {
+        "id": "periodo-ipotetico.3",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete.",
+        "text": "Se {0} (essere, io) in te, non {1} (partire). Se {2} (piovere) domani, restiamo a casa.",
+        "blanks": [{ "answer": "fossi" }, { "answer": "partirei" }, { "answer": "piove", "accept": ["pioverà"] }],
+        "explanation": "fossi / partirei (possible-unreal present); piove or pioverà (real, future reference).",
+        "ruleRef": "types"
+      },
+      {
+        "id": "periodo-ipotetico.4",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Classify each sentence.",
+        "pairs": [["Se hai fame, mangia.", "realtà"], ["Se potessi, verrei.", "possibilità"], ["Se fossi venuto, ti saresti divertito.", "irrealtà (past)"], ["Se l'avessi saputo, ora sarei lì.", "mixed"], ["Se lo sapevo, venivo.", "colloquial"]],
+        "explanation": "Look at the mood and tense in each clause.",
+        "ruleRef": "types"
+      },
+      {
+        "id": "periodo-ipotetico.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate (standard written Italian): If I had known, I would have come. (male speaker)",
+        "answer": "Se l'avessi saputo, sarei venuto.",
+        "accept": ["Se avessi saputo, sarei venuto.", "Se lo avessi saputo, sarei venuto."],
+        "explanation": "Congiuntivo trapassato + condizionale passato. 'Se lo sapevo, venivo' is the colloquial equivalent.",
+        "ruleRef": "types",
+        "mistakes": [{ "answer": "Se lo sapevo, venivo.", "message": "Correct in informal speech, but the task asks for standard written Italian: Se l'avessi saputo, sarei venuto." }]
+      },
+      {
+        "id": "periodo-ipotetico.6",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Which sentence is correct standard Italian?",
+        "options": ["Mi chiedo se Marco verrebbe.", "Se Marco verrebbe, sarei contento.", "Se avrei tempo, verrei.", "Se saresti qui, lo vedresti."],
+        "answer": "Mi chiedo se Marco verrebbe.",
+        "explanation": "In an indirect question (se = whether) the conditional is fine. In hypothetical se-clauses it is not standard.",
+        "ruleRef": "register"
+      }
+    ],
+    "summary": [
+      "realtà: se + indicativo, indicativo/imperativo.",
+      "possibilità: se + congiuntivo imperfetto, condizionale presente.",
+      "irrealtà: se + congiuntivo trapassato, condizionale passato; mixed types combine them.",
+      "Colloquial: se + imperfetto, imperfetto. Not standard: se + condizionale.",
+      "se = whether (indirect question) can take futuro or condizionale."
+    ],
+    "relatedVocabulary": ["conj_se", "verb_avere", "verb_essere", "verb_sapere", "verb_venire", "verb_piovere"],
+    "relatedStories": ["una-lettera-dalla-nonna"],
+    "relatedSongs": []
+  },
+  {
+    "id": "concordanza-dei-tempi",
+    "module": "m19",
+    "title": "Sequence of tenses (concordanza dei tempi)",
+    "level": "B2",
+    "description": "How the tense of a subordinate clause depends on the main verb and on the time relation between the two actions.",
+    "objectives": [
+      "Choose the subordinate tense for simultaneous, earlier and later actions after a present main verb.",
+      "Do the same after a past main verb, in both indicative and congiuntivo clauses.",
+      "Use the condizionale passato for posteriority in the past."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["sequence of tenses", "subjunctive", "subordinate clauses", "future in the past"], "tenses": ["congiuntivo presente", "congiuntivo passato", "congiuntivo imperfetto", "congiuntivo trapassato", "condizionale passato"], "families": [] },
+    "sections": [
+      {
+        "id": "subjunctive",
+        "heading": "Clauses with the congiuntivo",
+        "blocks": [
+          { "type": "table", "caption": "After a verb that requires the congiuntivo (pensare, credere, sperare, temere…)", "headers": ["Main verb", "Earlier", "Simultaneous", "Later"], "rows": [
+            ["present / future: *Penso che…*", "*sia partito*", "*parta*", "*parta / partirà*"],
+            ["past: *Pensavo che…*", "*fosse partito*", "*partisse*", "*sarebbe partito*"],
+            ["conditional: *Vorrei che…*", "—", "*partisse*", "*partisse*"],
+            ["conditional past: *Avrei voluto che…*", "*fosse partito*", "*partisse*", "—"]
+          ] },
+          { "type": "rule", "kind": "rule", "title": "Posteriority in the past", "text": "After a past main verb, a later action is expressed with the **condizionale passato** in both congiuntivo and indicative contexts: *Pensavo che sarebbe partito. Sapevo che sarebbe partito.*" },
+          { "type": "rule", "kind": "rule", "title": "Volition after the conditional", "text": "Verbs of wish in the conditional (*vorrei, preferirei, mi piacerebbe*) take the congiuntivo imperfetto: *Vorrei che tu venissi*, not *che tu venga*." }
+        ]
+      },
+      {
+        "id": "indicative",
+        "heading": "Clauses with the indicative",
+        "blocks": [
+          { "type": "table", "caption": "After verbs of saying and knowing (dire, sapere, scrivere…)", "headers": ["Main verb", "Earlier", "Simultaneous", "Later"], "rows": [
+            ["present: *Dice che…*", "*è partito / partì*", "*parte*", "*partirà*"],
+            ["past: *Ha detto che… / Disse che…*", "*era partito*", "*partiva*", "*sarebbe partito*"]
+          ] },
+          { "type": "rule", "kind": "tendency", "title": "When the content is still true", "text": "After a past main verb, if the reported fact is still true or still future at the moment of speaking, the present or futuro can be kept: *Mi ha detto che è sposato. Ha detto che verrà domani.* The shifted forms (*era sposato, sarebbe venuto*) are always correct." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Penso che Luca sia già arrivato.", "en": "I think Luca has already arrived.", "note": "Present main verb, earlier action." },
+      { "it": "Pensavo che Luca fosse già arrivato.", "en": "I thought Luca had already arrived.", "note": "Past main verb, earlier action." },
+      { "it": "Credevo che piovesse.", "en": "I thought it was raining.", "note": "Past main verb, simultaneous." },
+      { "it": "Ero sicuro che avrebbe piovuto.", "en": "I was sure it would rain.", "note": "Past main verb, later: condizionale passato." },
+      { "it": "Vorrei che tu mi aiutassi.", "en": "I'd like you to help me.", "note": "Conditional main verb: congiuntivo imperfetto." },
+      { "it": "Mi ha detto che sarebbe tornato presto.", "en": "He told me he would come back soon." },
+      { "it": "Mi ha detto che è sposato.", "en": "He told me he is married.", "note": "Still true now: the present is kept." }
+    ],
+    "exercises": [
+      {
+        "id": "concordanza-dei-tempi.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Complete *Pensavo che Marco … (partire)* for each time relation.",
+        "rows": [
+          { "label": "earlier", "answer": "fosse partito" },
+          { "label": "simultaneous", "answer": "partisse" },
+          { "label": "later", "answer": "sarebbe partito" }
+        ],
+        "explanation": "Past main verb: congiuntivo trapassato / imperfetto / condizionale passato.",
+        "ruleRef": "subjunctive"
+      },
+      {
+        "id": "concordanza-dei-tempi.2",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Complete *Penso che Marco … (partire)* for each time relation.",
+        "rows": [
+          { "label": "earlier", "answer": "sia partito" },
+          { "label": "simultaneous", "answer": "parta" },
+          { "label": "later", "answer": "partirà", "accept": ["parta"] }
+        ],
+        "explanation": "Present main verb: congiuntivo passato / presente / futuro (or congiuntivo presente).",
+        "ruleRef": "subjunctive"
+      },
+      {
+        "id": "concordanza-dei-tempi.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Vorrei che voi ___ (restare) ancora un po'.",
+        "options": ["restaste", "restiate", "restereste", "siete restati"],
+        "answer": "restaste",
+        "explanation": "Conditional main verb of wish → congiuntivo imperfetto.",
+        "ruleRef": "subjunctive",
+        "mistakes": [{ "answer": "restiate", "message": "After vorrei the congiuntivo imperfetto is required: restaste." }]
+      },
+      {
+        "id": "concordanza-dei-tempi.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Sapevo che Sara ___ (vincere): era la più veloce. (later than 'sapevo')",
+        "options": ["avrebbe vinto", "vincerebbe", "vincerà", "vincesse"],
+        "answer": "avrebbe vinto",
+        "explanation": "Posteriority in the past: condizionale passato.",
+        "ruleRef": "subjunctive"
+      },
+      {
+        "id": "concordanza-dei-tempi.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete after a past verb of saying.",
+        "text": "Ha detto che {0} (essere) stanco (simultaneous) e che {1} (dormire) poco la notte prima (earlier).",
+        "blanks": [{ "answer": "era" }, { "answer": "aveva dormito" }],
+        "explanation": "Indicative context: imperfetto (simultaneous), trapassato prossimo (earlier).",
+        "ruleRef": "indicative"
+      },
+      {
+        "id": "concordanza-dei-tempi.6",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Mi ha detto che è sposato.* Is this correct?",
+        "options": ["Yes: the fact is still true now, so the present can be kept.", "No: it must be 'era sposato'.", "No: it must be 'fosse sposato'.", "No: it must be 'sarebbe sposato'."],
+        "answer": "Yes: the fact is still true now, so the present can be kept.",
+        "explanation": "Both è sposato and era sposato are correct; the present stresses that it is still true.",
+        "ruleRef": "indicative"
+      }
+    ],
+    "summary": [
+      "Present main verb + congiuntivo: passato (earlier), presente (simultaneous), presente/futuro (later).",
+      "Past main verb + congiuntivo: trapassato (earlier), imperfetto (simultaneous), condizionale passato (later).",
+      "Vorrei che + congiuntivo imperfetto.",
+      "Indicative after a past verb of saying: trapassato prossimo / imperfetto / condizionale passato; the present can be kept for facts still true."
+    ],
+    "relatedVocabulary": ["verb_pensare", "verb_credere", "verb_dire", "verb_sapere", "verb_volere", "verb_partire"],
+    "relatedStories": ["una-lettera-dalla-nonna", "il-segreto-del-faro"],
+    "relatedSongs": []
+  },
+  {
+    "id": "discorso-indiretto",
+    "module": "m19",
+    "title": "Reported speech (discorso indiretto)",
+    "level": "B1",
+    "description": "Turning direct speech into reported speech: tenses, persons, time and place words, questions and commands.",
+    "objectives": [
+      "Shift tenses after a past verb of saying.",
+      "Change persons, possessives and time/place expressions consistently.",
+      "Report questions (se, che cosa, dove…) and commands (di + infinitive or che + congiuntivo)."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["reported speech", "sequence of tenses", "subordinate clauses"], "tenses": ["condizionale passato", "trapassato prossimo", "congiuntivo imperfetto"], "families": [] },
+    "sections": [
+      {
+        "id": "tenses",
+        "heading": "Tense changes after a past verb",
+        "blocks": [
+          { "type": "table", "caption": "Direct → reported (after disse / ha detto)", "headers": ["Direct speech", "Reported speech"], "rows": [
+            ["presente: «Sono stanco.»", "imperfetto: disse che era stanco"],
+            ["passato prossimo / remoto: «Ho perso le chiavi.»", "trapassato prossimo: disse che aveva perso le chiavi"],
+            ["imperfetto: «Ero felice.»", "imperfetto (unchanged): disse che era felice"],
+            ["futuro: «Partirò.»", "condizionale passato: disse che sarebbe partito"],
+            ["condizionale presente: «Vorrei un tè.»", "condizionale passato: disse che avrebbe voluto un tè"],
+            ["imperativo: «Chiudi la porta!»", "di + infinitive: gli disse di chiudere la porta"],
+            ["congiuntivo presente: «Spero che venga.»", "congiuntivo imperfetto: disse che sperava che venisse"]
+          ] },
+          { "type": "rule", "kind": "rule", "title": "After a present verb nothing shifts", "text": "*Dice che è stanco. Dice che partirà.* Only persons and deictic words change." }
+        ]
+      },
+      {
+        "id": "deixis",
+        "heading": "Persons, time and place",
+        "blocks": [
+          { "type": "table", "caption": "Typical changes", "headers": ["Direct", "Reported"], "rows": [
+            ["io, mio", "lui/lei, suo"],
+            ["oggi", "quel giorno"],
+            ["ieri", "il giorno prima"],
+            ["domani", "il giorno dopo / l'indomani"],
+            ["adesso, ora", "allora, in quel momento"],
+            ["qui, qua", "lì, là"],
+            ["questo", "quello"],
+            ["fra due giorni", "dopo due giorni"],
+            ["venire", "andare (often)"]
+          ] }
+        ]
+      },
+      {
+        "id": "questions",
+        "heading": "Questions and commands",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Yes/no questions: se", "text": "«Hai fame?» → *Mi chiese se avevo fame.* In indirect questions the congiuntivo is also possible and more formal: *mi chiese se avessi fame*." },
+          { "type": "rule", "kind": "rule", "title": "Open questions keep the question word", "text": "«Dove abiti?» → *Mi chiese dove abitavo / abitassi.*" },
+          { "type": "rule", "kind": "rule", "title": "Commands", "text": "di + infinitive (same reference) or che + congiuntivo: «Vieni qui!» → *Mi disse di andare lì* / *Disse che andassi lì*." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "«Sono stanca», disse Sara. → Sara disse che era stanca.", "en": "“I'm tired,” said Sara. → Sara said she was tired." },
+      { "it": "«Domani partirò.» → Disse che il giorno dopo sarebbe partito.", "en": "“I'll leave tomorrow.” → He said he would leave the next day." },
+      { "it": "«Ho perso la chiave.» → Disse che aveva perso la chiave.", "en": "“I've lost the key.” → He said he had lost the key." },
+      { "it": "«Hai fame?» → Mi chiese se avevo fame.", "en": "“Are you hungry?” → He asked me if I was hungry." },
+      { "it": "«Chiudi la finestra!» → Mi disse di chiudere la finestra.", "en": "“Close the window!” → She told me to close the window." },
+      { "it": "«Verrò qui domani.» → Disse che sarebbe andato lì il giorno dopo.", "en": "“I'll come here tomorrow.” → He said he would go there the next day.", "note": "venire → andare, qui → lì, domani → il giorno dopo." }
+    ],
+    "exercises": [
+      {
+        "id": "discorso-indiretto.1",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "«Ho fame.» → Luca disse che ___ fame.",
+        "answer": "aveva",
+        "explanation": "presente → imperfetto after a past verb of saying.",
+        "ruleRef": "tenses"
+      },
+      {
+        "id": "discorso-indiretto.2",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "«Partirò domani.» → Disse che ___ il giorno dopo. (male speaker)",
+        "answer": "sarebbe partito",
+        "explanation": "futuro → condizionale passato.",
+        "ruleRef": "tenses",
+        "mistakes": [{ "answer": "partirebbe", "message": "The future in the past is the condizionale passato: sarebbe partito." }]
+      },
+      {
+        "id": "discorso-indiretto.3",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "«Ho visto un lupo.» → Disse che ___ un lupo.",
+        "answer": "aveva visto",
+        "explanation": "passato prossimo → trapassato prossimo.",
+        "ruleRef": "tenses"
+      },
+      {
+        "id": "discorso-indiretto.4",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match direct and reported expressions.",
+        "pairs": [["oggi", "quel giorno"], ["domani", "il giorno dopo"], ["ieri", "il giorno prima"], ["qui", "lì"], ["questo", "quello"]],
+        "explanation": "Deictic words shift to the reported situation.",
+        "ruleRef": "deixis"
+      },
+      {
+        "id": "discorso-indiretto.5",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Mi chiese se avevo fame.*",
+        "answer": "He asked me if I was hungry.",
+        "accept": ["She asked me if I was hungry.", "He asked me whether I was hungry.", "She asked me whether I was hungry."],
+        "explanation": "Yes/no question reported with se; avere fame = to be hungry.",
+        "ruleRef": "questions"
+      },
+      {
+        "id": "discorso-indiretto.6",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "«Chiudi la porta!» → La mamma mi disse ___ la porta.",
+        "options": ["di chiudere", "che chiudo", "chiudere", "che chiuderò"],
+        "answer": "di chiudere",
+        "explanation": "Reported command: di + infinitive (or che chiudessi).",
+        "ruleRef": "questions"
+      }
+    ],
+    "summary": [
+      "After a past verb: presente → imperfetto, passato → trapassato, futuro/condizionale → condizionale passato, imperativo → di + infinitive.",
+      "Persons and deictics change: oggi → quel giorno, domani → il giorno dopo, qui → lì, venire → andare.",
+      "Questions: se / question word, indicative or (more formal) congiuntivo."
+    ],
+    "relatedVocabulary": ["verb_dire", "verb_chiedere", "verb_rispondere", "verb_raccontare", "verb_promettere"],
+    "relatedStories": ["il-segreto-del-faro", "una-lettera-dalla-nonna"],
+    "relatedSongs": []
+  }
+]

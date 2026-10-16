@@ -1,0 +1,835 @@
+[
+  {
+    "id": "congiuntivo-presente",
+    "module": "m18",
+    "title": "Congiuntivo presente: forms and main uses",
+    "level": "B1",
+    "description": "How to form the present subjunctive, which contexts require it, and how register affects its use.",
+    "objectives": [
+      "Form the congiuntivo presente of regular and irregular verbs.",
+      "Use it after verbs of opinion, wish, emotion and doubt, after impersonal expressions and after certain conjunctions.",
+      "Use di + infinitive instead when the two clauses have the same subject.",
+      "Understand that the indicative after verbs of opinion is informal, and that some contexts allow a real choice of meaning."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "subjunctive",
+        "subordinate clauses",
+        "register"
+      ],
+      "tenses": [
+        "congiuntivo presente"
+      ],
+      "families": [
+        "-are",
+        "-ere",
+        "-ire",
+        "irregular"
+      ]
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Endings",
+            "text": "-are verbs: *-i, -i, -i, -iamo, -iate, -ino*. -ere and -ire verbs: *-a, -a, -a, -iamo, -iate, -ano*. The three singular forms are identical, so a subject pronoun is often added for clarity: *che io parli, che tu parli, che lui parli*."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_parlare",
+            "tense": "congiuntivoPresente",
+            "highlightEndings": true
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_vedere",
+            "tense": "congiuntivoPresente",
+            "highlightEndings": true
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_capire",
+            "tense": "congiuntivoPresente"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Irregular verbs: start from the io form",
+            "text": "Most irregular verbs build the singular and loro on the io form of the present, and noi/voi on the noi form: *vado → vada, vadano; andiamo → andiamo, andiate*. So: *faccia, dica, venga, esca, possa, voglia, beva, rimanga, piaccia, scelga*. Fully irregular: *essere (sia), avere (abbia), sapere (sappia), dare (dia), stare (stia)*. *dovere*: *debba* (the alternative *deva* exists but is much less common)."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_essere",
+            "tense": "congiuntivoPresente"
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_andare",
+            "tense": "congiuntivoPresente"
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "When the congiuntivo is required",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Main contexts",
+            "headers": [
+              "Context",
+              "Examples"
+            ],
+            "rows": [
+              [
+                "opinion, belief, supposition",
+                "Penso che sia vero. Credo che Marco abiti a Roma. Immagino che tu sia stanco."
+              ],
+              [
+                "wish, will, request",
+                "Voglio che tu venga. Preferisco che restiate a casa."
+              ],
+              [
+                "emotion",
+                "Sono contento che tu sia qui. Mi dispiace che piova."
+              ],
+              [
+                "doubt, uncertainty",
+                "Dubito che arrivi in tempo. Non sono sicuro che sia aperto."
+              ],
+              [
+                "impersonal expressions",
+                "Bisogna che tu parta. È importante che studiate. È possibile che nevichi."
+              ],
+              [
+                "conjunctions",
+                "benché/sebbene (although), affinché/perché (so that), purché (provided that), prima che (before), senza che (without), a meno che (unless), nonostante (although)"
+              ],
+              [
+                "indefinite or hypothetical antecedent",
+                "Cerco qualcuno che sappia il cinese."
+              ],
+              [
+                "after a superlative",
+                "È il libro più bello che io abbia mai letto."
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Same subject: di + infinitive",
+            "text": "If the subject of both clauses is the same, use *di* + infinitive, not *che* + congiuntivo: *Penso di partire* (I think I'll leave), not *Penso che io parta*. *Spero di vederti*, *Sono contento di essere qui*."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Indicative after statements of certainty",
+            "text": "Verbs and expressions of certainty and perception take the indicative: *So che è vero. È certo che verrà. Vedo che sei stanco.* *perché* meaning 'because' takes the indicative; *perché* meaning 'so that' takes the congiuntivo."
+          }
+        ]
+      },
+      {
+        "id": "register",
+        "heading": "Register and variation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Indicative in informal speech",
+            "text": "In everyday speech the indicative often replaces the congiuntivo after verbs of opinion (*credo che è vero*). This is understood everywhere but belongs to a lower, informal register; in writing and careful speech the congiuntivo is expected (Treccani, *Enciclopedia dell'italiano*, s.v. congiuntivo)."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "sperare che + futuro",
+            "text": "After *sperare* a future event can also be expressed with the futuro indicativo: *Spero che verrai* alongside *Spero che tu venga*. Both are widely used; the congiuntivo is the more formal choice."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "A real choice in relative clauses",
+            "text": "In restrictive relative clauses the mood changes the meaning: *Cerco lo studente che ha perso il libretto* (a specific student who exists) / *Cerco uno studente che legga il cinese* (anyone who might). (Treccani, s.v. congiuntivo)"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Penso che Marco sia stanco.",
+        "en": "I think Marco is tired."
+      },
+      {
+        "it": "Voglio che tu venga con me.",
+        "en": "I want you to come with me.",
+        "note": "English uses an infinitive; Italian needs che + congiuntivo with a different subject."
+      },
+      {
+        "it": "Penso di partire domani.",
+        "en": "I think I'll leave tomorrow.",
+        "note": "Same subject: di + infinitive."
+      },
+      {
+        "it": "Benché piova, usciamo.",
+        "en": "Although it's raining, we're going out."
+      },
+      {
+        "it": "Ti presto il libro purché tu me lo restituisca.",
+        "en": "I'll lend you the book provided you give it back to me."
+      },
+      {
+        "it": "So che è vero.",
+        "en": "I know it's true.",
+        "note": "Certainty: indicative."
+      },
+      {
+        "it": "È il libro più bello che io abbia mai letto.",
+        "en": "It's the most beautiful book I have ever read.",
+        "note": "After a superlative: congiuntivo passato."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "congiuntivo-presente.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the congiuntivo presente (che lui/lei …).",
+        "rows": [
+          {
+            "label": "parlare",
+            "answer": "parli"
+          },
+          {
+            "label": "prendere",
+            "answer": "prenda"
+          },
+          {
+            "label": "finire",
+            "answer": "finisca"
+          },
+          {
+            "label": "fare",
+            "answer": "faccia"
+          },
+          {
+            "label": "andare",
+            "answer": "vada"
+          },
+          {
+            "label": "essere",
+            "answer": "sia"
+          }
+        ],
+        "explanation": "-are → -i; -ere/-ire → -a (finisca keeps -isc-); irregulars from the io form (faccio → faccia, vado → vada); essere → sia.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "congiuntivo-presente.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Credo che Sara ___ ragione.",
+        "options": [
+          "abbia",
+          "ha",
+          "avrebbe",
+          "avesse"
+        ],
+        "answer": "abbia",
+        "explanation": "Verb of opinion in the present: congiuntivo presente. (ha is frequent in informal speech but not the standard written form.)",
+        "ruleRef": "uses",
+        "mistakes": [
+          {
+            "answer": "ha",
+            "message": "Understandable and common in casual speech, but after credo che standard Italian uses the congiuntivo: abbia."
+          }
+        ]
+      },
+      {
+        "id": "congiuntivo-presente.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'I hope to see you soon.'",
+        "options": [
+          "Spero di vederti presto.",
+          "Spero che io ti veda presto.",
+          "Spero che ti vedo presto.",
+          "Spero vederti presto."
+        ],
+        "answer": "Spero di vederti presto.",
+        "explanation": "Same subject (io spero, io vedo): di + infinitive.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "congiuntivo-presente.4",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Indicative or congiuntivo?",
+        "pairs": [
+          [
+            "So che…",
+            "indicative"
+          ],
+          [
+            "Penso che…",
+            "congiuntivo"
+          ],
+          [
+            "Benché…",
+            "congiuntivo (conjunction)"
+          ],
+          [
+            "È certo che…",
+            "indicative (certainty)"
+          ],
+          [
+            "Bisogna che…",
+            "congiuntivo (impersonal)"
+          ]
+        ],
+        "explanation": "Certainty → indicative; opinion, necessity, concession → congiuntivo.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "congiuntivo-presente.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the congiuntivo presente.",
+        "text": "Voglio che voi {0} (venire) alla festa. È importante che tu {1} (dormire). Dubito che loro {2} (sapere) la risposta.",
+        "blanks": [
+          {
+            "answer": "veniate"
+          },
+          {
+            "answer": "dorma"
+          },
+          {
+            "answer": "sappiano"
+          }
+        ],
+        "explanation": "veniate (from veniamo), dorma, sappiano (irregular).",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "congiuntivo-presente.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I want you to come with me. (tu)",
+        "answer": "Voglio che tu venga con me.",
+        "accept": [
+          "Voglio che venga con me."
+        ],
+        "explanation": "Different subjects: voglio che + congiuntivo; tu is usually expressed because venga is the same for io, tu and lui.",
+        "ruleRef": "uses",
+        "mistakes": [
+          {
+            "answer": "Voglio te venire con me.",
+            "message": "Italian does not use 'want + person + infinitive'. Use voglio che tu venga."
+          }
+        ]
+      },
+      {
+        "id": "congiuntivo-presente.7",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Ti spiego la regola ___ tu la capisca.",
+        "options": [
+          "affinché",
+          "perché (= because)",
+          "siccome",
+          "quando"
+        ],
+        "answer": "affinché",
+        "explanation": "affinché (so that) requires the congiuntivo. perché can also mean 'so that' with the congiuntivo, but as 'because' it takes the indicative.",
+        "ruleRef": "uses"
+      }
+    ],
+    "summary": [
+      "-are: -i, -i, -i, -iamo, -iate, -ino; -ere/-ire: -a, -a, -a, -iamo, -iate, -ano.",
+      "Irregulars from the io form (vada, faccia, venga); sia, abbia, sappia, dia, stia.",
+      "After opinion, wish, emotion, doubt, impersonal expressions, benché/affinché/purché/prima che/senza che, indefinite antecedents, superlatives.",
+      "Same subject → di + infinitive. Certainty → indicative.",
+      "Informal speech often uses the indicative after verbs of opinion; standard writing uses the congiuntivo."
+    ],
+    "relatedVocabulary": [
+      "verb_pensare",
+      "verb_credere",
+      "verb_volere",
+      "verb_sperare",
+      "verb_dubitare",
+      "verb_bisognare",
+      "verb_essere",
+      "verb_avere",
+      "verb_temere",
+      "adj_contento"
+    ],
+    "relatedStories": [
+      "una-lettera-dalla-nonna"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "congiuntivo-passato",
+    "module": "m18",
+    "title": "Congiuntivo passato",
+    "level": "B1",
+    "description": "The perfect subjunctive: an action before the time of a present main verb.",
+    "objectives": [
+      "Form the congiuntivo passato (abbia fatto, sia partito).",
+      "Choose between congiuntivo presente and passato according to time relations.",
+      "Use it after superlatives and in subjunctive contexts referring to the past."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "subjunctive",
+        "compound tenses",
+        "sequence of tenses"
+      ],
+      "tenses": [
+        "congiuntivo passato"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Congiuntivo presente of the auxiliary + participle",
+            "text": "*(che) io abbia mangiato, (che) lei sia partita*. Auxiliary and agreement as in the passato prossimo."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_partire",
+            "tense": "congiuntivoPassato",
+            "gender": "f"
+          }
+        ]
+      },
+      {
+        "id": "use",
+        "heading": "Presente or passato?",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Time relative to the main verb",
+            "text": "With a present (or future) main verb: the congiuntivo **presente** for an action at the same time or later; the congiuntivo **passato** for an earlier action. *Penso che Marco sia a casa* (now) / *Penso che Marco sia uscito* (earlier)."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Past situations seen from the present",
+            "text": "For a past state or ongoing past situation, the congiuntivo imperfetto is also used after a present main verb: *Penso che da bambino fosse molto timido* (I think he was very shy as a child)."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Penso che Marco sia già partito.",
+        "en": "I think Marco has already left."
+      },
+      {
+        "it": "Mi dispiace che tu non abbia vinto.",
+        "en": "I'm sorry you didn't win."
+      },
+      {
+        "it": "È il film più bello che io abbia mai visto.",
+        "en": "It's the best film I have ever seen."
+      },
+      {
+        "it": "Non credo che abbiano capito.",
+        "en": "I don't think they understood."
+      },
+      {
+        "it": "Sono contenta che siate venuti.",
+        "en": "I'm glad you came.",
+        "note": "Female speaker; venuti agrees with voi (mixed or masculine group)."
+      },
+      {
+        "it": "Benché abbia studiato, non ha superato l'esame.",
+        "en": "Although he studied, he didn't pass the exam."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "congiuntivo-passato.1",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "che io (fare), congiuntivo passato: ___",
+        "answer": "abbia fatto",
+        "explanation": "abbia + fatto.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "congiuntivo-passato.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Penso che ieri Luca ___ (andare) al cinema.",
+        "options": [
+          "sia andato",
+          "vada",
+          "andasse",
+          "è andato"
+        ],
+        "answer": "sia andato",
+        "explanation": "Present main verb + earlier action: congiuntivo passato.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "congiuntivo-passato.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Penso che adesso Luca ___ (essere) al cinema.",
+        "options": [
+          "sia",
+          "sia stato",
+          "fosse",
+          "è stato"
+        ],
+        "answer": "sia",
+        "explanation": "Simultaneous action: congiuntivo presente.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "congiuntivo-passato.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the congiuntivo passato.",
+        "text": "Sono contento che voi {0} (arrivare) in tempo. È strano che Sara non {1} (telefonare).",
+        "blanks": [
+          {
+            "answer": "siate arrivati",
+            "accept": [
+              "siate arrivate"
+            ]
+          },
+          {
+            "answer": "abbia telefonato"
+          }
+        ],
+        "explanation": "arrivare → essere (agreement); telefonare → avere.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "congiuntivo-passato.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: It's the most beautiful book I have ever read.",
+        "answer": "È il libro più bello che io abbia mai letto.",
+        "accept": [
+          "È il libro più bello che abbia mai letto."
+        ],
+        "explanation": "Superlative + che + congiuntivo passato.",
+        "ruleRef": "use"
+      }
+    ],
+    "summary": [
+      "Congiuntivo passato = congiuntivo presente of avere/essere + participle.",
+      "Present main verb: presente for simultaneous/later, passato for earlier actions.",
+      "Common after superlatives: il più bello che abbia mai visto."
+    ],
+    "relatedVocabulary": [
+      "verb_partire",
+      "verb_andare",
+      "verb_vincere",
+      "verb_capire",
+      "verb_telefonare"
+    ],
+    "relatedStories": [
+      "una-lettera-dalla-nonna"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "congiuntivo-imperfetto-trapassato",
+    "module": "m18",
+    "title": "Congiuntivo imperfetto and trapassato",
+    "level": "B1",
+    "description": "The past subjunctives: after past and conditional main verbs, in hypotheses and in wishes.",
+    "objectives": [
+      "Form the congiuntivo imperfetto (parlassi, fossi, facessi) and trapassato (avessi parlato, fossi partito).",
+      "Use them after a past or conditional main verb.",
+      "Use them in hypothetical se-clauses and in wishes with magari / se solo / vorrei che."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "subjunctive",
+        "sequence of tenses",
+        "hypothesis",
+        "wishes"
+      ],
+      "tenses": [
+        "congiuntivo imperfetto",
+        "congiuntivo trapassato"
+      ],
+      "families": [
+        "-are",
+        "-ere",
+        "-ire",
+        "irregular"
+      ]
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Imperfetto: stem + -ssi, -ssi, -sse, -ssimo, -ste, -ssero",
+            "text": "Take the imperfetto indicativo, remove -vo, and add the endings: *parlavo → parlassi, vedevo → vedessi, dormivo → dormissi, facevo → facessi, dicevo → dicessi, bevevo → bevessi*. Irregular: *essere (fossi), dare (dessi), stare (stessi)*."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_parlare",
+            "tense": "congiuntivoImperfetto",
+            "highlightEndings": true
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_essere",
+            "tense": "congiuntivoImperfetto"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Trapassato: avessi / fossi + participle",
+            "text": "*avessi mangiato, fossi partito/a*."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_andare",
+            "tense": "congiuntivoTrapassato"
+          },
+          {
+            "type": "rule",
+            "kind": "exception",
+            "title": "voi: -ste, the same as the passato remoto",
+            "text": "The voi forms of congiuntivo imperfetto and passato remoto coincide: *parlaste, credeste, dormiste*. Context decides."
+          }
+        ]
+      },
+      {
+        "id": "use",
+        "heading": "Use",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "After a past or conditional main verb",
+            "text": "When the main verb is in a past tense or in the conditional, a congiuntivo clause uses the **imperfetto** for a simultaneous action and the **trapassato** for an earlier one: *Pensavo che fosse a casa / che fosse uscito. Vorrei che tu venissi. Avrei voluto che tu fossi venuto.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Hypotheses",
+            "text": "In se-clauses: *Se avessi tempo, leggerei* (possible); *Se avessi avuto tempo, avrei letto* (unreal past). See the lesson on hypothetical sentences."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Wishes",
+            "text": "*Magari fosse vero!* (If only it were true!) *Se solo avessi ascoltato!* (If only I had listened!) *Fosse vero!*"
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "come se",
+            "text": "*come se* (as if) always takes the congiuntivo imperfetto or trapassato: *Parla come se fosse il capo.*"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Pensavo che fossi in vacanza.",
+        "en": "I thought you were on holiday.",
+        "note": "Past main verb, simultaneous: imperfetto."
+      },
+      {
+        "it": "Pensavo che fossi già partito.",
+        "en": "I thought you had already left.",
+        "note": "Earlier action: trapassato."
+      },
+      {
+        "it": "Vorrei che tu restassi.",
+        "en": "I'd like you to stay.",
+        "note": "Conditional main verb: imperfetto."
+      },
+      {
+        "it": "Magari avessi più tempo!",
+        "en": "If only I had more time!"
+      },
+      {
+        "it": "Parla come se sapesse tutto.",
+        "en": "He talks as if he knew everything."
+      },
+      {
+        "it": "Se avessi saputo, sarei venuta.",
+        "en": "If I had known, I would have come.",
+        "note": "Counterfactual past: trapassato + condizionale passato."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "congiuntivo-imperfetto-trapassato.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the congiuntivo imperfetto (che io …).",
+        "rows": [
+          {
+            "label": "parlare",
+            "answer": "parlassi"
+          },
+          {
+            "label": "avere",
+            "answer": "avessi"
+          },
+          {
+            "label": "essere",
+            "answer": "fossi"
+          },
+          {
+            "label": "fare",
+            "answer": "facessi"
+          },
+          {
+            "label": "dire",
+            "answer": "dicessi"
+          },
+          {
+            "label": "stare",
+            "answer": "stessi"
+          }
+        ],
+        "explanation": "From the imperfetto stem (parla-, ave-, face-, dice-); fossi and stessi are irregular.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "congiuntivo-imperfetto-trapassato.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Credevo che Marco ___ (lavorare) a Roma.",
+        "options": [
+          "lavorasse",
+          "lavori",
+          "abbia lavorato",
+          "lavorerebbe"
+        ],
+        "answer": "lavorasse",
+        "explanation": "Past main verb (credevo) + simultaneous action: congiuntivo imperfetto.",
+        "ruleRef": "use",
+        "mistakes": [
+          {
+            "answer": "lavori",
+            "message": "After a past main verb the congiuntivo presente is not used: lavorasse."
+          }
+        ]
+      },
+      {
+        "id": "congiuntivo-imperfetto-trapassato.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Non sapevo che voi ___ (partire).",
+        "options": [
+          "foste partiti",
+          "siate partiti",
+          "partiste",
+          "partireste"
+        ],
+        "answer": "foste partiti",
+        "explanation": "Past main verb + earlier action: congiuntivo trapassato (foste partiti). partiste would be passato remoto or congiuntivo imperfetto (simultaneous).",
+        "ruleRef": "use"
+      },
+      {
+        "id": "congiuntivo-imperfetto-trapassato.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete.",
+        "text": "Magari {0} (essere) vero! Vorrei che tu {1} (venire) con me. Parla come se {2} (sapere) tutto.",
+        "blanks": [
+          {
+            "answer": "fosse"
+          },
+          {
+            "answer": "venissi"
+          },
+          {
+            "answer": "sapesse"
+          }
+        ],
+        "explanation": "Wishes, conditional main verb and come se all take the congiuntivo imperfetto.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "congiuntivo-imperfetto-trapassato.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I thought you had already left. (tu, male)",
+        "answer": "Pensavo che fossi già partito.",
+        "accept": [
+          "Pensavo che tu fossi già partito.",
+          "Credevo che fossi già partito.",
+          "Credevo che tu fossi già partito."
+        ],
+        "explanation": "Past main verb + earlier action: congiuntivo trapassato.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "congiuntivo-imperfetto-trapassato.6",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*parlaste* can be…",
+        "options": [
+          "passato remoto or congiuntivo imperfetto (voi)",
+          "only passato remoto",
+          "only congiuntivo imperfetto",
+          "condizionale presente"
+        ],
+        "answer": "passato remoto or congiuntivo imperfetto (voi)",
+        "explanation": "The voi forms coincide; context decides.",
+        "ruleRef": "formation"
+      }
+    ],
+    "summary": [
+      "Congiuntivo imperfetto = imperfetto stem + -ssi, -ssi, -sse, -ssimo, -ste, -ssero (fossi, dessi, stessi irregular).",
+      "Congiuntivo trapassato = avessi/fossi + participle.",
+      "After past or conditional main verbs: imperfetto (simultaneous), trapassato (earlier).",
+      "Also in se-clauses of hypotheses, in wishes (magari…) and after come se."
+    ],
+    "relatedVocabulary": [
+      "verb_pensare",
+      "verb_credere",
+      "verb_volere",
+      "verb_sapere",
+      "verb_essere",
+      "verb_partire"
+    ],
+    "relatedStories": [
+      "una-lettera-dalla-nonna"
+    ],
+    "relatedSongs": []
+  }
+]

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A graded Italian story with translations and word analysis." />
+    <meta name="color-scheme" content="light dark" />
+    <title>Story · Italian Learning Lab</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      /* Apply the saved theme before first paint to avoid a flash. */
+      try {
+        var s = JSON.parse(localStorage.getItem('italian-learning-lab') || '{}');
+        var t = s && s.settings && s.settings.theme;
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="story">
+    <div id="app" class="app-loading" aria-busy="true">Loading…</div>
+    <noscript>
+      <p class="noscript">Italian Learning Lab needs JavaScript to run. All content is stored locally; nothing is sent to a server.</p>
+    </noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

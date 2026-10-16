@@ -1,0 +1,110 @@
+{
+ "$schema": "Provenance of every piece of content and every bundled dependency. Each vocabulary entry, lesson, story and rhyme refers to a sourceId listed here.",
+ "sources": [
+  {
+   "id": "original_content",
+   "title": "Italian Learning Lab original educational content",
+   "kind": "content",
+   "covers": "All lessons, explanations, example sentences, exercises, vocabulary entries, stories and rhymes bundled with the site.",
+   "author": "Italian Learning Lab contributors",
+   "licence": "CC BY 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "note": "Written for this project. Grammar descriptions follow standard Italian reference grammar; no text was copied from third-party textbooks, dictionaries or songs."
+  },
+  {
+   "id": "code",
+   "title": "Italian Learning Lab source code",
+   "kind": "code",
+   "covers": "HTML, CSS and JavaScript in this repository.",
+   "author": "Italian Learning Lab contributors",
+   "licence": "MIT",
+   "licenceUrl": "https://opensource.org/license/mit"
+  },
+  {
+   "id": "lucide",
+   "title": "Lucide icons",
+   "kind": "dependency (bundled at build time)",
+   "covers": "Interface icons.",
+   "author": "Lucide Icons and Contributors; Cole Bemis (Feather)",
+   "licence": "ISC (icons derived from Feather: MIT)",
+   "licenceUrl": "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+   "url": "https://lucide.dev"
+  },
+  {
+   "id": "vite",
+   "title": "Vite",
+   "kind": "development tool (not shipped)",
+   "covers": "Development server and production build.",
+   "author": "Evan You and Vite contributors",
+   "licence": "MIT",
+   "licenceUrl": "https://github.com/vitejs/vite/blob/main/LICENSE",
+   "url": "https://vite.dev"
+  },
+  {
+   "id": "vitest",
+   "title": "Vitest and jsdom",
+   "kind": "development tools (not shipped)",
+   "covers": "Automated tests.",
+   "author": "Vitest contributors; jsdom contributors",
+   "licence": "MIT",
+   "licenceUrl": "https://github.com/vitest-dev/vitest/blob/main/LICENSE",
+   "url": "https://vitest.dev"
+  },
+  {
+   "id": "web-speech",
+   "title": "Browser speech synthesis (Web Speech API)",
+   "kind": "optional browser feature",
+   "covers": "Read-aloud buttons. Uses voices installed in your browser or operating system; nothing is downloaded by this site. Some browsers may route synthesis through their vendor's online service — check your browser's documentation if this matters to you.",
+   "licence": "Provided by your browser",
+   "licenceUrl": ""
+  }
+ ],
+ "references": [
+  {
+   "title": "Treccani — Vocabolario online",
+   "url": "https://www.treccani.it/vocabolario/",
+   "note": "Authoritative Italian dictionary (Italian only)."
+  },
+  {
+   "title": "Accademia della Crusca — Consulenza linguistica",
+   "url": "https://accademiadellacrusca.it/it/consulenza",
+   "note": "Answers to questions on usage and grammar (Italian)."
+  },
+  {
+   "title": "Wiktionary — Italian",
+   "url": "https://en.wiktionary.org/wiki/Category:Italian_language",
+   "note": "Free dictionary with conjugation tables and pronunciation (CC BY-SA)."
+  },
+  {
+   "title": "DiPI — Dizionario di pronuncia italiana",
+   "url": "https://www.dipionline.it/",
+   "note": "Pronunciation and stress of Italian words."
+  },
+  {
+   "title": "Enciclopedia dell'Italiano — Passato remoto",
+   "url": "https://www.treccani.it/enciclopedia/passato-remoto_(Enciclopedia-dell'Italiano)/",
+   "note": "Eva Wiberg. Used to check: -ei/-etti alternatives (vendei o vendetti); narrative (foreground) function; regional Italian largely mirrors dialect usage; strong preference for the passato remoto in Sicilian, Calabrian and Salentine dialect areas."
+  },
+  {
+   "title": "Enciclopedia dell'Italiano — Passato prossimo",
+   "url": "https://www.treccani.it/enciclopedia/passato-prossimo_(Enciclopedia-dell'Italiano)/",
+   "note": "Eva Wiberg. Used to check: Aoristic passato prossimo spreading from the North, except in Tuscany; in the South the passato remoto is used where the standard would have the passato prossimo."
+  },
+  {
+   "title": "Enciclopedia dell'Italiano — Participio",
+   "url": "https://www.treccani.it/enciclopedia/participio_(Enciclopedia-dell'Italiano)/",
+   "note": "Verner Egerland. Used to check: Agreement with a preceding direct-object clitic, especially 3rd person; less regular with 1st/2nd person (ci hanno visti / visto); agreement with relative che no longer standard (literary, antiquated, dialectal); participio assoluto. The article does not discuss ne."
+  },
+  {
+   "title": "Enciclopedia dell'Italiano — Periodo ipotetico",
+   "url": "https://www.treccani.it/enciclopedia/periodo-ipotetico_(Enciclopedia-dell'Italiano)/",
+   "note": "Michele Prandi. Used to check: Three standard types (reality, possibility, unreality); substandard double imperfetto, attested in Dante, Machiavelli, Manzoni; conditional in the protasis non-standard ('doppio condizionale')."
+  },
+  {
+   "title": "Enciclopedia dell'Italiano — Congiuntivo",
+   "url": "https://www.treccani.it/enciclopedia/congiuntivo_(Enciclopedia-dell'Italiano)/",
+   "note": "Michele Prandi. Used to check: Indicativo for congiuntivo in completive clauses = lower register, same meaning; in restrictive relatives the mood choice changes the meaning."
+  }
+ ],
+ "lyricsPolicy": "No commercial song lyrics are bundled. The Songs workspace lets you paste lyrics that you have the right to use; they are saved only in your own browser and never uploaded. Audio files you open are played locally and are not stored or transmitted."
+}

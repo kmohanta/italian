@@ -1,0 +1,254 @@
+[
+  {
+    "id": "condizionale-presente",
+    "module": "m14",
+    "title": "Condizionale presente",
+    "level": "A2",
+    "description": "Formation of the present conditional and its uses: politeness, wishes, advice, hypothetical consequences and reported information.",
+    "objectives": [
+      "Form the condizionale presente from the future stem.",
+      "Make polite requests (vorrei, potrebbe…) and give advice (dovresti).",
+      "Use the conditional for the consequence of a hypothetical condition.",
+      "Recognise the 'journalistic' conditional for unconfirmed information."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["conditional", "politeness", "hypothesis"], "tenses": ["condizionale presente"], "families": ["-are", "-ere", "-ire", "irregular"] },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Future stem + -ei, -esti, -ebbe, -emmo, -este, -ebbero", "text": "The conditional uses exactly the same stem as the futuro, with its own endings: *parler-ei, sar-ei, vorr-ei, andr-ei*. Every irregularity of the future therefore reappears here." },
+          { "type": "paradigm", "verb": "verb_parlare", "tense": "condizionale", "highlightEndings": true },
+          { "type": "paradigm", "verb": "verb_volere", "tense": "condizionale" },
+          { "type": "rule", "kind": "exception", "title": "noi: -emmo, not -emo", "text": "The noi forms of futuro and condizionale differ only by a double m: *parleremo* (we will speak) / *parleremmo* (we would speak). The difference is audible: the mm is pronounced long." }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "Uses",
+        "blocks": [
+          { "type": "list", "items": ["Politeness and attenuation: *Vorrei un caffè. Potrebbe aiutarmi? Mi daresti una mano?*", "Wishes: *Mi piacerebbe vivere al mare.*", "Advice and obligation softened: *Dovresti dormire di più.* (You ought to sleep more.)", "Consequence of a hypothesis: *Se avessi tempo, leggerei di più.* (see the lesson on hypothetical sentences)", "Opinion stated cautiously: *Direi che hai ragione.*", "Unconfirmed or reported information, typical of journalism: *Secondo alcune fonti, il ministro sarebbe a Roma.* (The minister is reportedly in Rome.)"] },
+          { "type": "rule", "kind": "rule", "title": "Never after se in a hypothesis", "text": "In the se-clause of a hypothetical sentence the standard language uses the congiuntivo, not the conditional: *Se potessi, verrei* — not *se potrei*. The conditional in the se-clause is heard in nonstandard speech." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Vorrei un bicchiere d'acqua, per favore.", "en": "I'd like a glass of water, please.", "note": "Polite request." },
+      { "it": "Potresti chiudere la finestra?", "en": "Could you close the window?" },
+      { "it": "Dovresti dormire di più.", "en": "You ought to sleep more.", "note": "Softened obligation = advice." },
+      { "it": "Mi piacerebbe vivere in campagna.", "en": "I'd like to live in the country." },
+      { "it": "Se avessi una barca, andrei in Sardegna.", "en": "If I had a boat, I'd go to Sardinia.", "note": "Congiuntivo imperfetto in the se-clause, conditional in the main clause." },
+      { "it": "Secondo il giornale, il ladro sarebbe scappato in Francia.", "en": "According to the newspaper, the thief reportedly escaped to France.", "note": "Conditional of reported information (here condizionale passato)." },
+      { "it": "Noi parleremmo volentieri con lui.", "en": "We would gladly speak with him.", "note": "parleremmo (conditional) ≠ parleremo (future)." }
+    ],
+    "exercises": [
+      {
+        "id": "condizionale-presente.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *potere* in the condizionale presente.",
+        "rows": [
+          { "label": "io", "answer": "potrei" },
+          { "label": "tu", "answer": "potresti" },
+          { "label": "lui/lei", "answer": "potrebbe" },
+          { "label": "noi", "answer": "potremmo" },
+          { "label": "voi", "answer": "potreste" },
+          { "label": "loro", "answer": "potrebbero" }
+        ],
+        "explanation": "Future stem potr- + conditional endings.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "condizionale-presente.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'We would go' = noi ___",
+        "options": ["andremmo", "andremo", "andassimo", "andavamo"],
+        "answer": "andremmo",
+        "explanation": "Conditional: -emmo (double m). andremo is the future, andassimo the congiuntivo imperfetto.",
+        "ruleRef": "formation",
+        "mistakes": [{ "answer": "andremo", "message": "andremo (one m) is the futuro: we will go. The conditional has -emmo." }]
+      },
+      {
+        "id": "condizionale-presente.3",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "What does *Il presidente sarebbe malato* mean in a newspaper?",
+        "options": ["The president is reportedly ill (not confirmed).", "The president would be ill.", "The president will be ill.", "The president was ill."],
+        "answer": "The president is reportedly ill (not confirmed).",
+        "explanation": "The journalistic conditional marks information the writer does not vouch for.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "condizionale-presente.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Se ___ (potere, io), verrei con te.",
+        "options": ["potessi", "potrei", "posso", "potevo"],
+        "answer": "potessi",
+        "explanation": "Standard Italian uses the congiuntivo imperfetto in the se-clause; the conditional goes in the main clause (verrei).",
+        "ruleRef": "uses",
+        "mistakes": [{ "answer": "potrei", "message": "The conditional is not used after se in standard Italian: se potessi." }]
+      },
+      {
+        "id": "condizionale-presente.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: You ought to sleep more. (tu)",
+        "answer": "Dovresti dormire di più.",
+        "explanation": "dovere in the conditional = ought to / should.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "condizionale-presente.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the condizionale presente.",
+        "text": "Mi {0} (piacere) un gelato. {1} (Volere, io) anche un caffè. Voi {2} (venire) con noi?",
+        "blanks": [{ "answer": "piacerebbe" }, { "answer": "Vorrei", "accept": ["vorrei"] }, { "answer": "verreste" }],
+        "explanation": "piacer-ebbe; vorr-ei; verr-este.",
+        "ruleRef": "formation"
+      }
+    ],
+    "summary": [
+      "Condizionale presente = future stem + -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+      "Same irregular stems as the futuro: sarei, avrei, vorrei, andrei, verrei, potrei, dovrei.",
+      "Uses: politeness, wishes, advice, hypothetical consequences, unconfirmed information.",
+      "Not after se in standard Italian: se potessi, verrei."
+    ],
+    "relatedVocabulary": ["verb_volere", "verb_potere", "verb_dovere", "verb_piacere", "verb_andare", "verb_venire"],
+    "relatedStories": ["una-lettera-dalla-nonna"],
+    "relatedSongs": []
+  },
+  {
+    "id": "condizionale-passato",
+    "module": "m14",
+    "title": "Condizionale passato and the future in the past",
+    "level": "B1",
+    "description": "Unrealised past possibilities, and the condizionale passato as the standard 'future in the past'.",
+    "objectives": [
+      "Form the condizionale passato.",
+      "Express what would have happened, or should have happened, but did not.",
+      "Use the condizionale passato for a future seen from the past (disse che sarebbe venuto).",
+      "Avoid transferring the English/French/Spanish 'would + verb' pattern into reported speech."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["conditional", "compound tenses", "reported speech", "future in the past"], "tenses": ["condizionale passato"], "families": [] },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Conditional of the auxiliary + participle", "text": "*avrei fatto, sarei andato/a*. Auxiliary choice and agreement as in the passato prossimo." },
+          { "type": "paradigm", "verb": "verb_venire", "tense": "condizionalePassato" }
+        ]
+      },
+      {
+        "id": "unrealised",
+        "heading": "Unrealised possibilities",
+        "blocks": [
+          { "type": "list", "items": ["What would have happened: *Sarei venuto, ma ero malato.* (I would have come, but I was ill.)", "Regret and reproach: *Avresti dovuto dirmelo.* (You should have told me.)", "Polite past wishes: *Avrei voluto un tè.*", "Consequence of a counterfactual condition: *Se fossi partito prima, sarei arrivato in tempo.*"] },
+          { "type": "rule", "kind": "tendency", "title": "Modal verbs", "text": "*avrei dovuto, avrei potuto, avrei voluto* + infinitive are extremely common: 'I should have / could have / would have liked to'. With an essere-verb infinitive, both *avrei dovuto partire* and *sarei dovuto partire* are standard (Accademia della Crusca); avere is increasingly frequent." }
+        ]
+      },
+      {
+        "id": "future-in-past",
+        "heading": "The future in the past",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "condizionale passato, not presente", "text": "To report, from a past point of view, an event that was then in the future, standard Italian uses the **condizionale passato**: *Marco ha detto che sarebbe venuto* (Marco said he would come) — even if the event may still happen. English 'would come', French *viendrait* and Spanish *vendría* use a simple conditional; Italian *verrebbe* in this sense is a common learner error." },
+          {
+            "type": "table",
+            "caption": "From direct to reported speech",
+            "headers": ["Direct speech", "Reported after a past verb"],
+            "rows": [
+              ["«Verrò domani.»", "Ha detto che sarebbe venuto il giorno dopo."],
+              ["«Ti scriverò.»", "Mi ha promesso che mi avrebbe scritto."],
+              ["«Pioverà.»", "Pensavo che sarebbe piovuto."]
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Sarei venuta volentieri, ma dovevo lavorare.", "en": "I would gladly have come, but I had to work.", "note": "Female speaker: venuta." },
+      { "it": "Avresti dovuto dirmelo prima.", "en": "You should have told me earlier." },
+      { "it": "Marco ha detto che sarebbe arrivato alle otto.", "en": "Marco said he would arrive at eight.", "note": "Future in the past = condizionale passato." },
+      { "it": "Ero sicuro che avrebbe vinto la tartaruga.", "en": "I was sure the tortoise would win.", "note": "Subject after the verb: la tartaruga." },
+      { "it": "Se avessi saputo, ti avrei aiutato.", "en": "If I had known, I would have helped you." },
+      { "it": "Avrei voluto vedere il mare.", "en": "I would have liked to see the sea." }
+    ],
+    "exercises": [
+      {
+        "id": "condizionale-passato.1",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "andare, io (male speaker), condizionale passato: ___",
+        "answer": "sarei andato",
+        "explanation": "andare takes essere; the participle agrees with the subject.",
+        "ruleRef": "formation",
+        "mistakes": [{ "answer": "avrei andato", "message": "andare takes essere: sarei andato." }]
+      },
+      {
+        "id": "condizionale-passato.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Sara ha detto che ___ (venire) alla festa.",
+        "options": ["sarebbe venuta", "verrebbe", "verrà", "veniva"],
+        "answer": "sarebbe venuta",
+        "explanation": "A future seen from a past point of view: condizionale passato. 'verrà' is possible only if the speaker stresses that the event is still in the future now; verrebbe is not standard here.",
+        "ruleRef": "future-in-past",
+        "mistakes": [{ "answer": "verrebbe", "message": "Italian uses the condizionale passato for the future in the past: sarebbe venuta." }]
+      },
+      {
+        "id": "condizionale-passato.3",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: You should have told me. (tu)",
+        "answer": "Avresti dovuto dirmelo.",
+        "accept": ["Me lo avresti dovuto dire.", "Me l'avresti dovuto dire.", "Avresti dovuto dirlo a me."],
+        "explanation": "condizionale passato of dovere + infinitive with the combined pronoun me lo attached (dirmelo).",
+        "ruleRef": "unrealised"
+      },
+      {
+        "id": "condizionale-passato.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Report in the past.",
+        "text": "«Ti scriverò.» → Mi ha promesso che mi {0}. «Pioverà.» → Pensavo che {1}.",
+        "blanks": [{ "answer": "avrebbe scritto" }, { "answer": "sarebbe piovuto", "accept": ["avrebbe piovuto"] }],
+        "explanation": "Future in the past = condizionale passato. Weather verbs accept both auxiliaries.",
+        "ruleRef": "future-in-past"
+      },
+      {
+        "id": "condizionale-passato.5",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Sarei venuto, ma ero malato.* Did the speaker come?",
+        "options": ["No", "Yes", "We cannot know", "He will come later"],
+        "answer": "No",
+        "explanation": "The condizionale passato presents a possibility that was not realised.",
+        "ruleRef": "unrealised"
+      },
+      {
+        "id": "condizionale-passato.6",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Match each sentence with its function.",
+        "pairs": [["Avrei voluto un tè.", "polite past wish"], ["Avresti dovuto studiare.", "reproach"], ["Disse che sarebbe tornato.", "future in the past"], ["Il ladro sarebbe fuggito.", "unconfirmed report"]],
+        "explanation": "The condizionale passato covers unrealised wishes and obligations, the future in the past and reported information.",
+        "ruleRef": "unrealised"
+      }
+    ],
+    "summary": [
+      "Condizionale passato = conditional of avere/essere + participle.",
+      "Unrealised past possibilities, regrets, reproaches (avresti dovuto…).",
+      "The future in the past is the condizionale passato: disse che sarebbe venuto.",
+      "dovere/potere/volere + essere-verb infinitive: both avrei dovuto partire and sarei dovuto partire are standard."
+    ],
+    "relatedVocabulary": ["verb_venire", "verb_dovere", "verb_volere", "verb_dire", "verb_promettere", "verb_vincere"],
+    "relatedStories": ["una-lettera-dalla-nonna", "il-segreto-del-faro"],
+    "relatedSongs": []
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "reflexive-verbs",
+    "module": "m09",
+    "title": "Reflexive verbs and daily routine",
+    "level": "A1",
+    "description": "mi, ti, si, ci, vi, si with the verb; describing a day.",
+    "objectives": [
+      "Recognise reflexive infinitives in -arsi, -ersi, -irsi.",
+      "Conjugate reflexive verbs with the correct pronoun.",
+      "Describe a daily routine."
+    ],
+    "tags": { "pos": ["verb", "pronoun"], "topics": ["reflexive", "daily routine"], "tenses": ["present"], "families": ["-are", "-ere", "-ire"] },
+    "sections": [
+      {
+        "id": "form",
+        "heading": "Form",
+        "blocks": [
+          { "type": "p", "text": "A reflexive infinitive ends in *-si*: *svegliarsi* (to wake up), *sedersi* (to sit down), *vestirsi* (to get dressed). Remove *-si*, put back the *-e*, and you have an ordinary verb that conjugates normally (*svegliare*, *sedere*, *vestire*)." },
+          { "type": "rule", "kind": "rule", "title": "Pronoun + conjugated verb", "text": "Each person takes its reflexive pronoun before the verb: *mi, ti, si, ci, vi, si*." },
+          { "type": "paradigm", "verb": "verb_svegliarsi", "tense": "present" },
+          { "type": "paradigm", "verb": "verb_vestirsi", "tense": "present" },
+          { "type": "rule", "kind": "rule", "title": "Position of the pronoun", "text": "Before the conjugated verb (*mi alzo*), after *non* (*non mi alzo*). With an infinitive it attaches to the end: *alzarmi, alzarti, alzarsi…* — *Devo alzarmi* or *Mi devo alzare*." }
+        ]
+      },
+      {
+        "id": "meaning",
+        "heading": "Meaning",
+        "blocks": [
+          { "type": "rule", "kind": "tendency", "title": "Not always 'oneself'", "text": "Some reflexives really mean 'oneself' (*lavarsi* = to wash oneself). Many simply correspond to an English intransitive verb: *svegliarsi* = to wake up, *addormentarsi* = to fall asleep, *chiamarsi* = to be called, *divertirsi* = to have fun." },
+          { "type": "rule", "kind": "rule", "title": "Body parts take the article, not a possessive", "text": "*Mi lavo le mani* = I wash my hands. The reflexive pronoun already shows whose hands they are." }
+        ]
+      },
+      {
+        "id": "routine",
+        "heading": "A day",
+        "blocks": [
+          { "type": "list", "items": ["*Mi sveglio alle sette.* — I wake up at seven.", "*Mi alzo e mi lavo.* — I get up and wash.", "*Mi vesto e faccio colazione.* — I get dressed and have breakfast.", "*La sera mi siedo sul divano e leggo.* — In the evening I sit on the sofa and read.", "*Alle dieci mi addormento.* — At ten I fall asleep."] }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Come ti chiami? — Mi chiamo Sara.", "en": "What's your name? — My name is Sara." },
+      { "it": "Il gatto si lava.", "en": "The cat washes itself." },
+      { "it": "Ci divertiamo al mare.", "en": "We have fun at the seaside." },
+      { "it": "I bambini si addormentano presto.", "en": "The children fall asleep early." },
+      { "it": "Mi siedo sulla sedia.", "en": "I sit down on the chair.", "note": "sedersi: irregular stem sied-." },
+      { "it": "Non mi alzo presto la domenica.", "en": "I don't get up early on Sundays." }
+    ],
+    "exercises": [
+      {
+        "id": "reflexive-verbs.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *alzarsi* in the present (include the pronoun).",
+        "rows": [
+          { "label": "io", "answer": "mi alzo" },
+          { "label": "tu", "answer": "ti alzi" },
+          { "label": "lui/lei", "answer": "si alza" },
+          { "label": "noi", "answer": "ci alziamo" },
+          { "label": "voi", "answer": "vi alzate" },
+          { "label": "loro", "answer": "si alzano" }
+        ],
+        "explanation": "Pronoun + regular -are forms.",
+        "ruleRef": "form"
+      },
+      {
+        "id": "reflexive-verbs.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Noi ___ divertiamo.",
+        "options": ["ci", "si", "vi", "ti"],
+        "answer": "ci",
+        "explanation": "noi → ci.",
+        "ruleRef": "form",
+        "mistakes": [{ "answer": "si", "message": "si is for lui/lei and loro. With noi use ci." }]
+      },
+      {
+        "id": "reflexive-verbs.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "sedersi, io: ___",
+        "answer": "mi siedo",
+        "explanation": "sedere has the stressed stem sied-: mi siedo.",
+        "ruleRef": "form"
+      },
+      {
+        "id": "reflexive-verbs.4",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Order: 'I don't get up early.'",
+        "tokens": ["presto", "alzo", "Non", "mi"],
+        "answer": ["Non", "mi", "alzo", "presto"],
+        "explanation": "non + pronoun + verb.",
+        "ruleRef": "form"
+      },
+      {
+        "id": "reflexive-verbs.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I wash my hands.",
+        "answer": "Mi lavo le mani.",
+        "explanation": "Body parts: reflexive pronoun + article, no possessive.",
+        "ruleRef": "meaning",
+        "mistakes": [{ "answer": "Lavo le mie mani.", "message": "Grammatically possible but unidiomatic. Italian says Mi lavo le mani." }]
+      },
+      {
+        "id": "reflexive-verbs.6",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Infinitive of *si addormentano*?",
+        "answer": "addormentarsi",
+        "explanation": "addormentare + si.",
+        "ruleRef": "form"
+      },
+      {
+        "id": "reflexive-verbs.7",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete the routine.",
+        "text": "La mattina io {0} (svegliarsi) alle sette, {1} (vestirsi) e faccio colazione. La sera i bambini {2} (addormentarsi) presto.",
+        "blanks": [{ "answer": "mi sveglio" }, { "answer": "mi vesto" }, { "answer": "si addormentano" }],
+        "explanation": "mi sveglio, mi vesto, si addormentano.",
+        "ruleRef": "routine"
+      }
+    ],
+    "summary": [
+      "Reflexive infinitives end in -si; conjugate the base verb and add mi, ti, si, ci, vi, si before it.",
+      "With an infinitive the pronoun attaches: alzarmi.",
+      "Many reflexives translate as simple English verbs (wake up, fall asleep, be called).",
+      "Mi lavo le mani: article, not possessive."
+    ],
+    "relatedVocabulary": ["verb_svegliarsi", "verb_alzarsi", "verb_lavarsi", "verb_chiamarsi", "verb_divertirsi", "verb_addormentarsi", "verb_vestirsi", "verb_sedersi"],
+    "relatedStories": ["una-giornata-di-pioggia"],
+    "relatedSongs": ["ninna-nanna-della-luna"]
+  }
+]

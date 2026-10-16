@@ -1,0 +1,1057 @@
+[
+  {
+    "id": "passato-prossimo-avere",
+    "module": "m10",
+    "title": "Passato prossimo with avere",
+    "level": "A2",
+    "description": "The compound past: avere + past participle; regular and irregular participles.",
+    "objectives": [
+      "Form regular past participles (-ato, -uto, -ito).",
+      "Learn the common irregular participles.",
+      "Form the passato prossimo with avere and use it for completed events."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "past tense",
+        "participles",
+        "compound tenses"
+      ],
+      "tenses": [
+        "passato prossimo"
+      ],
+      "families": [
+        "-are",
+        "-ere",
+        "-ire"
+      ]
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "auxiliary + past participle",
+            "text": "The passato prossimo is formed with the present of *avere* (or *essere*, next lesson) + the past participle: *ho mangiato* = I ate / I have eaten."
+          },
+          {
+            "type": "table",
+            "caption": "Regular participles",
+            "headers": [
+              "Infinitive",
+              "Ending",
+              "Participle"
+            ],
+            "rows": [
+              [
+                "parlare",
+                "-are → -ato",
+                "parlato"
+              ],
+              [
+                "credere",
+                "-ere → -uto",
+                "creduto"
+              ],
+              [
+                "dormire",
+                "-ire → -ito",
+                "dormito"
+              ]
+            ]
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_mangiare",
+            "tense": "passato"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "With avere the participle does not change",
+            "text": "With *avere* the participle normally stays in -o, whoever the subject is: *Sara ha mangiato, i bambini hanno mangiato*. The main exception is a 3rd-person direct object pronoun placed before the verb: *Le mele? Le ho mangiate.* All the agreement rules are in [[ausiliari-accordo|auxiliaries and agreement]]."
+          }
+        ]
+      },
+      {
+        "id": "irregular",
+        "heading": "Irregular participles",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many -ere verbs, and a few others, have irregular participles. They must be learned, but they fall into families."
+          },
+          {
+            "type": "table",
+            "caption": "Common irregular participles",
+            "headers": [
+              "Infinitive",
+              "Participle",
+              "Infinitive",
+              "Participle"
+            ],
+            "rows": [
+              [
+                "fare",
+                "fatto",
+                "dire",
+                "detto"
+              ],
+              [
+                "vedere",
+                "visto",
+                "prendere",
+                "preso"
+              ],
+              [
+                "leggere",
+                "letto",
+                "scrivere",
+                "scritto"
+              ],
+              [
+                "mettere",
+                "messo",
+                "chiudere",
+                "chiuso"
+              ],
+              [
+                "aprire",
+                "aperto",
+                "rispondere",
+                "risposto"
+              ],
+              [
+                "perdere",
+                "perso",
+                "vincere",
+                "vinto"
+              ],
+              [
+                "bere",
+                "bevuto",
+                "piangere",
+                "pianto"
+              ],
+              [
+                "ridere",
+                "riso",
+                "correre",
+                "corso"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "use",
+        "heading": "Use",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Completed events",
+            "text": "The passato prossimo expresses a completed action in the past — both 'I ate' and 'I have eaten'. In much of Italy it is the normal past tense of conversation. In Tuscany and much of the South the [[passato-remoto|passato remoto]] is still used in speech for events felt as concluded; in written narration it is the standard narrative tense everywhere."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Typical time expressions: *ieri* (yesterday), *stamattina* (this morning), *la settimana scorsa* (last week), *un'ora fa* (an hour ago), *già* (already), *non … ancora* (not yet), *mai* (ever / never).",
+              "*già*, *mai* and *ancora* usually go between the auxiliary and the participle: *Ho già mangiato. Non ho mai visto un orso.*"
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Ieri ho mangiato una pizza.",
+        "en": "Yesterday I ate a pizza."
+      },
+      {
+        "it": "Hai visto il gufo?",
+        "en": "Did you see the owl? / Have you seen the owl?"
+      },
+      {
+        "it": "Il nonno ha letto una storia.",
+        "en": "Grandfather read a story."
+      },
+      {
+        "it": "Abbiamo fatto un castello di sabbia.",
+        "en": "We made a sandcastle."
+      },
+      {
+        "it": "Non ho mai visto un lupo.",
+        "en": "I have never seen a wolf."
+      },
+      {
+        "it": "Hanno già finito.",
+        "en": "They have already finished."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "passato-prossimo-avere.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the past participle.",
+        "rows": [
+          {
+            "label": "giocare",
+            "answer": "giocato"
+          },
+          {
+            "label": "credere",
+            "answer": "creduto"
+          },
+          {
+            "label": "sentire",
+            "answer": "sentito"
+          },
+          {
+            "label": "fare",
+            "answer": "fatto"
+          },
+          {
+            "label": "vedere",
+            "answer": "visto",
+            "accept": [
+              "veduto"
+            ]
+          },
+          {
+            "label": "scrivere",
+            "answer": "scritto"
+          }
+        ],
+        "explanation": "Regular: -ato, -uto, -ito. fatto, visto (also veduto, less common), scritto are irregular.",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "passato-prossimo-avere.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Passato prossimo of *mangiare*, noi: ___",
+        "answer": "abbiamo mangiato",
+        "explanation": "abbiamo + mangiato.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "passato-prossimo-avere.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Passato prossimo of *prendere*, lui/lei: ___",
+        "answer": "ha preso",
+        "explanation": "Irregular participle preso.",
+        "ruleRef": "irregular",
+        "mistakes": [
+          {
+            "answer": "ha prenduto",
+            "message": "prendere has an irregular participle: preso."
+          }
+        ]
+      },
+      {
+        "id": "passato-prossimo-avere.4",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Which infinitive does the participle *detto* come from?",
+        "answer": "dire",
+        "explanation": "dire → detto.",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "passato-prossimo-avere.5",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Order: 'I have never seen a wolf.'",
+        "tokens": [
+          "visto",
+          "mai",
+          "lupo",
+          "ho",
+          "un",
+          "Non"
+        ],
+        "answer": [
+          "Non",
+          "ho",
+          "mai",
+          "visto",
+          "un",
+          "lupo"
+        ],
+        "explanation": "mai goes between the auxiliary and the participle.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "passato-prossimo-avere.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Yesterday Grandfather read a story.",
+        "answer": "Ieri il nonno ha letto una storia.",
+        "accept": [
+          "Il nonno ieri ha letto una storia.",
+          "Il nonno ha letto una storia ieri."
+        ],
+        "explanation": "leggere → letto.",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "passato-prossimo-avere.7",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the passato prossimo.",
+        "text": "Ieri io {0} (fare) una torta e i bambini {1} (bere) il latte. Tu {2} (vedere) il film?",
+        "blanks": [
+          {
+            "answer": "ho fatto"
+          },
+          {
+            "answer": "hanno bevuto"
+          },
+          {
+            "answer": "hai visto",
+            "accept": [
+              "hai veduto"
+            ]
+          }
+        ],
+        "explanation": "ho fatto, hanno bevuto, hai visto.",
+        "ruleRef": "formation"
+      }
+    ],
+    "summary": [
+      "passato prossimo = present of avere/essere + past participle.",
+      "Regular participles: -ato, -uto, -ito.",
+      "Common irregulars: fatto, detto, visto, preso, letto, scritto, messo, chiuso, aperto, risposto, perso, vinto, bevuto.",
+      "With avere the participle stays in -o."
+    ],
+    "relatedVocabulary": [
+      "verb_avere",
+      "verb_mangiare",
+      "verb_fare",
+      "verb_vedere",
+      "verb_prendere",
+      "verb_leggere",
+      "verb_scrivere",
+      "verb_bere",
+      "adv_ieri",
+      "adv_gia",
+      "adv_mai"
+    ],
+    "relatedStories": [
+      "lorso-che-non-poteva-dormire",
+      "il-cane-al-mare"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "passato-prossimo-essere",
+    "module": "m10",
+    "title": "Passato prossimo with essere; agreement",
+    "level": "A2",
+    "description": "Which verbs take essere, agreement of the participle, and reflexive verbs in the past.",
+    "objectives": [
+      "Identify verbs that take essere.",
+      "Make the participle agree with the subject.",
+      "Form the passato prossimo of reflexive verbs."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "past tense",
+        "agreement",
+        "compound tenses",
+        "reflexive"
+      ],
+      "tenses": [
+        "passato prossimo"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "which",
+        "heading": "Which verbs take essere?",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Movement, change of state, staying",
+            "text": "Most verbs that take *essere* express movement to or from a place, a change of state, or remaining: *andare, venire, arrivare, partire, entrare, uscire, tornare, cadere, salire, scendere, nascere, morire, diventare, restare, rimanere, stare* — and *essere* itself. Not every verb of movement takes essere (*camminare, nuotare, ballare* take *avere*), so check the dictionary."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "All reflexive verbs take essere",
+            "text": "*mi sono svegliato, ti sei alzata, si è lavato…*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "piacere takes essere",
+            "text": "*Il film mi è piaciuto. Le storie mi sono piaciute.*"
+          }
+        ]
+      },
+      {
+        "id": "agreement",
+        "heading": "Agreement with essere",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "The participle agrees with the subject",
+            "text": "With *essere* the participle behaves like an adjective: *-o, -a, -i, -e*."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_andare",
+            "tense": "passato",
+            "gender": "m"
+          },
+          {
+            "type": "table",
+            "caption": "Agreement",
+            "headers": [
+              "Subject",
+              "Form"
+            ],
+            "rows": [
+              [
+                "Marco",
+                "è andato"
+              ],
+              [
+                "Sara",
+                "è andata"
+              ],
+              [
+                "Marco e Luca",
+                "sono andati"
+              ],
+              [
+                "Sara e Giulia",
+                "sono andate"
+              ],
+              [
+                "Marco e Sara",
+                "sono andati (mixed → masculine)"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reflexive",
+        "heading": "Reflexive verbs",
+        "blocks": [
+          {
+            "type": "paradigm",
+            "verb": "verb_svegliarsi",
+            "tense": "passato"
+          },
+          {
+            "type": "p",
+            "text": "For a female speaker: *mi sono svegliata*; for a group of women: *ci siamo svegliate*."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Sara è andata al mare.",
+        "en": "Sara went to the seaside."
+      },
+      {
+        "it": "I bambini sono tornati a casa.",
+        "en": "The children came back home."
+      },
+      {
+        "it": "La foglia è caduta dall'albero.",
+        "en": "The leaf fell from the tree."
+      },
+      {
+        "it": "Mi sono svegliata presto.",
+        "en": "I woke up early. (female speaker)"
+      },
+      {
+        "it": "Ci siamo divertiti molto.",
+        "en": "We had a lot of fun."
+      },
+      {
+        "it": "La storia ti è piaciuta?",
+        "en": "Did you like the story?"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "passato-prossimo-essere.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Ieri Sara ___ al mare.",
+        "options": [
+          "è andata",
+          "ha andato",
+          "è andato",
+          "ha andata"
+        ],
+        "answer": "è andata",
+        "explanation": "andare takes essere; the participle agrees with Sara (feminine singular).",
+        "ruleRef": "agreement",
+        "mistakes": [
+          {
+            "answer": "ha andato",
+            "message": "andare is a verb of movement that takes essere: è andata."
+          },
+          {
+            "answer": "è andato",
+            "message": "With essere the participle agrees with the subject: Sara → andata."
+          }
+        ]
+      },
+      {
+        "id": "passato-prossimo-essere.2",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Which auxiliary does each verb take?",
+        "pairs": [
+          [
+            "arrivare",
+            "essere"
+          ],
+          [
+            "mangiare",
+            "avere"
+          ],
+          [
+            "partire",
+            "essere"
+          ],
+          [
+            "camminare",
+            "avere"
+          ],
+          [
+            "alzarsi",
+            "essere"
+          ]
+        ],
+        "explanation": "Movement to/from a place and reflexives → essere; camminare (moving without a destination) → avere.",
+        "ruleRef": "which"
+      },
+      {
+        "id": "passato-prossimo-essere.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Le ragazze (tornare) → Le ragazze ___ a casa.",
+        "answer": "sono tornate",
+        "explanation": "essere + feminine plural participle.",
+        "ruleRef": "agreement"
+      },
+      {
+        "id": "passato-prossimo-essere.4",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "svegliarsi, io (male speaker): ___",
+        "answer": "mi sono svegliato",
+        "explanation": "Reflexive pronoun + essere + agreeing participle.",
+        "ruleRef": "reflexive",
+        "mistakes": [
+          {
+            "answer": "mi ho svegliato",
+            "message": "Reflexive verbs take essere: mi sono svegliato."
+          }
+        ]
+      },
+      {
+        "id": "passato-prossimo-essere.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the passato prossimo.",
+        "text": "La foglia {0} (cadere) dall'albero. Noi {1} (divertirsi) molto. Il gatto {2} (salire) sul tetto.",
+        "blanks": [
+          {
+            "answer": "è caduta"
+          },
+          {
+            "answer": "ci siamo divertiti",
+            "accept": [
+              "ci siamo divertite"
+            ]
+          },
+          {
+            "answer": "è salito"
+          }
+        ],
+        "explanation": "foglia (f) → caduta; noi → divertiti (or divertite for all women); gatto → salito.",
+        "ruleRef": "agreement"
+      },
+      {
+        "id": "passato-prossimo-essere.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: The children came back home.",
+        "answer": "I bambini sono tornati a casa.",
+        "explanation": "tornare → essere; bambini masculine plural → tornati.",
+        "ruleRef": "agreement"
+      }
+    ],
+    "summary": [
+      "essere: most verbs of movement to/from a place, change of state, staying; all reflexives; piacere.",
+      "With essere the participle agrees with the subject (-o, -a, -i, -e).",
+      "Reflexive: mi sono svegliato/a, ci siamo divertiti/e."
+    ],
+    "relatedVocabulary": [
+      "verb_essere",
+      "verb_andare",
+      "verb_tornare",
+      "verb_arrivare",
+      "verb_partire",
+      "verb_cadere",
+      "verb_salire",
+      "verb_svegliarsi",
+      "verb_divertirsi",
+      "verb_piacere"
+    ],
+    "relatedStories": [
+      "lorso-che-non-poteva-dormire",
+      "una-giornata-di-pioggia"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "ausiliari-accordo",
+    "module": "m10",
+    "title": "Choosing the auxiliary and agreeing the participle",
+    "level": "A2",
+    "description": "The complete rules for avere vs essere — including verbs that take both, weather verbs and modal verbs — and for past-participle agreement with the subject, with object pronouns, with ne and in relative clauses.",
+    "objectives": [
+      "Choose avere or essere for any verb, and recognise the verbs that change auxiliary with their meaning.",
+      "Choose the auxiliary of a modal verb followed by an infinitive.",
+      "Make the participle agree with the subject (essere) and with a preceding lo, la, li, le or ne (avere).",
+      "Know where agreement is optional (mi, ti, ci, vi) and where it is no longer standard (relative che)."
+    ],
+    "tags": {
+      "pos": [
+        "verb",
+        "pronoun"
+      ],
+      "topics": [
+        "auxiliaries",
+        "past participle agreement",
+        "compound tenses"
+      ],
+      "tenses": [
+        "passato prossimo",
+        "trapassato prossimo"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "avere-essere",
+        "heading": "avere or essere?",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The choice of auxiliary is the same in every compound tense (passato prossimo, trapassato, futuro anteriore, condizionale passato, congiuntivo passato …), so it is learned once."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "avere",
+            "text": "All transitive verbs used transitively, whether or not the object is expressed: *ho mangiato (la pizza), abbiamo letto*. Also many intransitive verbs that describe an activity of the subject: *ho dormito, hai camminato, abbiamo riso, hanno parlato, ho lavorato, ho viaggiato, ho telefonato*."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "essere",
+            "text": "1) Most intransitive verbs of movement with a direction or of change of state: *andare, venire, arrivare, partire, entrare, uscire, tornare, cadere, nascere, morire, diventare*. 2) Verbs of state: *essere, stare, rimanere, restare*. 3) Verbs whose subject is the thing experienced: *piacere, sembrare, bastare, mancare, costare, succedere, servire* (to be needed): *Il film mi è piaciuto.* 4) All reflexive and pronominal verbs: *mi sono lavato, ci siamo divertiti*. 5) The passive: *La casa è stata venduta*. 6) Impersonal *si* in compound tenses: *Si è mangiato bene*."
+          },
+          {
+            "type": "rule",
+            "kind": "tip",
+            "title": "A useful test",
+            "text": "If the participle can be used as an adjective describing the subject (*una ragazza partita, un bambino nato ieri*), the verb usually takes essere. It is a guide, not a rule: learn the auxiliary with each new verb — the word panel always shows it."
+          }
+        ]
+      },
+      {
+        "id": "both",
+        "heading": "Verbs that take both",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Many verbs can be used transitively (avere) or intransitively (essere). The auxiliary follows the use, not the verb."
+          },
+          {
+            "type": "table",
+            "caption": "One verb, two auxiliaries",
+            "headers": [
+              "Verb",
+              "with avere (transitive)",
+              "with essere (intransitive)"
+            ],
+            "rows": [
+              [
+                "finire",
+                "*Ho finito il libro.*",
+                "*Il film è finito.*"
+              ],
+              [
+                "cominciare",
+                "*Abbiamo cominciato la lezione.*",
+                "*La lezione è cominciata.*"
+              ],
+              [
+                "passare",
+                "*Ho passato l'estate al mare.*",
+                "*Sono passato da te.*"
+              ],
+              [
+                "salire / scendere",
+                "*Ho sceso le scale.*",
+                "*Sono sceso dal treno.*"
+              ],
+              [
+                "crescere",
+                "*Ha cresciuto tre figli.*",
+                "*Sono cresciuto in campagna.*"
+              ],
+              [
+                "cambiare",
+                "*Ho cambiato casa.*",
+                "*La città è cambiata.*"
+              ],
+              [
+                "correre",
+                "*Ho corso per un'ora.* (activity)",
+                "*Sono corso a casa.* (movement to a goal)"
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Weather verbs",
+            "text": "*piovere, nevicare* and similar can take either auxiliary: *è piovuto* and *ha piovuto* are both standard. Traditional grammars prefer essere; avere is very common and not an error."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "vivere",
+            "text": "*ho vissuto* and *sono vissuto* are both accepted when there is no object; avere is more common. With an object only avere: *ho vissuto un'avventura*."
+          }
+        ]
+      },
+      {
+        "id": "modals",
+        "heading": "Modal verbs + infinitive",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "The modal can take the auxiliary of the infinitive",
+            "text": "*dovere, potere, volere* followed by an infinitive can take the auxiliary the infinitive would take: *Sono dovuto partire* (partire → essere), *Ho dovuto lavorare* (lavorare → avere). With an essere-infinitive, *avere* is also accepted: *Ho dovuto partire*. Both are correct; essere is the more traditional choice."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "With a pronoun before the modal",
+            "text": "If a pronoun linked to an essere-verb is placed before the modal, essere is required: *Non ci sono voluti andare.* If the pronoun is attached to the infinitive, avere is normal: *Non hanno voluto andarci.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "When the infinitive is essere, or passive",
+            "text": "With *essere* itself or a passive infinitive the modal takes avere: *Ho dovuto essere paziente. Avrebbe voluto essere invitato.*"
+          }
+        ]
+      },
+      {
+        "id": "agreement",
+        "heading": "Past participle agreement",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "With essere: agree with the subject",
+            "text": "*Marco è partito, Sara è partita, i ragazzi sono partiti, le ragazze sono partite.* A mixed group takes the masculine plural. With formal *Lei* the participle agrees with the real sex of the person: *Signora, è arrivata?*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "With avere: normally invariable",
+            "text": "*Sara ha mangiato, le ragazze hanno mangiato.* The participle does not agree with the subject or with a following object: *Ho comprato le mele.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Obligatory: preceding lo, la, li, le",
+            "text": "When a 3rd-person direct object pronoun comes before the verb, the participle agrees with it: *Le mele? Le ho comprate. La lettera? L'ho scritta. I libri? Li ho letti.* *lo* and *la* elide before *ho, hai, ha, hanno*: *l'ho visto, l'ho vista*."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Usual: partitive ne",
+            "text": "With *ne* ('of it/of them') the participle normally agrees with the noun ne refers to: *Di mele, ne ho mangiate tre.* The invariable form (*ne ho mangiato tre*) is also found, especially in speech."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Optional: mi, ti, ci, vi",
+            "text": "With 1st and 2nd person direct object pronouns agreement is optional: *Ci hanno visti* and *Ci hanno visto* are both correct; so are *Ti ho vista* and *Ti ho visto* (said to a woman)."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Never: indirect object pronouns",
+            "text": "*gli, le* (to him, to her), *mi, ti, ci, vi* used as indirect objects do not trigger agreement: *Le ho parlato* (I spoke to her) — compare *L'ho vista* (I saw her)."
+          },
+          {
+            "type": "rule",
+            "kind": "exception",
+            "title": "Relative che: no longer standard",
+            "text": "Agreement with the relative pronoun *che* (*la ragazza che ho conosciuta*) is found in older and literary texts; in modern standard Italian the participle stays invariable: *la ragazza che ho conosciuto*."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Reflexive verbs with an object",
+            "text": "With a reflexive verb and a direct object, the participle normally agrees with the subject: *Sara si è lavata le mani.* Agreement with the object (*si è lavate le mani*) also occurs but is less common."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Le ragazze sono uscite alle otto.",
+        "en": "The girls went out at eight.",
+        "note": "essere: uscite agrees with le ragazze."
+      },
+      {
+        "it": "Il film è finito tardi.",
+        "en": "The film finished late.",
+        "note": "Intransitive finire → essere."
+      },
+      {
+        "it": "Abbiamo finito i compiti.",
+        "en": "We have finished our homework.",
+        "note": "Transitive finire → avere."
+      },
+      {
+        "it": "Le chiavi? Le ho perse.",
+        "en": "The keys? I've lost them.",
+        "note": "le before the verb: perse agrees."
+      },
+      {
+        "it": "Le ho telefonato ieri.",
+        "en": "I phoned her yesterday.",
+        "note": "le = to her (indirect): no agreement."
+      },
+      {
+        "it": "Sono dovuta partire presto.",
+        "en": "I had to leave early.",
+        "note": "Female speaker; essere because partire takes essere. Ho dovuto partire is also correct."
+      },
+      {
+        "it": "Di biscotti, ne abbiamo mangiati tanti.",
+        "en": "We ate lots of biscuits.",
+        "note": "ne: agreement with biscotti (mangiato also found)."
+      },
+      {
+        "it": "Ieri è piovuto tutto il giorno.",
+        "en": "Yesterday it rained all day.",
+        "note": "Also: ha piovuto."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "ausiliari-accordo.1",
+        "type": "classification",
+        "kind": "match",
+        "prompt": "Which auxiliary? Match each sentence with its auxiliary.",
+        "pairs": [
+          [
+            "Il concerto ___ cominciato.",
+            "è"
+          ],
+          [
+            "Noi ___ cominciato il lavoro.",
+            "abbiamo"
+          ],
+          [
+            "Il prezzo ___ cambiato.",
+            "è"
+          ],
+          [
+            "Loro ___ cambiato idea.",
+            "hanno"
+          ]
+        ],
+        "explanation": "With an object (il lavoro, idea) the verb is transitive → avere; without, describing what happened to the subject → essere.",
+        "ruleRef": "both"
+      },
+      {
+        "id": "ausiliari-accordo.2",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the passato prossimo.",
+        "text": "Sara {0} (nascere) a Napoli, ma {1} (crescere) a Torino. Il film ci {2} (piacere) molto.",
+        "blanks": [
+          {
+            "answer": "è nata"
+          },
+          {
+            "answer": "è cresciuta"
+          },
+          {
+            "answer": "è piaciuto"
+          }
+        ],
+        "explanation": "nascere, crescere (intransitive) and piacere take essere; the participle agrees with the subject (Sara, il film).",
+        "ruleRef": "avere-essere"
+      },
+      {
+        "id": "ausiliari-accordo.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Replace the object with a pronoun: *Ho comprato le mele.* → ___",
+        "answer": "Le ho comprate.",
+        "explanation": "le before the verb → the participle agrees: comprate.",
+        "ruleRef": "agreement",
+        "mistakes": [
+          {
+            "answer": "Le ho comprato.",
+            "message": "With a preceding le the participle must agree: comprate."
+          }
+        ]
+      },
+      {
+        "id": "ausiliari-accordo.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "*Signora, Le ho ___ una lettera.* (scrivere: I wrote a letter to you)",
+        "options": [
+          "scritto",
+          "scritta",
+          "scritte",
+          "scritti"
+        ],
+        "answer": "scritto",
+        "explanation": "Le here is an indirect object (to you); the direct object una lettera follows the verb. No agreement.",
+        "ruleRef": "agreement"
+      },
+      {
+        "id": "ausiliari-accordo.5",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Passato prossimo: *Ci (vedere, loro) al mercato.* Give the verb (we are a group of men and women).",
+        "answer": "hanno visti",
+        "accept": [
+          "hanno visto",
+          "hanno veduti",
+          "hanno veduto"
+        ],
+        "explanation": "With ci agreement is optional: ci hanno visti and ci hanno visto are both correct.",
+        "ruleRef": "agreement"
+      },
+      {
+        "id": "ausiliari-accordo.6",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Which sentence is NOT standard modern Italian?",
+        "options": [
+          "Non ci hanno voluti andare.",
+          "Non ci sono voluti andare.",
+          "Non hanno voluto andarci.",
+          "Sono dovuti partire."
+        ],
+        "answer": "Non ci hanno voluti andare.",
+        "explanation": "When ci (linked to the essere-verb andare) is placed before the modal, the modal takes essere: non ci sono voluti andare. With ci attached to the infinitive, avere is normal: non hanno voluto andarci.",
+        "ruleRef": "modals"
+      },
+      {
+        "id": "ausiliari-accordo.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate (speaker is a woman): I had to leave.",
+        "answer": "Sono dovuta partire.",
+        "accept": [
+          "Ho dovuto partire.",
+          "Io sono dovuta partire.",
+          "Io ho dovuto partire.",
+          "Sono dovuta andare via.",
+          "Ho dovuto andare via."
+        ],
+        "explanation": "Both auxiliaries are correct with modal + essere-verb; with essere the participle agrees (dovuta).",
+        "ruleRef": "modals",
+        "mistakes": [
+          {
+            "answer": "Sono dovuto partire.",
+            "message": "With essere the participle agrees with a female speaker: dovuta."
+          }
+        ]
+      },
+      {
+        "id": "ausiliari-accordo.8",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the participle.",
+        "text": "Di torte, ne abbiamo {0} (fare) due. La ragazza che ho {1} (conoscere) ieri è simpatica.",
+        "blanks": [
+          {
+            "answer": "fatte",
+            "accept": [
+              "fatto"
+            ]
+          },
+          {
+            "answer": "conosciuto"
+          }
+        ],
+        "explanation": "With ne agreement is usual (fatte; fatto also found). With relative che the modern standard is invariable (conosciuto).",
+        "ruleRef": "agreement"
+      }
+    ],
+    "summary": [
+      "avere: transitive verbs and activity intransitives; essere: movement/change of state, state, piacere-type verbs, reflexives, passive, impersonal si.",
+      "Verbs like finire, cominciare, passare, cambiare, crescere take avere with an object and essere without.",
+      "Modal + essere-verb: sono dovuto partire or ho dovuto partire; pronoun before the modal → essere.",
+      "Agreement: with essere always (subject); with avere only with preceding lo/la/li/le (obligatory), ne (usual), mi/ti/ci/vi (optional); never with indirect objects or (in modern standard) relative che."
+    ],
+    "relatedVocabulary": [
+      "verb_finire",
+      "verb_cominciare",
+      "verb_passare",
+      "verb_cambiare",
+      "verb_crescere",
+      "verb_scendere",
+      "verb_correre",
+      "verb_piovere",
+      "verb_dovere",
+      "verb_piacere"
+    ],
+    "relatedStories": [],
+    "relatedSongs": []
+  }
+]

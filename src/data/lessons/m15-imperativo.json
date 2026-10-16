@@ -1,0 +1,172 @@
+[
+  {
+    "id": "imperativo",
+    "module": "m15",
+    "title": "The imperative",
+    "level": "A2",
+    "description": "Affirmative and negative commands for tu, noi, voi and formal Lei/Loro; irregular short forms; position of pronouns.",
+    "objectives": [
+      "Form the imperative of regular and irregular verbs.",
+      "Form the negative tu imperative with non + infinitive.",
+      "Use the formal Lei imperative (from the congiuntivo presente).",
+      "Place object and reflexive pronouns correctly, including the doubled consonant after va', fa', da', di', sta'."
+    ],
+    "tags": { "pos": ["verb", "pronoun"], "topics": ["imperative", "commands", "pronouns", "irregular"], "tenses": ["imperativo"], "families": ["-are", "-ere", "-ire", "irregular"] },
+    "sections": [
+      {
+        "id": "forms",
+        "heading": "Affirmative forms",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "tu: -a for -are verbs, -i for the others", "text": "For tu, -are verbs use the lui/lei present form (*parla!*); -ere and -ire verbs use the tu present form (*prendi! dormi! finisci!*). noi and voi are identical to the present (*parliamo! parlate!*)." },
+          { "type": "paradigm", "verb": "verb_parlare", "tense": "imperativo" },
+          { "type": "paradigm", "verb": "verb_prendere", "tense": "imperativo" },
+          { "type": "rule", "kind": "rule", "title": "Formal Lei and Loro", "text": "The formal forms are borrowed from the congiuntivo presente: *(Lei) parli! prenda! venga!* Formal plural *Loro* (*parlino!*) is now limited to very formal service language; ordinarily *voi* is used for several people." }
+        ]
+      },
+      {
+        "id": "irregular",
+        "heading": "Irregular forms",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Irregular tu forms",
+            "headers": ["Verb", "tu", "Note"],
+            "rows": [
+              ["andare", "va' / vai", "both standard"],
+              ["dare", "da' / dai", "both standard"],
+              ["fare", "fa' / fai", "both standard"],
+              ["stare", "sta' / stai", "both standard"],
+              ["dire", "di'", "only form"],
+              ["essere", "sii", "voi: siate"],
+              ["avere", "abbi", "voi: abbiate"],
+              ["sapere", "sappi", "voi: sappiate"]
+            ]
+          },
+          { "type": "paradigm", "verb": "verb_essere", "tense": "imperativo" },
+          { "type": "rule", "kind": "exception", "title": "No imperative", "text": "*potere* and *dovere* have no imperative. The imperative of *volere* (*vogli, vogliate*) is rare and literary." }
+        ]
+      },
+      {
+        "id": "negative",
+        "heading": "Negative imperative",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "tu: non + infinitive", "text": "*Non parlare! Non prendere! Non andare!* For all other persons, put non before the affirmative form: *Non parliamo! Non parlate! Non parli!* (Lei)." }
+        ]
+      },
+      {
+        "id": "pronouns",
+        "heading": "Pronouns with the imperative",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Attached to tu, noi, voi", "text": "Object and reflexive pronouns follow and attach to the tu, noi and voi forms: *guardalo! alzati! alziamoci! sedetevi! dimmelo!* With Lei and Loro they precede: *lo guardi! si alzi!*" },
+          { "type": "paradigm", "verb": "verb_alzarsi", "tense": "imperativo" },
+          { "type": "rule", "kind": "rule", "title": "Doubling after the short forms", "text": "After *va', da', fa', di', sta'* the consonant of the pronoun doubles: *dammi* (give me), *fallo* (do it), *dimmi* (tell me), *vattene* (go away), *stammi bene*. Exception: *gli* does not double (*dagli*)." },
+          { "type": "rule", "kind": "rule", "title": "Negative tu: two positions", "text": "With the negative tu imperative the pronoun may attach to the infinitive or precede it: *Non alzarti! = Non ti alzare!* *Non dirlo! = Non lo dire!* Both are standard." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Chiudi la porta, per favore!", "en": "Close the door, please!" },
+      { "it": "Non toccare il forno: è caldo!", "en": "Don't touch the oven: it's hot!", "note": "Negative tu = non + infinitive." },
+      { "it": "Signora, si accomodi!", "en": "Madam, please take a seat!", "note": "Formal Lei: pronoun before the verb." },
+      { "it": "Dimmi la verità.", "en": "Tell me the truth.", "note": "di' + mi → dimmi (doubled m)." },
+      { "it": "Alziamoci presto domani.", "en": "Let's get up early tomorrow.", "note": "noi: pronoun attached." },
+      { "it": "Ragazzi, sedetevi e ascoltate.", "en": "Children, sit down and listen." },
+      { "it": "Sii gentile con tua sorella.", "en": "Be kind to your sister." }
+    ],
+    "exercises": [
+      {
+        "id": "imperativo.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the tu imperative.",
+        "rows": [
+          { "label": "parlare", "answer": "parla" },
+          { "label": "scrivere", "answer": "scrivi" },
+          { "label": "finire", "answer": "finisci" },
+          { "label": "essere", "answer": "sii" },
+          { "label": "avere", "answer": "abbi" },
+          { "label": "dire", "answer": "di'" }
+        ],
+        "explanation": "-are → -a; -ere/-ire → -i (with -isc- where the present has it); irregular sii, abbi, di'.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "imperativo.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'Don't go!' (tu)",
+        "options": ["Non andare!", "Non va'!", "Non vai!", "Non vada!"],
+        "answer": "Non andare!",
+        "explanation": "The negative tu imperative is non + infinitive. Non vada! is the formal Lei form.",
+        "ruleRef": "negative"
+      },
+      {
+        "id": "imperativo.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "venire, Lei (formal) imperative: ___",
+        "answer": "venga",
+        "explanation": "Formal Lei uses the congiuntivo presente: venga.",
+        "ruleRef": "forms",
+        "mistakes": [{ "answer": "vieni", "message": "vieni is the informal tu form. Formal Lei: venga." }]
+      },
+      {
+        "id": "imperativo.4",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "fa' + lo (Do it!): ___",
+        "answer": "fallo",
+        "accept": ["fallo!"],
+        "explanation": "After fa' the l of lo doubles: fallo.",
+        "ruleRef": "pronouns",
+        "mistakes": [{ "answer": "falo", "message": "After the short form fa' the consonant doubles: fallo." }]
+      },
+      {
+        "id": "imperativo.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'Sit down!' (voi)",
+        "options": ["Sedetevi!", "Vi sedete!", "Sedeteci!", "Siedetevi!"],
+        "answer": "Sedetevi!",
+        "explanation": "voi imperative + attached reflexive pronoun vi: sedetevi.",
+        "ruleRef": "pronouns"
+      },
+      {
+        "id": "imperativo.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate (tu): Don't say it!",
+        "answer": "Non dirlo!",
+        "accept": ["Non lo dire!"],
+        "explanation": "Both positions of the pronoun are standard with the negative tu imperative.",
+        "ruleRef": "pronouns"
+      },
+      {
+        "id": "imperativo.7",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Give the imperative of *alzarsi*.",
+        "rows": [
+          { "label": "tu", "answer": "alzati" },
+          { "label": "Lei", "answer": "si alzi" },
+          { "label": "noi", "answer": "alziamoci" },
+          { "label": "voi", "answer": "alzatevi" }
+        ],
+        "explanation": "Pronoun attached to tu/noi/voi; before the verb with Lei.",
+        "ruleRef": "pronouns"
+      }
+    ],
+    "summary": [
+      "tu: -a (-are), -i (-ere/-ire); noi and voi = present; Lei/Loro = congiuntivo presente.",
+      "Irregular: va'/vai, da'/dai, fa'/fai, sta'/stai, di', sii, abbi, sappi.",
+      "Negative tu: non + infinitive. Other persons: non + affirmative form.",
+      "Pronouns attach to tu/noi/voi (dimmi, alziamoci), precede Lei/Loro (si alzi); consonants double after va', da', fa', di', sta'."
+    ],
+    "relatedVocabulary": ["verb_parlare", "verb_prendere", "verb_chiudere", "verb_dire", "verb_essere", "verb_avere", "verb_alzarsi", "verb_sedersi", "verb_andare", "verb_fare"],
+    "relatedStories": ["la-colazione"],
+    "relatedSongs": ["ninna-nanna-della-luna"]
+  }
+]

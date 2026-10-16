@@ -1,0 +1,130 @@
+{
+  "$schema": "Original rhymes and short song texts (CC BY 4.0), written for this project. Each line has a literal (word-for-word) and a natural translation. No third-party lyrics are bundled: the learner's own lyrics are stored only in their browser.",
+  "rhymes": [
+    {
+      "id": "la-pioggia-sul-tetto",
+      "title": "La pioggia sul tetto",
+      "titleEnglish": "The rain on the roof",
+      "level": "A1",
+      "form": "Four rhyming couplets (AABB)",
+      "summary": "A cheerful rain rhyme: the cat sleeps, the wind sings, grandmother cooks soup.",
+      "names": [],
+      "lines": [
+        { "it": "Piove, piove sul tetto,", "literal": "(It) rains, (it) rains on-the roof,", "natural": "It's raining, raining on the roof,", "note": "piove: impersonal weather verb — no subject. sul = su + il." },
+        { "it": "il gatto dorme nel letto.", "literal": "the cat sleeps in-the bed.", "natural": "the cat is asleep in bed.", "note": "tetto / letto: rhyme on -etto." },
+        { "it": "Cade l'acqua piano piano", "literal": "Falls the water softly softly", "natural": "The water falls gently, gently", "note": "Verb before subject: common in poetry and with verbs like cadere. Doubling an adverb (piano piano) intensifies it." },
+        { "it": "sulla strada e sul prato lontano.", "literal": "on-the street and on-the meadow far.", "natural": "on the street and the distant meadow.", "note": "lontano agrees with prato (masculine singular)." },
+        { "it": "Canta il vento alla finestra,", "literal": "Sings the wind at-the window,", "natural": "The wind sings at the window,", "note": "alla = a + la." },
+        { "it": "la nonna prepara la minestra.", "literal": "the grandmother prepares the soup.", "natural": "Grandma is making soup.", "note": "finestra / minestra: rhyme on -estra." },
+        { "it": "Piove, piove, che allegria:", "literal": "(It) rains, (it) rains, what cheerfulness:", "natural": "It's raining, raining — what fun!", "note": "che + noun = what (a) …!" },
+        { "it": "domani la nuvola va via.", "literal": "tomorrow the cloud goes away.", "natural": "tomorrow the cloud will go away.", "note": "Present tense for the near future. andare via = to go away." }
+      ],
+      "vocabulary": ["verb_piovere", "noun_tetto", "noun_gatto", "noun_letto", "verb_cadere", "noun_acqua", "adv_piano", "noun_strada", "noun_prato", "adj_lontano", "noun_vento", "noun_finestra", "noun_nonna", "noun_minestra", "noun_allegria", "noun_nuvola", "adv_domani"],
+      "grammarNotes": [
+        { "title": "Impersonal weather verbs", "text": "piove = it rains / it is raining. Italian has no 'it' subject here.", "lesson": "word-order-negation-questions" },
+        { "title": "Subject after the verb", "text": "Cade l'acqua, Canta il vento: the subject follows the verb, which gives a poetic rhythm.", "lesson": "word-order-negation-questions" },
+        { "title": "Articulated prepositions", "text": "sul tetto, nel letto, sulla strada, alla finestra.", "lesson": "articulated-prepositions" }
+      ],
+      "exercises": [
+        { "id": "rhyme.pioggia.1", "type": "song-interpretation", "kind": "choice", "prompt": "What does *piano piano* mean in 'Cade l'acqua piano piano'?", "options": ["gently, slowly", "upstairs", "on the floor", "very loudly"], "answer": "gently, slowly", "explanation": "piano as an adverb = softly, slowly; doubling it intensifies." },
+        { "id": "rhyme.pioggia.2", "type": "song-interpretation", "kind": "choice", "prompt": "Who is singing at the window?", "options": ["the wind", "the grandmother", "the cat", "the rain"], "answer": "the wind", "explanation": "Canta il vento alla finestra: il vento is the subject, placed after the verb." },
+        { "id": "rhyme.pioggia.3", "type": "infinitive", "kind": "text", "lang": "it", "prompt": "Infinitive of *cade*?", "answer": "cadere", "explanation": "cadere: cado, cadi, cade…" },
+        { "id": "rhyme.pioggia.4", "type": "song-interpretation", "kind": "choice", "prompt": "'domani la nuvola va via' — when does the cloud go away?", "options": ["tomorrow", "now", "yesterday", "never"], "answer": "tomorrow", "explanation": "The present tense with domani expresses the near future." },
+        { "id": "rhyme.pioggia.5", "type": "fill-blank", "kind": "text", "lang": "it", "prompt": "Complete the rhyme: il gatto dorme nel ___.", "answer": "letto", "explanation": "tetto / letto." }
+      ]
+    },
+    {
+      "id": "ninna-nanna-della-luna",
+      "title": "Ninna nanna della luna",
+      "titleEnglish": "Lullaby of the moon",
+      "level": "A1",
+      "form": "Lullaby in rhyming couplets",
+      "summary": "A mother sings her little bear to sleep under the moon and stars.",
+      "names": [],
+      "lines": [
+        { "it": "Dormi, dormi, piccolo orso,", "literal": "Sleep, sleep, little bear,", "natural": "Sleep now, sleep, little bear,", "note": "dormi here is an imperative (an instruction to tu). For -ere and -ire verbs the tu imperative is identical to the present: dormi = you sleep / sleep!" },
+        { "it": "la luna guarda il bosco.", "literal": "the moon looks-at the wood.", "natural": "the moon is watching over the wood.", "note": "guardare takes a direct object: no preposition for 'at'." },
+        { "it": "Brilla in cielo una stella,", "literal": "Shines in sky a star,", "natural": "A star is shining in the sky,", "note": "in cielo: no article in this fixed phrase." },
+        { "it": "la notte è calma e bella.", "literal": "the night is calm and beautiful.", "natural": "the night is calm and lovely.", "note": "stella / bella: rhyme on -ella. Both adjectives agree with notte (feminine)." },
+        { "it": "Il gufo canta piano piano,", "literal": "The owl sings softly softly,", "natural": "The owl sings very softly,", "note": "" },
+        { "it": "il giorno è ancora lontano.", "literal": "the day is still far.", "natural": "morning is still far away.", "note": "ancora = still. piano / lontano rhyme." },
+        { "it": "Chiudi gli occhi, vicino al cuore:", "literal": "Close the eyes, near to-the heart:", "natural": "Close your eyes, close to my heart:", "note": "chiudi: imperative of chiudere (same form as the present tu). gli occhi: Italian uses the article, not the possessive, for body parts." },
+        { "it": "la mamma canta con amore.", "literal": "the mum sings with love.", "natural": "Mummy sings to you with love.", "note": "cuore / amore: the most traditional rhyme in Italian song." }
+      ],
+      "vocabulary": ["verb_dormire", "adj_piccolo", "noun_orso", "noun_luna", "verb_guardare", "noun_bosco", "verb_brillare", "noun_cielo", "noun_stella", "noun_notte", "adj_calmo", "adj_bello", "noun_gufo", "verb_cantare", "noun_giorno", "adv_ancora", "adj_lontano", "verb_chiudere", "noun_occhio", "noun_cuore", "noun_mamma", "noun_amore"],
+      "grammarNotes": [
+        { "title": "The tu imperative", "text": "dormi! chiudi! For -ere and -ire verbs the tu imperative is identical to the present tense; for -are verbs it ends in -a (canta!). The full imperative, including the formal and negative forms, is in the imperativo lesson.", "lesson": "imperativo" },
+        { "title": "Body parts with the article", "text": "Chiudi gli occhi = close your eyes.", "lesson": "reflexive-verbs" }
+      ],
+      "exercises": [
+        { "id": "rhyme.ninna.1", "type": "song-interpretation", "kind": "choice", "prompt": "In *Dormi, dormi, piccolo orso*, what is *dormi*?", "options": ["an instruction: 'sleep!'", "a noun meaning 'dream'", "a past tense", "an adjective"], "answer": "an instruction: 'sleep!'", "explanation": "dormi is the tu imperative here (identical in form to the present tu)." },
+        { "id": "rhyme.ninna.2", "type": "song-interpretation", "kind": "choice", "prompt": "What does *il giorno è ancora lontano* tell the little bear?", "options": ["Morning is still a long way off.", "The day is over.", "The day is very short.", "Tomorrow is a holiday."], "answer": "Morning is still a long way off.", "explanation": "ancora = still; lontano = far: it is still the middle of the night." },
+        { "id": "rhyme.ninna.3", "type": "grammatical-role", "kind": "choice", "prompt": "In *Brilla in cielo una stella*, what is the subject?", "options": ["una stella", "cielo", "brilla", "in cielo"], "answer": "una stella", "explanation": "The subject follows the verb: una stella brilla." },
+        { "id": "rhyme.ninna.4", "type": "fill-blank", "kind": "text", "lang": "it", "prompt": "Which word rhymes with *cuore* in the last couplet?", "answer": "amore", "explanation": "cuore / amore." },
+        { "id": "rhyme.ninna.5", "type": "translate-it-en", "kind": "text", "lang": "en", "prompt": "Translate naturally: *la notte è calma e bella*", "answer": "the night is calm and beautiful", "accept": ["the night is calm and lovely", "the night is quiet and beautiful", "the night is quiet and lovely"], "explanation": "calma and bella agree with notte." }
+      ]
+    },
+    {
+      "id": "conta-delle-stelle",
+      "title": "Conta delle stelle",
+      "titleEnglish": "Counting the stars",
+      "level": "A0",
+      "form": "Counting rhyme (filastrocca)",
+      "summary": "Count from one to ten with stars, little owls and fish.",
+      "names": [],
+      "lines": [
+        { "it": "Una stella, due stelle,", "literal": "One star, two stars,", "natural": "One star, two stars,", "note": "uno → una before a feminine noun; stella → stelle." },
+        { "it": "tre stelle tanto belle.", "literal": "three stars so beautiful.", "natural": "three stars, so very pretty.", "note": "belle agrees with stelle (feminine plural)." },
+        { "it": "Quattro, cinque, sei e sette:", "literal": "Four, five, six and seven:", "natural": "Four, five, six and seven:", "note": "" },
+        { "it": "sul tetto ci sono le civette.", "literal": "on-the roof there are the little-owls.", "natural": "there are little owls on the roof.", "note": "ci sono + plural. sette / civette rhyme." },
+        { "it": "Otto, nove, dieci:", "literal": "Eight, nine, ten:", "natural": "Eight, nine, ten:", "note": "" },
+        { "it": "nel mare dormono i pesci.", "literal": "in-the sea sleep the fish.", "natural": "in the sea the fish are sleeping.", "note": "Subject after the verb. dieci / pesci rhyme by assonance." },
+        { "it": "Buonanotte, stelle belle,", "literal": "Good-night, stars beautiful,", "natural": "Good night, lovely stars,", "note": "" },
+        { "it": "a domani, care sorelle!", "literal": "until tomorrow, dear sisters!", "natural": "see you tomorrow, dear sisters!", "note": "a domani = see you tomorrow. care: feminine plural of caro." }
+      ],
+      "vocabulary": ["num_uno", "num_due", "num_tre", "num_quattro", "num_cinque", "num_sei", "num_sette", "num_otto", "num_nove", "num_dieci", "noun_stella", "adj_bello", "noun_tetto", "noun_civetta", "noun_mare", "noun_pesce", "interj_buonanotte", "adj_caro", "noun_sorella"],
+      "grammarNotes": [
+        { "title": "Plural of -a nouns", "text": "stella → stelle; civetta → civette; sorella → sorelle.", "lesson": "noun-gender-number" },
+        { "title": "ci sono", "text": "sul tetto ci sono le civette = there are little owls on the roof.", "lesson": "indefinite-articles" }
+      ],
+      "exercises": [
+        { "id": "rhyme.conta.1", "type": "matching", "kind": "match", "prompt": "Match the numbers.", "pairs": [["tre", "3"], ["sette", "7"], ["nove", "9"], ["quattro", "4"], ["dieci", "10"]], "explanation": "uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci." },
+        { "id": "rhyme.conta.2", "type": "song-interpretation", "kind": "choice", "prompt": "Where are the little owls?", "options": ["on the roof", "in the sea", "in the sky", "in the wood"], "answer": "on the roof", "explanation": "sul tetto ci sono le civette." },
+        { "id": "rhyme.conta.3", "type": "plural", "kind": "text", "lang": "it", "prompt": "Plural of *la civetta*: le ___", "answer": "civette", "explanation": "-a → -e." },
+        { "id": "rhyme.conta.4", "type": "song-interpretation", "kind": "choice", "prompt": "What does *a domani* mean?", "options": ["see you tomorrow", "to the morning", "today", "goodbye forever"], "answer": "see you tomorrow", "explanation": "a domani is a common way to say goodbye until the next day." },
+        { "id": "rhyme.conta.5", "type": "competing-forms", "kind": "choice", "prompt": "Why *care sorelle* and not *cari sorelle*?", "options": ["sorelle is feminine plural", "care is invariable", "sorelle is singular", "Both are correct"], "answer": "sorelle is feminine plural", "explanation": "The adjective agrees: caro → care (feminine plural)." }
+      ]
+    },
+    {
+      "id": "il-valzer-degli-animali",
+      "title": "Il valzer degli animali",
+      "titleEnglish": "The animals' waltz",
+      "level": "A1",
+      "form": "Dance rhyme in couplets",
+      "summary": "Animals dance on the roof, in bed and in the meadow; the owl challenges everyone.",
+      "names": [],
+      "lines": [
+        { "it": "Balla il gatto sul tetto,", "literal": "Dances the cat on-the roof,", "natural": "The cat is dancing on the roof,", "note": "Verb–subject order for rhythm." },
+        { "it": "balla il topo sul letto.", "literal": "dances the mouse on-the bed.", "natural": "the mouse is dancing on the bed.", "note": "" },
+        { "it": "La rana salta, la lumaca è lenta,", "literal": "The frog jumps, the snail is slow,", "natural": "The frog jumps, the snail is slow,", "note": "" },
+        { "it": "la farfalla vola ed è contenta.", "literal": "the butterfly flies and is happy.", "natural": "the butterfly flies and is happy.", "note": "ed: e before a vowel (here è). lenta / contenta rhyme." },
+        { "it": "Il gufo canta: «Uno, due, tre!", "literal": "The owl sings: “One, two, three!", "natural": "The owl sings: “One, two, three!", "note": "" },
+        { "it": "Chi balla più veloce di me?»", "literal": "Who dances more fast than me?”", "natural": "Who can dance faster than me?”", "note": "più … di = more … than; di + stressed pronoun me. tre / me rhyme." },
+        { "it": "Tutti insieme, piano piano,", "literal": "All together, slowly slowly,", "natural": "All together, nice and slow,", "note": "" },
+        { "it": "balliamo il valzer, mano nella mano.", "literal": "we-dance the waltz, hand in-the hand.", "natural": "let's dance the waltz, hand in hand.", "note": "balliamo: noi form, here a suggestion (let's dance). mano nella mano = hand in hand." }
+      ],
+      "vocabulary": ["verb_ballare", "noun_gatto", "noun_tetto", "noun_topo", "noun_letto", "noun_rana", "verb_saltare", "noun_lumaca", "adj_lento", "noun_farfalla", "verb_volare", "adj_contento", "noun_gufo", "verb_cantare", "adj_veloce", "adv_insieme", "noun_valzer", "noun_mano"],
+      "grammarNotes": [
+        { "title": "Comparison", "text": "più veloce di me = faster than me.", "lesson": "bello-buono-comparison" },
+        { "title": "noi for suggestions", "text": "balliamo = we dance / let's dance.", "lesson": "present-are" }
+      ],
+      "exercises": [
+        { "id": "rhyme.valzer.1", "type": "song-interpretation", "kind": "choice", "prompt": "What does the owl ask?", "options": ["Who dances faster than me?", "Who sings better than me?", "Where is the cat?", "Who wants to sleep?"], "answer": "Who dances faster than me?", "explanation": "Chi balla più veloce di me?" },
+        { "id": "rhyme.valzer.2", "type": "infinitive", "kind": "text", "lang": "it", "prompt": "Infinitive of *vola*?", "answer": "volare", "explanation": "volare: volo, voli, vola…" },
+        { "id": "rhyme.valzer.3", "type": "song-interpretation", "kind": "choice", "prompt": "*mano nella mano* means…", "options": ["hand in hand", "one hand only", "in the hand of the waltz", "handmade"], "answer": "hand in hand", "explanation": "nella = in + la." },
+        { "id": "rhyme.valzer.4", "type": "competing-forms", "kind": "choice", "prompt": "Why does the text say *ed è contenta* instead of *e è contenta*?", "options": ["e becomes ed before a vowel, especially e", "ed is the feminine of e", "It is a spelling mistake", "ed means 'but'"], "answer": "e becomes ed before a vowel, especially e", "explanation": "The euphonic d avoids two identical vowels in a row." },
+        { "id": "rhyme.valzer.5", "type": "conjugation", "kind": "text", "lang": "it", "prompt": "ballare, noi: ___", "answer": "balliamo", "explanation": "ball- + -iamo." }
+      ]
+    }
+  ]
+}

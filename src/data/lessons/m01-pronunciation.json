@@ -1,0 +1,461 @@
+[
+  {
+    "id": "alphabet-vowels",
+    "module": "m01",
+    "title": "The alphabet and the vowels",
+    "level": "A0",
+    "description": "Letter names, the five vowels, and why Italian spelling is so regular.",
+    "objectives": [
+      "Name the 21 letters of the Italian alphabet and recognise the 5 foreign letters.",
+      "Pronounce the five vowels as pure, unreduced sounds.",
+      "Understand that final vowels carry grammatical information (gender and number).",
+      "Know that h is always silent."
+    ],
+    "tags": { "pos": ["phonology"], "topics": ["pronunciation", "spelling"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "alphabet",
+        "heading": "The 21 letters",
+        "blocks": [
+          { "type": "p", "text": "The native Italian alphabet has 21 letters. Five more — *j, k, w, x, y* — occur only in loanwords and foreign names (*il jazz, il kiwi, il weekend, lo yogurt*)." },
+          {
+            "type": "table",
+            "caption": "Letter names",
+            "headers": ["Letter", "Name", "Letter", "Name", "Letter", "Name"],
+            "rows": [
+              ["a", "a", "h", "acca", "q", "cu"],
+              ["b", "bi", "i", "i", "r", "erre"],
+              ["c", "ci", "l", "elle", "s", "esse"],
+              ["d", "di", "m", "emme", "t", "ti"],
+              ["e", "e", "n", "enne", "u", "u"],
+              ["f", "effe", "o", "o", "v", "vu (or vi)"],
+              ["g", "gi", "p", "pi", "z", "zeta"]
+            ]
+          },
+          { "type": "p", "text": "Foreign letters: *j* (i lunga), *k* (cappa), *w* (doppia vu), *x* (ics), *y* (ipsilon or i greca)." },
+          { "type": "rule", "kind": "rule", "title": "The letter h is always silent", "text": "*h* is never pronounced. It has two jobs: inside *ch* and *gh* it keeps *c* and *g* hard (see the next lesson), and at the start of four forms of *avere* — *ho, hai, ha, hanno* — it distinguishes them in writing from *o* (or), *ai* (to the), *a* (to) and *anno* (year)." }
+        ]
+      },
+      {
+        "id": "vowels",
+        "heading": "Five pure vowels",
+        "blocks": [
+          { "type": "p", "text": "Italian has five vowel letters: *a, e, i, o, u*. Each is pronounced fully and clearly, whether stressed or not. English often weakens unstressed vowels to a neutral 'uh' sound; Italian never does." },
+          {
+            "type": "table",
+            "caption": "Approximate vowel sounds",
+            "headers": ["Vowel", "Like English…", "Examples"],
+            "rows": [
+              ["a", "the a in father", "casa, mamma, gatto"],
+              ["e", "the e in bed (open) or a closed 'ay' without the glide", "mela, bene, sera"],
+              ["i", "the ee in see, but short", "vino, libri, idea"],
+              ["o", "the o in for (open) or a pure closed 'oh'", "notte, sole, cosa"],
+              ["u", "the oo in moon, but short", "luna, uva, tu"]
+            ]
+          },
+          { "type": "rule", "kind": "tendency", "title": "Open and closed e and o", "text": "Stressed *e* and *o* can be open or closed (*bène* versus *séra*; *còsa* versus *sóle*). Standard Italian therefore has seven stressed vowel sounds: a, è [ɛ], é [e], i, ò [ɔ], ó [o], u. In unstressed syllables only five occur. The distribution of open and closed vowels follows Florentine usage in the standard, but it varies a great deal by region (many speakers in the North and South distribute them differently), and only a few word pairs depend on it (*pèsca* 'peach' / *pésca* 'fishing'; *vènti* 'winds' / *vénti* 'twenty'). A regional distribution is not an error in everyday speech; dictionaries mark the standard one with grave (è, ò) and acute (é, ó) accents, and you can check any word there." },
+          { "type": "rule", "kind": "rule", "title": "Final vowels matter", "text": "Many words differ only in their final vowel: *gatto* (cat) and *gatti* (cats); *bambino* (boy) and *bambina* (girl). The final vowel often marks gender and number, so it must be pronounced clearly." }
+        ]
+      },
+      {
+        "id": "spelling",
+        "heading": "Spelling and sound",
+        "blocks": [
+          { "type": "p", "text": "Italian spelling is highly regular: once you know a handful of rules (mostly about *c*, *g*, *sc*, *gn* and *gli*), you can pronounce almost any written word correctly, and spell almost any word you hear." },
+          { "type": "list", "items": ["Every written vowel is pronounced: *idea* has three syllables (i-de-a), *aereo* has four (a-e-re-o).", "*u* after *q* is always pronounced: *quando* (kwando), *quattro*.", "*z* sounds like ts or dz: *zio* (tsio), *zaino* (dzaino) — the choice varies by word and region."] }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "la casa", "en": "the house", "note": "Two clear a sounds: CA-sa." },
+      { "it": "la luna", "en": "the moon", "note": "u as in 'moon', but short." },
+      { "it": "Ho un gatto.", "en": "I have a cat.", "note": "ho: the h is silent — pronounced 'o'." },
+      { "it": "il gatto, i gatti", "en": "the cat, the cats", "note": "Only the final vowel (and the article) changes." },
+      { "it": "il bambino, la bambina", "en": "the boy, the girl", "note": "The final vowel marks gender." },
+      { "it": "l'idea", "en": "the idea", "note": "Three vowels, all pronounced: i-de-a." }
+    ],
+    "exercises": [
+      {
+        "id": "alphabet-vowels.1",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "How is the h in *ho* (I have) pronounced?",
+        "options": ["It is silent", "Like English h", "Like k", "Like the ch in Scottish loch"],
+        "answer": "It is silent",
+        "explanation": "h is never pronounced in Italian. ho sounds exactly like o (or); the h only distinguishes the two in writing.",
+        "ruleRef": "alphabet"
+      },
+      {
+        "id": "alphabet-vowels.2",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match each letter to its Italian name.",
+        "pairs": [["h", "acca"], ["z", "zeta"], ["q", "cu"], ["r", "erre"], ["g", "gi"]],
+        "explanation": "Consonant names follow two patterns: vowel + consonant + e (effe, elle, emme, enne, erre, esse) or consonant + i (bi, ci, di, gi, pi, ti). h (acca), q (cu) and z (zeta) are special.",
+        "ruleRef": "alphabet"
+      },
+      {
+        "id": "alphabet-vowels.3",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Which of these letters appears only in loanwords?",
+        "options": ["k", "q", "z", "v"],
+        "answer": "k",
+        "explanation": "j, k, w, x and y are not part of the native Italian alphabet; they appear in words such as il kiwi or il weekend.",
+        "ruleRef": "alphabet"
+      },
+      {
+        "id": "alphabet-vowels.4",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "*gatto* and *gatti* differ only in the final vowel. What does that vowel show here?",
+        "options": ["Number (singular or plural)", "Tense", "Formality", "Nothing — it is optional"],
+        "answer": "Number (singular or plural)",
+        "explanation": "gatto = cat, gatti = cats. Final vowels carry gender and number, which is why they are always pronounced clearly.",
+        "ruleRef": "vowels"
+      },
+      {
+        "id": "alphabet-vowels.5",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "How many syllables does *idea* have?",
+        "options": ["3", "2", "1", "4"],
+        "answer": "3",
+        "explanation": "Every Italian vowel is pronounced: i-de-a.",
+        "ruleRef": "spelling"
+      },
+      {
+        "id": "alphabet-vowels.6",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *la bambina*",
+        "answer": "the little girl",
+        "accept": ["the girl", "the child", "the baby girl", "the young girl"],
+        "explanation": "bambina ends in -a: a girl. bambino (-o) is a boy.",
+        "ruleRef": "vowels",
+        "vocabRef": ["noun_bambina"]
+      }
+    ],
+    "summary": [
+      "21 native letters; j, k, w, x, y only in loanwords.",
+      "Five pure vowels, always fully pronounced — including at the end of words.",
+      "h is always silent.",
+      "Spelling is regular: learn the few rules for c, g, sc, gn, gli and you can read aloud almost anything."
+    ],
+    "relatedVocabulary": ["noun_casa", "noun_luna", "noun_gatto", "noun_bambino", "noun_bambina", "verb_avere"],
+    "relatedStories": ["il-gatto-e-la-luna"],
+    "relatedSongs": []
+  },
+  {
+    "id": "c-and-g",
+    "module": "m01",
+    "title": "Hard and soft c and g; sc, gn and gli",
+    "level": "A0",
+    "description": "When c and g are hard or soft, the role of h and i, and the sounds sc, gn and gli.",
+    "objectives": [
+      "Predict whether c and g are hard (k, g) or soft (ch, j) from the following letter.",
+      "Use ch/gh and ci/gi spellings correctly.",
+      "Pronounce sc, gn, gli and qu."
+    ],
+    "tags": { "pos": ["phonology"], "topics": ["pronunciation", "spelling"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "c-g",
+        "heading": "c and g before different vowels",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "The basic rule", "text": "Before *a, o, u* (and consonants), *c* and *g* are **hard**: c = k, g = g as in 'go'. Before *e, i* they are **soft**: c = ch as in 'church', g = j as in 'jam'." },
+          {
+            "type": "table",
+            "caption": "c and g",
+            "headers": ["Spelling", "Sound", "Examples"],
+            "rows": [
+              ["ca, co, cu", "k", "casa, cosa, cuore"],
+              ["ce, ci", "ch (church)", "cena, cielo"],
+              ["che, chi", "k", "che, chiave, perché"],
+              ["cia, cio, ciu", "ch + a/o/u", "ciao, arancia, cioccolato"],
+              ["ga, go, gu", "g (go)", "gatto, gola, gufo"],
+              ["ge, gi", "j (jam)", "gelato, giro"],
+              ["ghe, ghi", "g (go)", "laghi, spaghetti"],
+              ["gia, gio, giu", "j + a/o/u", "giallo, giorno, giugno"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "h makes c and g hard before e and i", "text": "To write the hard sound before *e* or *i*, insert *h*: *che* (ke), *chi* (ki), *ghe*, *ghi*. This is why the plural of *lago* is *laghi* and *tu cerchi* is spelt with h." },
+          { "type": "rule", "kind": "rule", "title": "i makes c and g soft before a, o, u", "text": "To write the soft sound before *a, o, u*, insert an *i* that is not pronounced as a separate vowel: *ciao* (chao), *giallo* (jallo), *mangio* (manjo)." }
+        ]
+      },
+      {
+        "id": "sc",
+        "heading": "sc",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "sc",
+            "headers": ["Spelling", "Sound", "Examples"],
+            "rows": [
+              ["sca, sco, scu", "sk", "scuola, scala, tasca"],
+              ["sce, sci", "sh (ship)", "pesce, scimmia, uscire"],
+              ["sche, schi", "sk", "scherzo, schiena"],
+              ["scia, scio, sciu", "sh + a/o/u", "sciarpa, lascio"]
+            ]
+          },
+          { "type": "p", "text": "The same logic as c: h keeps it hard, i keeps it soft. That is why *uscire* has the forms *esco* (sk) and *esci* (sh)." }
+        ]
+      },
+      {
+        "id": "gn-gli",
+        "heading": "gn, gli and qu",
+        "blocks": [
+          { "type": "list", "items": ["*gn* = the ny sound of Spanish ñ or the ni in 'onion': *montagna, sogno, bagno*.", "*gli* = a palatal l, close to the lli in 'million': *famiglia, figlio, foglia, coniglio*. Before *a, o, u* the i is not pronounced separately: *foglia* = fo-lya.", "*qu* = kw: *quando, quattro, questo*. The u is always pronounced."] },
+          { "type": "rule", "kind": "exception", "title": "A few hard gl words", "text": "In a small number of learned words *gl* + i is pronounced g + l, as in English: *glicine* (wisteria), *glicerina, glifo, anglicano, negligente* and some proper names. (*globo* is hard simply because gl is followed by o, not i.) They are few, and a dictionary shows the pronunciation." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Ciao, come stai?", "en": "Hi, how are you?", "note": "ciao: soft c, the i is silent." },
+      { "it": "La chiave è qui.", "en": "The key is here.", "note": "chiave: hard c (ki-a-ve)." },
+      { "it": "Il gelato è giallo.", "en": "The ice cream is yellow.", "note": "Soft g in both words." },
+      { "it": "Il pesce nuota.", "en": "The fish swims.", "note": "pesce: sce = she." },
+      { "it": "La mia famiglia vive in montagna.", "en": "My family lives in the mountains.", "note": "famiglia (gli) and montagna (gn)." },
+      { "it": "Vado a scuola.", "en": "I go to school.", "note": "scuola: sc before u = sk." }
+    ],
+    "exercises": [
+      {
+        "id": "c-and-g.1",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "In which word is c pronounced like English k?",
+        "options": ["chiave", "cena", "ciao", "cielo"],
+        "answer": "chiave",
+        "explanation": "ch before i or e is hard (k). In cena and cielo the c is soft before e/i, and in ciao the i signals a soft c before a.",
+        "ruleRef": "c-g"
+      },
+      {
+        "id": "c-and-g.2",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "In which word is g pronounced like the j in 'jam'?",
+        "options": ["giorno", "gatto", "laghi", "gufo"],
+        "answer": "giorno",
+        "explanation": "gi before o = soft g. gatto and gufo have g before a/u (hard); laghi uses gh to keep g hard before i.",
+        "ruleRef": "c-g"
+      },
+      {
+        "id": "c-and-g.3",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*il lago* (the lake) becomes plural. Which spelling keeps the hard g sound?",
+        "options": ["i laghi", "i lagi", "i lagii", "i laghe"],
+        "answer": "i laghi",
+        "explanation": "Plural -i would make g soft (lagi = laji). The h keeps the hard sound: laghi.",
+        "ruleRef": "c-g",
+        "mistakes": [{ "answer": "i lagi", "message": "lagi would be pronounced 'laji'. Insert h to keep g hard before i: laghi." }]
+      },
+      {
+        "id": "c-and-g.4",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match each word to its sound.",
+        "pairs": [["scuola", "sk"], ["pesce", "sh"], ["montagna", "ny"], ["famiglia", "ly (palatal l)"]],
+        "explanation": "sc + u = sk; sc + e = sh; gn = ny; gli = palatal l.",
+        "ruleRef": "sc"
+      },
+      {
+        "id": "c-and-g.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete the spellings to match the sounds given in brackets.",
+        "text": "{0}iave (ki-a-ve) · {1}allo (jal-lo) · {2}uola (skwo-la) · {3}erzo (sker-tso)",
+        "blanks": [
+          { "answer": "ch", "accept": [] },
+          { "answer": "gi", "accept": [] },
+          { "answer": "sc", "accept": [] },
+          { "answer": "sch", "accept": [] }
+        ],
+        "explanation": "chiave (ch = k before i), giallo (gi = j before a), scuola (sc = sk before u), scherzo (sch = sk before e).",
+        "ruleRef": "c-g"
+      },
+      {
+        "id": "c-and-g.6",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "How do you pronounce the *u* in *quando*?",
+        "options": ["As a w: kwando", "It is silent: kando", "As oo in a separate syllable: ku-an-do", "As v: kvando"],
+        "answer": "As a w: kwando",
+        "explanation": "After q, u is always pronounced as a w sound.",
+        "ruleRef": "gn-gli"
+      }
+    ],
+    "summary": [
+      "c, g, sc are hard before a, o, u and soft before e, i.",
+      "Insert h to keep them hard before e/i (che, laghi, scherzo).",
+      "Insert a silent i to make them soft before a/o/u (ciao, giallo, sciarpa).",
+      "gn = ny, gli = palatal l, qu = kw."
+    ],
+    "relatedVocabulary": ["noun_chiave", "noun_gelato", "adj_giallo", "noun_pesce", "noun_famiglia", "noun_montagna", "noun_scuola", "noun_lago", "noun_foglia", "noun_coniglio"],
+    "relatedStories": ["la-colazione"],
+    "relatedSongs": []
+  },
+  {
+    "id": "stress-doubles-accents",
+    "module": "m01",
+    "title": "Syllables, stress, double consonants and accents",
+    "level": "A0",
+    "description": "Where the stress falls, why double consonants matter, when accents are written, and elision with the apostrophe.",
+    "objectives": [
+      "Divide words into syllables and locate the stress.",
+      "Pronounce and spell double consonants and recognise minimal pairs.",
+      "Know when an accent must be written, and the difference between è and e.",
+      "Use the apostrophe for elision (l'albero, un'amica, c'è)."
+    ],
+    "tags": { "pos": ["phonology"], "topics": ["pronunciation", "spelling", "accents"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "syllables-stress",
+        "heading": "Syllables and stress",
+        "blocks": [
+          { "type": "p", "text": "Italian syllables tend to end in a vowel: *ca-sa, ma-ti-ta, fi-ne-stra*. A double consonant is split between two syllables (*gat-to, mam-ma*), and *s* + consonant goes with the following syllable (*pa-sta, fi-ne-stra*)." },
+          { "type": "rule", "kind": "tendency", "title": "Stress usually falls on the second-to-last syllable", "text": "Most words are stressed on the penultimate syllable: *CA-sa, bam-BI-no, fi-NE-stra*. Many common words, however, are stressed on the third-to-last: *AL-be-ro, TA-vo-lo, MAC-chi-na, PEC-co-ra*. This is not shown in writing, so learn the stress with each new word." },
+          { "type": "rule", "kind": "rule", "title": "Final stress is always written", "text": "If the stress falls on the last vowel of a word of two or more syllables, it is always marked with an accent: *città, caffè, perché, papà, più, felicità*." }
+        ]
+      },
+      {
+        "id": "accents",
+        "heading": "Written accents",
+        "blocks": [
+          { "type": "p", "text": "Italian writes a grave accent (à, è, ì, ò, ù) on most stressed final vowels. A small set of words take an acute accent on closed *é*: *perché, poiché, né, sé*, and compounds like *ventitré*." },
+          {
+            "type": "table",
+            "caption": "One-syllable words distinguished only by the accent",
+            "headers": ["With accent", "Meaning", "Without accent", "Meaning"],
+            "rows": [
+              ["è", "is", "e", "and"],
+              ["là", "there", "la", "the; her"],
+              ["sì", "yes", "si", "himself, herself (reflexive)"],
+              ["dà", "gives", "da", "from"],
+              ["tè", "tea", "te", "you (after a preposition)"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "Never write e' for è", "text": "The apostrophe is not an accent. Writing *e'* for *è* is a typing habit, not standard spelling. In this course an answer without the correct accent is marked wrong." }
+        ]
+      },
+      {
+        "id": "doubles",
+        "heading": "Double consonants",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Double consonants are held longer", "text": "A written double consonant is pronounced longer (or with more tension) than a single one. The difference can change meaning entirely." },
+          {
+            "type": "table",
+            "caption": "Minimal pairs",
+            "headers": ["Single", "Meaning", "Double", "Meaning"],
+            "rows": [
+              ["nono", "ninth", "nonno", "grandfather"],
+              ["sete", "thirst", "sette", "seven"],
+              ["caro", "dear", "carro", "cart"],
+              ["pala", "shovel", "palla", "ball"],
+              ["capello", "(a) hair", "cappello", "hat"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "elision",
+        "heading": "The apostrophe: elision",
+        "blocks": [
+          { "type": "p", "text": "When certain short words end in a vowel and the next word begins with a vowel, the first vowel is dropped and replaced by an apostrophe, with no space after it." },
+          { "type": "list", "items": ["*lo / la* → *l'*: *l'albero, l'acqua*", "*una* → *un'*: *un'amica, un'ape*", "*ci* + *è* → *c'è* (there is); *c'era* (there was)", "*di* → *d'*: *d'estate, pieno d'acqua*", "*dove, come, cosa* + *è* → *dov'è, com'è, cos'è*"] },
+          { "type": "rule", "kind": "exception", "title": "un amico — no apostrophe", "text": "The masculine *un* is not an elided form (it is also used before consonants: *un gatto*), so it never takes an apostrophe: *un amico*, but *un'amica*. Likewise *qual è* is written without an apostrophe." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "L'albero è alto.", "en": "The tree is tall.", "note": "l' (from lo) before a vowel; AL-be-ro is stressed on the third-to-last syllable." },
+      { "it": "Il nonno beve il caffè.", "en": "Grandfather drinks coffee.", "note": "nonno: double n. caffè: written final stress." },
+      { "it": "Sara è la mia amica.", "en": "Sara is my friend.", "note": "è (is) carries an accent; e (and) does not." },
+      { "it": "C'è un'ape sul fiore.", "en": "There is a bee on the flower.", "note": "c'è = ci + è; un'ape = una + ape." },
+      { "it": "Ho sette anni.", "en": "I am seven years old.", "note": "sette (seven) versus sete (thirst)." },
+      { "it": "Perché la città è bella.", "en": "Because the city is beautiful.", "note": "perché (acute accent), città (grave accent)." }
+    ],
+    "exercises": [
+      {
+        "id": "stress-doubles-accents.1",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write the missing word meaning 'is': Il gatto ___ nero.",
+        "answer": "è",
+        "explanation": "è (with an accent) is the verb 'is'. e without an accent means 'and'.",
+        "ruleRef": "accents",
+        "mistakes": [
+          { "answer": "e", "message": "Without the accent, e means 'and'. 'Is' is è." },
+          { "answer": "e'", "message": "An apostrophe is not an accent: write è." }
+        ]
+      },
+      {
+        "id": "stress-doubles-accents.2",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "What does *nonno* mean?",
+        "options": ["grandfather", "ninth", "nobody", "not"],
+        "answer": "grandfather",
+        "explanation": "nonno (double n) = grandfather; nono (single n) = ninth.",
+        "ruleRef": "doubles"
+      },
+      {
+        "id": "stress-doubles-accents.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Choose the correct spelling: 'a (female) friend'",
+        "options": ["un'amica", "un amica", "una amica", "un' amica"],
+        "answer": "un'amica",
+        "explanation": "una elides to un' before a vowel, with no space: un'amica. Without the apostrophe (un amica) it would be the masculine form.",
+        "ruleRef": "elision"
+      },
+      {
+        "id": "stress-doubles-accents.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Choose the correct spelling: 'a (male) friend'",
+        "options": ["un amico", "un'amico", "uno amico", "una amico"],
+        "answer": "un amico",
+        "explanation": "Masculine un never takes an apostrophe: un amico, un albero.",
+        "ruleRef": "elision",
+        "mistakes": [{ "answer": "un'amico", "message": "Only the feminine una is elided (un'amica). Masculine un never takes an apostrophe." }]
+      },
+      {
+        "id": "stress-doubles-accents.5",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which word is stressed on the third-to-last syllable?",
+        "options": ["albero", "bambino", "finestra", "città"],
+        "answer": "albero",
+        "explanation": "AL-be-ro. bam-BI-no and fi-NE-stra follow the usual penultimate stress; cit-TÀ has written final stress.",
+        "ruleRef": "syllables-stress"
+      },
+      {
+        "id": "stress-doubles-accents.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Add the elided forms.",
+        "text": "{0}acqua (the water) · {1} un orso (there is a bear) · {2} la mamma? (where is Mum?)",
+        "blanks": [
+          { "answer": "l'", "accept": [] },
+          { "answer": "c'è", "accept": [] },
+          { "answer": "dov'è", "accept": [] }
+        ],
+        "explanation": "la → l' before a vowel; ci + è → c'è; dove + è → dov'è.",
+        "ruleRef": "elision"
+      }
+    ],
+    "summary": [
+      "Stress usually falls on the second-to-last syllable, but many words are stressed earlier — learn it with the word.",
+      "Final stress is always written: città, caffè, perché.",
+      "Accents distinguish è/e, là/la, sì/si, dà/da, tè/te.",
+      "Double consonants are pronounced longer and can change meaning.",
+      "Elision: l'albero, un'amica, c'è — but un amico."
+    ],
+    "relatedVocabulary": ["noun_albero", "noun_nonno", "noun_caffe", "noun_citta", "conj_perche", "noun_amica", "noun_amico", "num_sette", "noun_ape"],
+    "relatedStories": ["il-gatto-e-la-luna"],
+    "relatedSongs": ["la-pioggia-sul-tetto"]
+  }
+]

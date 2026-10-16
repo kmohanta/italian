@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.log
+.vite/
+book/*.aux
+book/*.log
+book/*.out
+book/*.toc
+book/*.idx
+book/*.ind
+book/*.ilg
+book/*.fls
+book/*.fdb_latexmk
+book/*.xdv
+book/*.pdf

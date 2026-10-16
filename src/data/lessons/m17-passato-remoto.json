@@ -1,0 +1,284 @@
+[
+  {
+    "id": "passato-remoto",
+    "module": "m17",
+    "title": "Passato remoto: forms, meaning and regional use",
+    "level": "B1",
+    "description": "The narrative past: regular and irregular forms, its difference from the passato prossimo, and how its use varies by register and region.",
+    "objectives": [
+      "Form the regular passato remoto of all three conjugations, including the two -ere series (-ei/-etti).",
+      "Recognise the '1-3-3' pattern of strong verbs (ebbi, ebbe, ebbero) and learn the most frequent ones.",
+      "Explain the aspectual difference between passato remoto and passato prossimo.",
+      "Describe how usage differs between written narration and speech, and across Italian regions."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["past tense", "narration", "irregular", "register", "regional variation"], "tenses": ["passato remoto"], "families": ["-are", "-ere", "-ire", "irregular"] },
+    "sections": [
+      {
+        "id": "regular",
+        "heading": "Regular forms",
+        "blocks": [
+          { "type": "paradigm", "verb": "verb_parlare", "tense": "passatoRemoto", "highlightEndings": true },
+          { "type": "paradigm", "verb": "verb_credere", "tense": "passatoRemoto", "highlightEndings": true },
+          { "type": "paradigm", "verb": "verb_dormire", "tense": "passatoRemoto", "highlightEndings": true },
+          { "type": "rule", "kind": "rule", "title": "Two series in -ere", "text": "Regular -ere verbs have two equally standard series in io, lui/lei and loro: *credei / credetti, credé / credette, crederono / credettero*. Which series is preferred varies from verb to verb and writer to writer; both are correct (Treccani gives *vendei o vendetti*). Final stress is written: *parlò, credé, dormì*." },
+          { "type": "rule", "kind": "rule", "title": "No -isc-", "text": "-isc- verbs do not insert -isc- in the passato remoto: *capii, capisti, capì*." }
+        ]
+      },
+      {
+        "id": "irregular",
+        "heading": "Irregular (strong) verbs",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "The 1-3-3 pattern", "text": "Most irregular verbs are irregular only in the 1st person singular and the 3rd persons singular and plural, which share a special stem ending in -i, -e, -ero: *ebbi, ebbe, ebbero*. The other three persons are regular, built on the normal stem: *avesti, avemmo, aveste*." },
+          { "type": "paradigm", "verb": "verb_avere", "tense": "passatoRemoto" },
+          { "type": "paradigm", "verb": "verb_fare", "tense": "passatoRemoto" },
+          {
+            "type": "table",
+            "caption": "Frequent strong verbs (io · lui/lei · loro)",
+            "headers": ["Infinitive", "Forms", "Infinitive", "Forms"],
+            "rows": [
+              ["avere", "ebbi · ebbe · ebbero", "venire", "venni · venne · vennero"],
+              ["fare", "feci · fece · fecero", "volere", "volli · volle · vollero"],
+              ["dire", "dissi · disse · dissero", "sapere", "seppi · seppe · seppero"],
+              ["vedere", "vidi · vide · videro", "conoscere", "conobbi · conobbe · conobbero"],
+              ["prendere", "presi · prese · presero", "nascere", "nacqui · nacque · nacquero"],
+              ["mettere", "misi · mise · misero", "rimanere", "rimasi · rimase · rimasero"],
+              ["scrivere", "scrissi · scrisse · scrissero", "bere", "bevvi · bevve · bevvero"],
+              ["leggere", "lessi · lesse · lessero", "cadere", "caddi · cadde · caddero"],
+              ["chiedere", "chiesi · chiese · chiesero", "piacere", "piacqui · piacque · piacquero"],
+              ["rispondere", "risposi · rispose · risposero", "vivere", "vissi · visse · vissero"]
+            ]
+          },
+          { "type": "paradigm", "verb": "verb_essere", "tense": "passatoRemoto" },
+          { "type": "rule", "kind": "exception", "title": "essere, dare, stare", "text": "*essere* is irregular throughout (*fui, fosti, fu, fummo, foste, furono*). *dare*: *diedi/detti, desti, diede/dette, demmo, deste, diedero/dettero*. *stare*: *stetti, stesti, stette, stemmo, steste, stettero*." }
+        ]
+      },
+      {
+        "id": "meaning",
+        "heading": "Passato remoto or passato prossimo?",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "The aspectual distinction", "text": "Both tenses present an action as completed. The **passato prossimo** links the past event to the present (its result or relevance still holds, or the time period includes the present: *quest'anno, oggi*). The **passato remoto** presents the event as closed and detached from the present. Hence the norm: *Oggi ho visto Marco* (not *vidi*), but *Dante nacque nel 1265*." },
+          { "type": "rule", "kind": "rule", "title": "Written narration", "text": "The passato remoto is the standard tense of written narration — novels, fairy tales, history books — where it carries the main sequence of events while the imperfetto provides the background: *Era notte. Il lupo entrò nella casa.*" },
+          { "type": "rule", "kind": "tendency", "title": "Speech varies by region", "text": "In spoken Italian the choice depends strongly on region. In the North the passato prossimo has largely replaced the passato remoto in conversation, even for distant events. In Tuscany the traditional distinction is kept. In much of the South the passato remoto is used in speech even where standard Italian would prefer the passato prossimo (*Stamattina andai al mercato*); regional Italian generally mirrors the local dialects. These are tendencies of regional Italian, not rules: a speaker from Milan and one from Palermo may describe the same event differently and both be understood." },
+          { "type": "rule", "kind": "tip", "title": "What to do as a learner", "text": "Learn to recognise every form: you will meet them in every book. For your own speech, the passato prossimo is always acceptable for recent events; use the passato remoto for historical facts and written narration." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "C'era una volta un re che aveva tre figlie.", "en": "Once upon a time there was a king who had three daughters.", "note": "Fairy-tale background: imperfetto." },
+      { "it": "Un giorno il re chiamò le figlie e disse: «Ascoltatemi.»", "en": "One day the king called his daughters and said: “Listen to me.”", "note": "Events in the passato remoto: chiamò, disse." },
+      { "it": "Dante nacque a Firenze nel 1265.", "en": "Dante was born in Florence in 1265.", "note": "Historical fact: passato remoto." },
+      { "it": "Oggi ho visto Marco al mercato.", "en": "Today I saw Marco at the market.", "note": "oggi includes the present: passato prossimo in standard Italian." },
+      { "it": "I ragazzi videro una luce e si fermarono.", "en": "The boys saw a light and stopped.", "note": "vedere: videro (strong); fermarsi: si fermarono (regular)." },
+      { "it": "Fu una notte lunga e fredda.", "en": "It was a long, cold night.", "note": "essere: fu presents the whole night as a closed event." },
+      { "it": "Quando arrivammo al porto, il sole tramontava.", "en": "When we reached the harbour, the sun was setting.", "note": "Event (passato remoto) against background (imperfetto)." }
+    ],
+    "exercises": [
+      {
+        "id": "passato-remoto.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *cantare* in the passato remoto.",
+        "rows": [
+          { "label": "io", "answer": "cantai" },
+          { "label": "tu", "answer": "cantasti" },
+          { "label": "lui/lei", "answer": "cantò" },
+          { "label": "noi", "answer": "cantammo" },
+          { "label": "voi", "answer": "cantaste" },
+          { "label": "loro", "answer": "cantarono" }
+        ],
+        "explanation": "-ai, -asti, -ò, -ammo, -aste, -arono.",
+        "ruleRef": "regular"
+      },
+      {
+        "id": "passato-remoto.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "vendere, io, passato remoto: ___",
+        "answer": "vendetti",
+        "accept": ["vendei"],
+        "explanation": "Both vendei and vendetti are standard.",
+        "ruleRef": "regular"
+      },
+      {
+        "id": "passato-remoto.3",
+        "type": "infinitive",
+        "kind": "table",
+        "prompt": "Give the infinitive.",
+        "rows": [
+          { "label": "ebbe", "answer": "avere" },
+          { "label": "fece", "answer": "fare" },
+          { "label": "disse", "answer": "dire" },
+          { "label": "vide", "answer": "vedere" },
+          { "label": "nacque", "answer": "nascere" },
+          { "label": "fu", "answer": "essere" }
+        ],
+        "explanation": "Strong forms hide the infinitive: learn them in sets (ebbi/ebbe/ebbero).",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "passato-remoto.4",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *prendere* in the passato remoto.",
+        "rows": [
+          { "label": "io", "answer": "presi" },
+          { "label": "tu", "answer": "prendesti" },
+          { "label": "lui/lei", "answer": "prese" },
+          { "label": "noi", "answer": "prendemmo" },
+          { "label": "voi", "answer": "prendeste" },
+          { "label": "loro", "answer": "presero" }
+        ],
+        "explanation": "1-3-3: strong stem pres- in io, lui/lei, loro; regular prend- elsewhere.",
+        "ruleRef": "irregular",
+        "mistakes": []
+      },
+      {
+        "id": "passato-remoto.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "In standard Italian, which is the expected form? *Stamattina ___ Marco al bar.*",
+        "options": ["ho visto", "vidi", "vedevo", "avevo visto"],
+        "answer": "ho visto",
+        "explanation": "stamattina is part of today, linked to the present: passato prossimo. In southern regional speech vidi is also heard.",
+        "ruleRef": "meaning",
+        "mistakes": [{ "answer": "vidi", "message": "In standard usage a time period that includes the present (stamattina, oggi) takes the passato prossimo. vidi here is typical of some southern regional speech." }]
+      },
+      {
+        "id": "passato-remoto.6",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which statement about the passato remoto is accurate?",
+        "options": [
+          "It is standard in written narration; in speech its use varies strongly by region.",
+          "It is obsolete and never used in modern Italian.",
+          "It is used only in the South of Italy.",
+          "It is used for actions still happening now."
+        ],
+        "answer": "It is standard in written narration; in speech its use varies strongly by region.",
+        "explanation": "Rare in northern conversation, traditional in Tuscany, very common in southern speech, and the norm in written narrative everywhere.",
+        "ruleRef": "meaning"
+      },
+      {
+        "id": "passato-remoto.7",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete the story with the passato remoto.",
+        "text": "Il lupo {0} (entrare) nella casa e {1} (vedere) la nonna. La nonna {2} (avere) paura e {3} (scappare).",
+        "blanks": [{ "answer": "entrò" }, { "answer": "vide" }, { "answer": "ebbe" }, { "answer": "scappò" }],
+        "explanation": "entrò, vide (strong), ebbe (strong), scappò.",
+        "ruleRef": "irregular"
+      }
+    ],
+    "summary": [
+      "Regular: -ai/-asti/-ò…; -ei(-etti)/-esti/-é(-ette)…; -ii/-isti/-ì…",
+      "Strong verbs: irregular stem in io, lui/lei, loro (ebbi, ebbe, ebbero); regular elsewhere.",
+      "essere: fui…; dare: diedi/detti…; stare: stetti…",
+      "Passato remoto = closed, detached past; standard in written narration and history.",
+      "Spoken use varies by region: rare in the North, traditional in Tuscany, very common in the South."
+    ],
+    "relatedVocabulary": ["verb_avere", "verb_fare", "verb_dire", "verb_vedere", "verb_prendere", "verb_nascere", "verb_essere", "verb_venire", "verb_vendere"],
+    "relatedStories": ["il-segreto-del-faro"],
+    "relatedSongs": []
+  },
+  {
+    "id": "trapassato-remoto",
+    "module": "m17",
+    "title": "Trapassato remoto",
+    "level": "B2",
+    "description": "The literary past anterior, used in temporal clauses with a main verb in the passato remoto.",
+    "objectives": [
+      "Form the trapassato remoto (ebbi mangiato, fui partito).",
+      "Use it after dopo che, (non) appena, quando, una volta che with a main verb in the passato remoto.",
+      "Know that outside this construction the trapassato prossimo is used."
+    ],
+    "tags": { "pos": ["verb"], "topics": ["past tense", "narration", "compound tenses", "register"], "tenses": ["trapassato remoto"], "families": [] },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Passato remoto of the auxiliary + participle", "text": "*ebbi finito, avesti finito, ebbe finito…; fui partito/a, fosti partito/a, fu partito/a…*" },
+          { "type": "paradigm", "verb": "verb_finire", "tense": "trapassatoRemoto" },
+          { "type": "paradigm", "verb": "verb_partire", "tense": "trapassatoRemoto" }
+        ]
+      },
+      {
+        "id": "use",
+        "heading": "Use",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Only in one construction", "text": "The trapassato remoto expresses an action immediately preceding another action in the passato remoto, in a temporal clause introduced by *dopo che, (non) appena, quando, come, una volta che*: *Dopo che ebbe cenato, uscì.* Elsewhere, anteriority in the past is expressed with the trapassato prossimo." },
+          { "type": "rule", "kind": "tendency", "title": "Register", "text": "It belongs to written, literary narration and is rare even there; many writers prefer alternatives with the same meaning: *Dopo aver cenato, uscì* or *Cenato, uscì*. In speech it is practically never used." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Dopo che ebbe cenato, il vecchio uscì sul molo.", "en": "When he had had dinner, the old man went out onto the pier." },
+      { "it": "Appena fu partito il treno, cominciò a piovere.", "en": "As soon as the train had left, it began to rain." },
+      { "it": "Quando ebbero finito il lavoro, i pescatori tornarono a casa.", "en": "When they had finished their work, the fishermen went home." },
+      { "it": "Dopo aver cenato, il vecchio uscì sul molo.", "en": "After having dinner, the old man went out onto the pier.", "note": "Equivalent, more common: dopo + infinito passato." },
+      { "it": "Non appena l'ebbe vista, la riconobbe.", "en": "As soon as he had seen her, he recognised her.", "note": "Agreement with la (l'ebbe vista)." }
+    ],
+    "exercises": [
+      {
+        "id": "trapassato-remoto.1",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "mangiare, lui, trapassato remoto: ___",
+        "answer": "ebbe mangiato",
+        "explanation": "Passato remoto of avere + participle.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "trapassato-remoto.2",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "arrivare, loro (masculine), trapassato remoto: ___",
+        "answer": "furono arrivati",
+        "explanation": "arrivare takes essere: furono arrivati.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "trapassato-remoto.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Dopo che ___ (leggere) la lettera, la principessa pianse.",
+        "options": ["ebbe letto", "aveva letto", "ha letto", "lesse"],
+        "answer": "ebbe letto",
+        "explanation": "Temporal clause with dopo che and main verb in the passato remoto (pianse): trapassato remoto. (aveva letto is also found in modern prose, but the traditional norm is ebbe letto.)",
+        "ruleRef": "use"
+      },
+      {
+        "id": "trapassato-remoto.4",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which sentence uses the trapassato remoto correctly?",
+        "options": ["Appena ebbe finito, se ne andò.", "Ebbe finito il lavoro ieri.", "Quando ebbi finito, sono uscito.", "Se ebbe finito, uscirebbe."],
+        "answer": "Appena ebbe finito, se ne andò.",
+        "explanation": "Only in a temporal clause before a main verb in the passato remoto (andò).",
+        "ruleRef": "use"
+      },
+      {
+        "id": "trapassato-remoto.5",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Quando ebbero finito, tornarono a casa.*",
+        "answer": "When they had finished, they went home.",
+        "accept": ["When they had finished, they returned home.", "When they had finished, they went back home.", "After they had finished, they went home."],
+        "explanation": "ebbero finito: trapassato remoto; tornarono: passato remoto.",
+        "ruleRef": "use"
+      }
+    ],
+    "summary": [
+      "Trapassato remoto = passato remoto of avere/essere + participle.",
+      "Only in temporal clauses (dopo che, appena, quando) before a main verb in the passato remoto.",
+      "Literary and rare; dopo + infinito passato is the usual alternative."
+    ],
+    "relatedVocabulary": ["verb_finire", "verb_partire", "verb_mangiare", "verb_leggere", "verb_piangere"],
+    "relatedStories": ["il-segreto-del-faro"],
+    "relatedSongs": []
+  }
+]

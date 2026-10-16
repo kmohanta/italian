@@ -1,0 +1,709 @@
+{
+  "$schema": "Exercises that do not belong to a single lesson: the diagnostic test and mixed revision sets. Lesson exercises live inside each lesson.",
+  "diagnostic": {
+    "description": "Twenty short questions, one or two per stage of the course, from pronunciation to the congiuntivo. The result suggests where to start; it does not lock any lesson.",
+    "questions": [
+      {
+        "id": "diag.1",
+        "module": "m01",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Which word has a hard k sound?",
+        "options": [
+          "chiave",
+          "cielo",
+          "ciao",
+          "cena"
+        ],
+        "answer": "chiave",
+        "explanation": "ch before i/e is hard."
+      },
+      {
+        "id": "diag.2",
+        "module": "m01",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write 'is': Il cane ___ grande.",
+        "answer": "è",
+        "explanation": "è (is) has an accent; e means 'and'."
+      },
+      {
+        "id": "diag.3",
+        "module": "m02",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ zaino",
+        "options": [
+          "lo",
+          "il",
+          "la",
+          "l'"
+        ],
+        "answer": "lo",
+        "explanation": "lo before z."
+      },
+      {
+        "id": "diag.4",
+        "module": "m02",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Plural of la stella: le ___",
+        "answer": "stelle",
+        "explanation": "-a → -e."
+      },
+      {
+        "id": "diag.5",
+        "module": "m03",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "le case (bianco) → le case ___",
+        "answer": "bianche",
+        "explanation": "Feminine plural of bianco: bianche."
+      },
+      {
+        "id": "diag.6",
+        "module": "m04",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "parlare, noi: ___",
+        "answer": "parliamo",
+        "explanation": "parl- + -iamo."
+      },
+      {
+        "id": "diag.7",
+        "module": "m05",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "andare, io: ___",
+        "answer": "vado",
+        "explanation": "Irregular: vado."
+      },
+      {
+        "id": "diag.8",
+        "module": "m06",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'I never cry.'",
+        "options": [
+          "Non piango mai.",
+          "Piango mai.",
+          "Mai non piango.",
+          "Non mai piango."
+        ],
+        "answer": "Non piango mai.",
+        "explanation": "non … mai."
+      },
+      {
+        "id": "diag.9",
+        "module": "m07",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "in + il bosco → ___ bosco",
+        "answer": "nel",
+        "explanation": "in + il = nel."
+      },
+      {
+        "id": "diag.10",
+        "module": "m09",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Noi ___ svegliamo presto.",
+        "options": [
+          "ci",
+          "si",
+          "vi",
+          "mi"
+        ],
+        "answer": "ci",
+        "explanation": "noi → ci."
+      },
+      {
+        "id": "diag.11",
+        "module": "m10",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Ieri Sara ___ al mare.",
+        "options": [
+          "è andata",
+          "ha andato",
+          "è andato",
+          "va"
+        ],
+        "answer": "è andata",
+        "explanation": "andare → essere; agreement with Sara."
+      },
+      {
+        "id": "diag.12",
+        "module": "m11",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Mentre ___, è arrivato il nonno.",
+        "options": [
+          "dormivo",
+          "ho dormito",
+          "dormo",
+          "dormirò"
+        ],
+        "answer": "dormivo",
+        "explanation": "Background action in progress → imperfetto."
+      },
+      {
+        "id": "diag.13",
+        "module": "m15",
+        "type": "conjugation",
+        "kind": "choice",
+        "prompt": "(tu, negative) ___ la porta! (Don’t open the door!)",
+        "options": [
+          "Non aprire",
+          "Non apri",
+          "Non apra",
+          "Non aprite"
+        ],
+        "answer": "Non aprire",
+        "explanation": "Negative imperative for tu: non + infinitive."
+      },
+      {
+        "id": "diag.14",
+        "module": "m10",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Le chiavi? Le ho ___.",
+        "options": [
+          "perse",
+          "perso",
+          "persi",
+          "persa"
+        ],
+        "answer": "perse",
+        "explanation": "A preceding le makes the participle agree: perse (also perdute)."
+      },
+      {
+        "id": "diag.15",
+        "module": "m11",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Quando sono arrivato alla stazione, il treno ___ già ___.",
+        "options": [
+          "era … partito",
+          "è … partito",
+          "partiva … —",
+          "sarà … partito"
+        ],
+        "answer": "era … partito",
+        "explanation": "An action before another past action: trapassato prossimo."
+      },
+      {
+        "id": "diag.16",
+        "module": "m13",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Non risponde: ___ ancora a scuola. (He must still be at school.)",
+        "options": [
+          "sarà",
+          "era",
+          "sia",
+          "fu"
+        ],
+        "answer": "sarà",
+        "explanation": "The futuro expresses a supposition about the present."
+      },
+      {
+        "id": "diag.17",
+        "module": "m14",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Polite request: ___ un caffè, per favore.",
+        "options": [
+          "Vorrei",
+          "Voglio",
+          "Vorrò",
+          "Volli"
+        ],
+        "answer": "Vorrei",
+        "explanation": "Condizionale presente of volere: the standard polite form (volevo is also used)."
+      },
+      {
+        "id": "diag.18",
+        "module": "m17",
+        "type": "infinitive",
+        "kind": "choice",
+        "prompt": "In a story: *Il re prese la spada.* What is the infinitive of *prese*?",
+        "options": [
+          "prendere",
+          "presentare",
+          "pregare",
+          "prestare"
+        ],
+        "answer": "prendere",
+        "explanation": "prese is the passato remoto (3rd person singular) of prendere."
+      },
+      {
+        "id": "diag.19",
+        "module": "m18",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Penso che Marco ___ ragione.",
+        "options": [
+          "abbia",
+          "ha",
+          "avrebbe",
+          "avesse"
+        ],
+        "answer": "abbia",
+        "explanation": "pensare che + congiuntivo presente (abbia). In informal speech the indicative ha is also heard; abbia is the standard."
+      },
+      {
+        "id": "diag.20",
+        "module": "m19",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Se ___ tempo, verrei con te.",
+        "options": [
+          "avessi",
+          "avrei",
+          "avevo",
+          "abbia"
+        ],
+        "answer": "avessi",
+        "explanation": "Hypothesis about the present: se + congiuntivo imperfetto, condizionale in the main clause."
+      }
+    ]
+  },
+  "practiceSets": [
+    {
+      "id": "mixed-articles",
+      "title": "Mixed practice: articles",
+      "lessons": [
+        "definite-articles",
+        "indefinite-articles",
+        "articulated-prepositions"
+      ],
+      "exercises": [
+        {
+          "id": "mix.art.1",
+          "type": "article",
+          "kind": "choice",
+          "prompt": "___ specchio",
+          "options": [
+            "lo",
+            "il",
+            "l'",
+            "la"
+          ],
+          "answer": "lo",
+          "explanation": "s + consonant → lo."
+        },
+        {
+          "id": "mix.art.2",
+          "type": "article",
+          "kind": "choice",
+          "prompt": "___ estate (summer, feminine)",
+          "options": [
+            "l'",
+            "la",
+            "lo",
+            "il"
+          ],
+          "answer": "l'",
+          "explanation": "Feminine before a vowel → l'."
+        },
+        {
+          "id": "mix.art.3",
+          "type": "article",
+          "kind": "choice",
+          "prompt": "___ amica",
+          "options": [
+            "un'",
+            "un",
+            "uno",
+            "una"
+          ],
+          "answer": "un'",
+          "explanation": "Feminine before a vowel → un'."
+        },
+        {
+          "id": "mix.art.4",
+          "type": "article",
+          "kind": "choice",
+          "prompt": "___ occhi",
+          "options": [
+            "gli",
+            "i",
+            "le",
+            "l'"
+          ],
+          "answer": "gli",
+          "explanation": "Masculine plural before a vowel → gli."
+        },
+        {
+          "id": "mix.art.5",
+          "type": "fill-blank",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "a + le finestre → ___ finestre",
+          "answer": "alle",
+          "explanation": "a + le = alle."
+        },
+        {
+          "id": "mix.art.6",
+          "type": "fill-blank",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "su + gli alberi → ___ alberi",
+          "answer": "sugli",
+          "explanation": "su + gli = sugli."
+        }
+      ]
+    },
+    {
+      "id": "mixed-present",
+      "title": "Mixed practice: the present tense",
+      "lessons": [
+        "present-are",
+        "present-ere-ire",
+        "essere-avere",
+        "andare-fare-stare-dire",
+        "other-irregulars"
+      ],
+      "exercises": [
+        {
+          "id": "mix.pres.1",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "giocare, tu: ___",
+          "answer": "giochi",
+          "explanation": "h keeps g hard: giochi."
+        },
+        {
+          "id": "mix.pres.2",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "capire, loro: ___",
+          "answer": "capiscono",
+          "explanation": "-isc- verb."
+        },
+        {
+          "id": "mix.pres.3",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "fare, noi: ___",
+          "answer": "facciamo",
+          "explanation": "fare: facciamo."
+        },
+        {
+          "id": "mix.pres.4",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "venire, tu: ___",
+          "answer": "vieni",
+          "explanation": "venire: vieni."
+        },
+        {
+          "id": "mix.pres.5",
+          "type": "infinitive",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "Infinitive of vanno?",
+          "answer": "andare",
+          "explanation": "andare: vanno."
+        },
+        {
+          "id": "mix.pres.6",
+          "type": "infinitive",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "Infinitive of esce?",
+          "answer": "uscire",
+          "explanation": "uscire: esce."
+        }
+      ]
+    },
+    {
+      "id": "mixed-past",
+      "title": "Mixed practice: past tenses",
+      "lessons": [
+        "passato-prossimo-avere",
+        "passato-prossimo-essere",
+        "imperfetto",
+        "imperfetto-passato"
+      ],
+      "exercises": [
+        {
+          "id": "mix.past.1",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "leggere, io, passato prossimo: ___",
+          "answer": "ho letto",
+          "explanation": "leggere → letto."
+        },
+        {
+          "id": "mix.past.2",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "partire, loro (masculine), passato prossimo: ___",
+          "answer": "sono partiti",
+          "explanation": "partire → essere; agreement."
+        },
+        {
+          "id": "mix.past.3",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "essere, noi, imperfetto: ___",
+          "answer": "eravamo",
+          "explanation": "Irregular imperfetto."
+        },
+        {
+          "id": "mix.past.4",
+          "type": "conjugation",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "dire, lui/lei, imperfetto: ___",
+          "answer": "diceva",
+          "explanation": "dice- + va."
+        },
+        {
+          "id": "mix.past.5",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Da bambino ___ (giocare) sempre in giardino.",
+          "options": [
+            "giocavo",
+            "ho giocato",
+            "gioco",
+            "giocato"
+          ],
+          "answer": "giocavo",
+          "explanation": "Habit in the past → imperfetto."
+        },
+        {
+          "id": "mix.past.6",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Mi ___ (svegliarsi, female speaker) alle sette.",
+          "options": [
+            "sono svegliata",
+            "ho svegliata",
+            "sono svegliato",
+            "svegliavo"
+          ],
+          "answer": "sono svegliata",
+          "explanation": "Reflexive → essere; agreement with a female speaker."
+        }
+      ]
+    },
+    {
+      "id": "mixed-future-conditional",
+      "title": "Mixed practice: futuro and condizionale",
+      "lessons": [
+        "futuro-semplice",
+        "futuro-anteriore",
+        "condizionale-presente",
+        "condizionale-passato"
+      ],
+      "exercises": [
+        {
+          "id": "mix.fc.1",
+          "type": "conjugation",
+          "kind": "table",
+          "prompt": "Give the form.",
+          "rows": [
+            {
+              "label": "venire, io, futuro",
+              "answer": "verrò"
+            },
+            {
+              "label": "venire, io, condizionale",
+              "answer": "verrei"
+            },
+            {
+              "label": "essere, noi, futuro",
+              "answer": "saremo"
+            },
+            {
+              "label": "essere, noi, condizionale",
+              "answer": "saremmo"
+            },
+            {
+              "label": "fare, loro, futuro",
+              "answer": "faranno"
+            },
+            {
+              "label": "fare, loro, condizionale",
+              "answer": "farebbero"
+            }
+          ],
+          "explanation": "Futuro and condizionale share the stem: verr-, sar-, far-. Note the double m in saremmo (condizionale) vs saremo (futuro)."
+        },
+        {
+          "id": "mix.fc.2",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Marco ha detto che ___ domani. (future in the past)",
+          "options": [
+            "sarebbe venuto",
+            "verrebbe",
+            "verrà",
+            "venisse"
+          ],
+          "answer": "sarebbe venuto",
+          "explanation": "After a past verb of saying, a later event is expressed with the condizionale passato. In everyday speech verrà is also used when the event is still in the future; verrebbe is not standard here."
+        },
+        {
+          "id": "mix.fc.3",
+          "type": "multiple-choice",
+          "kind": "choice",
+          "prompt": "*Secondo i giornali, il ministro si sarebbe dimesso.* What does the condizionale express?",
+          "options": [
+            "information that has not been confirmed",
+            "a polite request",
+            "a condition",
+            "a future event"
+          ],
+          "answer": "information that has not been confirmed",
+          "explanation": "The condizionale of reported information (typical of journalism): \"the minister is said to have resigned\"."
+        },
+        {
+          "id": "mix.fc.4",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Quando ___ (finire, tu), usciremo.",
+          "options": [
+            "avrai finito",
+            "avresti finito",
+            "finiresti",
+            "finivi"
+          ],
+          "answer": "avrai finito",
+          "explanation": "Anteriority in the future: futuro anteriore. Informally also: quando hai finito, usciamo."
+        },
+        {
+          "id": "mix.fc.5",
+          "type": "translate-en-it",
+          "kind": "text",
+          "lang": "it",
+          "prompt": "Translate: I would have called you, but I didn’t have your number.",
+          "answer": "Ti avrei chiamato, ma non avevo il tuo numero.",
+          "accept": [
+            "Ti avrei chiamata, ma non avevo il tuo numero.",
+            "Ti avrei telefonato, ma non avevo il tuo numero.",
+            "Io ti avrei chiamato, ma non avevo il tuo numero.",
+            "Ti avrei chiamato ma non avevo il tuo numero.",
+            "Ti avrei chiamata ma non avevo il tuo numero."
+          ],
+          "explanation": "Unrealised past action: condizionale passato. chiamato/chiamata: agreement with ti is optional."
+        }
+      ]
+    },
+    {
+      "id": "mixed-moods",
+      "title": "Mixed practice: indicativo, congiuntivo or condizionale?",
+      "lessons": [
+        "congiuntivo-presente",
+        "congiuntivo-imperfetto-trapassato",
+        "periodo-ipotetico",
+        "concordanza-dei-tempi"
+      ],
+      "exercises": [
+        {
+          "id": "mix.mood.1",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "So che Luca ___ a Roma.",
+          "options": [
+            "abita",
+            "abiti",
+            "abiterebbe",
+            "abitasse"
+          ],
+          "answer": "abita",
+          "explanation": "sapere expresses certainty: indicativo."
+        },
+        {
+          "id": "mix.mood.2",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Credo che Luca ___ a Roma.",
+          "options": [
+            "abiti",
+            "abita",
+            "abitava",
+            "abiterebbe"
+          ],
+          "answer": "abiti",
+          "explanation": "credere che expresses opinion: congiuntivo in the standard. The indicative abita is common in informal speech."
+        },
+        {
+          "id": "mix.mood.3",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Credevo che Luca ___ a Roma.",
+          "options": [
+            "abitasse",
+            "abiti",
+            "abita",
+            "abiterà"
+          ],
+          "answer": "abitasse",
+          "explanation": "Past main verb + simultaneous action: congiuntivo imperfetto."
+        },
+        {
+          "id": "mix.mood.4",
+          "type": "fill-blank",
+          "kind": "cloze",
+          "prompt": "Complete the hypotheses.",
+          "text": "Se {0} (potere, io), ti aiuterei. Se avessi studiato, {1} (passare, tu) l’esame.",
+          "blanks": [
+            {
+              "answer": "potessi"
+            },
+            {
+              "answer": "avresti passato"
+            }
+          ],
+          "explanation": "Present unreal hypothesis: se + congiuntivo imperfetto (potessi). Past counterfactual: condizionale passato in the main clause; passare un esame is transitive, so it takes avere (avresti passato)."
+        },
+        {
+          "id": "mix.mood.5",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Cerco una casa che ___ un giardino.",
+          "options": [
+            "abbia",
+            "ha",
+            "avrà",
+            "avrebbe"
+          ],
+          "answer": "abbia",
+          "explanation": "A relative clause describing something sought but not yet identified usually takes the congiuntivo. With the indicativo (che ha) the speaker refers to a specific house that exists."
+        },
+        {
+          "id": "mix.mood.6",
+          "type": "competing-forms",
+          "kind": "choice",
+          "prompt": "Benché ___ tardi, siamo usciti.",
+          "options": [
+            "fosse",
+            "era",
+            "sarebbe",
+            "è"
+          ],
+          "answer": "fosse",
+          "explanation": "benché always takes the congiuntivo; with a past main verb, the congiuntivo imperfetto."
+        }
+      ]
+    }
+  ]
+}

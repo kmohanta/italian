@@ -1,0 +1,204 @@
+/* ==========================================================================
+   Reading mode and song laboratory
+   ========================================================================== */
+
+.reader {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+.reader__header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.25rem;
+}
+.reader__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin: 1rem 0;
+}
+.reader__text {
+  font-family: var(--font-serif);
+  font-size: 1.22rem;
+  line-height: 1.85;
+}
+.reader__paragraph {
+  margin-bottom: 1.6rem;
+}
+
+.sentence {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 0.5rem;
+  align-items: start;
+  padding: 0.1rem 0;
+}
+.sentence__it {
+  margin: 0;
+}
+.sentence__tools {
+  display: flex;
+  gap: 0.1rem;
+  opacity: 0.55;
+  transition: opacity 0.15s;
+}
+.sentence:hover .sentence__tools,
+.sentence:focus-within .sentence__tools {
+  opacity: 1;
+}
+.sentence__en {
+  grid-column: 1 / -1;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  margin: 0.05rem 0 0.6rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--line-strong);
+}
+.sentence__note {
+  color: var(--muted);
+}
+
+.word {
+  display: inline;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.word:hover,
+.word:focus-visible {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+.word--hint {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+.word--unknown {
+  text-decoration: underline dotted var(--gold);
+  text-underline-offset: 0.22em;
+}
+.word--name {
+  cursor: default;
+}
+
+.story-group {
+  margin-bottom: 1.5rem;
+}
+.story-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0.9rem;
+}
+.story-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.story-item__link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 0.35rem;
+}
+.story-item__title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--ink);
+  font-weight: 600;
+}
+.story-item__link:hover .story-item__title {
+  color: var(--accent);
+}
+.story-item__en {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.story-item__summary {
+  font-size: 0.92rem;
+  color: var(--ink-2);
+  flex: 1;
+}
+.story-item__meta .tag {
+  white-space: normal;
+}
+.story-item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0;
+}
+
+/* Songs --------------------------------------------------------------------------- */
+.lyrics {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+}
+.verse {
+  padding-left: 2rem;
+  margin: 0 0 1rem;
+}
+.verse li::marker {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-family: var(--font-sans);
+}
+.lyric-line__btn {
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--ink);
+  text-align: left;
+  padding: 0.12rem 0.35rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  width: 100%;
+}
+.lyric-line__btn:hover {
+  background: var(--surface-2);
+}
+.lyric-line.is-current .lyric-line__btn {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+.lyric-line.is-studied .lyric-line__btn::after {
+  content: ' ✓';
+  color: var(--ok);
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+}
+.line-studio h2 {
+  margin-top: 0;
+}
+.studio__line {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  line-height: 1.6;
+}
+.translations .reveal p {
+  margin: 0.25rem 0 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--line-strong);
+}
+.audio {
+  width: 100%;
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "id": "adjective-agreement",
+    "module": "m03",
+    "title": "Adjectives: agreement and position",
+    "level": "A0",
+    "description": "Four-form and two-form adjectives, invariable colours, and where adjectives go.",
+    "objectives": [
+      "Make adjectives agree in gender and number with their noun.",
+      "Distinguish -o adjectives (four forms) from -e adjectives (two forms).",
+      "Place adjectives correctly, usually after the noun."
+    ],
+    "tags": { "pos": ["adjective", "noun"], "topics": ["agreement", "word order"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "classes",
+        "heading": "Two classes of adjective",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Agreement", "text": "An adjective takes the gender and number of the noun it describes: *il gatto nero, la gatta nera, i gatti neri, le gatte nere*." },
+          {
+            "type": "table",
+            "caption": "Adjective endings",
+            "headers": ["Class", "masc. sg.", "fem. sg.", "masc. pl.", "fem. pl."],
+            "rows": [
+              ["-o (four forms)", "rosso", "rossa", "rossi", "rosse"],
+              ["-e (two forms)", "verde", "verde", "verdi", "verdi"],
+              ["invariable", "blu", "blu", "blu", "blu"]
+            ]
+          },
+          { "type": "p", "text": "Invariable colour adjectives include *blu, rosa, viola*: *le farfalle rosa* (the pink butterflies)." },
+          { "type": "rule", "kind": "rule", "title": "Mixed groups take the masculine plural", "text": "One adjective describing a masculine and a feminine noun together is masculine plural: *Il gatto e la volpe sono stanchi.*" },
+          { "type": "rule", "kind": "rule", "title": "-co/-go adjectives follow the noun pattern", "text": "*bianco → bianchi, bianche*; *lungo → lunghi, lunghe*. But stress-early adjectives take -ci: *simpatico → simpatici* (feminine always -che: *simpatiche*)." }
+        ]
+      },
+      {
+        "id": "position",
+        "heading": "Position",
+        "blocks": [
+          { "type": "rule", "kind": "tendency", "title": "Most adjectives follow the noun", "text": "Colours, shapes, nationalities and most descriptive adjectives come after the noun: *un gatto nero, una canzone italiana, un fiume lungo*." },
+          { "type": "rule", "kind": "tendency", "title": "Some common adjectives often precede", "text": "*bello, buono, brutto, grande, piccolo, nuovo, vecchio, giovane, lungo* often come before the noun, especially in a subjective or emotional sense: *una bella giornata, un piccolo orso*." },
+          {
+            "type": "table",
+            "caption": "Position can change the meaning",
+            "headers": ["Before the noun", "Meaning", "After the noun", "Meaning"],
+            "rows": [
+              ["un grande uomo", "a great man", "un uomo grande", "a big (tall, large) man"],
+              ["un vecchio amico", "a friend of many years", "un amico vecchio", "an elderly friend"],
+              ["un nuovo libro", "another / a different book", "un libro nuovo", "a brand-new book"]
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "La casa è piccola.", "en": "The house is small." },
+      { "it": "I fiori sono gialli.", "en": "The flowers are yellow." },
+      { "it": "Le notti sono fredde.", "en": "The nights are cold." },
+      { "it": "Le ragazze sono felici.", "en": "The girls are happy.", "note": "felice: two-form adjective." },
+      { "it": "Ho uno zaino blu.", "en": "I have a blue backpack.", "note": "blu is invariable." },
+      { "it": "C'era un piccolo orso.", "en": "There was a little bear.", "note": "piccolo before the noun: affectionate, storybook tone." }
+    ],
+    "exercises": [
+      {
+        "id": "adjective-agreement.1",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "la mela (rosso) → la mela ___",
+        "answer": "rossa",
+        "explanation": "Feminine singular of an -o adjective: rossa.",
+        "ruleRef": "classes"
+      },
+      {
+        "id": "adjective-agreement.2",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "le notti (freddo) → le notti ___",
+        "answer": "fredde",
+        "explanation": "notte is feminine; plural notti; feminine plural adjective: fredde.",
+        "ruleRef": "classes",
+        "mistakes": [{ "answer": "freddi", "message": "notti ends in -i but is feminine (la notte), so the adjective is feminine plural: fredde." }]
+      },
+      {
+        "id": "adjective-agreement.3",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "le ragazze (felice) → le ragazze ___",
+        "answer": "felici",
+        "explanation": "-e adjectives have one plural form for both genders: felici.",
+        "ruleRef": "classes"
+      },
+      {
+        "id": "adjective-agreement.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "le farfalle (rosa)",
+        "options": ["le farfalle rosa", "le farfalle rose", "le farfalle rosi", "le farfalle rosae"],
+        "answer": "le farfalle rosa",
+        "explanation": "rosa (the colour) is invariable.",
+        "ruleRef": "classes"
+      },
+      {
+        "id": "adjective-agreement.5",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Write all four forms of *bianco*.",
+        "rows": [
+          { "label": "masculine singular", "answer": "bianco" },
+          { "label": "feminine singular", "answer": "bianca" },
+          { "label": "masculine plural", "answer": "bianchi" },
+          { "label": "feminine plural", "answer": "bianche" }
+        ],
+        "explanation": "-co adjectives keep the hard sound: bianchi, bianche.",
+        "ruleRef": "classes"
+      },
+      {
+        "id": "adjective-agreement.6",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "What does *un grande uomo* usually mean?",
+        "options": ["a great man", "a big man", "an old man", "a tall boy"],
+        "answer": "a great man",
+        "explanation": "Before the noun grande tends to mean 'great'; after it, 'big': un uomo grande.",
+        "ruleRef": "position"
+      },
+      {
+        "id": "adjective-agreement.7",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Put the words in order: 'The black cat sleeps.'",
+        "tokens": ["Il", "gatto", "nero", "dorme"],
+        "answer": ["Il", "gatto", "nero", "dorme"],
+        "explanation": "Colour adjectives follow the noun.",
+        "ruleRef": "position"
+      }
+    ],
+    "summary": [
+      "Adjectives agree with the noun in gender and number.",
+      "-o adjectives: -o, -a, -i, -e. -e adjectives: -e, -i. Some colours are invariable.",
+      "Mixed masculine + feminine → masculine plural.",
+      "Most adjectives follow the noun; a few common ones often precede it, sometimes with a different meaning."
+    ],
+    "relatedVocabulary": ["adj_rosso", "adj_freddo", "adj_felice", "adj_rosa", "adj_bianco", "adj_grande", "adj_piccolo", "adj_nero", "adj_blu", "adj_simpatico", "adj_giallo"],
+    "relatedStories": ["il-gatto-e-la-luna", "la-tartaruga-lenta"],
+    "relatedSongs": ["il-valzer-degli-animali"]
+  },
+  {
+    "id": "demonstratives-possessives",
+    "module": "m03",
+    "title": "Demonstratives and possessives",
+    "level": "A1",
+    "description": "questo and quello; mio, tuo, suo, nostro, vostro, loro — with and without the article.",
+    "objectives": [
+      "Use questo and quello in all their forms.",
+      "Use possessives with the definite article.",
+      "Know when family nouns drop the article."
+    ],
+    "tags": { "pos": ["adjective", "determiner"], "topics": ["possessives", "demonstratives", "articles"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "questo-quello",
+        "heading": "questo (this) and quello (that)",
+        "blocks": [
+          { "type": "p", "text": "*questo* behaves like an ordinary -o adjective: *questo libro, questa casa, questi libri, queste case*. Before a vowel in the singular it may elide: *quest'albero*." },
+          { "type": "rule", "kind": "rule", "title": "quello before a noun copies the definite article", "text": "Take the article the noun would have and attach it to *que-*: il → *quel*, lo → *quello*, l' → *quell'*, la → *quella*, i → *quei*, gli → *quegli*, le → *quelle*." },
+          {
+            "type": "table",
+            "caption": "quello + noun",
+            "headers": ["Article", "quello form", "Example"],
+            "rows": [
+              ["il gatto", "quel", "quel gatto"],
+              ["lo zaino", "quello", "quello zaino"],
+              ["l'albero", "quell'", "quell'albero"],
+              ["la casa", "quella", "quella casa"],
+              ["i gatti", "quei", "quei gatti"],
+              ["gli alberi", "quegli", "quegli alberi"],
+              ["le case", "quelle", "quelle case"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "possessives",
+        "heading": "Possessives",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Possessive adjectives",
+            "headers": ["Owner", "masc. sg.", "fem. sg.", "masc. pl.", "fem. pl."],
+            "rows": [
+              ["io", "il mio", "la mia", "i miei", "le mie"],
+              ["tu", "il tuo", "la tua", "i tuoi", "le tue"],
+              ["lui / lei", "il suo", "la sua", "i suoi", "le sue"],
+              ["noi", "il nostro", "la nostra", "i nostri", "le nostre"],
+              ["voi", "il vostro", "la vostra", "i vostri", "le vostre"],
+              ["loro", "il loro", "la loro", "i loro", "le loro"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "Agreement with the thing possessed", "text": "The possessive agrees with the noun it accompanies, not with the owner: *il suo libro* = his book or her book; *la sua casa* = his house or her house." },
+          { "type": "rule", "kind": "rule", "title": "The article is normally used", "text": "Possessives are normally preceded by the definite article: *il mio cane, la nostra casa*." },
+          { "type": "rule", "kind": "exception", "title": "Singular family nouns", "text": "With a **singular**, unmodified family noun the article is dropped: *mio padre, mia sorella, tuo fratello*. It returns in the plural (*i miei fratelli*), with *loro* (*il loro padre*), with an adjective (*la mia sorella piccola*), and usually with affectionate forms (*la mia mamma, il mio papà*)." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Questo libro è nuovo.", "en": "This book is new." },
+      { "it": "Quell'albero è molto alto.", "en": "That tree is very tall." },
+      { "it": "Il mio cane è piccolo.", "en": "My dog is small." },
+      { "it": "Mia sorella ama i gatti.", "en": "My sister loves cats.", "note": "Singular family noun: no article." },
+      { "it": "I miei nonni abitano al mare.", "en": "My grandparents live by the sea.", "note": "Plural: the article returns." },
+      { "it": "Marco cerca la sua palla.", "en": "Marco is looking for his ball.", "note": "sua agrees with palla (feminine), not with Marco." }
+    ],
+    "exercises": [
+      {
+        "id": "demonstratives-possessives.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ alberi (those trees)",
+        "options": ["quegli", "quei", "quelli", "quelle"],
+        "answer": "quegli",
+        "explanation": "alberi takes gli, so quello becomes quegli.",
+        "ruleRef": "questo-quello"
+      },
+      {
+        "id": "demonstratives-possessives.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ gatto (that cat)",
+        "options": ["quel", "quello", "quell'", "quei"],
+        "answer": "quel",
+        "explanation": "il gatto → quel gatto.",
+        "ruleRef": "questo-quello"
+      },
+      {
+        "id": "demonstratives-possessives.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Sara and her book: Sara legge ___ libro.",
+        "options": ["il suo", "la sua", "il sua", "suo"],
+        "answer": "il suo",
+        "explanation": "libro is masculine, so il suo — Sara's gender does not matter.",
+        "ruleRef": "possessives",
+        "mistakes": [{ "answer": "la sua", "message": "The possessive agrees with libro (masculine), not with Sara: il suo libro." }]
+      },
+      {
+        "id": "demonstratives-possessives.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'my father'",
+        "options": ["mio padre", "il mio padre", "la mia padre", "mia padre"],
+        "answer": "mio padre",
+        "explanation": "Singular family noun without adjective: no article.",
+        "ruleRef": "possessives"
+      },
+      {
+        "id": "demonstratives-possessives.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'their house'",
+        "options": ["la loro casa", "loro casa", "la lora casa", "la sua casa"],
+        "answer": "la loro casa",
+        "explanation": "loro is invariable and always takes the article.",
+        "ruleRef": "possessives"
+      },
+      {
+        "id": "demonstratives-possessives.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: My grandparents live by the sea.",
+        "answer": "I miei nonni abitano al mare.",
+        "accept": ["I miei nonni vivono al mare."],
+        "explanation": "Plural family noun: the article is used (i miei nonni). al mare = by the sea / at the seaside.",
+        "ruleRef": "possessives"
+      }
+    ],
+    "summary": [
+      "questo: -o, -a, -i, -e. quello before a noun copies the article: quel, quello, quell', quella, quei, quegli, quelle.",
+      "Possessives agree with the thing possessed and normally take the article.",
+      "No article with a singular unmodified family noun (mia madre); loro always takes the article."
+    ],
+    "relatedVocabulary": ["noun_padre", "noun_madre", "noun_sorella", "noun_fratello", "noun_nonno", "noun_libro", "noun_albero"],
+    "relatedStories": ["la-famiglia-di-marco"],
+    "relatedSongs": []
+  },
+  {
+    "id": "bello-buono-comparison",
+    "module": "m03",
+    "title": "bello and buono; comparing things",
+    "level": "A1",
+    "description": "The special forms of bello and buono before nouns, and elementary comparatives.",
+    "objectives": [
+      "Use bel, bello, bell', bei, begli and buon before nouns.",
+      "Make comparisons with più … di, meno … di and come.",
+      "Know the irregular comparatives migliore and peggiore."
+    ],
+    "tags": { "pos": ["adjective"], "topics": ["comparison", "irregular"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "bello-buono",
+        "heading": "bello and buono before a noun",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "bello copies the definite article", "text": "Like *quello*, *bello* before a noun takes the form of the article: *bel* (il), *bello* (lo), *bell'* (l'), *bella* (la), *bei* (i), *begli* (gli), *belle* (le). After the noun or after *essere* it is a regular -o adjective: *Il fiore è bello. I fiori sono belli.*" },
+          { "type": "rule", "kind": "rule", "title": "buono copies the indefinite article", "text": "In the singular before a noun: *buon* (un), *buono* (uno), *buona* (una), *buon'* (un'): *buon giorno, buono zucchero, buona notte, buon'idea*. Plurals are regular: *buoni, buone*." }
+        ]
+      },
+      {
+        "id": "comparison",
+        "heading": "Comparisons",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Comparing two things",
+            "headers": ["Meaning", "Structure", "Example"],
+            "rows": [
+              ["more … than", "più + adjective + di", "La lepre è più veloce della tartaruga."],
+              ["less … than", "meno + adjective + di", "La tartaruga è meno veloce della lepre."],
+              ["as … as", "(così) + adjective + come", "Luca è alto come suo padre."]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "di combines with the article", "text": "*di* + article contracts: *della tartaruga, del cane, dei gatti*. Before a name or pronoun there is no article: *più alto di Marco, più alta di me*." },
+          { "type": "rule", "kind": "rule", "title": "di or che?", "text": "Use *di* when two different people or things are compared for the same quality, and the second term is a noun, name or pronoun: *Marco è più alto di Luca. Sei più brava di me.* Use *che* in all the other cases: two qualities of the same thing (*È più bello che utile*), two verbs (*Leggere è più facile che scrivere*), two quantities (*Ho più libri che quaderni*), two terms introduced by a preposition (*Fa più caldo a Roma che a Milano*), and two adverbs (*Meglio tardi che mai*)." },
+          { "type": "rule", "kind": "rule", "title": "Comparing with a clause", "text": "When the second term is a whole clause, use *di quanto* or *di quello che*: *È più difficile di quanto pensassi / di quello che pensavo.* After *di quanto* the congiuntivo is common in careful style; the indicativo is also used." },
+          { "type": "rule", "kind": "exception", "title": "migliore and peggiore", "text": "*buono* has the comparative *migliore* (better), *cattivo* has *peggiore* (worse). *più buono* and *più cattivo* are also correct, especially about taste and character. The adverbs are *meglio* (better) and *peggio* (worse)." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Che bel fiore!", "en": "What a beautiful flower!" },
+      { "it": "Che begli alberi!", "en": "What beautiful trees!" },
+      { "it": "Buon giorno a tutti!", "en": "Good morning, everyone!", "note": "Also written buongiorno." },
+      { "it": "La lepre è più veloce della tartaruga.", "en": "The hare is faster than the tortoise." },
+      { "it": "Il gatto è meno grande del cane.", "en": "The cat is smaller (less big) than the dog." },
+      { "it": "Questa torta è migliore di quella.", "en": "This cake is better than that one." }
+    ],
+    "exercises": [
+      {
+        "id": "bello-buono-comparison.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Che ___ albero! (beautiful)",
+        "options": ["bell'", "bel", "bello", "bella"],
+        "answer": "bell'",
+        "explanation": "l'albero → bell'albero.",
+        "ruleRef": "bello-buono"
+      },
+      {
+        "id": "bello-buono-comparison.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "un ___ giorno (a lovely day)",
+        "options": ["bel", "bello", "bell'", "bei"],
+        "answer": "bel",
+        "explanation": "il giorno → bel giorno.",
+        "ruleRef": "bello-buono"
+      },
+      {
+        "id": "bello-buono-comparison.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "I fiori sono ___.",
+        "options": ["belli", "bei", "begli", "bel"],
+        "answer": "belli",
+        "explanation": "After essere bello is a regular adjective: belli. bei/begli are only for before a noun.",
+        "ruleRef": "bello-buono"
+      },
+      {
+        "id": "bello-buono-comparison.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete the comparison.",
+        "text": "La lepre è {0} veloce {1} tartaruga.",
+        "blanks": [{ "answer": "più" }, { "answer": "della" }],
+        "explanation": "più … di; di + la = della.",
+        "ruleRef": "comparison",
+        "mistakes": []
+      },
+      {
+        "id": "bello-buono-comparison.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Luca is as tall as his father.",
+        "answer": "Luca è alto come suo padre.",
+        "accept": ["Luca è così alto come suo padre.", "Luca è alto quanto suo padre.", "Luca è tanto alto quanto suo padre."],
+        "explanation": "(così) … come or (tanto) … quanto; suo padre without article.",
+        "ruleRef": "comparison"
+      },
+      {
+        "id": "bello-buono-comparison.6",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "Which word means 'better' as an adjective (a better cake)?",
+        "options": ["migliore", "meglio", "più bene", "buonissimo"],
+        "answer": "migliore",
+        "explanation": "migliore is the adjective (una torta migliore); meglio is the adverb (sto meglio).",
+        "ruleRef": "comparison"
+      }
+    ],
+    "summary": [
+      "bello before a noun: bel, bello, bell', bella, bei, begli, belle (like the definite article).",
+      "buono before a singular noun: buon, buono, buona, buon' (like the indefinite article).",
+      "più / meno + adjective + di (+ article); (così) … come for equality.",
+      "migliore / peggiore (adjectives), meglio / peggio (adverbs)."
+    ],
+    "relatedVocabulary": ["adj_bello", "adj_buono", "adj_veloce", "adj_lento", "noun_lepre", "noun_tartaruga", "adj_alto"],
+    "relatedStories": ["la-tartaruga-lenta"],
+    "relatedSongs": ["il-valzer-degli-animali"]
+  }
+]

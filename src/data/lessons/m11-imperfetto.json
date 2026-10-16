@@ -1,0 +1,810 @@
+[
+  {
+    "id": "imperfetto",
+    "module": "m11",
+    "title": "The imperfetto",
+    "level": "A2",
+    "description": "Formation of the imperfect tense and its uses: habits, descriptions and background.",
+    "objectives": [
+      "Form the imperfetto of regular verbs and of essere, fare, dire, bere.",
+      "Use it for habits in the past and for descriptions.",
+      "Recognise it in stories: C'era una volta…",
+      "Recognise the polite, intentional, counterfactual (colloquial) and reported uses of the imperfetto."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "past tense",
+        "narration"
+      ],
+      "tenses": [
+        "imperfetto"
+      ],
+      "families": [
+        "-are",
+        "-ere",
+        "-ire",
+        "irregular"
+      ]
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Remove -re, add -vo, -vi, -va, -vamo, -vate, -vano",
+            "text": "The imperfetto is the most regular tense in Italian: *parla-re → parlavo*, *vede-re → vedevo*, *dormi-re → dormivo*. Even most irregular verbs are regular here."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_parlare",
+            "tense": "imperfect",
+            "highlightEndings": true
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_dormire",
+            "tense": "imperfect"
+          },
+          {
+            "type": "rule",
+            "kind": "exception",
+            "title": "essere is irregular",
+            "text": "*ero, eri, era, eravamo, eravate, erano*."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_essere",
+            "tense": "imperfect"
+          },
+          {
+            "type": "rule",
+            "kind": "exception",
+            "title": "fare, dire, bere use their old stems",
+            "text": "*fare → facevo*, *dire → dicevo*, *bere → bevevo* — from the older forms *facere, dicere, bevere*."
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "Uses",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Habits and repeated actions in the past: *Da bambino giocavo sempre in giardino.* (As a child I always played in the garden.)",
+              "Descriptions of people, places, weather, time and age: *Era notte. Il bosco era buio. L'orso aveva sonno.*",
+              "States of mind and feelings: *Il topo aveva paura.*",
+              "Actions in progress at a moment in the past: *Alle otto dormivo.* (At eight I was sleeping.)",
+              "The fairy-tale opening: *C'era una volta…* (Once upon a time there was…)."
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "English equivalents",
+            "text": "The imperfetto corresponds to English 'used to + verb', 'was/were + -ing', or a simple past of description ('the wood was dark')."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Polite or attenuated requests",
+            "text": "With verbs such as *volere, venire, chiamare* the imperfetto softens a present request: *Volevo un caffè, per favore. Telefonavo per chiedere un’informazione.* The meaning is present; the past tense makes it less direct, like the condizionale (*vorrei*)."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Intentions that did not happen",
+            "text": "*Stavo per uscire* (I was about to go out), *Dovevo partire ieri* (I was supposed to leave yesterday — and perhaps did not)."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "Colloquial counterfactuals",
+            "text": "In informal speech the imperfetto can replace both verbs of an unreal past hypothesis: *Se lo sapevo, venivo* for standard *Se l’avessi saputo, sarei venuto.* It is very common in conversation and is attested in literature, but it is not standard in formal writing. See the [[periodo-ipotetico|periodo ipotetico]]."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Reported speech",
+            "text": "After a past verb of saying, a present of direct speech becomes imperfetto: *«Ho fame»* → *Ha detto che aveva fame.* See [[discorso-indiretto|indirect speech]]."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "C'era una volta un piccolo orso.",
+        "en": "Once upon a time there was a little bear."
+      },
+      {
+        "it": "Era inverno e faceva freddo.",
+        "en": "It was winter and it was cold."
+      },
+      {
+        "it": "Da bambina abitavo al mare.",
+        "en": "As a child I lived by the sea."
+      },
+      {
+        "it": "Il nonno ci raccontava sempre delle storie.",
+        "en": "Grandfather always used to tell us stories."
+      },
+      {
+        "it": "L'orso aveva sonno ma non dormiva.",
+        "en": "The bear was sleepy but wasn't sleeping."
+      },
+      {
+        "it": "Alle otto i bambini dormivano.",
+        "en": "At eight the children were sleeping."
+      },
+      {
+        "it": "Volevo un caffè, per favore.",
+        "en": "I’d like a coffee, please.",
+        "note": "Polite imperfetto: the request is in the present."
+      },
+      {
+        "it": "Se lo sapevo, venivo.",
+        "en": "If I had known, I would have come.",
+        "note": "Colloquial; standard: Se l’avessi saputo, sarei venuto."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "imperfetto.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *cantare* in the imperfetto.",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "cantavo"
+          },
+          {
+            "label": "tu",
+            "answer": "cantavi"
+          },
+          {
+            "label": "lui/lei",
+            "answer": "cantava"
+          },
+          {
+            "label": "noi",
+            "answer": "cantavamo"
+          },
+          {
+            "label": "voi",
+            "answer": "cantavate"
+          },
+          {
+            "label": "loro",
+            "answer": "cantavano"
+          }
+        ],
+        "explanation": "canta- + -vo, -vi, -va, -vamo, -vate, -vano.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "imperfetto.2",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *essere* in the imperfetto.",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "ero"
+          },
+          {
+            "label": "tu",
+            "answer": "eri"
+          },
+          {
+            "label": "lui/lei",
+            "answer": "era"
+          },
+          {
+            "label": "noi",
+            "answer": "eravamo"
+          },
+          {
+            "label": "voi",
+            "answer": "eravate"
+          },
+          {
+            "label": "loro",
+            "answer": "erano"
+          }
+        ],
+        "explanation": "Irregular stem er-.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "imperfetto.3",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "fare, lui/lei, imperfetto: ___",
+        "answer": "faceva",
+        "explanation": "fare uses the stem face-: faceva.",
+        "ruleRef": "formation",
+        "mistakes": [
+          {
+            "answer": "fava",
+            "message": "fare uses its old stem face-: faceva."
+          }
+        ]
+      },
+      {
+        "id": "imperfetto.4",
+        "type": "infinitive",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Infinitive of *dicevano*?",
+        "answer": "dire",
+        "explanation": "dice- + -vano → dire.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "imperfetto.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete the description with the imperfetto.",
+        "text": "{0} (essere) notte. Il bosco {1} (essere) buio e {2} (fare) freddo. L'orso {3} (avere) sonno.",
+        "blanks": [
+          {
+            "answer": "Era",
+            "accept": [
+              "era"
+            ]
+          },
+          {
+            "answer": "era"
+          },
+          {
+            "answer": "faceva"
+          },
+          {
+            "answer": "aveva"
+          }
+        ],
+        "explanation": "Descriptions of time, place, weather and states use the imperfetto.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "imperfetto.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: As a child I lived by the sea. (male speaker)",
+        "answer": "Da bambino abitavo al mare.",
+        "accept": [
+          "Da bambino vivevo al mare.",
+          "Quando ero bambino abitavo al mare.",
+          "Quando ero bambino vivevo al mare."
+        ],
+        "explanation": "da bambino = as a child; a past situation → imperfetto.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "imperfetto.7",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *C'era una volta un piccolo orso.*",
+        "answer": "Once upon a time there was a little bear.",
+        "accept": [
+          "Once upon a time there was a small bear."
+        ],
+        "explanation": "C'era una volta = once upon a time there was.",
+        "ruleRef": "uses"
+      }
+    ],
+    "summary": [
+      "Imperfetto: infinitive minus -re + -vo, -vi, -va, -vamo, -vate, -vano.",
+      "Irregular: essere (ero…), fare (facevo), dire (dicevo), bere (bevevo).",
+      "Used for habits, descriptions, states, actions in progress, and C'era una volta."
+    ],
+    "relatedVocabulary": [
+      "verb_essere",
+      "verb_avere",
+      "verb_fare",
+      "verb_dire",
+      "verb_bere",
+      "expr_cera-una-volta",
+      "noun_volta"
+    ],
+    "relatedStories": [
+      "lorso-che-non-poteva-dormire"
+    ],
+    "relatedSongs": [
+      "ninna-nanna-della-luna"
+    ]
+  },
+  {
+    "id": "imperfetto-passato",
+    "module": "m11",
+    "title": "Imperfetto or passato prossimo?",
+    "level": "A2",
+    "description": "Background versus events: choosing the past tense in a story.",
+    "objectives": [
+      "Distinguish background (imperfetto) from events (passato prossimo).",
+      "Use mentre with the imperfetto and quando with an interrupting event.",
+      "Narrate a short sequence in the past."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "past tense",
+        "narration",
+        "aspect"
+      ],
+      "tenses": [
+        "imperfetto",
+        "passato prossimo"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "contrast",
+        "heading": "Background and events",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Which tense?",
+            "headers": [
+              "Imperfetto",
+              "Passato prossimo"
+            ],
+            "rows": [
+              [
+                "Background, scene-setting: *Era sera. Pioveva.*",
+                "Events that move the story forward: *Il telefono ha squillato.*"
+              ],
+              [
+                "What was going on: *Dormivo.*",
+                "What happened: *Mi sono svegliato.*"
+              ],
+              [
+                "Habits: *Ogni estate andavamo al mare.*",
+                "A single occasion: *Quell'estate siamo andati in montagna.*"
+              ],
+              [
+                "States without a clear end: *Avevo paura.*",
+                "A completed, bounded action: *Ho avuto paura per un momento.*"
+              ]
+            ]
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "A useful test",
+            "text": "Ask: is this the stage (imperfetto) or something that happens on the stage (passato prossimo)? A completed action with a clear beginning and end takes the passato prossimo; an ongoing situation or repeated habit takes the imperfetto."
+          }
+        ]
+      },
+      {
+        "id": "mentre-quando",
+        "heading": "mentre and quando",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Interrupted action",
+            "text": "An action in progress (imperfetto) is interrupted by an event (passato prossimo): *Mentre dormivo, è arrivato il nonno.* / *Dormivo quando è arrivato il nonno.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Simultaneous background actions",
+            "text": "Two things going on at the same time both take the imperfetto: *Mentre la mamma cucinava, io leggevo.*"
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Era notte e pioveva.",
+        "en": "It was night and it was raining."
+      },
+      {
+        "it": "Mentre dormivo, è arrivato il nonno.",
+        "en": "While I was sleeping, Grandfather arrived."
+      },
+      {
+        "it": "Ogni estate andavamo al mare.",
+        "en": "Every summer we used to go to the seaside."
+      },
+      {
+        "it": "Quell'estate siamo andati in montagna.",
+        "en": "That summer we went to the mountains."
+      },
+      {
+        "it": "Il topo mangiava il formaggio quando è entrato il gatto.",
+        "en": "The mouse was eating the cheese when the cat came in."
+      },
+      {
+        "it": "Mentre la mamma cucinava, io leggevo.",
+        "en": "While Mum was cooking, I was reading."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "imperfetto-passato.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Mentre ___ (dormire, io), è arrivato il nonno.",
+        "options": [
+          "dormivo",
+          "ho dormito",
+          "dormo",
+          "dormii"
+        ],
+        "answer": "dormivo",
+        "explanation": "Action in progress, interrupted → imperfetto.",
+        "ruleRef": "mentre-quando"
+      },
+      {
+        "id": "imperfetto-passato.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Il topo mangiava il formaggio quando il gatto ___ (entrare).",
+        "options": [
+          "è entrato",
+          "entrava",
+          "ha entrato",
+          "entra"
+        ],
+        "answer": "è entrato",
+        "explanation": "The interrupting event → passato prossimo, with essere (entrare).",
+        "ruleRef": "mentre-quando",
+        "mistakes": [
+          {
+            "answer": "ha entrato",
+            "message": "Right tense, wrong auxiliary: entrare takes essere — è entrato."
+          }
+        ]
+      },
+      {
+        "id": "imperfetto-passato.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Ogni estate ___ (andare, noi) al mare.",
+        "options": [
+          "andavamo",
+          "siamo andati",
+          "andiamo",
+          "andremo"
+        ],
+        "answer": "andavamo",
+        "explanation": "A repeated habit → imperfetto.",
+        "ruleRef": "contrast"
+      },
+      {
+        "id": "imperfetto-passato.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Quell'estate ___ (andare, noi) in montagna.",
+        "options": [
+          "siamo andati",
+          "andavamo",
+          "abbiamo andato",
+          "andiamo"
+        ],
+        "answer": "siamo andati",
+        "explanation": "One specific occasion → passato prossimo.",
+        "ruleRef": "contrast"
+      },
+      {
+        "id": "imperfetto-passato.5",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Choose the tense.",
+        "text": "{0} (essere) notte e {1} (piovere). All'improvviso l'orso {2} (sentire) un rumore.",
+        "blanks": [
+          {
+            "answer": "Era",
+            "accept": [
+              "era"
+            ]
+          },
+          {
+            "answer": "pioveva"
+          },
+          {
+            "answer": "ha sentito"
+          }
+        ],
+        "explanation": "Scene-setting → imperfetto; a sudden event → passato prossimo.",
+        "ruleRef": "contrast"
+      },
+      {
+        "id": "imperfetto-passato.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: While Mum was cooking, I was reading.",
+        "answer": "Mentre la mamma cucinava, io leggevo.",
+        "accept": [
+          "Mentre la mamma cucinava, leggevo.",
+          "Io leggevo mentre la mamma cucinava.",
+          "Leggevo mentre la mamma cucinava."
+        ],
+        "explanation": "Two simultaneous background actions → both imperfetto.",
+        "ruleRef": "mentre-quando"
+      }
+    ],
+    "summary": [
+      "Imperfetto = the stage: background, description, habits, actions in progress.",
+      "Passato prossimo = events on the stage: completed actions.",
+      "mentre + imperfetto; an interrupting event in the passato prossimo."
+    ],
+    "relatedVocabulary": [
+      "conj_mentre",
+      "conj_quando",
+      "noun_estate",
+      "verb_piovere",
+      "verb_sentire",
+      "noun_rumore"
+    ],
+    "relatedStories": [
+      "lorso-che-non-poteva-dormire"
+    ],
+    "relatedSongs": []
+  },
+  {
+    "id": "trapassato-prossimo",
+    "module": "m11",
+    "title": "Trapassato prossimo",
+    "level": "A2",
+    "description": "The pluperfect: an action completed before another past moment. Formation, uses in narration and reported speech, and when the passato prossimo is used instead.",
+    "objectives": [
+      "Form the trapassato prossimo with the imperfetto of avere or essere + past participle.",
+      "Use it for an action that precedes another past action or moment.",
+      "Use it in reported speech after a past reporting verb.",
+      "Distinguish it from the trapassato remoto, which is literary."
+    ],
+    "tags": {
+      "pos": [
+        "verb"
+      ],
+      "topics": [
+        "past tense",
+        "compound tenses",
+        "narration",
+        "reported speech"
+      ],
+      "tenses": [
+        "trapassato prossimo"
+      ],
+      "families": []
+    },
+    "sections": [
+      {
+        "id": "formation",
+        "heading": "Formation",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Imperfetto of the auxiliary + participle",
+            "text": "*avevo mangiato* (I had eaten), *ero partito/a* (I had left). The auxiliary and the agreement follow exactly the same rules as in the passato prossimo."
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_mangiare",
+            "tense": "trapassatoProssimo"
+          },
+          {
+            "type": "paradigm",
+            "verb": "verb_partire",
+            "tense": "trapassatoProssimo",
+            "gender": "f"
+          }
+        ]
+      },
+      {
+        "id": "uses",
+        "heading": "Uses",
+        "blocks": [
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Before another past moment",
+            "text": "The trapassato prossimo places an action before a reference point that is already in the past: *Quando sono arrivato alla stazione, il treno era già partito.* The order of events is: the train left → I arrived."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Background in narration",
+            "text": "In a story told in the passato prossimo or the passato remoto, it fills in what had happened earlier: *Sara era stanca: aveva lavorato tutto il giorno.*"
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Reported speech",
+            "text": "After a past verb of saying or thinking, a passato prossimo of the direct speech becomes a trapassato prossimo: *«Ho finito»* → *Ha detto che aveva finito.* See the lesson on indirect speech."
+          },
+          {
+            "type": "rule",
+            "kind": "tendency",
+            "title": "When the order is obvious",
+            "text": "If the sequence is already clear from the context or from words like *prima* or *dopo*, the passato prossimo is often used instead, especially in conversation: *Prima ho mangiato, poi sono uscito.* The trapassato is needed when the earlier event is mentioned after the later one."
+          },
+          {
+            "type": "rule",
+            "kind": "rule",
+            "title": "Trapassato remoto",
+            "text": "In literary narration in the passato remoto, an action that immediately precedes another, after *dopo che, appena, quando, (non) appena*, can be expressed with the trapassato remoto: *Dopo che ebbe mangiato, uscì.* It is limited to this construction and to writing; the trapassato prossimo is also correct there."
+          }
+        ]
+      }
+    ],
+    "examples": [
+      {
+        "it": "Quando siamo arrivati, il film era già cominciato.",
+        "en": "When we arrived, the film had already started.",
+        "note": "cominciare without an object → essere."
+      },
+      {
+        "it": "Non avevo mai visto il mare prima di quel giorno.",
+        "en": "I had never seen the sea before that day."
+      },
+      {
+        "it": "Sara era stanca perché aveva lavorato tutto il giorno.",
+        "en": "Sara was tired because she had worked all day."
+      },
+      {
+        "it": "Marco ha detto che aveva perso le chiavi.",
+        "en": "Marco said that he had lost his keys.",
+        "note": "Reported speech: «Ho perso le chiavi»."
+      },
+      {
+        "it": "Avevo appena finito di mangiare quando è arrivata la nonna.",
+        "en": "I had just finished eating when Grandma arrived."
+      },
+      {
+        "it": "Dopo che ebbe finito la lettera, la chiuse.",
+        "en": "After she had finished the letter, she closed it.",
+        "note": "Trapassato remoto: literary."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "trapassato-prossimo.1",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Conjugate *uscire* in the trapassato prossimo (masculine).",
+        "rows": [
+          {
+            "label": "io",
+            "answer": "ero uscito"
+          },
+          {
+            "label": "tu",
+            "answer": "eri uscito"
+          },
+          {
+            "label": "lui",
+            "answer": "era uscito"
+          },
+          {
+            "label": "noi",
+            "answer": "eravamo usciti"
+          },
+          {
+            "label": "voi",
+            "answer": "eravate usciti"
+          },
+          {
+            "label": "loro",
+            "answer": "erano usciti"
+          }
+        ],
+        "explanation": "uscire takes essere: imperfetto of essere + uscito/usciti.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "trapassato-prossimo.2",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with the trapassato prossimo.",
+        "text": "Quando sono arrivato, i miei amici {0} (mangiare) già e Sara {1} (andare) a casa.",
+        "blanks": [
+          {
+            "answer": "avevano mangiato"
+          },
+          {
+            "answer": "era andata"
+          }
+        ],
+        "explanation": "Both events precede my arrival. andare takes essere; andata agrees with Sara.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "trapassato-prossimo.3",
+        "type": "multiple-choice",
+        "kind": "choice",
+        "prompt": "*Quando ho chiamato, Luca era già uscito.* What happened first?",
+        "options": [
+          "Luca went out",
+          "I called",
+          "they happened at the same time",
+          "it is not clear"
+        ],
+        "answer": "Luca went out",
+        "explanation": "The trapassato (era uscito) marks the earlier event.",
+        "ruleRef": "uses"
+      },
+      {
+        "id": "trapassato-prossimo.4",
+        "type": "conjugation",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Report it: *«Ho finito i compiti»*, ha detto Anna. → Anna ha detto che ___ i compiti.",
+        "answer": "aveva finito",
+        "explanation": "Past reporting verb: passato prossimo → trapassato prossimo.",
+        "ruleRef": "uses",
+        "mistakes": [
+          {
+            "answer": "ha finito",
+            "message": "This is possible in casual speech, but the standard sequence after ha detto is the trapassato: aveva finito."
+          }
+        ]
+      },
+      {
+        "id": "trapassato-prossimo.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I had never seen a wolf.",
+        "answer": "Non avevo mai visto un lupo.",
+        "accept": [
+          "Io non avevo mai visto un lupo.",
+          "Non avevo mai veduto un lupo."
+        ],
+        "explanation": "mai goes between the auxiliary and the participle, as in the passato prossimo.",
+        "ruleRef": "formation"
+      },
+      {
+        "id": "trapassato-prossimo.6",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "*Dopo che ___ la lettera, la chiuse.* Which option is the traditional literary choice?",
+        "options": [
+          "ebbe scritto",
+          "ha scritto",
+          "scriveva",
+          "avrà scritto"
+        ],
+        "answer": "ebbe scritto",
+        "explanation": "With a passato remoto main clause, dopo che + trapassato remoto is the literary choice; aveva scritto is also correct.",
+        "ruleRef": "uses"
+      }
+    ],
+    "summary": [
+      "Trapassato prossimo = imperfetto of avere/essere + participle (avevo fatto, ero partito/a).",
+      "It marks an action completed before another past moment.",
+      "In reported speech, passato prossimo → trapassato prossimo after a past reporting verb.",
+      "With prima/poi or clear order, conversation often uses the passato prossimo; the trapassato remoto is literary."
+    ],
+    "relatedVocabulary": [
+      "verb_mangiare",
+      "verb_partire",
+      "verb_uscire",
+      "verb_finire",
+      "verb_perdere",
+      "verb_arrivare"
+    ],
+    "relatedStories": [
+      "il-segreto-del-faro"
+    ],
+    "relatedSongs": []
+  }
+]

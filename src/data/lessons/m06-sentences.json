@@ -1,0 +1,262 @@
+[
+  {
+    "id": "word-order-negation-questions",
+    "module": "m06",
+    "title": "Word order, negation and yes/no questions",
+    "level": "A1",
+    "description": "Subject–verb–object, non before the verb, double negatives, and questions by intonation.",
+    "objectives": [
+      "Build basic subject–verb–object sentences.",
+      "Negate with non and use non … mai / niente / nessuno.",
+      "Ask yes/no questions without changing word order."
+    ],
+    "tags": { "pos": ["verb", "adverb"], "topics": ["word order", "negation", "questions"], "tenses": ["present"], "families": [] },
+    "sections": [
+      {
+        "id": "order",
+        "heading": "Basic word order",
+        "blocks": [
+          { "type": "p", "text": "The neutral order is subject – verb – object, as in English: *La bambina mangia una mela*. Because verb endings show the subject, the subject is often omitted (*Mangia una mela*), and it can move after the verb for emphasis or when it is new information: *Arriva il treno* (Here comes the train)." },
+          { "type": "rule", "kind": "rule", "title": "Adjectives and noun phrases", "text": "Inside a noun phrase the order is article – (some adjectives) – noun – (most adjectives): *la piccola casa bianca*." }
+        ]
+      },
+      {
+        "id": "negation",
+        "heading": "Negation",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "non goes directly before the verb", "text": "Place *non* immediately before the conjugated verb — and before any object or reflexive pronoun attached to it: *Non mangio. Non lo so. Non mi sveglio presto.*" },
+          { "type": "rule", "kind": "rule", "title": "Double negatives are required", "text": "With *mai* (never), *niente* (nothing), *nessuno* (nobody) and *più* (no longer), Italian keeps *non* before the verb: *Non piango mai. Non vedo niente. Non c'è nessuno. Non piove più.* If the negative word comes first, *non* is dropped: *Nessuno risponde.*" }
+        ]
+      },
+      {
+        "id": "questions",
+        "heading": "Yes/no questions",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Intonation, not word order", "text": "A statement becomes a question by rising intonation (and a question mark in writing). There is no equivalent of English 'do': *Parli italiano.* (You speak Italian.) → *Parli italiano?* (Do you speak Italian?)" },
+          { "type": "p", "text": "An explicit subject often moves to the end: *È arrivato Marco?* (Has Marco arrived?). Answers: *sì* (yes) — with an accent — and *no*." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "La bambina mangia una mela.", "en": "The little girl eats an apple." },
+      { "it": "La bambina non mangia la mela.", "en": "The little girl doesn't eat the apple." },
+      { "it": "Non piango mai.", "en": "I never cry." },
+      { "it": "Nel bosco non c'è nessuno.", "en": "There is nobody in the wood." },
+      { "it": "Parli italiano?", "en": "Do you speak Italian?" },
+      { "it": "Non lo so.", "en": "I don't know (it).", "note": "non before the pronoun lo." }
+    ],
+    "exercises": [
+      {
+        "id": "word-order-negation-questions.1",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Make the sentence negative and put the words in order: 'The cat does not sleep.'",
+        "tokens": ["dorme", "Il", "non", "gatto"],
+        "answer": ["Il", "gatto", "non", "dorme"],
+        "explanation": "non directly before the verb.",
+        "ruleRef": "negation"
+      },
+      {
+        "id": "word-order-negation-questions.2",
+        "type": "sentence-order",
+        "kind": "order",
+        "prompt": "Order the words: 'I don't wake up early.'",
+        "tokens": ["presto", "sveglio", "mi", "Non"],
+        "answer": ["Non", "mi", "sveglio", "presto"],
+        "explanation": "non comes before the reflexive pronoun mi.",
+        "ruleRef": "negation"
+      },
+      {
+        "id": "word-order-negation-questions.3",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: I never cry.",
+        "answer": "Non piango mai.",
+        "explanation": "non … mai: both parts are needed.",
+        "ruleRef": "negation",
+        "mistakes": [{ "answer": "Piango mai.", "message": "Italian needs non before the verb with mai: Non piango mai." }]
+      },
+      {
+        "id": "word-order-negation-questions.4",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Do you speak Italian? (tu)",
+        "answer": "Parli italiano?",
+        "accept": ["Tu parli italiano?", "Parli l'italiano?"],
+        "explanation": "Same word order as the statement, with rising intonation.",
+        "ruleRef": "questions"
+      },
+      {
+        "id": "word-order-negation-questions.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Which sentence is correct?",
+        "options": ["Non vedo niente.", "Vedo niente.", "Non vedo non niente.", "Niente non vedo."],
+        "answer": "Non vedo niente.",
+        "explanation": "non + verb + niente.",
+        "ruleRef": "negation"
+      },
+      {
+        "id": "word-order-negation-questions.6",
+        "type": "grammatical-role",
+        "kind": "choice",
+        "prompt": "In *Arriva il treno*, what is *il treno*?",
+        "options": ["the subject", "the direct object", "an adverb", "a prepositional phrase"],
+        "answer": "the subject",
+        "explanation": "The subject can follow the verb, especially with verbs of arriving and appearing. arriva agrees with il treno.",
+        "ruleRef": "order"
+      }
+    ],
+    "summary": [
+      "Neutral order: subject – verb – object; subjects are often omitted or placed after the verb.",
+      "non goes immediately before the verb and its pronouns.",
+      "non … mai / niente / nessuno / più: double negation is normal.",
+      "Yes/no questions keep statement order; intonation does the work."
+    ],
+    "relatedVocabulary": ["adv_non", "adv_mai", "adv_si", "adv_no", "verb_parlare", "verb_piangere"],
+    "relatedStories": ["la-tartaruga-lenta", "nel-bosco"],
+    "relatedSongs": []
+  },
+  {
+    "id": "question-words-conjunctions",
+    "module": "m06",
+    "title": "Question words and conjunctions",
+    "level": "A1",
+    "description": "chi, che cosa, dove, quando, come, perché, quanto, quale — and joining clauses with e, ma, o, perché, quando, se, mentre.",
+    "objectives": [
+      "Ask open questions with the main question words.",
+      "Join two clauses with common conjunctions.",
+      "Use perché both as 'why' and 'because'."
+    ],
+    "tags": { "pos": ["conjunction", "pronoun", "adverb"], "topics": ["questions", "conjunctions"], "tenses": ["present"], "families": [] },
+    "sections": [
+      {
+        "id": "question-words",
+        "heading": "Question words",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Interrogatives",
+            "headers": ["Italian", "English", "Example"],
+            "rows": [
+              ["chi?", "who?", "Chi è? — Who is it?"],
+              ["che cosa? / cosa? / che?", "what?", "Che cosa mangi?"],
+              ["dove?", "where?", "Dove abiti? Dov'è il gatto?"],
+              ["quando?", "when?", "Quando parti?"],
+              ["come?", "how?", "Come stai? Come ti chiami?"],
+              ["perché?", "why?", "Perché piangi?"],
+              ["quanto/a/i/e?", "how much / how many?", "Quanti anni hai?"],
+              ["quale/i?", "which?", "Quale libro preferisci? Qual è…?"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "The subject usually follows the verb", "text": "In open questions an explicit subject normally comes after the verb: *Dove abita Marco?* *Che cosa fa la mamma?*" },
+          { "type": "rule", "kind": "rule", "title": "quanto agrees, qual è has no apostrophe", "text": "*quanto* agrees with its noun: *quanta acqua, quanti anni, quante stelle*. *quale* is truncated before *è* without an apostrophe: *Qual è il tuo nome?*" }
+        ]
+      },
+      {
+        "id": "conjunctions",
+        "heading": "Conjunctions",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Joining clauses",
+            "headers": ["Italian", "English", "Example"],
+            "rows": [
+              ["e", "and", "Mangio e poi dormo."],
+              ["ma", "but", "È piccolo ma forte."],
+              ["o", "or", "Vuoi il tè o il caffè?"],
+              ["perché", "because", "Resto a casa perché piove."],
+              ["quando", "when", "Quando piove, leggo."],
+              ["se", "if", "Se piove, prendo l'ombrello."],
+              ["mentre", "while", "Canto mentre cucino."],
+              ["poi", "then", "Prima mangio, poi gioco."]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "perché = why and because", "text": "The same word asks and answers: *Perché piangi? — Perché sono stanco.* Always written with an acute accent: *perché*." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Dove abita la volpe?", "en": "Where does the fox live?" },
+      { "it": "Quanti anni hai?", "en": "How old are you?" },
+      { "it": "Come ti chiami?", "en": "What's your name?" },
+      { "it": "Resto a casa perché piove.", "en": "I'm staying at home because it is raining." },
+      { "it": "Se piove, prendo l'ombrello.", "en": "If it rains, I'll take the umbrella." },
+      { "it": "L'orso è grande ma gentile.", "en": "The bear is big but gentle." }
+    ],
+    "exercises": [
+      {
+        "id": "question-words-conjunctions.1",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match question and answer.",
+        "pairs": [["Dove abiti?", "A Roma."], ["Quanti anni hai?", "Sette."], ["Chi è?", "È la nonna."], ["Quando parti?", "Domani."], ["Perché piangi?", "Perché sono stanco."]],
+        "explanation": "dove → place; quanti → number; chi → person; quando → time; perché → reason.",
+        "ruleRef": "question-words"
+      },
+      {
+        "id": "question-words-conjunctions.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ stelle ci sono in cielo?",
+        "options": ["Quante", "Quanti", "Quanto", "Quale"],
+        "answer": "Quante",
+        "explanation": "stelle is feminine plural: quante.",
+        "ruleRef": "question-words"
+      },
+      {
+        "id": "question-words-conjunctions.3",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "___ il tuo nome?",
+        "options": ["Qual è", "Qual'è", "Quale è'", "Quali è"],
+        "answer": "Qual è",
+        "explanation": "qual è is written without an apostrophe (quale is truncated, not elided).",
+        "ruleRef": "question-words"
+      },
+      {
+        "id": "question-words-conjunctions.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with ma, perché, se or mentre.",
+        "text": "Resto a casa {0} piove. {1} fa bel tempo, andiamo al mare. Il cane è vecchio {2} corre veloce. Il gatto dorme {3} io leggo.",
+        "blanks": [{ "answer": "perché" }, { "answer": "Se", "accept": ["se"] }, { "answer": "ma" }, { "answer": "mentre" }],
+        "explanation": "reason → perché; condition → se; contrast → ma; simultaneity → mentre.",
+        "ruleRef": "conjunctions"
+      },
+      {
+        "id": "question-words-conjunctions.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Where does the fox live?",
+        "answer": "Dove abita la volpe?",
+        "accept": ["Dove vive la volpe?"],
+        "explanation": "The subject follows the verb in the question.",
+        "ruleRef": "question-words"
+      },
+      {
+        "id": "question-words-conjunctions.6",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Come ti chiami?*",
+        "answer": "What is your name?",
+        "accept": ["What's your name?", "What are you called?"],
+        "explanation": "Literally 'How do you call yourself?' (chiamarsi).",
+        "ruleRef": "question-words"
+      }
+    ],
+    "summary": [
+      "chi, che cosa, dove, quando, come, perché, quanto, quale.",
+      "Explicit subjects usually follow the verb in questions.",
+      "e, ma, o, perché, quando, se, mentre, poi join clauses.",
+      "perché = why / because; qual è without apostrophe."
+    ],
+    "relatedVocabulary": ["pron_chi", "pron_che", "pron_cosa", "adv_dove", "adv_come", "conj_quando", "conj_perche", "adj_quanto", "adj_quale", "conj_e", "conj_ma", "conj_o", "conj_se", "conj_mentre", "adv_poi"],
+    "relatedStories": ["una-giornata-di-pioggia"],
+    "relatedSongs": ["la-pioggia-sul-tetto"]
+  }
+]

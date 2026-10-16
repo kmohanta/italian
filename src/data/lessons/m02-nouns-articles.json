@@ -1,0 +1,565 @@
+[
+  {
+    "id": "noun-gender-number",
+    "module": "m02",
+    "title": "Noun gender and number",
+    "level": "A0",
+    "description": "Masculine and feminine nouns, the three main endings, and regular plurals.",
+    "objectives": [
+      "Identify the gender of most nouns from their ending.",
+      "Form regular plurals of nouns in -o, -a and -e.",
+      "Recognise nouns that do not change in the plural."
+    ],
+    "tags": { "pos": ["noun"], "topics": ["gender", "plural"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "gender",
+        "heading": "Every noun has a gender",
+        "blocks": [
+          { "type": "p", "text": "Every Italian noun is either masculine or feminine — even nouns for objects and ideas. The gender decides which article and which adjective forms go with the noun, so always learn a noun together with its article: *il gatto*, *la casa*." },
+          {
+            "type": "table",
+            "caption": "Gender by ending",
+            "headers": ["Ending", "Usually", "Examples", "Status"],
+            "rows": [
+              ["-o", "masculine", "il gatto, il libro, il bosco", "strong tendency"],
+              ["-a", "feminine", "la casa, la mela, la luna", "strong tendency"],
+              ["-e", "either", "il fiore, il cane (m); la notte, la chiave (f)", "must be learned"],
+              ["-tà, -tù", "feminine", "la città, la felicità, la virtù", "rule"],
+              ["consonant", "masculine", "il film, lo sport, il bar", "strong tendency"]
+            ]
+          },
+          { "type": "rule", "kind": "exception", "title": "Common exceptions", "text": "*la mano* (hand) is feminine despite -o. *il problema*, *il papà* and *il poeta* are masculine despite -a. Shortened words keep the gender of the full word: *la foto* (fotografia), *la radio*, *la moto*." },
+          { "type": "rule", "kind": "rule", "title": "Natural gender", "text": "For people and many animals, gender follows sex where a pair exists: *il ragazzo / la ragazza*, *il nonno / la nonna*, *il gatto / la gatta*." }
+        ]
+      },
+      {
+        "id": "plural",
+        "heading": "Regular plurals",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Plural endings",
+            "headers": ["Singular", "Plural", "Examples"],
+            "rows": [
+              ["-o (m)", "-i", "il libro → i libri"],
+              ["-a (f)", "-e", "la casa → le case"],
+              ["-e (m or f)", "-i", "il fiore → i fiori; la notte → le notti"],
+              ["-a (m)", "-i", "il problema → i problemi"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "Invariable nouns", "text": "These do not change in the plural: nouns with a stressed final vowel (*la città → le città, il caffè → i caffè*); nouns ending in a consonant (*il film → i film*); one-syllable nouns (*il re → i re*); shortened words (*la foto → le foto*). Only the article shows the number." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "il libro, i libri", "en": "the book, the books" },
+      { "it": "la stella, le stelle", "en": "the star, the stars" },
+      { "it": "il fiore, i fiori", "en": "the flower, the flowers", "note": "-e → -i, masculine." },
+      { "it": "la notte, le notti", "en": "the night, the nights", "note": "-e → -i, feminine." },
+      { "it": "la città, le città", "en": "the city, the cities", "note": "Invariable: stressed final vowel." },
+      { "it": "La mano è piccola.", "en": "The hand is small.", "note": "mano is feminine: la mano, piccola." }
+    ],
+    "exercises": [
+      {
+        "id": "noun-gender-number.1",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write the plural: *il libro* → i ___",
+        "answer": "libri",
+        "explanation": "Masculine -o → -i.",
+        "ruleRef": "plural",
+        "vocabRef": ["noun_libro"]
+      },
+      {
+        "id": "noun-gender-number.2",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write the plural: *la stella* → le ___",
+        "answer": "stelle",
+        "explanation": "Feminine -a → -e.",
+        "ruleRef": "plural",
+        "vocabRef": ["noun_stella"]
+      },
+      {
+        "id": "noun-gender-number.3",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write the plural: *la notte* → le ___",
+        "answer": "notti",
+        "explanation": "Nouns in -e make their plural in -i, whatever their gender.",
+        "ruleRef": "plural",
+        "mistakes": [{ "answer": "notte", "message": "notte ends in -e, so its plural ends in -i (even though it is feminine): le notti." }]
+      },
+      {
+        "id": "noun-gender-number.4",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Write the plural: *la città* → le ___",
+        "answer": "città",
+        "explanation": "Nouns with a stressed final vowel do not change: le città.",
+        "ruleRef": "plural",
+        "mistakes": [{ "answer": "citte", "message": "città ends in a stressed (accented) vowel, so it is invariable: le città." }]
+      },
+      {
+        "id": "noun-gender-number.5",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "What is the gender of *mano* (hand)?",
+        "options": ["feminine", "masculine"],
+        "answer": "feminine",
+        "explanation": "la mano is a common exception: feminine despite -o. Plural: le mani.",
+        "ruleRef": "gender"
+      },
+      {
+        "id": "noun-gender-number.6",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "*fiore* ends in -e. What does that tell you about its gender?",
+        "options": ["Nothing certain: -e nouns can be masculine or feminine", "It is feminine", "It is masculine", "It has no gender"],
+        "answer": "Nothing certain: -e nouns can be masculine or feminine",
+        "explanation": "il fiore is masculine, la notte is feminine. Learn every -e noun with its article.",
+        "ruleRef": "gender"
+      },
+      {
+        "id": "noun-gender-number.7",
+        "type": "matching",
+        "kind": "match",
+        "prompt": "Match each singular to its plural.",
+        "pairs": [["il gatto", "i gatti"], ["la mela", "le mele"], ["il cane", "i cani"], ["il re", "i re"]],
+        "explanation": "-o → -i, -a → -e, -e → -i; one-syllable re is invariable.",
+        "ruleRef": "plural"
+      }
+    ],
+    "summary": [
+      "-o: usually masculine; -a: usually feminine; -e: either — learn the article.",
+      "Plurals: -o → -i, -a (f) → -e, -e → -i, -a (m) → -i.",
+      "Invariable: final stressed vowel, final consonant, one syllable, shortened words.",
+      "Exceptions to remember: la mano, il problema, il papà."
+    ],
+    "relatedVocabulary": ["noun_libro", "noun_stella", "noun_fiore", "noun_notte", "noun_citta", "noun_mano", "noun_problema", "noun_re", "noun_cane", "noun_mela"],
+    "relatedStories": ["la-famiglia-di-marco"],
+    "relatedSongs": ["conta-delle-stelle"]
+  },
+  {
+    "id": "definite-articles",
+    "module": "m02",
+    "title": "The definite article",
+    "level": "A0",
+    "description": "il, lo, l', la, i, gli, le — choosing the article from the noun's gender, number and first letters.",
+    "objectives": [
+      "Choose the correct definite article for any noun whose gender you know.",
+      "Apply the lo/gli rule for s + consonant, z, gn, ps, x, y.",
+      "Use l' before vowels and know its plural (gli or le)."
+    ],
+    "tags": { "pos": ["article", "noun"], "topics": ["articles", "gender", "plural"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "forms",
+        "heading": "Seven forms",
+        "blocks": [
+          { "type": "p", "text": "The definite article (the) agrees in gender and number with the noun, and its form also depends on the sound at the start of the **next word**." },
+          {
+            "type": "table",
+            "caption": "Definite articles",
+            "headers": ["", "Singular", "Plural", "Used before"],
+            "rows": [
+              ["masculine", "il", "i", "most consonants: il gatto → i gatti"],
+              ["masculine", "lo", "gli", "s + consonant, z, gn, ps, pn, x, y: lo zaino → gli zaini; lo specchio → gli specchi"],
+              ["masculine", "l'", "gli", "a vowel: l'albero → gli alberi"],
+              ["feminine", "la", "le", "a consonant: la casa → le case"],
+              ["feminine", "l'", "le", "a vowel: l'ape → le api"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "The article depends on the next word", "text": "The choice is made by the word immediately after the article, which may be an adjective: *lo zio* but *il mio zio*; *l'amico* but *il vecchio amico*." },
+          { "type": "rule", "kind": "rule", "title": "Feminine plural never elides", "text": "In the plural, use *le* before every feminine noun, including those beginning with a vowel: *le api, le arance* (not *l'api*)." }
+        ]
+      },
+      {
+        "id": "use",
+        "heading": "Using the definite article",
+        "blocks": [
+          { "type": "p", "text": "Italian uses the definite article more than English does:" },
+          { "type": "list", "items": ["With general statements: *Il miele è dolce* = Honey is sweet.", "With categories you like or dislike: *Amo i gatti* = I love cats.", "With possessives: *il mio libro* (see the possessives lesson).", "Not with names of people: *Marco*, not *il Marco* (except in some regional speech)."] }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Il gatto dorme.", "en": "The cat is sleeping." },
+      { "it": "Lo zaino è pesante.", "en": "The backpack is heavy.", "note": "lo before z." },
+      { "it": "L'albero è alto.", "en": "The tree is tall.", "note": "l' before a vowel." },
+      { "it": "Gli scoiattoli salgono sugli alberi.", "en": "The squirrels climb the trees.", "note": "gli: plural of lo and of masculine l'." },
+      { "it": "Le api fanno il miele.", "en": "Bees make honey.", "note": "General statement: Italian uses the article." },
+      { "it": "Il miele è dolce.", "en": "Honey is sweet." }
+    ],
+    "exercises": [
+      {
+        "id": "definite-articles.1",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ zaino (backpack, masculine)",
+        "options": ["lo", "il", "l'", "la"],
+        "answer": "lo",
+        "explanation": "Masculine nouns beginning with z take lo: lo zaino.",
+        "ruleRef": "forms",
+        "vocabRef": ["noun_zaino"],
+        "mistakes": [{ "answer": "il", "message": "il is used before most consonants, but z (like s + consonant, gn, ps) requires lo." }]
+      },
+      {
+        "id": "definite-articles.2",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ albero (tree, masculine)",
+        "options": ["l'", "lo", "il", "la"],
+        "answer": "l'",
+        "explanation": "Before a vowel, lo elides to l': l'albero.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "definite-articles.3",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ api (bees, feminine plural)",
+        "options": ["le", "l'", "gli", "i"],
+        "answer": "le",
+        "explanation": "The feminine plural article is always le, even before a vowel.",
+        "ruleRef": "forms",
+        "mistakes": [{ "answer": "l'", "message": "l' is singular only. The feminine plural is always le: le api." }]
+      },
+      {
+        "id": "definite-articles.4",
+        "type": "article",
+        "kind": "table",
+        "prompt": "Give the plural with its article.",
+        "rows": [
+          { "label": "il cane", "answer": "i cani" },
+          { "label": "lo specchio", "answer": "gli specchi" },
+          { "label": "l'orso", "answer": "gli orsi" },
+          { "label": "la foglia", "answer": "le foglie" },
+          { "label": "l'isola", "answer": "le isole" }
+        ],
+        "explanation": "il → i; lo → gli; masculine l' → gli; la → le; feminine l' → le.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "definite-articles.5",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "*zio* takes *lo* (lo zio). Which article goes in: ___ vecchio zio?",
+        "options": ["il", "lo", "l'", "la"],
+        "answer": "il",
+        "explanation": "The article is chosen by the word that immediately follows it: vecchio begins with v, so il vecchio zio, even though lo zio. (With a possessive and a singular family noun the article is normally dropped: mio zio — see the possessives lesson.)",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "definite-articles.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: The bees make honey.",
+        "answer": "Le api fanno il miele.",
+        "accept": ["Le api fanno il miele"],
+        "explanation": "General statements use the article in Italian: le api, il miele.",
+        "ruleRef": "use"
+      }
+    ],
+    "summary": [
+      "Masculine: il/i (most consonants), lo/gli (s + consonant, z, gn, ps…), l'/gli (vowel).",
+      "Feminine: la/le (consonant), l'/le (vowel).",
+      "The article is chosen by the word right after it.",
+      "General statements and categories take the article: Il miele è dolce."
+    ],
+    "relatedVocabulary": ["noun_zaino", "noun_albero", "noun_ape", "noun_specchio", "noun_scoiattolo", "noun_zio", "noun_isola", "noun_miele", "noun_orso"],
+    "relatedStories": ["il-gatto-e-la-luna", "nel-bosco"],
+    "relatedSongs": []
+  },
+  {
+    "id": "indefinite-articles",
+    "module": "m02",
+    "title": "The indefinite article; c'è and ci sono",
+    "level": "A0",
+    "description": "un, uno, una, un'; saying 'there is' and 'there are'.",
+    "objectives": [
+      "Choose un, uno, una or un' correctly.",
+      "Say what there is somewhere with c'è and ci sono.",
+      "Recognise dei, degli, delle as 'some'."
+    ],
+    "tags": { "pos": ["article", "noun"], "topics": ["articles", "there is"], "tenses": ["present"], "families": [] },
+    "sections": [
+      {
+        "id": "forms",
+        "heading": "un, uno, una, un'",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Indefinite articles (a / an)",
+            "headers": ["", "Form", "Used before", "Examples"],
+            "rows": [
+              ["masculine", "un", "most consonants and all vowels", "un gatto, un albero"],
+              ["masculine", "uno", "s + consonant, z, gn, ps, x, y", "uno zaino, uno scoiattolo"],
+              ["feminine", "una", "consonants", "una mela, una stella"],
+              ["feminine", "un'", "vowels", "un'ape, un'isola"]
+            ]
+          },
+          { "type": "rule", "kind": "rule", "title": "The parallel with the definite article", "text": "Wherever the definite article is *lo*, the indefinite is *uno* (lo zaino / uno zaino). Before a masculine vowel, *l'* corresponds to *un* without an apostrophe (l'albero / un albero)." }
+        ]
+      },
+      {
+        "id": "ce",
+        "heading": "c'è and ci sono",
+        "blocks": [
+          { "type": "p", "text": "*c'è* (= *ci è*) means 'there is'; *ci sono* means 'there are'. The verb agrees with what follows." },
+          { "type": "list", "items": ["*C'è un gatto in giardino.* = There is a cat in the garden.", "*Ci sono tre gatti in giardino.* = There are three cats in the garden.", "Past (imperfetto): *c'era / c'erano* = there was / there were — as in *C'era una volta…* (Once upon a time there was…)."] }
+        ]
+      },
+      {
+        "id": "partitive",
+        "heading": "'Some': dei, degli, delle",
+        "blocks": [
+          { "type": "p", "text": "The indefinite article has no plural, but *di* + the definite article gives the meaning 'some': *dei gatti* (some cats), *degli alberi* (some trees), *delle mele* (some apples). These are the partitive article: *di* contracted with the definite article (*di + i = dei, di + gli = degli, di + le = delle*; in the singular *del pane, della farina* = some bread, some flour, with uncountable nouns). The contractions themselves are covered in the lesson on [[articulated-prepositions|articulated prepositions]]. The partitive is optional: *Ho comprato mele* and *Ho comprato delle mele* are both correct, and in negative sentences it is usually omitted: *Non ho comprato mele*. *alcuni/alcune* + plural and *un po' di* + singular are common alternatives." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Ho un cane e una gatta.", "en": "I have a (male) dog and a (female) cat." },
+      { "it": "C'è uno scoiattolo sull'albero.", "en": "There is a squirrel in the tree." },
+      { "it": "C'è un'ape sul fiore.", "en": "There is a bee on the flower." },
+      { "it": "Ci sono molte stelle in cielo.", "en": "There are many stars in the sky." },
+      { "it": "Un albero è caduto.", "en": "A tree has fallen.", "note": "un before a masculine vowel, no apostrophe." },
+      { "it": "Mangio delle fragole.", "en": "I eat some strawberries." }
+    ],
+    "exercises": [
+      {
+        "id": "indefinite-articles.1",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ zaino",
+        "options": ["uno", "un", "una", "un'"],
+        "answer": "uno",
+        "explanation": "z requires uno (compare lo zaino).",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "indefinite-articles.2",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ isola (feminine)",
+        "options": ["un'", "una", "un", "uno"],
+        "answer": "un'",
+        "explanation": "Feminine before a vowel: un'isola.",
+        "ruleRef": "forms"
+      },
+      {
+        "id": "indefinite-articles.3",
+        "type": "article",
+        "kind": "choice",
+        "prompt": "___ orso (masculine)",
+        "options": ["un", "un'", "uno", "una"],
+        "answer": "un",
+        "explanation": "Masculine before a vowel: un orso — never un'.",
+        "ruleRef": "forms",
+        "mistakes": [{ "answer": "un'", "message": "un' is only for feminine nouns. orso is masculine: un orso." }]
+      },
+      {
+        "id": "indefinite-articles.4",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with c'è or ci sono.",
+        "text": "In giardino {0} un albero. Sull'albero {1} due uccelli.",
+        "blanks": [{ "answer": "c'è" }, { "answer": "ci sono" }],
+        "explanation": "c'è + singular, ci sono + plural.",
+        "ruleRef": "ce"
+      },
+      {
+        "id": "indefinite-articles.5",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *C'è un'ape sul fiore.*",
+        "answer": "There is a bee on the flower.",
+        "accept": ["There's a bee on the flower"],
+        "explanation": "c'è = there is; un'ape = a bee; sul fiore = on the flower.",
+        "ruleRef": "ce"
+      },
+      {
+        "id": "indefinite-articles.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: There are three cats.",
+        "answer": "Ci sono tre gatti.",
+        "explanation": "ci sono + plural noun.",
+        "ruleRef": "ce"
+      }
+    ],
+    "summary": [
+      "un (most masculine nouns, including vowels), uno (s + consonant, z…), una (feminine consonant), un' (feminine vowel).",
+      "c'è + singular = there is; ci sono + plural = there are; c'era = there was.",
+      "dei / degli / delle = some."
+    ],
+    "relatedVocabulary": ["noun_scoiattolo", "noun_ape", "noun_isola", "noun_stella", "noun_fragola", "verb_essere", "expr_cera-una-volta"],
+    "relatedStories": ["il-cane-al-mare", "nel-bosco"],
+    "relatedSongs": ["conta-delle-stelle"]
+  },
+  {
+    "id": "irregular-nouns",
+    "module": "m02",
+    "title": "Spelling changes and irregular plurals",
+    "level": "A1",
+    "description": "Plurals of -ca/-ga, -co/-go, -cia/-gia and -io, and the common irregular nouns.",
+    "objectives": [
+      "Form plurals with the spelling adjustments for hard c and g.",
+      "Know which plural patterns are rules and which are only tendencies.",
+      "Learn the high-frequency irregular nouns: uomo, uovo, braccio, mano."
+    ],
+    "tags": { "pos": ["noun"], "topics": ["plural", "irregular", "spelling"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "ca-ga",
+        "heading": "-ca and -ga: always -che, -ghe",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "Feminine -ca/-ga → -che/-ghe", "text": "The h keeps the hard sound in the plural: *la mucca → le mucche*, *la barca → le barche*, *la tartaruga → le tartarughe*." }
+        ]
+      },
+      {
+        "id": "co-go",
+        "heading": "-co and -go: a tendency, not a rule",
+        "blocks": [
+          { "type": "rule", "kind": "tendency", "title": "It depends on the stress", "text": "If the stress falls on the second-to-last syllable, -co/-go usually become -chi/-ghi: *il BO-sco → i boschi*, *il LA-go → i laghi*, *il GIO-co → i giochi*. If it falls earlier, they usually become -ci/-gi: *il ME-di-co → i medici*, *sim-PA-ti-co → simpatici*." },
+          { "type": "rule", "kind": "exception", "title": "Exceptions", "text": "*l'amico → gli amici*, *il nemico → i nemici*, *il greco → i greci* are stressed on the second-to-last syllable but still take -ci. Learn these individually." }
+        ]
+      },
+      {
+        "id": "cia-gia-io",
+        "heading": "-cia, -gia and -io",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Plurals with i",
+            "headers": ["Pattern", "Plural", "Examples", "Status"],
+            "rows": [
+              ["-cia/-gia after a consonant", "-ce/-ge", "l'arancia → le arance; la spiaggia → le spiagge", "tendency"],
+              ["-cia/-gia after a vowel", "-cie/-gie", "la camicia → le camicie; la valigia → le valigie", "tendency"],
+              ["-io (i unstressed)", "-i", "il figlio → i figli; l'occhio → gli occhi", "rule"],
+              ["-ìo (i stressed)", "-ii", "lo zio → gli zii", "rule"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "irregular",
+        "heading": "Irregular nouns",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Common irregular plurals",
+            "headers": ["Singular", "Plural", "Note"],
+            "rows": [
+              ["l'uomo", "gli uomini", "completely irregular"],
+              ["la mano", "le mani", "feminine noun in -o"],
+              ["l'uovo", "le uova", "masculine singular, feminine plural in -a"],
+              ["il braccio", "le braccia", "body parts: also il dito → le dita, il labbro → le labbra"],
+              ["la gente", "—", "collective noun, always singular: la gente è…"]
+            ]
+          }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Le mucche sono nel prato.", "en": "The cows are in the meadow." },
+      { "it": "Nei boschi ci sono molti funghi.", "en": "There are many mushrooms in the woods.", "note": "bosco → boschi; fungo → funghi." },
+      { "it": "Gli amici giocano insieme.", "en": "The friends play together.", "note": "amico → amici (exception)." },
+      { "it": "Le arance sono dolci.", "en": "The oranges are sweet.", "note": "arancia → arance." },
+      { "it": "La gallina fa le uova.", "en": "The hen lays eggs.", "note": "uovo → le uova." },
+      { "it": "Il gatto ha gli occhi verdi.", "en": "The cat has green eyes.", "note": "occhio → occhi." }
+    ],
+    "exercises": [
+      {
+        "id": "irregular-nouns.1",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Plural of *la barca*: le ___",
+        "answer": "barche",
+        "explanation": "-ca → -che, always.",
+        "ruleRef": "ca-ga",
+        "mistakes": [{ "answer": "barce", "message": "In barce the c before e would be soft, as in English 'church'. Keep the hard k sound with h: barche." }]
+      },
+      {
+        "id": "irregular-nouns.2",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Plural of *l'amico*: gli ___",
+        "answer": "amici",
+        "explanation": "amico is an exception to the -co → -chi tendency.",
+        "ruleRef": "co-go",
+        "mistakes": [{ "answer": "amichi", "message": "amico is a well-known exception: gli amici." }]
+      },
+      {
+        "id": "irregular-nouns.3",
+        "type": "plural",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Plural of *il gioco*: i ___",
+        "answer": "giochi",
+        "explanation": "GIO-co is stressed on the second-to-last syllable: giochi.",
+        "ruleRef": "co-go"
+      },
+      {
+        "id": "irregular-nouns.4",
+        "type": "plural",
+        "kind": "table",
+        "prompt": "Write the plural with its article.",
+        "rows": [
+          { "label": "l'uomo", "answer": "gli uomini" },
+          { "label": "l'uovo", "answer": "le uova" },
+          { "label": "la mano", "answer": "le mani" },
+          { "label": "lo zio", "answer": "gli zii" },
+          { "label": "la spiaggia", "answer": "le spiagge" }
+        ],
+        "explanation": "uomini (irregular), le uova (feminine plural), le mani, zii (stressed ì), spiagge (-gia after a consonant).",
+        "ruleRef": "irregular"
+      },
+      {
+        "id": "irregular-nouns.5",
+        "type": "classification",
+        "kind": "choice",
+        "prompt": "Which statement is accurate?",
+        "options": [
+          "-ca always becomes -che, but -co becomes -chi or -ci depending largely on stress.",
+          "-co always becomes -chi.",
+          "-ca and -co both always keep the hard sound with h.",
+          "-ca becomes -ce."
+        ],
+        "answer": "-ca always becomes -che, but -co becomes -chi or -ci depending largely on stress.",
+        "explanation": "The -ca rule has no exceptions; the -co pattern is a tendency with exceptions (amico, medico…).",
+        "ruleRef": "co-go"
+      },
+      {
+        "id": "irregular-nouns.6",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: The cat has green eyes.",
+        "answer": "Il gatto ha gli occhi verdi.",
+        "explanation": "occhio → occhi (unstressed -io → -i); gli before a vowel.",
+        "ruleRef": "cia-gia-io"
+      }
+    ],
+    "summary": [
+      "-ca/-ga → -che/-ghe (rule).",
+      "-co/-go → -chi/-ghi or -ci/-gi (tendency by stress; amico → amici).",
+      "-cia/-gia: -ce/-ge after a consonant, -cie/-gie after a vowel (tendency).",
+      "-io → -i; stressed -ìo → -ii.",
+      "Irregular: uomini, uova, braccia, mani."
+    ],
+    "relatedVocabulary": ["noun_barca", "noun_mucca", "noun_bosco", "noun_lago", "noun_gioco", "noun_amico", "noun_arancia", "noun_spiaggia", "noun_uomo", "noun_uovo", "noun_braccio", "noun_mano", "noun_occhio", "noun_zio"],
+    "relatedStories": ["nel-bosco", "il-cane-al-mare"],
+    "relatedSongs": []
+  }
+]

@@ -1,0 +1,1333 @@
+{
+  "$schema": "Closed-class words used by the sentence analyser and word inspector: articles, articulated prepositions, pronouns, possessives, demonstratives and elided forms. Each entry: form, lemma, pos, features, meaning, note.",
+  "entries": [
+    {
+      "form": "il",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "the",
+      "note": "Before most masculine singular nouns: il gatto."
+    },
+    {
+      "form": "lo",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "the",
+      "note": "Before masculine nouns beginning with s + consonant, z, gn, ps, pn, x, y: lo zaino."
+    },
+    {
+      "form": "l'",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "the",
+      "note": "Elided form of lo / la before a vowel: l'albero (m), l'acqua (f)."
+    },
+    {
+      "form": "la",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "the",
+      "note": "Before feminine singular nouns beginning with a consonant: la casa."
+    },
+    {
+      "form": "i",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "the",
+      "note": "Plural of il: i gatti."
+    },
+    {
+      "form": "gli",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "the",
+      "note": "Plural of lo and of l' (masculine): gli zaini, gli alberi."
+    },
+    {
+      "form": "le",
+      "lemma": "il",
+      "pos": "definite article",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "the",
+      "note": "Plural of la and of l' (feminine): le case, le api."
+    },
+    {
+      "form": "un",
+      "lemma": "un",
+      "pos": "indefinite article",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "a; an",
+      "note": "Before most masculine nouns, including those beginning with a vowel: un gatto, un albero."
+    },
+    {
+      "form": "uno",
+      "lemma": "un",
+      "pos": "indefinite article",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "a; an",
+      "note": "Before masculine nouns beginning with s + consonant, z, gn, ps…: uno zaino."
+    },
+    {
+      "form": "una",
+      "lemma": "un",
+      "pos": "indefinite article",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "a; an",
+      "note": "Before feminine nouns beginning with a consonant: una mela."
+    },
+    {
+      "form": "un'",
+      "lemma": "un",
+      "pos": "indefinite article",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "a; an",
+      "note": "Before feminine nouns beginning with a vowel: un'ape. (Never an apostrophe for masculine nouns: un albero.)"
+    },
+    {
+      "form": "mi",
+      "lemma": "mi",
+      "pos": "pronoun",
+      "features": {
+        "person": 1,
+        "number": "sg"
+      },
+      "meaning": "me; to me; myself",
+      "note": "Unstressed pronoun: direct object (mi vede), indirect object (mi dà), or reflexive (mi lavo)."
+    },
+    {
+      "form": "ti",
+      "lemma": "ti",
+      "pos": "pronoun",
+      "features": {
+        "person": 2,
+        "number": "sg"
+      },
+      "meaning": "you; to you; yourself",
+      "note": "Direct, indirect or reflexive: ti chiamo, ti do, ti alzi."
+    },
+    {
+      "form": "si",
+      "lemma": "si",
+      "pos": "reflexive pronoun",
+      "features": {
+        "person": 3
+      },
+      "meaning": "himself; herself; itself; themselves",
+      "note": "Third-person reflexive pronoun (singular and plural): si lava, si lavano. Do not confuse with sì (yes)."
+    },
+    {
+      "form": "ci",
+      "lemma": "ci",
+      "pos": "pronoun",
+      "features": {
+        "person": 1,
+        "number": "pl"
+      },
+      "meaning": "us; to us; ourselves; there",
+      "note": "Direct, indirect or reflexive (ci laviamo). Also 'there': c'è, ci sono."
+    },
+    {
+      "form": "c'",
+      "lemma": "ci",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "there",
+      "note": "Elided ci before è or era: c'è = there is, c'era = there was."
+    },
+    {
+      "form": "vi",
+      "lemma": "vi",
+      "pos": "pronoun",
+      "features": {
+        "person": 2,
+        "number": "pl"
+      },
+      "meaning": "you (pl.); to you; yourselves",
+      "note": "Direct, indirect or reflexive: vi vedo, vi lavate."
+    },
+    {
+      "form": "lo",
+      "lemma": "lo",
+      "pos": "direct object pronoun",
+      "features": {
+        "gender": "m",
+        "number": "sg",
+        "person": 3
+      },
+      "meaning": "him; it",
+      "note": "Placed before the conjugated verb: lo vedo = I see him/it. Elides to l' before a vowel or h: l'ho visto."
+    },
+    {
+      "form": "la",
+      "lemma": "lo",
+      "pos": "direct object pronoun",
+      "features": {
+        "gender": "f",
+        "number": "sg",
+        "person": 3
+      },
+      "meaning": "her; it",
+      "note": "la vedo = I see her/it."
+    },
+    {
+      "form": "li",
+      "lemma": "lo",
+      "pos": "direct object pronoun",
+      "features": {
+        "gender": "m",
+        "number": "pl",
+        "person": 3
+      },
+      "meaning": "them (m.)",
+      "note": "li vedo = I see them (masculine or mixed)."
+    },
+    {
+      "form": "le",
+      "lemma": "lo",
+      "pos": "direct / indirect object pronoun",
+      "features": {
+        "person": 3
+      },
+      "meaning": "them (f.); to her",
+      "note": "Direct object feminine plural (le vedo = I see them) or indirect object feminine singular (le parlo = I speak to her)."
+    },
+    {
+      "form": "gli",
+      "lemma": "gli",
+      "pos": "indirect object pronoun",
+      "features": {
+        "person": 3
+      },
+      "meaning": "to him; to them",
+      "note": "gli parlo = I speak to him (also, in everyday Italian, to them)."
+    },
+    {
+      "form": "me",
+      "lemma": "me",
+      "pos": "stressed pronoun",
+      "features": {
+        "person": 1,
+        "number": "sg"
+      },
+      "meaning": "me",
+      "note": "After prepositions: con me, per me."
+    },
+    {
+      "form": "te",
+      "lemma": "te",
+      "pos": "stressed pronoun",
+      "features": {
+        "person": 2,
+        "number": "sg"
+      },
+      "meaning": "you",
+      "note": "After prepositions: per te, con te. Do not confuse with tè (tea)."
+    },
+    {
+      "form": "cui",
+      "lemma": "cui",
+      "pos": "relative pronoun",
+      "features": {},
+      "meaning": "which; whom (after a preposition)",
+      "note": "Used after prepositions: la casa in cui abito = the house in which I live."
+    },
+    {
+      "form": "niente",
+      "lemma": "niente",
+      "pos": "pronoun",
+      "features": {},
+      "meaning": "nothing",
+      "note": "With a verb it needs non: non vedo niente = I don't see anything."
+    },
+    {
+      "form": "nessuno",
+      "lemma": "nessuno",
+      "pos": "pronoun",
+      "features": {},
+      "meaning": "nobody; no one",
+      "note": "non c'è nessuno = there is nobody."
+    },
+    {
+      "form": "qualcuno",
+      "lemma": "qualcuno",
+      "pos": "pronoun",
+      "features": {},
+      "meaning": "someone; somebody",
+      "note": ""
+    },
+    {
+      "form": "qualcosa",
+      "lemma": "qualcosa",
+      "pos": "pronoun",
+      "features": {},
+      "meaning": "something; anything",
+      "note": ""
+    },
+    {
+      "form": "ogni",
+      "lemma": "ogni",
+      "pos": "determiner",
+      "features": {},
+      "meaning": "every; each",
+      "note": "Invariable, always followed by a singular noun: ogni giorno."
+    },
+    {
+      "form": "mio",
+      "lemma": "mio",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "sg",
+        "person": 1
+      },
+      "meaning": "my; mine",
+      "note": "Possessives agree with the thing possessed and usually take the article: il mio libro. No article with a singular family noun: mio padre."
+    },
+    {
+      "form": "mia",
+      "lemma": "mio",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "sg",
+        "person": 1
+      },
+      "meaning": "my; mine",
+      "note": "la mia casa; mia sorella."
+    },
+    {
+      "form": "miei",
+      "lemma": "mio",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "pl",
+        "person": 1
+      },
+      "meaning": "my; mine",
+      "note": "i miei amici."
+    },
+    {
+      "form": "mie",
+      "lemma": "mio",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "pl",
+        "person": 1
+      },
+      "meaning": "my; mine",
+      "note": "le mie scarpe."
+    },
+    {
+      "form": "tuo",
+      "lemma": "tuo",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "sg",
+        "person": 2
+      },
+      "meaning": "your; yours",
+      "note": "il tuo cane."
+    },
+    {
+      "form": "tua",
+      "lemma": "tuo",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "sg",
+        "person": 2
+      },
+      "meaning": "your; yours",
+      "note": "la tua casa."
+    },
+    {
+      "form": "tuoi",
+      "lemma": "tuo",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "pl",
+        "person": 2
+      },
+      "meaning": "your; yours",
+      "note": "i tuoi libri."
+    },
+    {
+      "form": "tue",
+      "lemma": "tuo",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "pl",
+        "person": 2
+      },
+      "meaning": "your; yours",
+      "note": "le tue mani."
+    },
+    {
+      "form": "suo",
+      "lemma": "suo",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "sg",
+        "person": 3
+      },
+      "meaning": "his; her; its; your (formal)",
+      "note": "Agrees with the thing possessed, not the owner: il suo libro = his or her book."
+    },
+    {
+      "form": "sua",
+      "lemma": "suo",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "sg",
+        "person": 3
+      },
+      "meaning": "his; her; its",
+      "note": "la sua casa = his or her house."
+    },
+    {
+      "form": "suoi",
+      "lemma": "suo",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "pl",
+        "person": 3
+      },
+      "meaning": "his; her; its",
+      "note": "i suoi amici."
+    },
+    {
+      "form": "sue",
+      "lemma": "suo",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "pl",
+        "person": 3
+      },
+      "meaning": "his; her; its",
+      "note": "le sue zampe."
+    },
+    {
+      "form": "nostro",
+      "lemma": "nostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "sg",
+        "person": 4
+      },
+      "meaning": "our; ours",
+      "note": "il nostro giardino."
+    },
+    {
+      "form": "nostra",
+      "lemma": "nostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "sg",
+        "person": 4
+      },
+      "meaning": "our; ours",
+      "note": "la nostra famiglia."
+    },
+    {
+      "form": "nostri",
+      "lemma": "nostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "pl",
+        "person": 4
+      },
+      "meaning": "our; ours",
+      "note": "i nostri nonni."
+    },
+    {
+      "form": "nostre",
+      "lemma": "nostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "pl",
+        "person": 4
+      },
+      "meaning": "our; ours",
+      "note": "le nostre case."
+    },
+    {
+      "form": "vostro",
+      "lemma": "vostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "sg",
+        "person": 5
+      },
+      "meaning": "your (pl.); yours",
+      "note": "il vostro cane."
+    },
+    {
+      "form": "vostra",
+      "lemma": "vostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "sg",
+        "person": 5
+      },
+      "meaning": "your (pl.); yours",
+      "note": "la vostra casa."
+    },
+    {
+      "form": "vostri",
+      "lemma": "vostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "m",
+        "number": "pl",
+        "person": 5
+      },
+      "meaning": "your (pl.); yours",
+      "note": "i vostri libri."
+    },
+    {
+      "form": "vostre",
+      "lemma": "vostro",
+      "pos": "possessive",
+      "features": {
+        "gender": "f",
+        "number": "pl",
+        "person": 5
+      },
+      "meaning": "your (pl.); yours",
+      "note": "le vostre borse."
+    },
+    {
+      "form": "questo",
+      "lemma": "questo",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "this",
+      "note": "Agrees like an -o adjective: questo, questa, questi, queste. Elides to quest' before a vowel."
+    },
+    {
+      "form": "questa",
+      "lemma": "questo",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "this",
+      "note": ""
+    },
+    {
+      "form": "questi",
+      "lemma": "questo",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "these",
+      "note": ""
+    },
+    {
+      "form": "queste",
+      "lemma": "questo",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "these",
+      "note": ""
+    },
+    {
+      "form": "quest'",
+      "lemma": "questo",
+      "pos": "demonstrative",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "this",
+      "note": "Elided before a vowel: quest'albero, quest'estate."
+    },
+    {
+      "form": "quel",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "that",
+      "note": "Before a noun, quello changes like the definite article: quel (il), quello (lo), quell' (l'), quella (la), quei (i), quegli (gli), quelle (le)."
+    },
+    {
+      "form": "quello",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "that; that one",
+      "note": "quello zaino; also as a pronoun: voglio quello = I want that one."
+    },
+    {
+      "form": "quell'",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "that",
+      "note": "quell'albero, quell'isola."
+    },
+    {
+      "form": "quella",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "that",
+      "note": "quella casa."
+    },
+    {
+      "form": "quei",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "those",
+      "note": "quei gatti."
+    },
+    {
+      "form": "quegli",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "those",
+      "note": "quegli alberi."
+    },
+    {
+      "form": "quelle",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "those",
+      "note": "quelle stelle."
+    },
+    {
+      "form": "quelli",
+      "lemma": "quello",
+      "pos": "demonstrative",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "those (ones)",
+      "note": "Pronoun use: quelli sono miei."
+    },
+    {
+      "form": "d'",
+      "lemma": "di",
+      "pos": "preposition",
+      "features": {},
+      "meaning": "of",
+      "note": "Elided di before a vowel: d'estate, pieno d'acqua."
+    },
+    {
+      "form": "ad",
+      "lemma": "a",
+      "pos": "preposition",
+      "features": {},
+      "meaning": "to; at",
+      "note": "Optional form of a before a vowel, especially a: ad Anna."
+    },
+    {
+      "form": "ed",
+      "lemma": "e",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "and",
+      "note": "Optional form of e before a vowel, especially e: ed ecco."
+    },
+    {
+      "form": "dov'",
+      "lemma": "dove",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "where",
+      "note": "Elided before è: dov'è?"
+    },
+    {
+      "form": "com'",
+      "lemma": "come",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "how; what … like",
+      "note": "Elided before è: com'è?"
+    },
+    {
+      "form": "cos'",
+      "lemma": "cosa",
+      "pos": "pronoun",
+      "features": {},
+      "meaning": "what",
+      "note": "Elided before è: cos'è?"
+    },
+    {
+      "form": "bel",
+      "lemma": "bello",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "beautiful; lovely",
+      "note": "Form of bello before a masculine noun beginning with an ordinary consonant: un bel giorno."
+    },
+    {
+      "form": "bei",
+      "lemma": "bello",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "beautiful; lovely",
+      "note": "bei fiori."
+    },
+    {
+      "form": "begli",
+      "lemma": "bello",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "beautiful; lovely",
+      "note": "begli alberi."
+    },
+    {
+      "form": "bell'",
+      "lemma": "bello",
+      "pos": "adjective",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "beautiful; lovely",
+      "note": "bell'albero, bell'idea."
+    },
+    {
+      "form": "buon",
+      "lemma": "buono",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "good",
+      "note": "Before most masculine singular nouns: buon giorno, buon appetito."
+    },
+    {
+      "form": "gran",
+      "lemma": "grande",
+      "pos": "adjective",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "great; big",
+      "note": "Optional shortened form before a consonant: un gran rumore."
+    },
+    {
+      "form": "nessun",
+      "lemma": "nessuno",
+      "pos": "determiner",
+      "features": {
+        "gender": "m",
+        "number": "sg"
+      },
+      "meaning": "no; not any",
+      "note": "Before a masculine noun, like un: nessun problema."
+    },
+    {
+      "form": "nessuna",
+      "lemma": "nessuno",
+      "pos": "determiner",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "no; not any",
+      "note": "nessuna stella."
+    },
+    {
+      "form": "tanto",
+      "lemma": "tanto",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "so much; a lot",
+      "note": "As an adjective it agrees: tanti fiori, tante stelle."
+    },
+    {
+      "form": "tanti",
+      "lemma": "tanto",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "so many; lots of",
+      "note": ""
+    },
+    {
+      "form": "tante",
+      "lemma": "tanto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "so many; lots of",
+      "note": ""
+    },
+    {
+      "form": "molti",
+      "lemma": "molto",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "many",
+      "note": "Adjective use agrees: molti alberi."
+    },
+    {
+      "form": "molte",
+      "lemma": "molto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "many",
+      "note": "molte stelle."
+    },
+    {
+      "form": "molta",
+      "lemma": "molto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "much; a lot of",
+      "note": "molta acqua."
+    },
+    {
+      "form": "pochi",
+      "lemma": "poco",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "few",
+      "note": "pochi amici."
+    },
+    {
+      "form": "poche",
+      "lemma": "poco",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "few",
+      "note": "poche parole."
+    },
+    {
+      "form": "quanti",
+      "lemma": "quanto",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "how many",
+      "note": "quanti anni hai?"
+    },
+    {
+      "form": "quante",
+      "lemma": "quanto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "how many",
+      "note": "quante stelle?"
+    },
+    {
+      "form": "quanta",
+      "lemma": "quanto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "how much",
+      "note": "quanta acqua?"
+    },
+    {
+      "form": "qual",
+      "lemma": "quale",
+      "pos": "adjective",
+      "features": {},
+      "meaning": "which; what",
+      "note": "Truncated before è, written without apostrophe: qual è?"
+    },
+    {
+      "form": "quali",
+      "lemma": "quale",
+      "pos": "adjective",
+      "features": {
+        "number": "pl"
+      },
+      "meaning": "which; what",
+      "note": ""
+    },
+    {
+      "form": "tutta",
+      "lemma": "tutto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "sg"
+      },
+      "meaning": "all; whole",
+      "note": "tutta la notte."
+    },
+    {
+      "form": "tutti",
+      "lemma": "tutto",
+      "pos": "adjective",
+      "features": {
+        "gender": "m",
+        "number": "pl"
+      },
+      "meaning": "all; everyone",
+      "note": "tutti i bambini; tutti = everybody."
+    },
+    {
+      "form": "tutte",
+      "lemma": "tutto",
+      "pos": "adjective",
+      "features": {
+        "gender": "f",
+        "number": "pl"
+      },
+      "meaning": "all",
+      "note": "tutte le stelle."
+    },
+    {
+      "form": "più",
+      "lemma": "più",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "more; most",
+      "note": "Comparative: più alto di = taller than. non … più = no longer."
+    },
+    {
+      "form": "meno",
+      "lemma": "meno",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "less; least",
+      "note": "meno veloce di = less fast than."
+    },
+    {
+      "form": "migliore",
+      "lemma": "buono",
+      "pos": "adjective",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "better; best",
+      "note": "Irregular comparative of buono (più buono is also used). Plural migliori."
+    },
+    {
+      "form": "peggiore",
+      "lemma": "cattivo",
+      "pos": "adjective",
+      "features": {
+        "number": "sg"
+      },
+      "meaning": "worse; worst",
+      "note": "Irregular comparative of cattivo. Plural peggiori."
+    },
+    {
+      "form": "meglio",
+      "lemma": "bene",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "better",
+      "note": "Comparative of the adverb bene: sto meglio = I feel better."
+    },
+    {
+      "form": "così",
+      "lemma": "così",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "so; like this; thus",
+      "note": ""
+    },
+    {
+      "form": "ora",
+      "lemma": "ora",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "now",
+      "note": "Same as adesso. Also a noun: un'ora = an hour."
+    },
+    {
+      "form": "ecco",
+      "lemma": "ecco",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "here is; here are",
+      "note": ""
+    },
+    {
+      "form": "stanotte",
+      "lemma": "stanotte",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "tonight; last night",
+      "note": "From questa notte."
+    },
+    {
+      "form": "fuori",
+      "lemma": "fuori",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "outside; out",
+      "note": ""
+    },
+    {
+      "form": "dentro",
+      "lemma": "dentro",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "inside; in",
+      "note": ""
+    },
+    {
+      "form": "lontano",
+      "lemma": "lontano",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "far; far away",
+      "note": "lontano da = far from."
+    },
+    {
+      "form": "davanti",
+      "lemma": "davanti",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "in front",
+      "note": "davanti a = in front of."
+    },
+    {
+      "form": "dietro",
+      "lemma": "dietro",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "behind",
+      "note": "dietro (a) = behind."
+    },
+    {
+      "form": "forse",
+      "lemma": "forse",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "perhaps; maybe",
+      "note": ""
+    },
+    {
+      "form": "proprio",
+      "lemma": "proprio",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "just; really; exactly",
+      "note": ""
+    },
+    {
+      "form": "troppo",
+      "lemma": "troppo",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "too; too much",
+      "note": ""
+    },
+    {
+      "form": "po'",
+      "lemma": "poco",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "a little (in un po')",
+      "note": "Truncated form of poco: un po' = a bit, a little; un po' di latte = a little milk."
+    },
+    {
+      "form": "prima",
+      "lemma": "prima",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "before; first",
+      "note": "prima di + noun or infinitive = before: prima dell'inverno, prima di dormire."
+    },
+    {
+      "form": "fino",
+      "lemma": "fino",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "until; as far as (in fino a)",
+      "note": "fino a = until / as far as: fino alla primavera."
+    },
+    {
+      "form": "via",
+      "lemma": "via",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "away",
+      "note": "andare via = to go away. Also a noun: la via = the street."
+    },
+    {
+      "form": "vorrei",
+      "lemma": "volere",
+      "pos": "verb",
+      "features": {
+        "tense": "conditional (present)",
+        "person": "io",
+        "personIndex": 0
+      },
+      "meaning": "I would like",
+      "note": "Conditional of volere, used for polite requests: vorrei un gelato."
+    },
+    {
+      "form": "dopo",
+      "lemma": "dopo",
+      "pos": "preposition",
+      "features": {},
+      "meaning": "after; afterwards",
+      "note": "dopo + noun (dopo cena), dopo + infinito passato (dopo aver mangiato); dopo che + indicative introduces a temporal clause."
+    },
+    {
+      "form": "appena",
+      "lemma": "appena",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "as soon as; just",
+      "note": "(non) appena + indicative = as soon as; as an adverb: appena = just, barely (è appena arrivato)."
+    },
+    {
+      "form": "finché",
+      "lemma": "finché",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "until; as long as",
+      "note": "finché (non) + indicative = until; the non is optional and does not negate."
+    },
+    {
+      "form": "benché",
+      "lemma": "benché",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "although",
+      "note": "Always followed by the congiuntivo: benché piova."
+    },
+    {
+      "form": "sebbene",
+      "lemma": "sebbene",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "although",
+      "note": "Always followed by the congiuntivo: sebbene fosse stanco."
+    },
+    {
+      "form": "affinché",
+      "lemma": "affinché",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "so that",
+      "note": "Always followed by the congiuntivo: te lo dico affinché tu lo sappia."
+    },
+    {
+      "form": "purché",
+      "lemma": "purché",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "provided that",
+      "note": "Always followed by the congiuntivo: vengo, purché tu guidi."
+    },
+    {
+      "form": "qualora",
+      "lemma": "qualora",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "if, in case (formal)",
+      "note": "Formal; followed by the congiuntivo: qualora piovesse."
+    },
+    {
+      "form": "nonostante",
+      "lemma": "nonostante",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "although; despite",
+      "note": "As a conjunction + congiuntivo (nonostante piova); as a preposition + noun (nonostante la pioggia)."
+    },
+    {
+      "form": "siccome",
+      "lemma": "siccome",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "since, as (cause)",
+      "note": "Introduces a cause, usually before the main clause: siccome pioveva, sono rimasto a casa."
+    },
+    {
+      "form": "poiché",
+      "lemma": "poiché",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "since, because",
+      "note": "Formal causal conjunction, with the indicative."
+    },
+    {
+      "form": "magari",
+      "lemma": "magari",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "maybe; if only",
+      "note": "magari = perhaps; magari + congiuntivo imperfetto/trapassato = if only (magari fosse vero!)."
+    },
+    {
+      "form": "oppure",
+      "lemma": "oppure",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "or (else)",
+      "note": "Same as o, slightly more emphatic."
+    },
+    {
+      "form": "però",
+      "lemma": "però",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "but; however",
+      "note": ""
+    },
+    {
+      "form": "quindi",
+      "lemma": "quindi",
+      "pos": "conjunction",
+      "features": {},
+      "meaning": "so, therefore",
+      "note": ""
+    },
+    {
+      "form": "invece",
+      "lemma": "invece",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "instead; on the other hand",
+      "note": "invece di + infinitive or noun = instead of."
+    },
+    {
+      "form": "senza",
+      "lemma": "senza",
+      "pos": "preposition",
+      "features": {},
+      "meaning": "without",
+      "note": "senza + noun or infinitive (senza parlare); senza che + congiuntivo."
+    },
+    {
+      "form": "prima",
+      "lemma": "prima",
+      "pos": "preposition",
+      "features": {},
+      "meaning": "before",
+      "note": "prima di + noun or infinitive (prima di partire); prima che + congiuntivo."
+    },
+    {
+      "form": "fa",
+      "lemma": "fa",
+      "pos": "adverb",
+      "features": {},
+      "meaning": "ago",
+      "note": "After an expression of time: tre giorni fa (three days ago), molto tempo fa (a long time ago), poco fa (a little while ago). Historically a form of fare; elsewhere fa is the verb (lui fa = he does)."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+[
+  {
+    "id": "simple-prepositions",
+    "module": "m07",
+    "title": "The simple prepositions",
+    "level": "A1",
+    "description": "a, di, da, in, con, su, per, tra/fra — for place, movement, time and possession.",
+    "objectives": [
+      "Know the core meanings of the nine simple prepositions.",
+      "Express place and movement (a, in, da).",
+      "Express time (in, a, per, tra, da) and possession (di)."
+    ],
+    "tags": { "pos": ["preposition"], "topics": ["prepositions", "place", "time", "possession"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "overview",
+        "heading": "Nine prepositions",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Core meanings",
+            "headers": ["Preposition", "Core meanings", "Examples"],
+            "rows": [
+              ["di", "of; possession; origin with essere; material", "il libro di Marco; sono di Roma"],
+              ["a", "to, at; cities; time of day; + infinitive after some verbs", "vado a Roma; a mezzanotte; comincio a leggere"],
+              ["da", "from; at/to someone's place; since (time)", "vengo da Milano; vado dal nonno; studio da tre mesi"],
+              ["in", "in, into; countries, regions; means of transport; seasons", "in Italia; in giardino; in treno; in estate"],
+              ["con", "with", "gioco con il cane"],
+              ["su", "on; about", "sul tavolo; un libro sugli animali"],
+              ["per", "for; through; in order to; duration", "per te; per due ore; studio per imparare"],
+              ["tra / fra", "between, among; in (time from now)", "tra i fiori; fra un'ora"]
+            ]
+          },
+          { "type": "rule", "kind": "tendency", "title": "Prepositions do not map one-to-one", "text": "No Italian preposition has a single English equivalent, and fixed expressions are common (*a casa, a scuola, a letto, in montagna, in vacanza, al mare*). Learn prepositions in phrases rather than as single words." }
+        ]
+      },
+      {
+        "id": "place",
+        "heading": "Place and movement",
+        "blocks": [
+          { "type": "rule", "kind": "rule", "title": "No difference between 'in' and 'to'", "text": "Italian uses the same preposition for being somewhere and going there: *Sono a Roma / Vado a Roma*; *Sono in giardino / Vado in giardino*." },
+          { "type": "rule", "kind": "rule", "title": "da + person", "text": "*da* + a person or a shop means 'at/to someone's place': *Sono dalla nonna* (I'm at Grandma's), *Vado dal medico* (I'm going to the doctor's)." }
+        ]
+      },
+      {
+        "id": "time",
+        "heading": "Time",
+        "blocks": [
+          { "type": "list", "items": ["*in* + season or month: *in estate, in inverno, in dicembre*.", "*a* + hour, festival: *a mezzogiorno, alle tre, a Natale*.", "*per* + duration: *per un'ora* (for an hour).", "*tra / fra* + amount of time = in … from now: *tra un'ora* (in an hour).", "*da* + amount of time with the present = for/since (still continuing): *Abito qui da due anni* (I have lived here for two years)."] }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "Il cane di Sara è nero.", "en": "Sara's dog is black.", "note": "di for possession." },
+      { "it": "Vado a scuola con mio fratello.", "en": "I go to school with my brother." },
+      { "it": "Vengo da Milano.", "en": "I come from Milan." },
+      { "it": "In estate andiamo al mare.", "en": "In summer we go to the seaside." },
+      { "it": "Arrivo fra un'ora.", "en": "I'll arrive in an hour." },
+      { "it": "Il regalo è per te.", "en": "The present is for you." }
+    ],
+    "exercises": [
+      {
+        "id": "simple-prepositions.1",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Abito ___ Napoli.",
+        "options": ["a", "in", "da", "su"],
+        "answer": "a",
+        "explanation": "Cities take a.",
+        "ruleRef": "overview"
+      },
+      {
+        "id": "simple-prepositions.2",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Abito ___ Italia.",
+        "options": ["in", "a", "di", "per"],
+        "answer": "in",
+        "explanation": "Countries take in.",
+        "ruleRef": "overview"
+      },
+      {
+        "id": "simple-prepositions.3",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with di, da, con or per.",
+        "text": "Il libro {0} Marco è sul tavolo. Vengo {1} Torino. Gioco {2} il gatto. Questo regalo è {3} te.",
+        "blanks": [{ "answer": "di" }, { "answer": "da" }, { "answer": "con" }, { "answer": "per" }],
+        "explanation": "di = possession; da = origin; con = with; per = for.",
+        "ruleRef": "overview"
+      },
+      {
+        "id": "simple-prepositions.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "'In an hour (from now)': ___ un'ora",
+        "options": ["fra", "in", "per", "da"],
+        "answer": "fra",
+        "explanation": "tra/fra + time = in … from now. per un'ora would mean 'for an hour'.",
+        "ruleRef": "time",
+        "mistakes": [{ "answer": "per", "message": "per un'ora = for (the duration of) an hour. 'In an hour from now' is fra (or tra) un'ora." }]
+      },
+      {
+        "id": "simple-prepositions.5",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: Sara's dog is black.",
+        "answer": "Il cane di Sara è nero.",
+        "explanation": "Italian has no 's: il cane di Sara.",
+        "ruleRef": "overview"
+      },
+      {
+        "id": "simple-prepositions.6",
+        "type": "translate-it-en",
+        "kind": "text",
+        "lang": "en",
+        "prompt": "Translate: *Abito qui da due anni.*",
+        "answer": "I have lived here for two years.",
+        "accept": ["I've lived here for two years", "I have been living here for two years", "I've been living here for two years"],
+        "explanation": "da + time with the present tense = an action that started in the past and continues.",
+        "ruleRef": "time"
+      }
+    ],
+    "summary": [
+      "di (of, possession), a (to/at, cities), da (from, someone's place, since), in (in/into, countries), con (with), su (on), per (for), tra/fra (between, in … time).",
+      "The same preposition expresses position and movement: sono a Roma / vado a Roma.",
+      "da + present for ongoing duration: abito qui da due anni."
+    ],
+    "relatedVocabulary": ["prep_a", "prep_di", "prep_da", "prep_in", "prep_con", "prep_su", "prep_per", "prep_tra", "prep_fra"],
+    "relatedStories": ["il-cane-al-mare", "nel-bosco"],
+    "relatedSongs": []
+  },
+  {
+    "id": "articulated-prepositions",
+    "module": "m07",
+    "title": "Articulated prepositions",
+    "level": "A1",
+    "description": "di, a, da, in, su combined with the definite article: del, al, dal, nel, sul…",
+    "objectives": [
+      "Form all articulated prepositions from the table.",
+      "Recognise them in reading: nel bosco, sulla spiaggia, dalla nonna.",
+      "Use di + article for 'some'."
+    ],
+    "tags": { "pos": ["preposition", "article"], "topics": ["prepositions", "articles", "contraction"], "tenses": [], "families": [] },
+    "sections": [
+      {
+        "id": "table",
+        "heading": "The table",
+        "blocks": [
+          { "type": "p", "text": "When *di, a, da, in, su* are followed by a definite article, they merge with it into one word. *in* becomes *ne-* and *di* becomes *de-*." },
+          { "type": "articulated-table" },
+          { "type": "rule", "kind": "rule", "title": "Building the form", "text": "Take the article and attach it: *a + il = al*; with an article beginning with l, double the l: *a + la = alla*, *a + lo = allo*, *a + l' = all'*." },
+          { "type": "rule", "kind": "rule", "title": "con, per, tra, fra do not contract", "text": "Modern Italian writes *con il, con la, per il, tra i*. (The forms *col* and *coi* exist but are optional and informal.)" }
+        ]
+      },
+      {
+        "id": "use",
+        "heading": "Using them",
+        "blocks": [
+          { "type": "list", "items": ["Place: *nel bosco, sulla spiaggia, nella tana, sull'albero*.", "Movement: *al mare, alla finestra, dal nonno*.", "Possession with a noun that takes the article: *la casa della nonna, il nido dell'uccello*.", "Time: *alle tre* (at three o'clock), *dalle otto* (from eight o'clock).", "'Some': *del pane, delle mele, degli amici*."] },
+          { "type": "rule", "kind": "rule", "title": "No article, no contraction", "text": "Where the noun normally has no article, the simple preposition stays: *a Roma, di Marco, in Italia, a casa, a scuola*. Compare *in giardino* (fixed phrase) and *nel giardino della nonna* (a specific garden)." }
+        ]
+      }
+    ],
+    "examples": [
+      { "it": "La volpe torna nella tana.", "en": "The fox goes back into its den.", "note": "in + la = nella." },
+      { "it": "Lo scoiattolo è sull'albero.", "en": "The squirrel is in the tree.", "note": "su + l' = sull'." },
+      { "it": "Andiamo dal nonno.", "en": "We're going to Grandpa's.", "note": "da + il = dal." },
+      { "it": "Il nido dell'uccello è sul ramo.", "en": "The bird's nest is on the branch." },
+      { "it": "Ai bambini piacciono i giochi.", "en": "Children like games.", "note": "a + i = ai." },
+      { "it": "Compro del pane e delle mele.", "en": "I'm buying some bread and some apples." }
+    ],
+    "exercises": [
+      {
+        "id": "articulated-prepositions.1",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "in + il bosco → ___ bosco",
+        "answer": "nel",
+        "explanation": "in becomes ne-: ne + l = nel.",
+        "ruleRef": "table",
+        "mistakes": [{ "answer": "in il", "message": "in + il always contracts: nel." }]
+      },
+      {
+        "id": "articulated-prepositions.2",
+        "type": "fill-blank",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "su + la spiaggia → ___ spiaggia",
+        "answer": "sulla",
+        "explanation": "su + la = sulla (l doubled).",
+        "ruleRef": "table"
+      },
+      {
+        "id": "articulated-prepositions.3",
+        "type": "conjugation",
+        "kind": "table",
+        "prompt": "Write the contraction of *di* with each article.",
+        "rows": [
+          { "label": "di + il", "answer": "del" },
+          { "label": "di + lo", "answer": "dello" },
+          { "label": "di + l'", "answer": "dell'" },
+          { "label": "di + la", "answer": "della" },
+          { "label": "di + i", "answer": "dei" },
+          { "label": "di + gli", "answer": "degli" },
+          { "label": "di + le", "answer": "delle" }
+        ],
+        "explanation": "di → de- + article; l doubled before articles beginning with l.",
+        "ruleRef": "table"
+      },
+      {
+        "id": "articulated-prepositions.4",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Gli uccelli sono ___ alberi.",
+        "options": ["sugli", "sui", "sulle", "su gli"],
+        "answer": "sugli",
+        "explanation": "alberi takes gli: su + gli = sugli.",
+        "ruleRef": "table"
+      },
+      {
+        "id": "articulated-prepositions.5",
+        "type": "competing-forms",
+        "kind": "choice",
+        "prompt": "Vado ___ Roma.",
+        "options": ["a", "al", "alla", "nella"],
+        "answer": "a",
+        "explanation": "City names take no article, so no contraction: a Roma.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "articulated-prepositions.6",
+        "type": "fill-blank",
+        "kind": "cloze",
+        "prompt": "Complete with articulated prepositions.",
+        "text": "La casa {0} (di + la) nonna è vicino {1} (a + il) fiume. Andiamo {2} (da + i) cugini.",
+        "blanks": [{ "answer": "della" }, { "answer": "al" }, { "answer": "dai" }],
+        "explanation": "della, al, dai.",
+        "ruleRef": "use"
+      },
+      {
+        "id": "articulated-prepositions.7",
+        "type": "translate-en-it",
+        "kind": "text",
+        "lang": "it",
+        "prompt": "Translate: The fox goes back into its den.",
+        "answer": "La volpe torna nella tana.",
+        "accept": ["La volpe torna nella sua tana."],
+        "explanation": "in + la = nella. Italian often omits the possessive when ownership is obvious.",
+        "ruleRef": "use"
+      }
+    ],
+    "summary": [
+      "di, a, da, in, su + article merge: del, al, dal, nel, sul; della, alla, dalla, nella, sulla…",
+      "Double l before articles beginning with l (alla, dello, nell').",
+      "No article (a Roma, di Marco, a casa) → no contraction.",
+      "con, per, tra, fra are written separately."
+    ],
+    "relatedVocabulary": ["noun_bosco", "noun_tana", "noun_spiaggia", "noun_nido", "noun_ramo", "noun_fiume", "prep_di", "prep_a", "prep_da", "prep_in", "prep_su"],
+    "relatedStories": ["nel-bosco", "il-cane-al-mare"],
+    "relatedSongs": ["la-pioggia-sul-tetto"]
+  }
+]
